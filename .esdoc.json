@@ -1,0 +1,37 @@
+{
+  "source": "./src",
+  "destination": "./doc",
+  "plugins": [
+    {
+      "name": "esdoc-standard-plugin",
+      "option": {
+        "manual": {
+          "index": "readme.md",
+          "globalIndex": true,
+          "asset": "./manual/asset",
+          "files": [
+            "./manual/UserGuide.md",
+            "./manual/AuthScreen.md",
+            "./manual/SplashScreen.md",
+            "./manual/Home.md",
+            "./manual/Profile.md",
+            "./manual/Money.md",
+            "./manual/Graphs.md",
+            "./manual/Settings.md",
+            "./manual/components/ChangeData.md",
+            "./manual/components/HorizontalMenu.md",
+            "./manual/components/LogoImage.md",
+            "./manual/components/MoneysGraph.md",
+            "./manual/components/Movements.md"
+          ]
+        }
+      }
+    },
+    {"name": "esdoc-jsx-plugin", "option": {"enable": true}},
+    {"name": "esdoc-ecmascript-proposal-plugin", "option": {"all": true}}
+    
+  ],
+  "includes": [
+    "\\.(js|jsx)$"
+  ]
+}
