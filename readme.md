@@ -1,6 +1,6 @@
 # App para controle financeiro
 
-[Documentação](https://laurafca.github.io/finalproj-devmovel/)
+<a target="_blank" href="https://laurafca.github.io/finalproj-devmovel/">Documentação</a>
 
 **Telas:**
 
