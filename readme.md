@@ -1,6 +1,9 @@
 # App para controle financeiro
 
+[![Publish Docs to Github Pages](https://github.com/lauraFCa/finalproj-devmovel/actions/workflows/docs.yml/badge.svg)](https://github.com/lauraFCa/finalproj-devmovel/actions/workflows/docs.yml)
+
 <a target="_blank" href="https://laurafca.github.io/finalproj-devmovel/">Documentação</a>
+
 
 **Telas:**
 

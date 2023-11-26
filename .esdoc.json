@@ -45,6 +45,6 @@
   ],
   "excludes": [
     "firebaseConfig.json",
-    "(node_modules|docs|firebaseConfig.json)"
+    "(node_modules|docs|firebaseConfig.json|firebase.js)"
   ]
 }
