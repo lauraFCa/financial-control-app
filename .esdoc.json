@@ -27,11 +27,24 @@
         }
       }
     },
-    {"name": "esdoc-jsx-plugin", "option": {"enable": true}},
-    {"name": "esdoc-ecmascript-proposal-plugin", "option": {"all": true}}
-    
+    {
+      "name": "esdoc-jsx-plugin",
+      "option": {
+        "enable": true
+      }
+    },
+    {
+      "name": "esdoc-ecmascript-proposal-plugin",
+      "option": {
+        "all": true
+      }
+    }
   ],
   "includes": [
     "\\.(js|jsx)$"
+  ],
+  "excludes": [
+    "firebaseConfig.json",
+    "(node_modules|docs|firebaseConfig.json)"
   ]
 }

@@ -1,6 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
+
 /**
  * O arquivo fornece a configuracao e a instancia do Firebase para serem utilizadas em um aplicativo React Native 
  * A configuracao inclui as credenciais da aplicacao Firebase e a inicializacao do aplicativo e do Firestore
