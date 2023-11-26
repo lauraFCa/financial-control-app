@@ -10,7 +10,7 @@ const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 80 :
 
 export default function AuthScreen({ navigation }) {
     const { showLoading, hideLoading } = useLoading();
-    const fr = new Storage();
+    const fr = new Storage("allUsersDoc");
 
     //#region UseState
     const [allUsers, setAllUsers] = useState([]);
@@ -37,8 +37,9 @@ export default function AuthScreen({ navigation }) {
             // await AsyncStorage.removeItem('fullUserData');
             // await AsyncStorage.removeItem('userDoc');
             const auth = await AsyncStorage.getItem('isAuth');
+
             if (auth === "true") {
-                navigation.navigate("Splash")
+                navigation.navigate("Splash");
             } else {
                 try {
                     showLoading();

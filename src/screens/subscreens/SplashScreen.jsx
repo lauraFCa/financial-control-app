@@ -13,6 +13,11 @@ export default function SplashScreen() {
 
         const fetchData = async () => {
             const doc = await AsyncStorage.getItem('userDoc');
+            if(!doc){
+                await AsyncStorage.removeItem('isAuth');
+                await AsyncStorage.removeItem('fullUserData');
+                navigation.navigate("Auth");
+            }
             const fr = new Storage(doc);
             let dadosDoBanco = {};
             try {

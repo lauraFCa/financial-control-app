@@ -23,7 +23,6 @@ export default function Graphs({ route, navigation }) {
 
         showLoading();
         let dt = route.params.allData;
-        console.log(dt)
 
         //money flow
         let newFlow = [];

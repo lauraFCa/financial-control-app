@@ -19,11 +19,7 @@ export default class Storage {
      * @param {string} docName 
      */
     constructor(docName) {
-        if (docName) {
-            this.myDoc = doc(db, 'bankapp', docName);
-        } else {
-            console.log("Nao ha documentos definidos!")
-        }
+        this.myDoc = doc(db, 'bankapp', docName);
     }
 
     /**
