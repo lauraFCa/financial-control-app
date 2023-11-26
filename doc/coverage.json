@@ -1,0 +1,175 @@
+{
+  "coverage": "27.53%",
+  "expectCount": 69,
+  "actualCount": 19,
+  "files": {
+    "src/components/ArrowBack.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "src/components/ChangeData.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        11,
+        14,
+        194
+      ]
+    },
+    "src/components/HorizontalMenu.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        11,
+        176
+      ]
+    },
+    "src/components/LogoImage.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/components/MoneysGraph.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        6,
+        36
+      ]
+    },
+    "src/components/Movements.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        42
+      ]
+    },
+    "src/Context.jsx": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        6,
+        28,
+        36,
+        42
+      ]
+    },
+    "src/database/firebase.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "src/database/firebaseMethods.js": {
+      "expectCount": 16,
+      "actualCount": 13,
+      "undocumentLines": [
+        12,
+        13,
+        14
+      ]
+    },
+    "src/Main.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        17,
+        20
+      ]
+    },
+    "src/screens/AuthScreen.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        11,
+        248
+      ]
+    },
+    "src/screens/Graphs.jsx": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        11,
+        14,
+        175
+      ]
+    },
+    "src/screens/Home.jsx": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        13,
+        52,
+        54,
+        332
+      ]
+    },
+    "src/screens/Money.jsx": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        11,
+        13,
+        103
+      ]
+    },
+    "src/screens/Profile.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        11,
+        156
+      ]
+    },
+    "src/screens/Settings.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        13,
+        94
+      ]
+    },
+    "src/screens/subscreens/Investments.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        16,
+        18,
+        119
+      ]
+    },
+    "src/screens/subscreens/SaveInvestment.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        16,
+        19,
+        116
+      ]
+    },
+    "src/screens/subscreens/SplashScreen.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        9
+      ]
+    },
+    "src/server/apidata.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    }
+  }
+}

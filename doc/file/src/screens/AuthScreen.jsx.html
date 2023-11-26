@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/screens/AuthScreen.jsx | banco</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingProvider">LoadingProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-useLoading">useLoading</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Main">Main</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArrowBack">ArrowBack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeData">ChangeData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HorizontalMenu">HorizontalMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogoImage">LogoImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MoneysGraph">MoneysGraph</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Movements">Movements</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#database">database</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/database/firebaseMethods.js~Storage.html">Storage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-db">db</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens">screens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AuthScreen">AuthScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Graphs">Graphs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Home">Home</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Money">Money</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Perfil">Perfil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Settings">Settings</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-subscreens">screens/subscreens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Investments">Investments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveInvestments">SaveInvestments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SplashScreen">SplashScreen</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#server">server</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/server/apidata.js~ApiRequests.html">ApiRequests</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/screens/AuthScreen.jsx</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React, { useEffect, useState } from &apos;react&apos;;
+import { View, Text, TextInput, StatusBar, StyleSheet, Image, TouchableOpacity, KeyboardAvoidingView, ScrollView, Keyboard } from &apos;react-native&apos;;
+import { useLoading } from &apos;../Context&apos;;
+import { Foundation } from &apos;@expo/vector-icons&apos;;
+import Storage from &apos;../database/firebaseMethods&apos;;
+import { Ionicons } from &apos;@expo/vector-icons&apos;;
+import AsyncStorage from &apos;@react-native-async-storage/async-storage&apos;;
+
+const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 80 : 200
+
+export default function AuthScreen({ navigation }) {
+    const { showLoading, hideLoading } = useLoading();
+    const fr = new Storage(&quot;allUsersDoc&quot;);
+
+    //#region UseState
+    const [allUsers, setAllUsers] = useState([]);
+
+    const [signUpMessage, setSignUpMessage] = useState(&quot;&quot;);
+    const [msgDisp, setMsgDisp] = useState(false)
+    const [resetElement, setResetElement] = useState(false)
+    const [email, setEmail] = useState(&apos;&apos;);
+    const [password, setPassword] = useState(&apos;&apos;);
+    const [password2, setPassword2] = useState(&apos;&apos;);
+
+    const [showPassword, setShowPassword] = useState(false);
+    const [showPassword2, setShowPassword2] = useState(false);
+    const [icon, setIcon] = useState(&quot;eye-off&quot;);
+    const [icon2, setIcon2] = useState(&quot;eye-off&quot;);
+
+    const [isSingUp, setIsSignUp] = useState(false);
+
+    //#endregion
+
+    useEffect(() =&gt; {
+        const getUsers = async () =&gt; {
+            // await AsyncStorage.removeItem(&apos;isAuth&apos;);
+            // await AsyncStorage.removeItem(&apos;fullUserData&apos;);
+            // await AsyncStorage.removeItem(&apos;userDoc&apos;);
+            const auth = await AsyncStorage.getItem(&apos;isAuth&apos;);
+
+            if (auth === &quot;true&quot;) {
+                navigation.navigate(&quot;Splash&quot;);
+            } else {
+                try {
+                    showLoading();
+                    var docs = await fr.getAllUsers();
+                    setAllUsers(docs.users);
+                    hideLoading();
+                } catch (err) { console.log(err) } finally { hideLoading(); }
+            }
+        };
+        getUsers();
+    }, [])
+
+    const clearFields = (clearMsg = true) =&gt; {
+        setIsSignUp(false);
+        if (clearMsg) {
+            setMsgDisp(false);
+            setSignUpMessage(&quot;&quot;);
+        }
+        setEmail(&quot;&quot;);
+        setPassword(&quot;&quot;);
+        setPassword2(&quot;&quot;);
+        setResetElement(false);
+        setShowPassword(false);
+        setShowPassword2(false);
+        setIcon(&quot;eye-off&quot;);
+        setIcon2(&quot;eye-off&quot;);
+    }
+
+    const handleSignUp = async () =&gt; {
+        Keyboard.dismiss();
+        if (password === &quot;&quot; || email === &quot;&quot;) {
+            setSignUpMessage(&quot;O email/senha n&#xE3;o podem estar vazios!&quot;);
+            setMsgDisp(true);
+        } else {
+            setIsSignUp(true);
+            if (password === password2) {
+                try {
+                    showLoading();
+                    let shouldRegister = true;
+                    if (allUsers != undefined) {
+                        allUsers.forEach(element =&gt; {
+                            if (element.email === email) {
+                                shouldRegister = false;
+                                setSignUpMessage(&quot;Email ja cadastrado!&quot;);
+                            }
+                        });
+                    }
+
+                    if (shouldRegister) {
+                        await fr.createNewUser({
+                            email: email,
+                            pass: password
+                        });
+
+                        await fr.createNewUserDoc(email);
+                        await fr.updateDoc({
+                            userData: {
+                                email: email
+                            }
+                        })
+                        await AsyncStorage.setItem(&apos;isAuth&apos;, &quot;true&quot;);
+                        await AsyncStorage.setItem(&apos;isNew&apos;, &quot;true&quot;);
+                        await AsyncStorage.setItem(&apos;userDoc&apos;, email);
+                        clearFields();
+                        navigation.navigate(&apos;Splash&apos;);
+                    }
+
+                } catch (error) {
+                    setSignUpMessage(&quot;Houve um problema no cadastro&quot;);
+                    setMsgDisp(true);
+                    console.log(&apos;Erro no cadastro:&apos;, error.message);
+                } finally {
+                    hideLoading();
+                }
+            } else {
+                setSignUpMessage(&quot;As senhas s&#xE3;o diferentes!&quot;);
+                setMsgDisp(true);
+            }
+        }
+    };
+
+    const handleSignIn = async () =&gt; {
+        Keyboard.dismiss();
+        if (!email || email.trim() === &quot;&quot;) {
+            setSignUpMessage(&quot;O email nao pode estar vazio!&quot;);
+            setMsgDisp(true);
+        } else if (!password || password.trim() === &quot;&quot;) {
+            setSignUpMessage(&quot;A senha nao pode estar vazia!&quot;);
+            setMsgDisp(true);
+        } else {
+            try {
+                const userExists = allUsers.find(param =&gt; param.email === email);
+                if (!userExists) {
+                    setSignUpMessage(&quot;Email nao encontrado&quot;);
+                    setMsgDisp(true);
+                    clearFields(false);
+                } else {
+                    if (userExists.pass === password) {
+                        await AsyncStorage.setItem(&apos;userDoc&apos;, email);
+                        clearFields();
+                        await AsyncStorage.setItem(&apos;isAuth&apos;, &quot;true&quot;);
+                        navigation.navigate(&apos;Splash&apos;);
+                    } else {
+                        setSignUpMessage(&quot;Senha incorreta&quot;);
+                        setResetElement(true);
+                    }
+                }
+
+            } catch (error) {
+                console.error(&apos;Erro no login:&apos;, error.message);
+            }
+        }
+
+    };
+
+
+    const togglePasswordVisibility = () =&gt; {
+        setShowPassword(!showPassword);
+        if (showPassword) {
+            setIcon(&quot;eye-off&quot;);
+        } else {
+            setIcon(&quot;eye&quot;);
+        }
+    };
+
+    const togglePasswordVisibility2 = () =&gt; {
+        setShowPassword2(!showPassword2);
+        if (showPassword2) {
+            setIcon2(&quot;eye-off&quot;);
+        } else {
+            setIcon2(&quot;eye&quot;);
+        }
+    };
+
+
+    return (
+        &lt;KeyboardAvoidingView
+            behavior={Platform.OS === &apos;ios&apos; ? &apos;padding&apos; : &apos;height&apos;}
+            style={{ flex: 1 }}
+        &gt;
+            &lt;ScrollView style={{ marginTop: statusBarHeight }}&gt;
+                &lt;View style={{ justifyContent: &apos;center&apos;, flexDirection: &apos;row&apos;, marginTop: 32 }}&gt;
+                    &lt;Image style={{ width: 100, height: 100 }} source={require(&apos;./../static/imgs/logo.png&apos;)} /&gt;
+                &lt;/View&gt;
+                &lt;View style={{ marginHorizontal: 10 }}&gt;
+                    &lt;View style={{ marginVertical: 10 }}&gt;
+                        &lt;Text style={styles.label}&gt;Email:&lt;/Text&gt;
+                        &lt;TextInput style={styles.input}
+                            placeholder=&quot;Digite seu email&quot;
+                            onChangeText={(text) =&gt; setEmail(text)}
+                            value={email}
+                            autoCapitalize=&quot;none&quot;
+                            keyboardType=&quot;email-address&quot;
+                        /&gt;
+                        &lt;Text style={styles.label}&gt;Senha:&lt;/Text&gt;
+                        &lt;View&gt;
+                            &lt;TouchableOpacity onPress={togglePasswordVisibility} style={styles.eye}&gt;
+                                &lt;Ionicons name={icon} size={34} color=&quot;darkblue&quot; /&gt;
+                            &lt;/TouchableOpacity&gt;
+                            &lt;TextInput style={styles.input}
+                                placeholder=&quot;Digite sua senha&quot;
+                                onChangeText={(text) =&gt; setPassword(text)}
+                                secureTextEntry={!showPassword}
+                                value={password}
+                                autoCapitalize=&quot;none&quot;
+                            /&gt;
+                        &lt;/View&gt;
+                        {isSingUp ?
+                            &lt;View&gt;
+                                &lt;TouchableOpacity onPress={togglePasswordVisibility2} style={styles.eye}&gt;
+                                    &lt;Ionicons name={icon2} size={34} color=&quot;darkblue&quot; /&gt;
+                                &lt;/TouchableOpacity&gt;
+                                &lt;TextInput style={styles.input}
+                                    placeholder=&quot;Confirme sua senha&quot;
+                                    onChangeText={(text) =&gt; setPassword2(text)}
+                                    secureTextEntry={!showPassword2}
+                                    value={password2}
+                                /&gt;
+                            &lt;/View&gt; : &lt;Text&gt;&lt;/Text&gt;
+                        }
+                    &lt;/View&gt;
+                    &lt;TouchableOpacity style={styles.btn} onPress={handleSignIn}&gt;
+                        &lt;Text style={{ textAlign: &apos;center&apos; }}&gt;Login&lt;/Text&gt;
+                    &lt;/TouchableOpacity&gt;
+                    &lt;TouchableOpacity style={styles.btn} onPress={handleSignUp}&gt;
+                        &lt;Text style={{ textAlign: &apos;center&apos; }}&gt;Cadastrar&lt;/Text&gt;
+                    &lt;/TouchableOpacity&gt;
+                &lt;/View&gt;
+                {(msgDisp ?
+                    &lt;View style={styles.msgDispSt}&gt;
+                        &lt;Foundation name=&quot;x-circle&quot; size={30} color=&quot;#8a0000&quot; style={{ marginRight: 5 }} /&gt;
+                        &lt;Text style={{ color: &apos;#8a0000&apos;, fontSize: 20 }}&gt;{signUpMessage}&lt;/Text&gt;
+                    &lt;/View&gt;
+
+                    : &lt;Text&gt;&lt;/Text&gt;)}
+
+                {resetElement ? &lt;TouchableOpacity onPress={() =&gt; { alert(&quot;Que pena :(&quot;) }}&gt;
+                    &lt;Text style={{ color: &apos;darkblue&apos;, textDecorationLine: &apos;underline&apos;, marginLeft: 16, fontSize: 18, marginTop: 16 }}&gt;
+                        Esqueci minha senha&lt;/Text&gt;
+                &lt;/TouchableOpacity&gt; : &lt;Text&gt;&lt;/Text&gt;}
+            &lt;/ScrollView &gt;
+        &lt;/KeyboardAvoidingView&gt;
+    );
+};
+
+const styles = StyleSheet.create({
+    label: {
+        fontSize: 24
+    },
+    input: {
+        borderWidth: 1,
+        borderColor: &apos;blue&apos;,
+        padding: 10,
+        fontSize: 18,
+        marginBottom: 15
+    },
+    eye: {
+        position: &apos;absolute&apos;,
+        bottom: 10,
+        right: 12,
+        padding: 10,
+        zIndex: 99
+    },
+    btn: {
+        width: 200,
+        borderWidth: 1,
+        borderRadius: 10,
+        borderColor: &apos;darkblue&apos;,
+        paddingVertical: 12,
+        paddingHorizontal: 12,
+        justifyContent: &apos;center&apos;,
+        alignSelf: &apos;center&apos;,
+        marginBottom: 18
+    },
+    msgDispSt: {
+        flexDirection: &apos;row&apos;,
+        justifyContent: &apos;center&apos;,
+        alignItems: &apos;center&apos;,
+        marginTop: 24,
+        paddingHorizontal: 5,
+        flexWrap: &apos;wrap&apos;
+    }
+})</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

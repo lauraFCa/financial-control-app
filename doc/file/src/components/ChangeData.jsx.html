@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/components/ChangeData.jsx | banco</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingProvider">LoadingProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-useLoading">useLoading</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Main">Main</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArrowBack">ArrowBack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeData">ChangeData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HorizontalMenu">HorizontalMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogoImage">LogoImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MoneysGraph">MoneysGraph</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Movements">Movements</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#database">database</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/database/firebaseMethods.js~Storage.html">Storage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-db">db</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens">screens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AuthScreen">AuthScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Graphs">Graphs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Home">Home</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Money">Money</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Perfil">Perfil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Settings">Settings</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-subscreens">screens/subscreens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Investments">Investments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveInvestments">SaveInvestments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SplashScreen">SplashScreen</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#server">server</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/server/apidata.js~ApiRequests.html">ApiRequests</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/components/ChangeData.jsx</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { TouchableOpacity } from &apos;react-native&apos;;
+import { View, Text, TextInput, StyleSheet } from &apos;react-native&apos;;
+import Modal from &apos;react-native-modal&apos;;
+import { useState, useEffect } from &apos;react&apos;;
+import { Ionicons } from &apos;@expo/vector-icons&apos;;
+import Storage from &apos;./../database/firebaseMethods&apos;;
+import { useLoading } from &apos;./../Context&apos;;
+import AsyncStorage from &apos;@react-native-async-storage/async-storage&apos;;
+
+
+const darkBlue = &apos;#00008b&apos;;
+
+
+export default function ChangeData({ label, value, refresh }) {
+
+  const { showLoading, hideLoading, setShouldRefresh } = useLoading();
+
+  const [isModalVisible, setModalVisible] = useState(false);
+  const [name, setname] = useState(&apos;&apos;);
+  const [email, setemail] = useState(&apos;&apos;);
+  const [perfilInv, setperfilInv] = useState(&apos;&apos;);
+  const [profissao, setprofissao] = useState(&apos;&apos;);
+
+  const [userData, setUserData] = useState({});
+
+  const toggleModal = () =&gt; {
+    setModalVisible(!isModalVisible);
+  };
+
+  useEffect(() =&gt; {
+    const getAllData = async () =&gt; {
+      const doc = await AsyncStorage.getItem(&apos;userDoc&apos;);
+      const fr = new Storage(doc);
+      try {
+        showLoading();
+        let res = await fr.getFullDoc();
+        let uD = res.userData;
+        setUserData(uD);
+      } catch (err) { console.log(err) } finally { hideLoading(); }
+    };
+
+    getAllData().catch(console.error);
+  }, []);
+
+  updateData = async () =&gt; {
+    const doc = await AsyncStorage.getItem(&apos;userDoc&apos;);
+    const fr = new Storage(doc);
+
+    if (label === &apos;Nome&apos;) {
+      let out = await updateName(fr);
+      console.log(out);
+    }
+    if (label === &apos;Email&apos;) {
+      let out = await updateEmail(fr);
+      console.log(out);
+    }
+    if (label === &apos;Profiss&#xE3;o&apos;) {
+      let out = await updateProfissao(fr);
+      console.log(out);
+    }
+    if (label === &apos;Perfil de Investimento&apos;) {
+      let out = await updatePerfil(fr);
+      console.log(out);
+    }
+
+    toggleModal();
+    setShouldRefresh(true);
+    await refresh();
+  };
+
+
+
+  updateName = async (fr) =&gt; {
+    let outp = await fr.updateDoc({
+      userData: {
+        name: name,
+        email: userData.email,
+        perfilInvestimento: userData.perfilInvestimento,
+        profissao: userData.profissao,
+      },
+    });
+    return outp;
+  }
+
+  updateEmail = async (fr) =&gt; {
+    let outp = await fr.updateDoc({
+      userData: {
+        name: userData.name,
+        email: email,
+        perfilInvestimento: userData.perfilInvestimento,
+        profissao: userData.profissao,
+      },
+    });
+    return outp;
+  }
+
+  updateProfissao = async (fr) =&gt; {
+    let outp = await fr.updateDoc({
+      userData: {
+        name: userData.name,
+        email: userData.email,
+        perfilInvestimento: userData.perfilInvestimento,
+        profissao: profissao,
+      },
+    });
+    return outp;
+  }
+
+  updatePerfil = async (fr) =&gt; {
+    let outp = await fr.updateDoc({
+      userData: {
+        name: userData.name,
+        email: userData.email,
+        perfilInvestimento: perfilInv,
+        profissao: userData.profissao,
+      },
+    });
+    return outp;
+  }
+
+
+
+
+  return (
+    &lt;View&gt;
+      &lt;View style={styles.component}&gt;
+        &lt;Modal style={styles.modal_modal} isVisible={isModalVisible}&gt;
+          &lt;View style={styles.modal_modalView}&gt;
+            &lt;View style={styles.modal_container}&gt;
+              &lt;View style={styles.modal_titleView}&gt;
+                &lt;Text style={styles.modal_title}&gt;Alterando&lt;/Text&gt;
+              &lt;/View&gt;
+
+              &lt;View style={{ padding: 12 }}&gt;
+                &lt;View style={styles.modal_inputGroup}&gt;
+                  &lt;Text style={styles.modal_label}&gt;{label}&lt;/Text&gt;
+                  &lt;TextInput
+                    style={styles.modal_input}
+                    placeholder={value}
+                    onChangeText={(text) =&gt; {
+                      if (label === &apos;Nome&apos;) {
+                        setname(text);
+                      }
+                      if (label === &apos;Email&apos;) {
+                        setemail(text)
+                      }
+                      if (label === &apos;Profiss&#xE3;o&apos;) {
+                        setprofissao(text)
+                      }
+                      if (label === &apos;Perfil de Investimento&apos;) {
+                        setperfilInv(text)
+                      }
+                    }}
+                  /&gt;
+                &lt;/View&gt;
+              &lt;/View&gt;
+
+              &lt;View style={styles.modal_buttonContainer}&gt;
+                &lt;TouchableOpacity
+                  style={styles.modal_btn}
+                  onPress={toggleModal}&gt;
+                  &lt;Ionicons
+                    name=&quot;arrow-back-circle-sharp&quot;
+                    size={55}
+                    color={darkBlue}
+                  /&gt;
+                &lt;/TouchableOpacity&gt;
+
+                &lt;TouchableOpacity style={styles.modal_btn} onPress={updateData}&gt;
+                  &lt;Ionicons
+                    name=&quot;add-circle-sharp&quot;
+                    size={55}
+                    color={darkBlue}
+                  /&gt;
+                &lt;/TouchableOpacity&gt;
+              &lt;/View&gt;
+            &lt;/View&gt;
+          &lt;/View&gt;
+        &lt;/Modal&gt;
+
+        &lt;View style={{ flexDirection: &apos;column&apos; }}&gt;
+          &lt;Text style={styles.label}&gt;{label}&lt;/Text&gt;
+          &lt;Text style={styles.value}&gt;{value}&lt;/Text&gt;
+        &lt;/View&gt;
+        &lt;TouchableOpacity onPress={toggleModal} style={styles.btn}&gt;
+          &lt;Text&gt;Alterar&lt;/Text&gt;
+        &lt;/TouchableOpacity&gt;
+      &lt;/View&gt;
+      &lt;View style={styles.border} /&gt;
+    &lt;/View&gt;
+  );
+}
+
+const styles = StyleSheet.create({
+  border: {
+    borderBottomColor: darkBlue,
+    borderBottomWidth: 1,
+    marginLeft: 20,
+    marginRight: 20,
+    marginBottom: 5,
+    marginTop: 5,
+  },
+  component: {
+    marginTop: 10,
+    padding: 18,
+    flexDirection: &apos;row&apos;,
+    justifyContent: &apos;space-between&apos;,
+  },
+  label: {
+    fontSize: 12,
+    paddingLeft: 20,
+    color: &apos;#c5c5c5&apos;,
+  },
+  value: {
+    fontSize: 18,
+    paddingLeft: 20,
+    paddingRight: 20,
+  },
+  btn: {
+    alignSelf: &apos;center&apos;,
+    paddingTop: 8,
+    paddingBottom: 8,
+    paddingLeft: 12,
+    paddingRight: 12,
+    borderRadius: 10,
+    fontSize: 18,
+    backgroundColor: &apos;#e7e7e7&apos;,
+  },
+
+  modal_modalView: {
+    backgroundColor: &apos;white&apos;,
+    borderRadius: 15,
+    margin: 10,
+  },
+  modal_container: {
+    borderTopLeftRadius: 20,
+  },
+  modal_titleView: {
+    backgroundColor: darkBlue,
+    marginBottom: 5,
+  },
+  modal_title: {
+    fontSize: 20,
+    fontWeight: &apos;bold&apos;,
+    padding: 20,
+    textAlign: &apos;center&apos;,
+    color: &apos;#fff&apos;,
+  },
+  modal_inputGroup: {
+    marginTop: 10,
+    marginBottom: 10,
+  },
+  modal_label: {
+    textAlign: &apos;left&apos;,
+    fontSize: 20,
+    marginBottom: 8,
+  },
+  modal_input: {
+    borderWidth: 0.8,
+    borderColor: darkBlue,
+    borderRadius: 5,
+    paddingHorizontal: 8,
+    paddingVertical: 5,
+    marginBottom: 16,
+    fontSize: 20,
+  },
+  modal_buttonContainer: {
+    flexDirection: &apos;row&apos;,
+    justifyContent: &apos;space-between&apos;,
+    padding: 15,
+  },
+});
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

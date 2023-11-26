@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="./">
+  <title data-ice="title">Manual | banco</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container manual-root manual-index" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div class="manual-toc-root">
+  
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/UserGuide.html"><a href="manual/UserGuide.html" data-ice="link">Guia do Usu&#xE1;rio</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/UserGuide.html"><a href="manual/UserGuide.html#aplicativo-de-finan&#xE7;as-pessoais" data-ice="link">Aplicativo de Finan&#xE7;as Pessoais</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/UserGuide.html"><a href="manual/UserGuide.html#1---strong-p&#xE1;gina-inicial---strong-" data-ice="link">1. P&#xE1;gina Inicial:</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/UserGuide.html"><a href="manual/UserGuide.html#2---strong-perfil---strong-" data-ice="link">2. Perfil:</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/UserGuide.html"><a href="manual/UserGuide.html#3---strong-movimenta&#xE7;&#xF5;es---strong-" data-ice="link">3. Movimenta&#xE7;&#xF5;es:</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/UserGuide.html"><a href="manual/UserGuide.html#4---strong-investimentos---strong-" data-ice="link">4. Investimentos:</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/UserGuide.html"><a href="manual/UserGuide.html#5---strong-an&#xE1;lise-gr&#xE1;fica---strong-" data-ice="link">5. An&#xE1;lise Gr&#xE1;fica:</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/UserGuide.html"><a href="manual/UserGuide.html#6---strong-c&#xE2;mbio---strong-" data-ice="link">6. C&#xE2;mbio:</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/UserGuide.html"><a href="manual/UserGuide.html#7---strong-configura&#xE7;&#xF5;es---strong-" data-ice="link">7. Configura&#xE7;&#xF5;es:</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/UserGuide.html"><a href="manual/UserGuide.html#8---strong-sair---strong-" data-ice="link">8. Sair:</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/UserGuide.html"><a href="manual/UserGuide.html#nota-importante-" data-ice="link">Nota Importante:</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/AuthScreen.html"><a href="manual/AuthScreen.html" data-ice="link">AuthScreen</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/AuthScreen.html"><a href="manual/AuthScreen.html#funcionalidades-principais" data-ice="link">Funcionalidades Principais</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/AuthScreen.html"><a href="manual/AuthScreen.html#componentes-utilizados" data-ice="link">Componentes Utilizados</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/AuthScreen.html"><a href="manual/AuthScreen.html#observa&#xE7;&#xF5;es" data-ice="link">Observa&#xE7;&#xF5;es</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/SplashScreen.html"><a href="manual/SplashScreen.html" data-ice="link">SplashScreen</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/SplashScreen.html"><a href="manual/SplashScreen.html#funcionalidades-principais" data-ice="link">Funcionalidades Principais</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/SplashScreen.html"><a href="manual/SplashScreen.html#componentes-utilizados" data-ice="link">Componentes Utilizados</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/SplashScreen.html"><a href="manual/SplashScreen.html#observa&#xE7;&#xF5;es" data-ice="link">Observa&#xE7;&#xF5;es</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/Home.html"><a href="manual/Home.html" data-ice="link">Home</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Home.html"><a href="manual/Home.html#funcionalidades-principais" data-ice="link">Funcionalidades Principais</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Home.html"><a href="manual/Home.html#componentes-utilizados" data-ice="link">Componentes Utilizados</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Home.html"><a href="manual/Home.html#observa&#xE7;&#xF5;es" data-ice="link">Observa&#xE7;&#xF5;es</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/Profile.html"><a href="manual/Profile.html" data-ice="link">Perfil</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Profile.html"><a href="manual/Profile.html#principais-caracter&#xED;sticas" data-ice="link">Principais Caracter&#xED;sticas</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Profile.html"><a href="manual/Profile.html#par&#xE2;metros" data-ice="link">Par&#xE2;metros</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Profile.html"><a href="manual/Profile.html#observa&#xE7;&#xF5;es" data-ice="link">Observa&#xE7;&#xF5;es</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Profile.html"><a href="manual/Profile.html#exemplo-de-uso" data-ice="link">Exemplo de Uso</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/Money.html"><a href="manual/Money.html" data-ice="link">Money</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Money.html"><a href="manual/Money.html#principais-caracter&#xED;sticas" data-ice="link">Principais Caracter&#xED;sticas</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Money.html"><a href="manual/Money.html#exemplo-de-uso" data-ice="link">Exemplo de Uso</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Money.html"><a href="manual/Money.html#observa&#xE7;&#xF5;es" data-ice="link">Observa&#xE7;&#xF5;es</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/Graphs.html"><a href="manual/Graphs.html" data-ice="link">Graphs</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Graphs.html"><a href="manual/Graphs.html#principais-caracter&#xED;sticas" data-ice="link">Principais Caracter&#xED;sticas</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Graphs.html"><a href="manual/Graphs.html#par&#xE2;metros" data-ice="link">Par&#xE2;metros</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Graphs.html"><a href="manual/Graphs.html#observa&#xE7;&#xF5;es" data-ice="link">Observa&#xE7;&#xF5;es</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/Settings.html"><a href="manual/Settings.html" data-ice="link">Settings</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Settings.html"><a href="manual/Settings.html#principais-caracter&#xED;sticas" data-ice="link">Principais Caracter&#xED;sticas</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Settings.html"><a href="manual/Settings.html#exemplo-de-uso" data-ice="link">Exemplo de Uso</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Settings.html"><a href="manual/Settings.html#observa&#xE7;&#xF5;es" data-ice="link">Observa&#xE7;&#xF5;es</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/ChangeData.html"><a href="manual/ChangeData.html" data-ice="link">ChangeData</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/ChangeData.html"><a href="manual/ChangeData.html#funcionalidades-principais" data-ice="link">Funcionalidades Principais</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/ChangeData.html"><a href="manual/ChangeData.html#componentes-utilizados" data-ice="link">Componentes Utilizados</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/ChangeData.html"><a href="manual/ChangeData.html#observa&#xE7;&#xF5;es" data-ice="link">Observa&#xE7;&#xF5;es</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/HorizontalMenu.html"><a href="manual/HorizontalMenu.html" data-ice="link">HorizontalMenu</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/HorizontalMenu.html"><a href="manual/HorizontalMenu.html#funcionalidades-principais" data-ice="link">Funcionalidades Principais</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/HorizontalMenu.html"><a href="manual/HorizontalMenu.html#componentes-utilizados" data-ice="link">Componentes Utilizados</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/HorizontalMenu.html"><a href="manual/HorizontalMenu.html#observa&#xE7;&#xF5;es" data-ice="link">Observa&#xE7;&#xF5;es</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/LogoImage.html"><a href="manual/LogoImage.html" data-ice="link">LogoImage</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/LogoImage.html"><a href="manual/LogoImage.html#principais-caracter&#xED;sticas" data-ice="link">Principais Caracter&#xED;sticas</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/LogoImage.html"><a href="manual/LogoImage.html#par&#xE2;metros" data-ice="link">Par&#xE2;metros</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/LogoImage.html"><a href="manual/LogoImage.html#observa&#xE7;&#xF5;es" data-ice="link">Observa&#xE7;&#xF5;es</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/LogoImage.html"><a href="manual/LogoImage.html#exemplo-de-uso" data-ice="link">Exemplo de Uso</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/MoneysGraph.html"><a href="manual/MoneysGraph.html" data-ice="link">MoneysGraph</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/MoneysGraph.html"><a href="manual/MoneysGraph.html#principais-caracter&#xED;sticas" data-ice="link">Principais Caracter&#xED;sticas</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/MoneysGraph.html"><a href="manual/MoneysGraph.html#par&#xE2;metros" data-ice="link">Par&#xE2;metros</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/MoneysGraph.html"><a href="manual/MoneysGraph.html#observa&#xE7;&#xF5;es" data-ice="link">Observa&#xE7;&#xF5;es</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/Movements.html"><a href="manual/Movements.html" data-ice="link">Movements</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Movements.html"><a href="manual/Movements.html#principais-caracter&#xED;sticas" data-ice="link">Principais Caracter&#xED;sticas</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Movements.html"><a href="manual/Movements.html#par&#xE2;metros" data-ice="link">Par&#xE2;metros</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Movements.html"><a href="manual/Movements.html#observa&#xE7;&#xF5;es" data-ice="link">Observa&#xE7;&#xF5;es</a></li>
+</ul>
+  </div>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div class="github-markdown">
+  <div class="manual-user-index" data-ice="manualUserIndex"><h1 id="app-para-controle-financeiro">App para controle financeiro</h1><p><strong>Telas:</strong></p>
+<ul>
+<li>Login / Cadastro</li>
+<li>Home</li>
+<li>Perfil</li>
+<li>Configura&#xE7;&#xF5;es</li>
+<li>Gr&#xE1;ficos</li>
+<li>Lista de Investimentos</li>
+<li>Altera&#xE7;&#xE3;o dos investimentos</li>
+</ul>
+<h2 id="home">Home</h2><ul>
+<li><p>Dados do usu&#xE1;rio (nome e foto)  </p>
+<ul>
+<li>Obtidos do banco</li>
+<li>Anima&#xE7;&#xF5;es de entrada</li>
+</ul>
+</li>
+<li><p>Saldo da conta  </p>
+<ul>
+<li>Obtido do banco e calculado</li>
+<li>Anima&#xE7;&#xE3;o de entrada</li>
+<li>Pode ser &quot;escondido&quot; com um toque</li>
+</ul>
+</li>
+<li><p>Menu de a&#xE7;&#xF5;es</p>
+<ul>
+<li>Novos cadastros e navega&#xE7;&#xE3;o</li>
+<li>Scroll horizontal</li>
+</ul>
+</li>
+<li><p>Transa&#xE7;&#xF5;es passadas</p>
+<ul>
+<li>Lista com as transa&#xE7;&#xF5;es cadastradas pelo usu&#xE1;rio</li>
+<li>Valores &quot;escondidos&quot;, aparecem com o toque na regi&#xE3;o cinza</li>
+</ul>
+</li>
+</ul>
+<h3 id="a&#xE7;&#xF5;es-poss&#xED;veis">A&#xE7;&#xF5;es poss&#xED;veis</h3><ul>
+<li><p>Cadastrar:</p>
+<ul>
+<li>Nova receita (entrada)</li>
+<li>Nova compra</li>
+<li>Novo gasto</li>
+</ul>
+</li>
+<li><p>Ir para <a href="#Perfil">Perfil</a></p>
+</li>
+<li>Ir para <a href="##Configura&#xE7;&#xF5;es">Configura&#xE7;&#xF5;es</a></li>
+<li>Ir para <a href="##Gr&#xE1;ficos">Gr&#xE1;ficos</a></li>
+</ul>
+<h2 id="perfil">Perfil</h2><ul>
+<li>Dados do usu&#xE1;rio</li>
+<li>Lista de a&#xE7;&#xF5;es de interesse</li>
+<li>Permite marcar ou desmarcar a&#xE7;&#xF5;es existentes</li>
+<li>Permite adicionar uma nova a&#xE7;&#xE3;o de interesse</li>
+</ul>
+<h2 id="configura&#xE7;&#xF5;es">Configura&#xE7;&#xF5;es</h2><ul>
+<li>Todos os dados do usu&#xE1;rio (Nome, Email, Profiss&#xE3;o, Perfil de Investimento)</li>
+<li>Permite alterar os dados</li>
+</ul>
+<h2 id="gr&#xE1;ficos">Gr&#xE1;ficos</h2><ul>
+<li>Gr&#xE1;ficos relacionados ao financeiro da aplica&#xE7;&#xE3;o:<ul>
+<li>Gr&#xE1;fico de Pizza: Gastos X Receitas</li>
+<li>Gr&#xE1;fico de Barras: Receitas</li>
+<li>Gr&#xE1;fico de Linha: Gastos</li>
+</ul>
+</li>
+</ul>
+<h2 id="projeto">Projeto</h2><p>Bibliotecas chave para o <strong>funcionamento da aplica&#xE7;&#xE3;o</strong>:</p>
+<ul>
+<li>Animation</li>
+<li>AsyncStorage</li>
+<li>Chart Kit</li>
+<li>Checkbox</li>
+<li>DatePicker</li>
+<li>Expo</li>
+<li>Firebase</li>
+<li>Flash Message</li>
+<li>Modal</li>
+<li>React Navigation</li>
+<li>Select-dropdown</li>
+<li>Styled Components</li>
+</ul>
+<p>Gerar documenta&#xE7;&#xE3;o:<br><code>./node_modules/.bin/esdoc</code></p>
+</div>
+
+  
+
+  <div class="manual-cards">
+    
+  <div class="manual-card-wrap" data-ice="cards">
+      <div class="manual-card">
+        <div data-ice="card"><h1>Guia do Usu&#xE1;rio</h1><h2>Aplicativo de Finan&#xE7;as Pessoais</h2><p>Bem-vindo ao nosso aplicativo de finan&#xE7;as pessoais! Este guia tem como objetivo fornecer instru&#xE7;&#xF5;es simples sobre como utilizar as principais funcionalidades do aplicativo.</p><h3>1. <strong>P&#xE1;gina Inicial:</strong></h3><ul>
+<li>Ao abrir o aplicativo, voc&#xEA; ser&#xE1; direcionado &#xE0; p&#xE1;gina inicial, onde poder&#xE1; visualizar um resumo do seu dinheiro em diferentes categorias, como receitas, despesas, investimentos, entre outros.</li>
+</ul><h3>2. <strong>Perfil:</strong></h3><ul>
+<li>Acesse a p&#xE1;gina de perfil clicando no &#xED;cone de perfil no canto superior direito. Aqui, voc&#xEA; pode visualizar e editar informa&#xE7;&#xF5;es pessoais, como nome, email, profiss&#xE3;o e perfil de investimento.</li>
+</ul><h3>3. <strong>Movimenta&#xE7;&#xF5;es:</strong></h3><ul>
+<li>Na p&#xE1;gina de movimenta&#xE7;&#xF5;es, voc&#xEA; pode ver uma lista de todas as suas transa&#xE7;&#xF5;es, incluindo receitas e despesas. Toque em cada transa&#xE7;&#xE3;o para visualizar detalhes adicionais.</li>
+</ul><h3>4. <strong>Investimentos:</strong></h3><ul>
+<li>Acesse a se&#xE7;&#xE3;o de investimentos para adicionar ou visualizar investimentos. Voc&#xEA; pode adicionar novos investimentos e acompanhar o desempenho dos investimentos existentes.</li>
+</ul><h3>5. <strong>An&#xE1;lise Gr&#xE1;fica:</strong></h3><ul>
+<li>Explore as an&#xE1;lises gr&#xE1;ficas para ter uma vis&#xE3;o mais clara das suas finan&#xE7;as. Os gr&#xE1;ficos mostram informa&#xE7;&#xF5;es sobre gastos, receitas e investimentos.</li>
+</ul><h3>6. <strong>C&#xE2;mbio:</strong></h3><ul>
+<li>Verifique as cota&#xE7;&#xF5;es de moedas estrangeiras na se&#xE7;&#xE3;o de c&#xE2;mbio. As cota&#xE7;&#xF5;es s&#xE3;o atualizadas regularmente.</li>
+</ul><h3>7. <strong>Configura&#xE7;&#xF5;es:</strong></h3><ul>
+<li>Personalize o aplicativo conforme suas prefer&#xEA;ncias na se&#xE7;&#xE3;o de configura&#xE7;&#xF5;es. Voc&#xEA; pode alterar informa&#xE7;&#xF5;es pessoais, como nome, email, profiss&#xE3;o e perfil de investimento.</li>
+</ul><h3>8. <strong>Sair:</strong></h3><ul>
+<li>Para encerrar a sess&#xE3;o, toque em &quot;Sair&quot; na se&#xE7;&#xE3;o de configura&#xE7;&#xF5;es. Isso garantir&#xE1; a seguran&#xE7;a dos seus dados.</li>
+</ul><h3>Nota Importante:</h3><ul>
+<li>Certifique-se de manter seu perfil e movimenta&#xE7;&#xF5;es atualizados para obter uma an&#xE1;lise precisa das suas finan&#xE7;as.</li>
+</ul></div>
+        <a data-ice="link" href="manual/UserGuide.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <div class="manual-card">
+        <div data-ice="card"><h1>AuthScreen</h1><p>Este componente React-Native, chamado de <code>AuthScreen</code>, representa a tela de autentica&#xE7;&#xE3;o do aplicativo.<br>Oferece funcionalidades de login e cadastro, interagindo com um banco de dados Firebase para gerenciar usu&#xE1;rios.</p><h2>Funcionalidades Principais</h2><ol>
+<li><p><strong>Autentica&#xE7;&#xE3;o e Navega&#xE7;&#xE3;o:</strong></p>
+<ul>
+<li>Utiliza o contexto <code>useLoading</code> para exibir indicadores de carregamento durante opera&#xE7;&#xF5;es ass&#xED;ncronas.</li>
+<li>Utiliza o <code>AsyncStorage</code> para persistir a informa&#xE7;&#xE3;o de autentica&#xE7;&#xE3;o (<code>isAuth</code>).</li>
+</ul>
+</li>
+<li><p><strong>Gerenciamento de Usu&#xE1;rios:</strong></p>
+<ul>
+<li>Utiliza a classe <code>Storage</code> para interagir com o Firebase e obter informa&#xE7;&#xF5;es sobre usu&#xE1;rios.</li>
+<li>Ao montar o componente, verifica se o usu&#xE1;rio j&#xE1; est&#xE1; autenticado, redirecionando-o para a tela inicial (<code>Splash</code>) se necess&#xE1;rio.</li>
+</ul>
+</li>
+<li><p><strong>Estados e Campos de Entrada:</strong></p>
+<ul>
+<li>Utiliza estados para controlar diferentes aspectos do componente, incluindo informa&#xE7;&#xF5;es de usu&#xE1;rios, mensagens de erro, visibilidade de senha, entre outros.</li>
+<li>Campos de entrada controlados por estados para email e senhas.</li>
+</ul>
+</li>
+<li><p><strong>Manipula&#xE7;&#xE3;o de Senhas:</strong></p>
+<ul>
+<li>Oferece funcionalidade para alternar a visibilidade da senha durante a entrada de texto, utilizando &#xED;cones visuais (<code>eye</code>).</li>
+</ul>
+</li>
+<li><p><strong>Login e Cadastro:</strong></p>
+<ul>
+<li>Fun&#xE7;&#xE3;o <code>handleSignUp</code> para cadastrar novos usu&#xE1;rios no Firebase, verificando se o email j&#xE1; existe.</li>
+<li>Fun&#xE7;&#xE3;o <code>handleSignIn</code> para autenticar usu&#xE1;rios, exibindo mensagens de erro caso o email ou senha n&#xE3;o sejam v&#xE1;lidos.</li>
+</ul>
+</li>
+<li><p><strong>Limpeza de Campos:</strong></p>
+<ul>
+<li>Fun&#xE7;&#xE3;o <code>clearFields</code> para limpar os campos do formul&#xE1;rio, utilizada ap&#xF3;s opera&#xE7;&#xF5;es de login ou cadastro.</li>
+</ul>
+</li>
+<li><p><strong>Feedback ao Usu&#xE1;rio:</strong></p>
+<ul>
+<li>Exibe mensagens de erro em caso de problemas durante o login ou cadastro.</li>
+<li>Oferece link para recupera&#xE7;&#xE3;o de senha em caso de erro no login.</li>
+</ul>
+</li>
+<li><p><strong>Estilo e Layout:</strong></p>
+<ul>
+<li>Utiliza estilos espec&#xED;ficos para proporcionar uma experi&#xEA;ncia visual agrad&#xE1;vel ao usu&#xE1;rio.</li>
+</ul>
+</li>
+</ol><h2>Componentes Utilizados</h2><ul>
+<li><code>React</code>, <code>useState</code>, <code>useEffect</code> para gerenciar o estado e o ciclo de vida.</li>
+<li>Componentes de interface como <code>View</code>, <code>Text</code>, <code>TextInput</code>, <code>Button</code>, <code>TouchableOpacity</code>, <code>Image</code>.</li>
+<li>&#xCD;cones fornecidos pelos pacotes <code>@expo/vector-icons</code> (Foundation, Ionicons).</li>
+</ul><h2>Observa&#xE7;&#xF5;es</h2><ul>
+<li>O componente pode ser integrado a um fluxo de autentica&#xE7;&#xE3;o mais amplo em um aplicativo, proporcionando funcionalidades essenciais de login e cadastro.</li>
+</ul><p>Lembre-se de ajustar qualquer configura&#xE7;&#xE3;o espec&#xED;fica do seu projeto, como a configura&#xE7;&#xE3;o do Firebase, para que o componente funcione corretamente no contexto do seu aplicativo.</p><p><img src="./manual/asset/auth.png" alt="Auth screen"></p></div>
+        <a data-ice="link" href="manual/AuthScreen.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <div class="manual-card">
+        <div data-ice="card"><h1>SplashScreen</h1><p>Este componente React-Native, denominado <code>SplashScreen</code>, representa a tela inicial do aplicativo exibida durante a inicializa&#xE7;&#xE3;o.<br>A fun&#xE7;&#xE3;o principal &#xE9; realizar opera&#xE7;&#xF5;es ass&#xED;ncronas, como a obten&#xE7;&#xE3;o de dados do banco de dados Firebase, enquanto exibe o logotipo do aplicativo.<br>Ap&#xF3;s a conclus&#xE3;o das opera&#xE7;&#xF5;es, redireciona para a tela principal (<code>Home</code>).</p><h2>Funcionalidades Principais</h2><ol>
+<li><p><strong>Obten&#xE7;&#xE3;o de Dados do Banco de Dados:</strong></p>
+<ul>
+<li>Utiliza o contexto <code>useLoading</code> para obter a string de autentica&#xE7;&#xE3;o e criar uma inst&#xE2;ncia de <code>Storage</code> para interagir com o Firebase.</li>
+<li>Utiliza a fun&#xE7;&#xE3;o <code>getFullDoc</code> de <code>Storage</code> para obter dados completos do usu&#xE1;rio no Firebase.</li>
+<li>Armazena os dados obtidos localmente utilizando o <code>AsyncStorage</code> para posterior refer&#xEA;ncia no aplicativo.</li>
+</ul>
+</li>
+<li><p><strong>Temporiza&#xE7;&#xE3;o de Exibi&#xE7;&#xE3;o:</strong></p>
+<ul>
+<li>Utiliza <code>setTimeout</code> para simular uma breve pausa (5.5 segundos) antes de prosseguir para a pr&#xF3;xima tela. Isso &#xE9; comum em telas de introdu&#xE7;&#xE3;o ou splash para exibir o logotipo por um curto per&#xED;odo.</li>
+</ul>
+</li>
+<li><p><strong>Navega&#xE7;&#xE3;o para a Pr&#xF3;xima Tela:</strong></p>
+<ul>
+<li>Utiliza <code>useNavigation</code> para obter o objeto de navega&#xE7;&#xE3;o.</li>
+<li>Ap&#xF3;s a conclus&#xE3;o das opera&#xE7;&#xF5;es, navega para a tela principal (<code>Home</code>).</li>
+</ul>
+</li>
+<li><p><strong>Componente de Logotipo:</strong></p>
+<ul>
+<li>Inclui o componente <code>LogoImage</code> para exibir o logotipo do aplicativo, centralizado na tela.</li>
+</ul>
+</li>
+<li><p><strong>Armazenamento Local de Dados:</strong></p>
+<ul>
+<li>Utiliza o <code>AsyncStorage</code> para armazenar dados obtidos do banco de dados de forma local, permitindo o acesso r&#xE1;pido e offline.</li>
+</ul>
+</li>
+<li><p><strong>Tratamento de Erros:</strong></p>
+<ul>
+<li>Registra e trata erros que possam ocorrer durante a obten&#xE7;&#xE3;o de dados do banco de dados Firebase.</li>
+</ul>
+</li>
+<li><p><strong>Estilo e Layout:</strong></p>
+<ul>
+<li>Utiliza estilos simples para centralizar o logotipo na tela durante a exibi&#xE7;&#xE3;o da SplashScreen.</li>
+</ul>
+</li>
+</ol><h2>Componentes Utilizados</h2><ul>
+<li><code>React</code>, <code>useEffect</code> para gerenciar o ciclo de vida.</li>
+<li><code>View</code> do React-Native para estrutura de layout.</li>
+<li><code>useNavigation</code> do <code>@react-navigation/native</code> para navega&#xE7;&#xE3;o.</li>
+<li><code>useLoading</code> e <code>Storage</code> para intera&#xE7;&#xE3;o com Firebase.</li>
+<li><code>AsyncStorage</code> para armazenamento local de dados.</li>
+<li>Componente <code>LogoImage</code> para exibi&#xE7;&#xE3;o do logotipo.</li>
+</ul><h2>Observa&#xE7;&#xF5;es</h2><ul>
+<li>Este componente &#xE9; crucial para proporcionar uma experi&#xEA;ncia inicial ao usu&#xE1;rio, exibindo o logotipo e realizando opera&#xE7;&#xF5;es iniciais necess&#xE1;rias antes de redirecionar para a tela principal.</li>
+</ul><p><img src="./manual/asset/splash.png" alt="SplashScreen"></p></div>
+        <a data-ice="link" href="manual/SplashScreen.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <div class="manual-card">
+        <div data-ice="card"><h1>Home</h1><p>Este componente React-Native, chamado de <code>Home</code>, &#xE9; uma representa&#xE7;&#xE3;o da tela principal de um aplicativo financeiro.<br>Inclui funcionalidades como exibi&#xE7;&#xE3;o do saldo, &#xFA;ltimas movimenta&#xE7;&#xF5;es, op&#xE7;&#xF5;es de menu horizontal, e intera&#xE7;&#xF5;es animadas.</p><h2>Funcionalidades Principais</h2><ol>
+<li><p><strong>Atualiza&#xE7;&#xE3;o de Dados:</strong></p>
+<ul>
+<li>O componente possui um estado <code>isRefresh</code> que controla a atualiza&#xE7;&#xE3;o dos dados ao ser acionado. A fun&#xE7;&#xE3;o <code>refresh</code> &#xE9; respons&#xE1;vel por obter os dados do usu&#xE1;rio autenticado e atualizar o estado.</li>
+</ul>
+</li>
+<li><p><strong>Anima&#xE7;&#xE3;o de Saldo:</strong></p>
+<ul>
+<li>O componente utiliza a biblioteca <code>Animated</code> do React-Native para criar uma anima&#xE7;&#xE3;o de fade in/fade out no bloco de informa&#xE7;&#xF5;es de saldo. A anima&#xE7;&#xE3;o &#xE9; acionada pelo toque do usu&#xE1;rio.</li>
+</ul>
+</li>
+<li><p><strong>Obten&#xE7;&#xE3;o de Dados do Usu&#xE1;rio:</strong></p>
+<ul>
+<li>Utiliza o contexto <code>useLoading</code> para exibir e ocultar indicadores de carregamento.</li>
+<li>Utiliza a AsyncStorage para armazenar e recuperar os dados do usu&#xE1;rio, como nome, receitas, despesas, etc.</li>
+</ul>
+</li>
+<li><p><strong>Ordena&#xE7;&#xE3;o de Movimenta&#xE7;&#xF5;es:</strong></p>
+<ul>
+<li>As &#xFA;ltimas movimenta&#xE7;&#xF5;es do usu&#xE1;rio s&#xE3;o ordenadas por data antes de serem exibidas, utilizando a fun&#xE7;&#xE3;o <code>parseDate</code>.</li>
+</ul>
+</li>
+<li><p><strong>Integra&#xE7;&#xE3;o com Firebase:</strong></p>
+<ul>
+<li>Utiliza o m&#xF3;dulo <code>Storage</code> para interagir com o Firebase e obter dados do usu&#xE1;rio.</li>
+</ul>
+</li>
+<li><p><strong>Componentes Filhos:</strong></p>
+<ul>
+<li>O componente inclui outros componentes como <code>HorizontalMenu</code> para exibir um menu horizontal com op&#xE7;&#xF5;es espec&#xED;ficas e <code>Movements</code> para mostrar as &#xFA;ltimas movimenta&#xE7;&#xF5;es financeiras.</li>
+</ul>
+</li>
+<li><p><strong>Intera&#xE7;&#xE3;o com Navega&#xE7;&#xE3;o:</strong></p>
+<ul>
+<li>Navega&#xE7;&#xE3;o entre telas &#xE9; poss&#xED;vel atrav&#xE9;s da navega&#xE7;&#xE3;o passada como propriedade (<code>{ navigation }</code>).</li>
+</ul>
+</li>
+<li><p><strong>Estilo e Layout:</strong></p>
+<ul>
+<li>O componente utiliza um layout flex&#xED;vel, anima&#xE7;&#xF5;es visuais e estilos espec&#xED;ficos para cada parte da tela, proporcionando uma experi&#xEA;ncia visual agrad&#xE1;vel.</li>
+</ul>
+</li>
+</ol><h2>Componentes Utilizados</h2><ul>
+<li><code>React</code>, <code>useState</code>, <code>useEffect</code>, <code>useRef</code> para gerenciar o estado e ciclo de vida.</li>
+<li><code>AsyncStorage</code> para armazenamento local de dados.</li>
+<li><code>Animatable</code> para anima&#xE7;&#xF5;es.</li>
+<li><code>Feather</code> para &#xED;cones.</li>
+<li>Componentes customizados como <code>HorizontalMenu</code> e <code>Movements</code>.</li>
+</ul><p><strong>Pr&#xE9;-requisitos:</strong></p><ul>
+<li>Necessita de um contexto de carregamento (<code>useLoading</code>) para gerenciar o estado de carregamento.</li>
+</ul><h2>Observa&#xE7;&#xF5;es</h2><ul>
+<li>Este componente pode ser integrado a um aplicativo financeiro para oferecer funcionalidades essenciais de visualiza&#xE7;&#xE3;o de saldo, &#xFA;ltimas movimenta&#xE7;&#xF5;es e navega&#xE7;&#xE3;o entre diferentes se&#xE7;&#xF5;es.</li>
+</ul><p><img src="./manual/asset/home.png" alt="Home screen"></p></div>
+        <a data-ice="link" href="manual/Home.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <div class="manual-card">
+        <div data-ice="card"><h1>Perfil</h1><p>O componente React-Native denominado <code>Perfil</code> &#xE9; projetado para exibir informa&#xE7;&#xF5;es do usu&#xE1;rio, incluindo detalhes pessoais, dados financeiros e lista de investimentos.  Fornece uma interface de usu&#xE1;rio limpa e interativa para visualizar e interagir com informa&#xE7;&#xF5;es relevantes.</p><h2>Principais Caracter&#xED;sticas</h2><ol>
+<li><p><strong>Barra Superior:</strong></p>
+<ul>
+<li>A barra superior possui uma cor de fundo escura (<code>darkBlue</code>) e exibe o nome do usu&#xE1;rio e o &#xED;cone de perfil.</li>
+</ul>
+</li>
+<li><p><strong>Informa&#xE7;&#xF5;es do Usu&#xE1;rio:</strong></p>
+<ul>
+<li>Exibe o nome e e-mail do usu&#xE1;rio, proporcionando uma experi&#xEA;ncia personalizada.</li>
+<li>Permite a intera&#xE7;&#xE3;o para a altera&#xE7;&#xE3;o da foto de perfil.</li>
+</ul>
+</li>
+<li><p><strong>Detalhes Financeiros:</strong></p>
+<ul>
+<li>Apresenta a profiss&#xE3;o e o perfil de investimento do usu&#xE1;rio.</li>
+<li>Lista os investimentos atuais do usu&#xE1;rio com detalhes sobre as a&#xE7;&#xF5;es de interesse.</li>
+</ul>
+</li>
+<li><p><strong>Lista de Investimentos:</strong></p>
+<ul>
+<li>Utiliza o componente <code>FlatList</code> para renderizar a lista de investimentos.</li>
+<li>Exibe o r&#xF3;tulo do investimento, status (ativo ou inativo) e a porcentagem associada.</li>
+</ul>
+</li>
+<li><p><strong>Adicionar Investimento:</strong></p>
+<ul>
+<li>Oferece um bot&#xE3;o para adicionar novos investimentos, redirecionando para a p&#xE1;gina &quot;Investments&quot;.</li>
+</ul>
+</li>
+<li><p><strong>Bot&#xE3;o de Navega&#xE7;&#xE3;o para a P&#xE1;gina Inicial:</strong></p>
+<ul>
+<li>Inclui um bot&#xE3;o de navega&#xE7;&#xE3;o que direciona o usu&#xE1;rio de volta &#xE0; p&#xE1;gina inicial.</li>
+</ul>
+</li>
+</ol><h2>Par&#xE2;metros</h2><ul>
+<li>Este componente n&#xE3;o aceita par&#xE2;metros externos. Ele obt&#xE9;m as informa&#xE7;&#xF5;es do usu&#xE1;rio e investimentos diretamente do banco de dados Firebase.</li>
+</ul><p><strong>Estilo Padr&#xE3;o:</strong></p><ul>
+<li>Utiliza estilos espec&#xED;ficos para garantir uma apar&#xEA;ncia coesa e agrad&#xE1;vel ao usu&#xE1;rio.</li>
+<li>Adapta-se a diferentes tamanhos de tela.</li>
+</ul><h2>Observa&#xE7;&#xF5;es</h2><ul>
+<li>Este componente faz uso da Context API para exibi&#xE7;&#xE3;o de loading durante a recupera&#xE7;&#xE3;o de dados do banco de dados Firebase.</li>
+<li>O bot&#xE3;o de adi&#xE7;&#xE3;o de investimento possui uma anima&#xE7;&#xE3;o de entrada.</li>
+</ul><h2>Exemplo de Uso</h2><pre><code class="lang-jsx"><code class="source-code prettyprint">&lt;Perfil navigation={navigation} /&gt;</code>
+</code></pre><p><strong>Refer&#xEA;ncias de &#xCD;cones:</strong></p><ul>
+<li><code>Feather</code>: &#xCD;cone de usu&#xE1;rio para a altera&#xE7;&#xE3;o de foto de perfil.</li>
+<li><code>MaterialIcons</code>: &#xCD;cone de casa para o bot&#xE3;o de navega&#xE7;&#xE3;o de volta &#xE0; p&#xE1;gina inicial.</li>
+<li><code>AntDesign</code>: &#xCD;cone de adi&#xE7;&#xE3;o para adicionar novos investimentos.</li>
+</ul><p><img src="./manual/asset/perfil.png" alt="Profile Screen"></p></div>
+        <a data-ice="link" href="manual/Profile.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <div class="manual-card">
+        <div data-ice="card"><h1>Money</h1><p>A tela <code>Money</code> exibe informa&#xE7;&#xF5;es sobre as cota&#xE7;&#xF5;es de moedas em rela&#xE7;&#xE3;o ao Real (BRL).<br>Utiliza a classe <code>ApiRequests</code> para fazer requisi&#xE7;&#xF5;es &#xE0; API e obter dados atualizados sobre as cota&#xE7;&#xF5;es.<br>As cota&#xE7;&#xF5;es de tr&#xEA;s moedas (D&#xF3;lar, Euro e Peso Argentino) s&#xE3;o exibidas em gr&#xE1;ficos usando o componente <code>MoneysGraph</code>.</p><h2>Principais Caracter&#xED;sticas</h2><ol>
+<li><p><strong>Cota&#xE7;&#xF5;es de Moedas:</strong></p>
+<ul>
+<li>Utiliza a classe <code>ApiRequests</code> para obter dados das cota&#xE7;&#xF5;es de moedas.</li>
+<li>As moedas exibidas s&#xE3;o D&#xF3;lar (USD), Euro (EUR) e Peso Argentino (ARS).</li>
+</ul>
+</li>
+<li><p><strong>Gr&#xE1;ficos de Cota&#xE7;&#xE3;o:</strong></p>
+<ul>
+<li>Para cada moeda, exibe um gr&#xE1;fico utilizando o componente <code>MoneysGraph</code>.</li>
+<li>Os gr&#xE1;ficos apresentam a rela&#xE7;&#xE3;o da moeda com o Real (BRL).</li>
+<li>Os dados incluem a taxa de c&#xE2;mbio de compra (<code>ask</code>) e uma constante para refer&#xEA;ncia.</li>
+</ul>
+</li>
+<li><p><strong>Componente MoneysGraph:</strong></p>
+<ul>
+<li>O componente <code>MoneysGraph</code> &#xE9; utilizado para exibir os gr&#xE1;ficos de barras das cota&#xE7;&#xF5;es de moedas.</li>
+<li>Os dados do gr&#xE1;fico s&#xE3;o passados como propriedades (<code>bardata</code> e <code>name</code>).</li>
+</ul>
+</li>
+<li><p><strong>Bot&#xE3;o de Retorno &#xE0; Tela Inicial:</strong></p>
+<ul>
+<li>Inclui um bot&#xE3;o de retorno &#xE0; tela inicial (Home) para facilitar a navega&#xE7;&#xE3;o.</li>
+<li>O bot&#xE3;o utiliza o &#xED;cone de seta para tr&#xE1;s da biblioteca <code>Ionicons</code>.</li>
+</ul>
+</li>
+<li><p><strong>Estilo Responsivo:</strong></p>
+<ul>
+<li>Utiliza estilos que proporcionam uma boa apar&#xEA;ncia e organiza&#xE7;&#xE3;o na tela.</li>
+<li>Adota margens e espa&#xE7;amentos para melhorar a legibilidade e usabilidade.</li>
+</ul>
+</li>
+</ol><h2>Exemplo de Uso</h2><pre><code class="lang-jsx"><code class="source-code prettyprint">&lt;Money /&gt;</code>
+</code></pre><h2>Observa&#xE7;&#xF5;es</h2><ul>
+<li>A tela utiliza o contexto de carregamento (<code>useLoading</code>) para exibir e ocultar indicadores de carregamento durante a obten&#xE7;&#xE3;o dos dados.</li>
+<li>Os gr&#xE1;ficos de cota&#xE7;&#xE3;o s&#xE3;o exibidos usando o componente <code>MoneysGraph</code>, que provavelmente &#xE9; importado de um arquivo separado.</li>
+<li>A tela inclui uma rolagem (<code>ScrollView</code>) para acomodar os gr&#xE1;ficos, permitindo a visualiza&#xE7;&#xE3;o de todas as informa&#xE7;&#xF5;es em uma &#xFA;nica p&#xE1;gina.</li>
+<li>As cota&#xE7;&#xF5;es de moedas s&#xE3;o obtidas no momento da renderiza&#xE7;&#xE3;o da tela, garantindo informa&#xE7;&#xF5;es atualizadas.</li>
+</ul><p><img src="./manual/asset/graficos.png" alt="Money screen"></p></div>
+        <a data-ice="link" href="manual/Money.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <div class="manual-card">
+        <div data-ice="card"><h1>Graphs</h1><p>O componente React-Native denominado <code>Graphs</code> &#xE9; respons&#xE1;vel por exibir gr&#xE1;ficos relacionados &#xE0;s finan&#xE7;as do usu&#xE1;rio, incluindo um gr&#xE1;fico de receitas e gastos, um gr&#xE1;fico de barras para receitas e um gr&#xE1;fico de linha para gastos.</p><h2>Principais Caracter&#xED;sticas</h2><ol>
+<li><p><strong>Gastos X Receitas:</strong></p>
+<ul>
+<li>Utiliza um gr&#xE1;fico de pizza (<code>PieChart</code>) para visualizar a rela&#xE7;&#xE3;o entre gastos e receitas.</li>
+<li>Cada categoria &#xE9; representada por uma fatia no gr&#xE1;fico.</li>
+<li>Cores diferenciadas para representar gastos e receitas.</li>
+</ul>
+</li>
+<li><p><strong>Gr&#xE1;fico de Receitas:</strong></p>
+<ul>
+<li>Apresenta um gr&#xE1;fico de barras (<code>BarChart</code>) para visualizar as receitas.</li>
+<li>As barras representam diferentes fontes de receita.</li>
+<li>Eixo Y rotulado em Reais (R$).</li>
+</ul>
+</li>
+<li><p><strong>Gr&#xE1;fico de Gastos:</strong></p>
+<ul>
+<li>Mostra um gr&#xE1;fico de linha (<code>LineChart</code>) para visualizar os gastos ao longo do tempo.</li>
+<li>Cada ponto no gr&#xE1;fico representa um tipo de despesa.</li>
+<li>Toque em um ponto para exibir um alerta com detalhes sobre a despesa.</li>
+</ul>
+</li>
+<li><p><strong>Integra&#xE7;&#xE3;o com FlashMessage:</strong></p>
+<ul>
+<li>Utiliza o componente <code>FlashMessage</code> para exibir mensagens tempor&#xE1;rias ao clicar em um ponto no gr&#xE1;fico de gastos.</li>
+</ul>
+</li>
+<li><p><strong>Navega&#xE7;&#xE3;o de Volta:</strong></p>
+<ul>
+<li>Inclui um bot&#xE3;o de navega&#xE7;&#xE3;o que permite voltar &#xE0; p&#xE1;gina inicial.</li>
+</ul>
+</li>
+</ol><h2>Par&#xE2;metros</h2><ul>
+<li>O componente n&#xE3;o aceita par&#xE2;metros externos. Ele extrai dados diretamente da rota (<code>route.params.allData</code>).</li>
+</ul><p><strong>Configura&#xE7;&#xF5;es de Gr&#xE1;ficos:</strong></p><ul>
+<li>Configura&#xE7;&#xF5;es espec&#xED;ficas para cada tipo de gr&#xE1;fico, como cores e estilos, s&#xE3;o definidas para proporcionar uma experi&#xEA;ncia visual agrad&#xE1;vel.</li>
+</ul><p><strong>Estilos Padr&#xE3;o:</strong></p><ul>
+<li>Os estilos s&#xE3;o definidos para garantir a coes&#xE3;o visual dos gr&#xE1;ficos e a legibilidade das informa&#xE7;&#xF5;es.</li>
+</ul><h2>Observa&#xE7;&#xF5;es</h2><ul>
+<li>O componente faz uso da Context API para exibi&#xE7;&#xE3;o de loading durante a recupera&#xE7;&#xE3;o de dados.</li>
+<li>As bibliotecas externas <code>react-native-chart-kit</code> e <code>react-native-flash-message</code> s&#xE3;o utilizadas para renderizar os gr&#xE1;ficos e exibir mensagens tempor&#xE1;rias, respectivamente.</li>
+</ul><p><strong>Refer&#xEA;ncias de &#xCD;cones:</strong></p><ul>
+<li><code>Ionicons</code>: &#xCD;cone de seta para voltar &#xE0; p&#xE1;gina inicial.</li>
+</ul><p><br>
+<img src="./manual/asset/finan.png" alt="Graphs screen"></p></div>
+        <a data-ice="link" href="manual/Graphs.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <div class="manual-card">
+        <div data-ice="card"><h1>Settings</h1><p>A tela <code>Settings</code> &#xE9; respons&#xE1;vel por exibir e permitir a edi&#xE7;&#xE3;o de informa&#xE7;&#xF5;es do usu&#xE1;rio, como nome, email, profiss&#xE3;o e perfil de investimento.<br>Al&#xE9;m disso, fornece um bot&#xE3;o para retornar &#xE0; tela inicial (<code>Home</code>) e outro para realizar o logout (<code>Sair</code>).</p><h2>Principais Caracter&#xED;sticas</h2><ol>
+<li><p><strong>Exibi&#xE7;&#xE3;o e Edi&#xE7;&#xE3;o de Dados:</strong></p>
+<ul>
+<li>Utiliza o componente <code>ChangeData</code> para exibir e permitir a edi&#xE7;&#xE3;o de diferentes campos de dados do usu&#xE1;rio, como nome, email, profiss&#xE3;o e perfil de investimento.</li>
+<li>Ao editar um campo, aciona uma fun&#xE7;&#xE3;o <code>refresh</code> para atualizar as informa&#xE7;&#xF5;es na tela.</li>
+</ul>
+</li>
+<li><p><strong>Bot&#xE3;o de Retorno &#xE0; Tela Inicial:</strong></p>
+<ul>
+<li>Inclui um bot&#xE3;o de retorno &#xE0; tela inicial (Home) para facilitar a navega&#xE7;&#xE3;o.</li>
+<li>O bot&#xE3;o utiliza o &#xED;cone de casa da biblioteca <code>MaterialIcons</code>.</li>
+</ul>
+</li>
+<li><p><strong>Bot&#xE3;o de Logout (<code>Sair</code>):</strong></p>
+<ul>
+<li>Inclui um bot&#xE3;o para realizar o logout do usu&#xE1;rio.</li>
+<li>Ao clicar no bot&#xE3;o, aciona a fun&#xE7;&#xE3;o <code>handleSair</code> que remove a autentica&#xE7;&#xE3;o e navega para a tela de autentica&#xE7;&#xE3;o (<code>Auth</code>).</li>
+</ul>
+</li>
+<li><p><strong>Atualiza&#xE7;&#xE3;o Din&#xE2;mica dos Dados:</strong></p>
+<ul>
+<li>Utiliza o estado <code>smth</code> para acionar uma atualiza&#xE7;&#xE3;o din&#xE2;mica dos dados quando necess&#xE1;rio.</li>
+</ul>
+</li>
+<li><p><strong>Estilo Responsivo:</strong></p>
+<ul>
+<li>Utiliza estilos que proporcionam uma boa apar&#xEA;ncia e organiza&#xE7;&#xE3;o na tela.</li>
+<li>Adota margens, espa&#xE7;amentos e posicionamento absoluto para melhorar a legibilidade e usabilidade.</li>
+</ul>
+</li>
+</ol><h2>Exemplo de Uso</h2><pre><code class="lang-jsx"><code class="source-code prettyprint">&lt;Settings /&gt;</code>
+</code></pre><h2>Observa&#xE7;&#xF5;es</h2><ul>
+<li>A tela utiliza o contexto de carregamento (<code>useLoading</code>) para exibir e ocultar indicadores de carregamento durante a obten&#xE7;&#xE3;o dos dados.</li>
+<li>As informa&#xE7;&#xF5;es do usu&#xE1;rio s&#xE3;o obtidas do Firebase (<code>fr.getFullDoc()</code>).</li>
+<li>A fun&#xE7;&#xE3;o <code>refresh</code> &#xE9; utilizada para acionar a atualiza&#xE7;&#xE3;o dos dados ap&#xF3;s uma edi&#xE7;&#xE3;o.</li>
+<li>O bot&#xE3;o &quot;Sair&quot; (<code>handleSair</code>) realiza o logout do usu&#xE1;rio e navega para a tela de autentica&#xE7;&#xE3;o (<code>Auth</code>).</li>
+<li>A tela inclui um bot&#xE3;o de retorno &#xE0; tela inicial (<code>Home</code>) para facilitar a navega&#xE7;&#xE3;o.</li>
+</ul><p><img src="./manual/asset/settings.png" alt="Settings Screen"></p></div>
+        <a data-ice="link" href="manual/Settings.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <div class="manual-card">
+        <div data-ice="card"><h1>ChangeData</h1><p>Este componente React-Native, denominado <code>ChangeData</code>, oferece a funcionalidade de modificar dados espec&#xED;ficos do usu&#xE1;rio, como nome, email, profiss&#xE3;o ou perfil de investimento.<br>Inclui um modal interativo para a entrada de novos dados e interage com o Firebase para atualizar as informa&#xE7;&#xF5;es.</p><h2>Funcionalidades Principais</h2><ol>
+<li><p><strong>Modal de Altera&#xE7;&#xE3;o de Dados:</strong></p>
+<ul>
+<li>Utiliza o pacote <code>react-native-modal</code> para criar um modal de altera&#xE7;&#xE3;o de dados.</li>
+<li>Exibe um modal com entrada de texto para modificar o valor associado ao r&#xF3;tulo fornecido (<code>label</code>).</li>
+<li>O modal possui bot&#xF5;es de confirma&#xE7;&#xE3;o e cancelamento para realizar ou descartar as altera&#xE7;&#xF5;es.</li>
+</ul>
+</li>
+<li><p><strong>Intera&#xE7;&#xE3;o com o Firebase:</strong></p>
+<ul>
+<li>Utiliza o contexto <code>useLoading</code> para obter a string de autentica&#xE7;&#xE3;o e criar uma inst&#xE2;ncia de <code>Storage</code> para interagir com o Firebase.</li>
+<li>Na montagem do componente, carrega os dados do usu&#xE1;rio do Firebase utilizando <code>getFullDoc</code> e armazena em <code>userData</code>.</li>
+</ul>
+</li>
+<li><p><strong>Atualiza&#xE7;&#xE3;o de Dados:</strong></p>
+<ul>
+<li>Ao confirmar as altera&#xE7;&#xF5;es no modal, utiliza a fun&#xE7;&#xE3;o <code>updateData</code> para atualizar os dados no Firebase.</li>
+<li>A fun&#xE7;&#xE3;o decide qual campo de dados deve ser atualizado com base no r&#xF3;tulo fornecido (<code>label</code>).</li>
+</ul>
+</li>
+<li><p><strong>Estilo e Layout Responsivos:</strong></p>
+<ul>
+<li>Utiliza estilos espec&#xED;ficos para proporcionar uma experi&#xEA;ncia visual agrad&#xE1;vel e responsiva.</li>
+<li>Apresenta um estilo de borda que separa visualmente inst&#xE2;ncias consecutivas do componente.</li>
+</ul>
+</li>
+</ol><h2>Componentes Utilizados</h2><ul>
+<li><code>TouchableOpacity</code> e <code>View</code> do React-Native para intera&#xE7;&#xE3;o e estrutura de layout.</li>
+<li><code>Modal</code> do pacote <code>react-native-modal</code> para a cria&#xE7;&#xE3;o de um modal.</li>
+<li><code>Ionicons</code> do <code>@expo/vector-icons</code> para &#xED;cones.</li>
+<li><code>Storage</code> para intera&#xE7;&#xE3;o com o Firebase.</li>
+<li>Componentes <code>Text</code> e <code>TextInput</code> para exibi&#xE7;&#xE3;o e entrada de texto.</li>
+</ul><h2>Observa&#xE7;&#xF5;es</h2><ul>
+<li>Este componente &#xE9; destinado a ser utilizado em configura&#xE7;&#xF5;es ou telas de perfil, permitindo ao usu&#xE1;rio editar informa&#xE7;&#xF5;es pessoais de maneira simples.</li>
+</ul><p><img src="./manual/asset/changeData.png" alt="ChangeData Screen"></p></div>
+        <a data-ice="link" href="manual/ChangeData.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <div class="manual-card">
+        <div data-ice="card"><h1>HorizontalMenu</h1><p>Este componente React-Native, denominado <code>HorizontalMenu</code>, oferece uma barra horizontal de a&#xE7;&#xF5;es para realizar opera&#xE7;&#xF5;es espec&#xED;ficas.<br>Exibe &#xED;cones representativos para cada a&#xE7;&#xE3;o, permitindo ao usu&#xE1;rio navegar para diferentes se&#xE7;&#xF5;es do aplicativo.<br>Al&#xE9;m disso, o componente inclui a capacidade de adicionar dados relacionados a finan&#xE7;as, como despesas e receitas, por meio de um modal interativo.</p><h2>Funcionalidades Principais</h2><ol>
+<li><p><strong>Barra de A&#xE7;&#xF5;es Horizontais:</strong></p>
+<ul>
+<li>Exibe uma barra de a&#xE7;&#xF5;es horizontais com &#xED;cones representativos.</li>
+<li>Cada a&#xE7;&#xE3;o possui um r&#xF3;tulo associado, indicando sua finalidade.</li>
+<li>Toque em uma a&#xE7;&#xE3;o para executar a opera&#xE7;&#xE3;o correspondente.</li>
+</ul>
+</li>
+<li><p><strong>Modal de Adi&#xE7;&#xE3;o de Dados Financeiros:</strong></p>
+<ul>
+<li>Permite adicionar dados financeiros (despesas ou receitas) por meio de um modal.</li>
+<li>O modal exibe campos para descri&#xE7;&#xE3;o, valor e data da transa&#xE7;&#xE3;o.</li>
+<li>Utiliza o componente <code>DateTimePicker</code> para selecionar a data da transa&#xE7;&#xE3;o.</li>
+<li>A fun&#xE7;&#xE3;o <code>saveData</code> &#xE9; acionada para salvar os dados no Firebase e atualizar a interface.</li>
+</ul>
+</li>
+<li><p><strong>Intera&#xE7;&#xE3;o com o Firebase:</strong></p>
+<ul>
+<li>Utiliza o contexto <code>useLoading</code> para obter a string de autentica&#xE7;&#xE3;o e criar uma inst&#xE2;ncia de <code>Storage</code> para interagir com o Firebase.</li>
+<li>As fun&#xE7;&#xF5;es <code>appendToIncomes</code> e <code>appendToExpenses</code> s&#xE3;o chamadas para adicionar dados financeiros ao Firebase.</li>
+</ul>
+</li>
+<li><p><strong>Navega&#xE7;&#xE3;o para Outras Telas:</strong></p>
+<ul>
+<li>Navega para diferentes telas do aplicativo com base na a&#xE7;&#xE3;o selecionada.</li>
+<li>Navega para &apos;Settings&apos;, &apos;Graphs&apos; e &apos;Money&apos; dependendo do tipo de a&#xE7;&#xE3;o.</li>
+</ul>
+</li>
+<li><p><strong>Estilo e Layout Responsivos:</strong></p>
+<ul>
+<li>Utiliza estilos espec&#xED;ficos para proporcionar uma experi&#xEA;ncia visual agrad&#xE1;vel e responsiva.</li>
+<li>Adota &#xED;cones espec&#xED;ficos (<code>AntDesign</code> e <code>Fontisto</code>) para representar visualmente cada a&#xE7;&#xE3;o.</li>
+</ul>
+</li>
+</ol><h2>Componentes Utilizados</h2><ul>
+<li><code>TouchableOpacity</code>, <code>View</code>, <code>Text</code>, e <code>TextInput</code> do React-Native para intera&#xE7;&#xE3;o e estrutura de layout.</li>
+<li><code>DateTimePicker</code> do <code>@react-native-community/datetimepicker</code> para sele&#xE7;&#xE3;o de data.</li>
+<li><code>Modal</code> do pacote <code>react-native-modal</code> para a cria&#xE7;&#xE3;o de um modal.</li>
+<li>&#xCD;cones <code>AntDesign</code>, <code>Ionicons</code>, e <code>Fontisto</code> do <code>@expo/vector-icons</code> para representa&#xE7;&#xE3;o visual.</li>
+</ul><h2>Observa&#xE7;&#xF5;es</h2><ul>
+<li>Este componente &#xE9; destinado a fornecer uma barra de navega&#xE7;&#xE3;o r&#xE1;pida e acess&#xED;vel para a&#xE7;&#xF5;es comuns no aplicativo.</li>
+<li>A inclus&#xE3;o de funcionalidades financeiras permite ao usu&#xE1;rio adicionar transa&#xE7;&#xF5;es diretamente da barra de a&#xE7;&#xF5;es, facilitando o registro de despesas e receitas.</li>
+</ul><p><img src="./manual/asset/menu.png" alt="Menu"></p><p><img src="./manual/asset/entrada.png" alt="Input screen"></p></div>
+        <a data-ice="link" href="manual/HorizontalMenu.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <div class="manual-card">
+        <div data-ice="card"><h1>LogoImage</h1><p>O componente React-Native chamado <code>LogoImage</code> &#xE9; respons&#xE1;vel por exibir uma anima&#xE7;&#xE3;o com a logomarca da aplica&#xE7;&#xE3;o.<br>A anima&#xE7;&#xE3;o inclui um efeito de fade-in (opacidade aumentando de 0 para 1) e uma rota&#xE7;&#xE3;o cont&#xED;nua de 360 graus.</p><h2>Principais Caracter&#xED;sticas</h2><ol>
+<li><p><strong>Fade-in:</strong></p>
+<ul>
+<li>Utiliza a propriedade <code>opacity</code> da anima&#xE7;&#xE3;o para criar um efeito de fade-in.</li>
+<li>O componente come&#xE7;a com uma opacidade de 0 e aumenta para 1 ao longo de 5000 milissegundos.</li>
+</ul>
+</li>
+<li><p><strong>Rota&#xE7;&#xE3;o Cont&#xED;nua:</strong></p>
+<ul>
+<li>Utiliza a propriedade <code>rotate</code> da anima&#xE7;&#xE3;o para criar uma rota&#xE7;&#xE3;o cont&#xED;nua.</li>
+<li>A rota&#xE7;&#xE3;o varia de 0 a 360 graus ao longo de 2000 milissegundos.</li>
+</ul>
+</li>
+<li><p><strong>Promise Delays:</strong></p>
+<ul>
+<li>Usa <code>await new Promise(resolve =&gt; setTimeout(resolve, tempo))</code> para introduzir atrasos entre diferentes etapas da anima&#xE7;&#xE3;o.</li>
+</ul>
+</li>
+<li><p><strong>Estilo Din&#xE2;mico:</strong></p>
+<ul>
+<li>Aplica estilos din&#xE2;micos para a imagem, incluindo a opacidade e a transforma&#xE7;&#xE3;o de rota&#xE7;&#xE3;o.</li>
+</ul>
+</li>
+</ol><h2>Par&#xE2;metros</h2><ul>
+<li>N&#xE3;o aceita par&#xE2;metros externos.</li>
+</ul><p><strong>Configura&#xE7;&#xF5;es de Anima&#xE7;&#xE3;o:</strong></p><ul>
+<li>Configura&#xE7;&#xF5;es espec&#xED;ficas para cada anima&#xE7;&#xE3;o, como dura&#xE7;&#xE3;o e interpola&#xE7;&#xE3;o, s&#xE3;o ajustadas para alcan&#xE7;ar o efeito desejado.</li>
+</ul><p><strong>Estilos Padr&#xE3;o:</strong></p><ul>
+<li>Usa estilos padr&#xE3;o para centralizar e alinhar a imagem no centro da tela.</li>
+</ul><h2>Observa&#xE7;&#xF5;es</h2><ul>
+<li>O componente faz uso das bibliotecas <code>react</code> e <code>react-native</code> para criar a anima&#xE7;&#xE3;o.</li>
+<li>&#xC9; um componente reutiliz&#xE1;vel que pode ser inclu&#xED;do em uma tela de carregamento ou em outras partes da interface do usu&#xE1;rio para uma experi&#xEA;ncia visual mais din&#xE2;mica.</li>
+</ul><h2>Exemplo de Uso</h2><pre><code class="lang-jsx"><code class="source-code prettyprint">&lt;LogoImage /&gt;</code>
+</code></pre><p><strong>Imagem:</strong></p><ul>
+<li>A imagem da logomarca &#xE9; referenciada pelo caminho <code>./../static/imgs/logo.png</code>. </li>
+</ul><p><img src="./manual/asset/logo.png" alt="Logo component"></p></div>
+        <a data-ice="link" href="manual/LogoImage.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <div class="manual-card">
+        <div data-ice="card"><h1>MoneysGraph</h1><p>O componente React-Native denominado <code>MoneysGraph</code> &#xE9; respons&#xE1;vel por exibir gr&#xE1;ficos de barras relacionados a transa&#xE7;&#xF5;es financeiras.<br>Utiliza a biblioteca <code>react-native-chart-kit</code> para criar gr&#xE1;ficos de barras interativos e visualmente atrativos.<br>Este componente &#xE9; ideal para representar dados financeiros de maneira clara e compreens&#xED;vel.</p><h2>Principais Caracter&#xED;sticas</h2><ol>
+<li><p><strong>Gr&#xE1;fico de Barras:</strong></p>
+<ul>
+<li>Utiliza o componente <code>BarChart</code> da biblioteca <code>react-native-chart-kit</code>.</li>
+<li>Representa graficamente os dados financeiros em um gr&#xE1;fico de barras.</li>
+<li>A largura e altura do gr&#xE1;fico s&#xE3;o configur&#xE1;veis para se adaptarem a diferentes tamanhos de tela.</li>
+</ul>
+</li>
+<li><p><strong>Configura&#xE7;&#xE3;o do Gr&#xE1;fico:</strong></p>
+<ul>
+<li><code>chartConfig</code> define a configura&#xE7;&#xE3;o do gr&#xE1;fico, como as cores, opacidade e largura da linha.</li>
+<li>A cor das barras &#xE9; definida dinamicamente com base na opacidade e em uma escala de verde.</li>
+</ul>
+</li>
+<li><p><strong>Texto Descritivo:</strong></p>
+<ul>
+<li>Exibe um texto descritivo acima do gr&#xE1;fico, indicando o nome da categoria ou per&#xED;odo representado no gr&#xE1;fico.</li>
+<li>O texto &#xE9; centralizado e estilizado para melhor legibilidade.</li>
+</ul>
+</li>
+<li><p><strong>Personaliza&#xE7;&#xE3;o de Estilos:</strong></p>
+<ul>
+<li>Utiliza estilos espec&#xED;ficos para aprimorar a apresenta&#xE7;&#xE3;o visual.</li>
+<li>Define margens, bordas e espa&#xE7;amentos para melhor organiza&#xE7;&#xE3;o e apelo visual.</li>
+</ul>
+</li>
+</ol><h2>Par&#xE2;metros</h2><ul>
+<li><code>bardata</code>: Dados do gr&#xE1;fico de barras. Deve ser um array contendo objetos com propriedades <code>data</code> (valores das barras) e <code>color</code> (cor das barras).</li>
+<li><code>name</code>: Nome da categoria ou per&#xED;odo representado no gr&#xE1;fico.</li>
+</ul><h2>Observa&#xE7;&#xF5;es</h2><ul>
+<li>Este componente &#xE9; projetado para ser reutilizado em diferentes partes do aplicativo onde gr&#xE1;ficos de barras relacionados a finan&#xE7;as sejam necess&#xE1;rios.</li>
+<li>A biblioteca <code>react-native-chart-kit</code> oferece op&#xE7;&#xF5;es adicionais de personaliza&#xE7;&#xE3;o que podem ser exploradas conforme necess&#xE1;rio para atender aos requisitos espec&#xED;ficos de design.</li>
+</ul><p><img src="./manual/asset/moneyGraph.png" alt="MoneyGraph Screen"></p></div>
+        <a data-ice="link" href="manual/MoneysGraph.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <div class="manual-card">
+        <div data-ice="card"><h1>Movements</h1><p>O componente React-Native denominado <code>Movements</code> &#xE9; respons&#xE1;vel por exibir informa&#xE7;&#xF5;es sobre transa&#xE7;&#xF5;es financeiras, como descri&#xE7;&#xE3;o, data e valor.<br>Este componente &#xE9; projetado para ser utilizado em uma lista de movimentos financeiros, proporcionando uma representa&#xE7;&#xE3;o visual clara e interativa.</p><h2>Principais Caracter&#xED;sticas</h2><ol>
+<li><p><strong>Toque Interativo:</strong></p>
+<ul>
+<li>O componente &#xE9; envolto por um <code>TouchableOpacity</code>, permitindo intera&#xE7;&#xE3;o com o usu&#xE1;rio ao ser pressionado.</li>
+</ul>
+</li>
+<li><p><strong>Exibi&#xE7;&#xE3;o Condicional de Valor:</strong></p>
+<ul>
+<li>O valor da transa&#xE7;&#xE3;o &#xE9; inicialmente oculto e &#xE9; exibido quando o componente &#xE9; pressionado (<code>showValue</code> &#xE9; alternado).</li>
+</ul>
+</li>
+<li><p><strong>Formata&#xE7;&#xE3;o de Data:</strong></p>
+<ul>
+<li>Utiliza a fun&#xE7;&#xE3;o <code>formatarData</code> para formatar a data da transa&#xE7;&#xE3;o. Caso n&#xE3;o haja data dispon&#xED;vel, exibe &quot;sem data&quot;.</li>
+</ul>
+</li>
+<li><p><strong>Estilo Responsivo:</strong></p>
+<ul>
+<li>Utiliza estilos flex&#xED;veis para se adaptar a diferentes tamanhos de tela.</li>
+</ul>
+</li>
+<li><p><strong>Estilos Personaliz&#xE1;veis:</strong></p>
+<ul>
+<li>Define estilos espec&#xED;ficos para a data, r&#xF3;tulo, valor (receita) e despesas. Os estilos s&#xE3;o configurados para melhor legibilidade e apelo visual.</li>
+</ul>
+</li>
+<li><p><strong>Indica&#xE7;&#xE3;o Visual de Despesas:</strong></p>
+<ul>
+<li>O valor &#xE9; exibido em vermelho (<code>#e74c3c</code>) quando se trata de uma despesa, proporcionando uma indica&#xE7;&#xE3;o visual clara do tipo de transa&#xE7;&#xE3;o.</li>
+</ul>
+</li>
+</ol><h2>Par&#xE2;metros</h2><ul>
+<li><code>props</code>: Objeto contendo as propriedades da transa&#xE7;&#xE3;o, incluindo <code>date</code> (data), <code>description</code> (descri&#xE7;&#xE3;o), <code>value</code> (valor) e <code>type</code> (tipo de transa&#xE7;&#xE3;o - 1 para receita, 0 para despesa).</li>
+</ul><h2>Observa&#xE7;&#xF5;es</h2><ul>
+<li>Este componente &#xE9; flex&#xED;vel e pode ser incorporado em listas ou p&#xE1;ginas de movimenta&#xE7;&#xF5;es financeiras.</li>
+<li>A formata&#xE7;&#xE3;o do valor considera o tipo de transa&#xE7;&#xE3;o para exibi&#xE7;&#xE3;o apropriada (receita ou despesa).</li>
+</ul><p><img src="./manual/asset/mov.png" alt="Movements component"></p></div>
+        <a data-ice="link" href="manual/Movements.html"></a>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

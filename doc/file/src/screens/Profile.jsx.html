@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/screens/Profile.jsx | banco</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingProvider">LoadingProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-useLoading">useLoading</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Main">Main</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArrowBack">ArrowBack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeData">ChangeData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HorizontalMenu">HorizontalMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogoImage">LogoImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MoneysGraph">MoneysGraph</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Movements">Movements</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#database">database</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/database/firebaseMethods.js~Storage.html">Storage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-db">db</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens">screens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AuthScreen">AuthScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Graphs">Graphs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Home">Home</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Money">Money</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Perfil">Perfil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Settings">Settings</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-subscreens">screens/subscreens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Investments">Investments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveInvestments">SaveInvestments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SplashScreen">SplashScreen</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#server">server</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/server/apidata.js~ApiRequests.html">ApiRequests</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/screens/Profile.jsx</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { View, StatusBar, Text, StyleSheet, TouchableOpacity, FlatList } from &apos;react-native&apos;;
+import { Feather, MaterialIcons } from &apos;@expo/vector-icons&apos;;
+import React, { useEffect, useState } from &apos;react&apos;;
+import Storage from &apos;../database/firebaseMethods&apos;;
+import { useLoading } from &apos;../Context&apos;;
+import AsyncStorage from &apos;@react-native-async-storage/async-storage&apos;;
+
+const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64;
+
+
+export default function Perfil({ navigation }) {
+  const { showLoading, hideLoading } = useLoading();
+  const [dados, setDados] = useState({
+    email: &quot;&quot;,
+    name: &quot;&quot;,
+    perfilInvestimento: &quot;&quot;,
+    profissao: &quot;&quot;
+  });
+  const [investimentos, setInvestimentos] = useState([{
+    label: &quot;&quot;,
+    status: 1,
+    value: &quot;&quot;
+  }]);
+
+  useEffect(() =&gt; {
+    const getAllData = async () =&gt; {
+      const doc = await AsyncStorage.getItem(&apos;userDoc&apos;);
+      const fr = new Storage(doc)
+      try {
+        showLoading();
+
+        let res = await fr.getFullDoc();
+        if (res) {
+          let uD = res.userData;
+          let inv = res.investments;
+          let invs = []
+          if (inv) {
+            inv.forEach(element =&gt; {
+              invs.push({
+                id: element.id,
+                label: element.label,
+                status: element.status,
+                value: parseFloat(element.value).toFixed(2)
+              })
+            });
+          }
+          setDados(uD);
+          setInvestimentos(invs);
+        } else {
+          console.log(res)
+        }
+      } catch (err) { console.log(err) } finally { hideLoading(); }
+    };
+
+    getAllData().catch(console.error);
+  }, []);
+
+  return (
+    &lt;View style={{ height: &apos;100%&apos;, marginTop: statusBarHeight }}&gt;
+      &lt;View style={styles.container}&gt;
+        &lt;View style={styles.content}&gt;
+          &lt;Text
+            style={styles.userName}
+            from={{ translateX: -300 }}
+            animate={{ translateX: 0 }}
+            transition={{ type: &apos;timing&apos;, duration: 1000, delay: 300 }}&gt;
+            {dados.name + &apos;\n&apos;}
+            &lt;Text style={styles.label}&gt;{dados.email}&lt;/Text&gt;
+          &lt;/Text&gt;
+
+          &lt;TouchableOpacity
+            activeOpacity={0.9}
+            style={styles.btnUser}
+            onPress={() =&gt; {
+              alert(&apos;Change photo&apos;);
+            }}&gt;
+            &lt;Feather name=&quot;user&quot; size={27} color={&apos;#fff&apos;} /&gt;
+          &lt;/TouchableOpacity&gt;
+        &lt;/View&gt;
+      &lt;/View&gt;
+
+      &lt;View style={styles.data}&gt;
+        &lt;Text style={styles.text}&gt;
+          Profiss&#xE3;o:
+          &lt;Text style={styles.insiderText}&gt;{&apos; &apos; + dados.profissao}&lt;/Text&gt;
+        &lt;/Text&gt;
+
+        &lt;Text style={styles.text}&gt;
+          Perfil de investimento:
+          &lt;Text style={styles.insiderText}&gt;
+            {&apos; &apos; + dados.perfilInvestimento}
+          &lt;/Text&gt;
+        &lt;/Text&gt;
+
+        &lt;View style={{ marginTop: 10 }}&gt;
+          &lt;Text style={styles.text}&gt;A&#xE7;&#xF5;es de Interesse &lt;/Text&gt;
+
+          &lt;View&gt;
+            &lt;FlatList
+              style={styles.list}
+              data={investimentos}
+              keyExtractor={(item) =&gt; String(item.label)}
+              showsVerticalScrollIndicator={false}
+              renderItem={({ item }) =&gt; (
+                &lt;View style={styles.inv_container}&gt;
+                  &lt;Text style={styles.inv_data}&gt;{/* {props.Id} */}&lt;/Text&gt;
+                  &lt;View style={styles.inv_content}&gt;
+                    &lt;Text style={styles.inv_label}&gt;{item.label}&lt;/Text&gt;
+
+                    &lt;View&gt;
+                      &lt;Text
+                        style={
+                          item.status == 1
+                            ? styles.inv_value
+                            : styles.inv_expenses
+                        }&gt;
+                        {item.status == 1
+                          ? `${item.value}%`
+                          : `-${item.value}%`}
+                      &lt;/Text&gt;
+                    &lt;/View&gt;
+                  &lt;/View&gt;
+                &lt;/View&gt;
+              )}
+            /&gt;
+          &lt;/View&gt;
+
+          &lt;View
+            style={{ marginTop: 30, flexDirection: &apos;row&apos; }}&gt;
+            &lt;TouchableOpacity onPress={() =&gt; { navigation.navigate(&quot;Investments&quot;) }}&gt;
+              &lt;View style={styles.addView}&gt;
+                &lt;Text style={{ paddingRight: 8, paddingTop: 3, fontSize: 12 }}&gt;
+                  Alterar
+                &lt;/Text&gt;
+                
+                &lt;Feather name=&quot;refresh-cw&quot; size={18} color=&quot;darkblue&quot; /&gt;
+              &lt;/View&gt;
+            &lt;/TouchableOpacity&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+      &lt;/View&gt;
+
+      &lt;View style={styles._homeBtnView}&gt;
+        &lt;TouchableOpacity
+          style={styles._homeBtn}
+          onPress={() =&gt; {
+            navigation.navigate(&apos;Home&apos;);
+          }}&gt;
+          &lt;MaterialIcons name=&quot;home&quot; size={30} color=&quot;#fff&quot; /&gt;
+        &lt;/TouchableOpacity&gt;
+      &lt;/View&gt;
+    &lt;/View&gt;
+  );
+}
+
+const styles = StyleSheet.create({
+  addView: {
+    flexDirection: &apos;row&apos;,
+    borderWidth: 1,
+    borderColor: &apos;darkblue&apos;,
+    borderRadius: 5,
+    paddingVertical: 5,
+    paddingHorizontal: 12,
+    alignContent: &apos;center&apos;,
+    alignItems: &apos;center&apos;,
+  },
+  text: {
+    fontWeight: &apos;bold&apos;,
+    fontSize: 20,
+    paddingTop: 5,
+    paddingBottom: 5,
+    marginBottom: 10,
+    color: &apos;darkblue&apos;,
+  },
+  insiderText: {
+    color: &apos;#000&apos;,
+    fontWeight: &apos;normal&apos;,
+  },
+  container: {
+    backgroundColor: &apos;darkblue&apos;,
+    flexDirection: &apos;row&apos;,
+    paddingVertical: 40,
+    paddingHorizontal: 24,
+  },
+  content: {
+    flex: 1,
+    alignItems: &apos;center&apos;,
+    flexDirection: &apos;row&apos;,
+    justifyContent: &apos;space-between&apos;,
+  },
+  userName: {
+    fontSize: 18,
+    color: &apos;#fff&apos;,
+    fontWeight: &apos;bold&apos;,
+    marginTop: 5,
+  },
+  btnUser: {
+    width: 44,
+    height: 44,
+    backgroundColor: &apos;rgba(255,255,255,0.5)&apos;,
+    justifyContent: &apos;center&apos;,
+    alignItems: &apos;center&apos;,
+    borderRadius: 44 / 2,
+  },
+  data: {
+    color: &apos;#dadada&apos;,
+    padding: 15,
+  },
+  label: {
+    fontWeight: &apos;bold&apos;,
+    fontSize: 14,
+    paddingTop: 5,
+    marginTop: 5,
+  },
+  list: {
+    marginStart: 14,
+    marginEnd: 14,
+  },
+
+  _homeBtnView: {
+    marginHorizontal: 30,
+    flexDirection: &apos;row&apos;,
+    justifyContent: &apos;space-between&apos;,
+    position: &apos;absolute&apos;,
+    bottom: 70,
+    right: 10,
+  },
+  _homeBtn: {
+    padding: 10,
+    borderRadius: 100,
+    backgroundColor: &apos;darkblue&apos;,
+  },
+
+  inv_container: {
+    flex: 1,
+    marginBottom: 12,
+    borderBottomWidth: 0.5,
+    borderBottomColor: &apos;#dadada&apos;,
+  },
+  inv_content: {
+    flexDirection: &apos;row&apos;,
+    justifyContent: &apos;space-between&apos;,
+    marginTop: 2,
+    marginBottom: 8,
+  },
+  inv_data: {
+    color: &apos;#dadada&apos;,
+    fontWeight: &apos;bold&apos;,
+  },
+  inv_label: {
+    fontWeight: &apos;bold&apos;,
+    fontSize: 16,
+  },
+  inv_value: {
+    fontSize: 15,
+    color: &apos;#2ecc71&apos;,
+    fontWeight: &apos;bold&apos;,
+  },
+  inv_expenses: {
+    fontSize: 15,
+    color: &apos;#e74c3c&apos;,
+    fontWeight: &apos;bold&apos;,
+  },
+});
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

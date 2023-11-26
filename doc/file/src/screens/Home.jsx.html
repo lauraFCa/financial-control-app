@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/screens/Home.jsx | banco</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingProvider">LoadingProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-useLoading">useLoading</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Main">Main</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArrowBack">ArrowBack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeData">ChangeData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HorizontalMenu">HorizontalMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogoImage">LogoImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MoneysGraph">MoneysGraph</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Movements">Movements</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#database">database</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/database/firebaseMethods.js~Storage.html">Storage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-db">db</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens">screens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AuthScreen">AuthScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Graphs">Graphs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Home">Home</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Money">Money</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Perfil">Perfil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Settings">Settings</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-subscreens">screens/subscreens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Investments">Investments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveInvestments">SaveInvestments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SplashScreen">SplashScreen</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#server">server</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/server/apidata.js~ApiRequests.html">ApiRequests</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/screens/Home.jsx</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React, { useState, useEffect, useRef } from &apos;react&apos;;
+import { StyleSheet, Text, TouchableOpacity, View, Animated, ScrollView, StatusBar, Platform } from &apos;react-native&apos;;
+import * as Animatable from &apos;react-native-animatable&apos;;
+import { Feather } from &apos;@expo/vector-icons&apos;;
+import AsyncStorage from &apos;@react-native-async-storage/async-storage&apos;;
+import HorizontalMenu from &apos;./../components/HorizontalMenu&apos;;
+import Movements from &apos;../components/Movements&apos;;
+import { useLoading } from &apos;../Context&apos;;
+import Storage from &apos;./../database/firebaseMethods&apos;;
+import Tooltip from &apos;react-native-walkthrough-tooltip&apos;;
+
+
+const menuOptions = [
+  {
+    actionType: &apos;Adicionando&apos;,
+    label: &apos;Entrada&apos;,
+    icon: &apos;plussquareo&apos;,
+    type: 0, //entrada
+  },
+  {
+    actionType: &apos;Adicionando&apos;,
+    label: &apos;Compra&apos;,
+    icon: &apos;tagso&apos;,
+    type: 1, //saida
+  },
+  {
+    actionType: &apos;Adicionando&apos;,
+    label: &apos;Gasto&apos;,
+    icon: &apos;barcode&apos;,
+    type: 1, //saida
+  },
+  {
+    actionType: null,
+    label: &apos;Conta&apos;,
+    icon: &apos;setting&apos;,
+    type: 2 //settings
+  },
+  {
+    actionType: null,
+    label: &apos;Gr&#xE1;ficos&apos;,
+    icon: &apos;areachart&apos;,
+    type: 3 //graphs
+  },
+  {
+    actionType: null,
+    label: &apos;Moedas&apos;,
+    icon: &apos;money-symbol&apos;,
+    type: 4 //money
+  },
+];
+
+const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64
+
+export default function Home({ navigation }) {
+  const { showLoading, hideLoading, getShouldRefresh, setShouldRefresh } = useLoading();
+  const [moneyGraph, SetMoneyGraph] = useState([{}]);
+
+  const refresh = async () =&gt; {
+    const doc = await AsyncStorage.getItem(&apos;userDoc&apos;);
+    const fr = new Storage(doc);
+    let res = await fr.getFullDoc();
+    await AsyncStorage.setItem(&apos;fullUserData&apos;, JSON.stringify(res))
+  };
+
+  const slideDownRef = useRef(null);
+  const [userData, setUserData] = useState({});
+
+  const [money, setMoney] = useState([]);
+  const [income, setIncome] = useState(0);
+  const [negative, setNegative] = useState(0);
+
+  const [msg, setMsg] = useState(&apos;&apos;);
+
+  //#region Balance animation
+  const fadeAnim = useRef(new Animated.Value(1)).current;
+
+  const fadeIn = () =&gt; {
+    Animated.timing(fadeAnim, {
+      toValue: 1,
+      duration: 400,
+      useNativeDriver: true,
+    }).start();
+  };
+
+  const fadeOut = () =&gt; {
+    Animated.timing(fadeAnim, {
+      toValue: 0,
+      duration: 500,
+      useNativeDriver: true,
+    }).start();
+  };
+
+
+  const toggleBalance = () =&gt; {
+    let state = fadeAnim.addListener((st) =&gt; { return st })
+    if (state % 2 == 0) {
+      fadeOut();
+    } else {
+      fadeIn();
+    }
+  };
+
+  //#endregion
+
+  const parseDate = (dateString) =&gt; {
+    if (dateString) {
+      const [day, month, year] = dateString.split(&apos;/&apos;);
+      return new Date(`${year}-${month}-${day}`);
+    } else {
+      return new Date();
+    }
+  };
+
+
+  const [showBalanceTip, setBalanceTip] = useState(false);
+  const [showMenuTip, setShowMenuTip] = useState(false);
+  const [showMovementsTip, setShowMovementsTip] = useState(false);
+
+  useEffect(() =&gt; {
+    slideDownRef.current.slideInDown(1000);
+
+    let res;
+    const getAllData = async () =&gt; {
+      let isNew = await AsyncStorage.getItem(&apos;isNew&apos;);
+
+      if (isNew === &apos;true&apos;) {
+        setBalanceTip(true);
+        await AsyncStorage.removeItem(&apos;isNew&apos;);
+      };
+
+      try {
+        showLoading();
+        const fullRes = await AsyncStorage.getItem(&apos;fullUserData&apos;);
+        res = JSON.parse(fullRes);
+
+        if (res) {
+          setUserData(res.userData);
+
+          let allIncomes = [];
+          let incomeSum = 0;
+          if (res.incomes) {
+            res.incomes.forEach(element =&gt; {
+              allIncomes.push({
+                ...element,
+                type: 1
+              })
+              incomeSum += parseFloat(element.value);
+            });
+          }
+          setIncome(incomeSum.toFixed(2));
+
+          let allExpenses = [];
+          let expenseSum = 0;
+          if (res.expenses) {
+            res.expenses.forEach(element =&gt; {
+              allExpenses.push({
+                ...element,
+                type: 0
+              })
+              expenseSum += parseFloat(element.value);
+            });
+          }
+          setNegative(expenseSum.toFixed(2));
+
+          let allMoney = [...allIncomes, ...allExpenses];
+
+          SetMoneyGraph({
+            incomes: allIncomes,
+            expenses: allExpenses,
+            moneyFlow: [
+              {
+                name: &quot;incomes&quot;,
+                value: incomeSum.toFixed(2)
+              },
+              {
+                name: &quot;expenses&quot;,
+                value: expenseSum.toFixed(2)
+              }
+            ],
+          })
+
+          const listaOrdenada = allMoney.sort((a, b) =&gt; {
+            const dataA = parseDate(a.date);
+            const dataB = parseDate(b.date);
+            return dataB - dataA;
+          });
+
+          setMoney(listaOrdenada);
+          setMsg(&quot;&quot;)
+        } else {
+          setMsg(&apos;Nenhum dado encontrado!&apos;);
+        }
+      } catch (err) {
+        console.log(err);
+        setMsg(&apos;Nenhum dado encontrado!&apos;);
+      } finally {
+        setShouldRefresh(false);
+        hideLoading();
+      }
+    };
+
+
+    getAllData().catch(console.error);
+
+  }, [getShouldRefresh()]);
+
+
+  return (
+    &lt;ScrollView style={{ marginTop: statusBarHeight, flex: 1 }}&gt;
+      {/** #region HEADER **/}
+      &lt;View style={st.header_container}&gt;
+        &lt;View style={st.header_content}&gt;
+          &lt;Animatable.View ref={slideDownRef} style={st.header_profile}&gt;
+            &lt;Text style={st.header_userName}&gt;{userData.name}&lt;/Text&gt;
+
+            &lt;TouchableOpacity
+              activeOpacity={0.9}
+              style={st.header_btnUser}
+              onPress={() =&gt; navigation.navigate(&apos;Profile&apos;)}&gt;
+              &lt;Feather name=&quot;user&quot; size={27} color={&apos;darkblue&apos;} /&gt;
+            &lt;/TouchableOpacity&gt;
+          &lt;/Animatable.View&gt;
+        &lt;/View&gt;
+      &lt;/View&gt;
+      {/** #endregion HEADER **/}
+
+      {/** #region BALANCE **/}
+      &lt;TouchableOpacity
+        style={st.balance_viewContainer}
+        onPress={toggleBalance}&gt;
+        &lt;Tooltip
+          isVisible={showBalanceTip}
+          content={
+            &lt;View style={{ padding: 5 }}&gt;
+              &lt;Text&gt;Voc&#xEA; pode esconder ou exibir os valores, apenas clicando nele!&lt;/Text&gt;
+            &lt;/View&gt;
+          }
+          onClose={() =&gt; setBalanceTip(false)}
+          placement=&quot;bottom&quot;
+        &gt;
+          &lt;Tooltip
+            isVisible={showBalanceTip}
+            content={
+              &lt;View style={{ padding: 5 }}&gt;
+                &lt;Text&gt;Aqui est&#xE3;o os balan&#xE7;os que voc&#xEA; registrar no app!&lt;/Text&gt;
+              &lt;/View&gt;
+            }
+            onClose={() =&gt; { setBalanceTip(false); setShowMenuTip(true); }}
+            placement=&quot;top&quot;
+          &gt;
+            &lt;View style={st.balance_container} &gt;
+              &lt;Animated.View style={[st.balance_data, { opacity: fadeAnim }]}&gt;
+                &lt;View style={st.balance_item}&gt;
+                  &lt;Text style={st.balance_itemTitle}&gt;Saldo&lt;/Text&gt;
+                  &lt;View style={st.balance_content}&gt;
+                    &lt;Text style={st.balance_currency}&gt;R$&lt;/Text&gt;
+                    &lt;Text style={st.balance_balance}&gt;{income}&lt;/Text&gt;
+                  &lt;/View&gt;
+                &lt;/View&gt;
+                &lt;View style={st.balance_item}&gt;
+                  &lt;Text style={st.balance_itemTitle}&gt;Gastos&lt;/Text&gt;
+                  &lt;View style={st.balance_content}&gt;
+                    &lt;Text style={st.balance_currency}&gt;R$&lt;/Text&gt;
+                    &lt;Text style={st.balance_expenses}&gt;{negative}&lt;/Text&gt;
+                  &lt;/View&gt;
+                &lt;/View&gt;
+              &lt;/Animated.View&gt;
+            &lt;/View&gt;
+          &lt;/Tooltip&gt;
+        &lt;/Tooltip&gt;
+      &lt;/TouchableOpacity&gt;
+      {/** #endregion BALANCE **/}
+
+      &lt;Tooltip
+        isVisible={showMenuTip}
+        content={
+          &lt;View style={{ padding: 5 }}&gt;
+            &lt;Text&gt;Arraste o menu para o lado, para ver todas as suas op&#xE7;&#xF5;es!&lt;/Text&gt;
+          &lt;/View&gt;
+        }
+        onClose={() =&gt; { setShowMovementsTip(true); setShowMenuTip(false); }}
+        placement=&quot;bottom&quot;
+      &gt;
+        &lt;ScrollView
+          style={[st.scrollContainer, { paddingRight: 10 }]}
+          horizontal={true}
+          showsHorizontalScrollIndicator={false}&gt;
+          {menuOptions.map((item, index) =&gt; (
+            &lt;View style={{ height: 100, marginRight: 15 }} key={index}&gt;
+              &lt;HorizontalMenu
+                refresh={refresh}
+                navigation={navigation}
+                dados={item}
+                key={index}
+                allData={moneyGraph}
+              /&gt;
+            &lt;/View&gt;
+          ))}
+        &lt;/ScrollView&gt;
+      &lt;/Tooltip&gt;
+      {/** #region MOVIMENTACOES **/}
+
+      &lt;View style={{ padding: 10, marginLeft: 3, marginRight: 3 }}&gt;
+
+        &lt;Tooltip
+          isVisible={showMovementsTip}
+          content={
+            &lt;View style={{ padding: 5 }}&gt;
+              &lt;Text&gt;Aqui ficar&#xE1; toda a movimenta&#xE7;&#xE3;o financeira que voc&#xEA; registrar!&lt;/Text&gt;
+            &lt;/View&gt;
+          }
+          onClose={() =&gt; { setShowMovementsTip(false); }}
+          placement=&quot;top&quot;
+        &gt;
+          &lt;Text style={st.title}&gt;&#xDA;ltimas movimenta&#xE7;&#xF5;es&lt;/Text&gt;
+          &lt;Text&gt;{msg}&lt;/Text&gt;
+        &lt;/Tooltip&gt;
+        &lt;ScrollView showsVerticalScrollIndicator={false}&gt;
+          {money.map((item, index) =&gt; (
+            &lt;View key={index}&gt;
+              &lt;Movements props={item} key={index} /&gt;
+            &lt;/View&gt;
+          ))}
+        &lt;/ScrollView&gt;
+      &lt;/View&gt;
+
+      {/** #endregion MOVIMENTACOES **/}
+    &lt;/ScrollView&gt;
+  );
+}
+
+const st = StyleSheet.create({
+  tooltip: {
+    position: &apos;absolute&apos;,
+    backgroundColor: &apos;white&apos;,
+    padding: 10,
+    borderRadius: 5,
+    borderWidth: 1,
+    borderColor: &apos;gray&apos;,
+  },
+  header_profile: {
+    justifyContent: &apos;space-between&apos;,
+    flexDirection: &apos;row&apos;,
+    paddingTop: 20,
+    paddingBottom: 20,
+    paddingRight: 20,
+    paddingLeft: 20,
+    alignItems: &apos;center&apos;,
+  },
+  header_container: {
+    paddingTop: 20,
+    backgroundColor: &apos;darkblue&apos;,
+    paddingBottom: 60,
+  },
+  header_userName: {
+    color: &apos;#fff&apos;,
+    fontWeight: &apos;bold&apos;,
+    fontSize: 20,
+  },
+  header_btnUser: {
+    backgroundColor: &apos;#fff&apos;,
+    padding: 10,
+    borderRadius: 100,
+    zIndex: 99
+  },
+
+  balance_viewContainer: {
+    marginTop: -50,
+    zIndex: 99,
+    marginLeft: 12,
+    marginRight: 12,
+  },
+  balance_container: {
+    height: 130,
+    flexDirection: &apos;row&apos;,
+    justifyContent: &apos;space-between&apos;,
+    alignItems: &apos;center&apos;,
+    backgroundColor: &apos;#fff&apos;,
+    borderColor: &apos;rgba(0,0,0,0.2)&apos;,
+    borderWidth: 0.3,
+    borderRadius: 4,
+    marginStart: 14,
+    marginEnd: 14,
+  },
+  balance_data: {
+    flexDirection: &apos;row&apos;,
+    justifyContent: &apos;space-around&apos;,
+    flex: 1,
+  },
+  balance_item: {
+    borderRadius: 4,
+    paddingTop: 22,
+    paddingBottom: 22,
+    zIndex: 99,
+  },
+  balance_itemTitle: {
+    fontSize: 20,
+    color: &apos;#DADADA&apos;,
+  },
+  balance_content: {
+    flexDirection: &apos;row&apos;,
+    alignItems: &apos;center&apos;,
+  },
+  balance_currency: {
+    color: &apos;#DADADA&apos;,
+    marginRight: 6,
+  },
+  balance_balance: {
+    fontSize: 22,
+    color: &apos;#2ecc71&apos;,
+  },
+  balance_expenses: {
+    fontSize: 22,
+    color: &apos;#e74c3c&apos;,
+  },
+
+  scrollContainer: {
+    marginBottom: 20,
+    marginTop: 18,
+    paddingEnd: 14,
+    paddingStart: 14,
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: &apos;bold&apos;,
+    marginRight: 14,
+    marginBottom: 20,
+  },
+});
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

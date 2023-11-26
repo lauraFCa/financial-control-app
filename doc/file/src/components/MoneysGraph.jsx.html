@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/components/MoneysGraph.jsx | banco</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingProvider">LoadingProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-useLoading">useLoading</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Main">Main</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArrowBack">ArrowBack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeData">ChangeData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HorizontalMenu">HorizontalMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogoImage">LogoImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MoneysGraph">MoneysGraph</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Movements">Movements</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#database">database</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/database/firebaseMethods.js~Storage.html">Storage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-db">db</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens">screens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AuthScreen">AuthScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Graphs">Graphs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Home">Home</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Money">Money</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Perfil">Perfil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Settings">Settings</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-subscreens">screens/subscreens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Investments">Investments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveInvestments">SaveInvestments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SplashScreen">SplashScreen</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#server">server</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/server/apidata.js~ApiRequests.html">ApiRequests</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/components/MoneysGraph.jsx</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { BarChart } from &quot;react-native-chart-kit&quot;;
+import { Dimensions, View, StyleSheet, Text } from &quot;react-native&quot;;
+
+const screenWidth = Dimensions.get(&quot;window&quot;).width;
+
+export default function MoneysGraph({ bardata, name, color }) {
+
+    const chartConfig = {
+        backgroundGradientFrom: &quot;#fff&quot;,
+        backgroundGradientFromOpacity: 0,
+        backgroundGradientTo: &quot;#fff&quot;,
+        backgroundGradientToOpacity: 0,
+        strokeWidth: 1,
+        barPercentage: 0.5,
+        color: () =&gt; { return color }
+    };
+
+
+    return (
+        &lt;View style={styles.graphGroup}&gt;
+            &lt;Text style={styles.txt}&gt;{name.replace(&quot;/&quot;, &quot; x &quot;)}&lt;/Text&gt;
+            &lt;BarChart
+                width={screenWidth - 20}
+                height={220}
+                data={bardata}
+                yAxisLabel=&quot;&quot;
+                chartConfig={chartConfig}
+                fromZero={true}
+                showValuesOnTopOfBars={true}
+            /&gt;
+        &lt;/View&gt;
+    )
+}
+
+
+const styles = StyleSheet.create({
+    txt: {
+        textAlign: &apos;center&apos;,
+        fontSize: 20,
+        fontWeight: &apos;500&apos;
+    },
+    graphGroup: {
+        borderWidth: 1,
+        borderColor: &apos;rgba(0, 0, 139,.2)&apos;,
+        margin: 10,
+        padding: 5
+    }
+})</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

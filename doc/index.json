@@ -1,0 +1,2751 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/components/ArrowBack.jsx",
+    "content": "import { TouchableOpacity } from 'react-native';\r\nimport React from 'react'\r\nimport { Ionicons } from '@expo/vector-icons';\r\nimport { useLoading } from '../Context';\r\n\r\nexport default function ArrowBack({ navigation, navigate, style }) {\r\n    const { setShouldRefresh } = useLoading();\r\n\r\n    let btnStyle = {\r\n        marginHorizontal: 10,\r\n        position: 'absolute',\r\n        zIndex: 99,\r\n        ...style\r\n    }\r\n\r\n    handleNav = () => {\r\n        if(navigate == 'Profile'){\r\n            setShouldRefresh(true);\r\n        }\r\n        navigation.navigate(navigate);\r\n    }\r\n\r\n    return (\r\n        <TouchableOpacity style={btnStyle} onPress={handleNav}>\r\n            <Ionicons name=\"arrow-back-circle-outline\" size={30} color=\"darkblue\" />\r\n        </TouchableOpacity>\r\n    )\r\n}\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/components/ArrowBack.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "ArrowBack",
+    "memberof": "src/components/ArrowBack.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/ArrowBack.jsx~ArrowBack",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/components/ArrowBack.jsx",
+    "importStyle": "ArrowBack",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"navigation\": *, \"navigate\": *, \"style\": *}"
+        ],
+        "defaultRaw": {
+          "navigation": null,
+          "navigate": null,
+          "style": null
+        },
+        "defaultValue": "{\"navigation\":null,\"navigate\":null,\"style\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/components/ChangeData.jsx",
+    "content": "import { TouchableOpacity } from 'react-native';\r\nimport { View, Text, TextInput, StyleSheet } from 'react-native';\r\nimport Modal from 'react-native-modal';\r\nimport { useState, useEffect } from 'react';\r\nimport { Ionicons } from '@expo/vector-icons';\r\nimport Storage from './../database/firebaseMethods';\r\nimport { useLoading } from './../Context';\r\nimport AsyncStorage from '@react-native-async-storage/async-storage';\r\n\r\n\r\nconst darkBlue = '#00008b';\r\n\r\n\r\nexport default function ChangeData({ label, value, refresh }) {\r\n\r\n  const { showLoading, hideLoading, setShouldRefresh } = useLoading();\r\n\r\n  const [isModalVisible, setModalVisible] = useState(false);\r\n  const [name, setname] = useState('');\r\n  const [email, setemail] = useState('');\r\n  const [perfilInv, setperfilInv] = useState('');\r\n  const [profissao, setprofissao] = useState('');\r\n\r\n  const [userData, setUserData] = useState({});\r\n\r\n  const toggleModal = () => {\r\n    setModalVisible(!isModalVisible);\r\n  };\r\n\r\n  useEffect(() => {\r\n    const getAllData = async () => {\r\n      const doc = await AsyncStorage.getItem('userDoc');\r\n      const fr = new Storage(doc);\r\n      try {\r\n        showLoading();\r\n        let res = await fr.getFullDoc();\r\n        let uD = res.userData;\r\n        setUserData(uD);\r\n      } catch (err) { console.log(err) } finally { hideLoading(); }\r\n    };\r\n\r\n    getAllData().catch(console.error);\r\n  }, []);\r\n\r\n  updateData = async () => {\r\n    const doc = await AsyncStorage.getItem('userDoc');\r\n    const fr = new Storage(doc);\r\n\r\n    if (label === 'Nome') {\r\n      let out = await updateName(fr);\r\n      console.log(out);\r\n    }\r\n    if (label === 'Email') {\r\n      let out = await updateEmail(fr);\r\n      console.log(out);\r\n    }\r\n    if (label === 'Profissão') {\r\n      let out = await updateProfissao(fr);\r\n      console.log(out);\r\n    }\r\n    if (label === 'Perfil de Investimento') {\r\n      let out = await updatePerfil(fr);\r\n      console.log(out);\r\n    }\r\n\r\n    toggleModal();\r\n    setShouldRefresh(true);\r\n    await refresh();\r\n  };\r\n\r\n\r\n\r\n  updateName = async (fr) => {\r\n    let outp = await fr.updateDoc({\r\n      userData: {\r\n        name: name,\r\n        email: userData.email,\r\n        perfilInvestimento: userData.perfilInvestimento,\r\n        profissao: userData.profissao,\r\n      },\r\n    });\r\n    return outp;\r\n  }\r\n\r\n  updateEmail = async (fr) => {\r\n    let outp = await fr.updateDoc({\r\n      userData: {\r\n        name: userData.name,\r\n        email: email,\r\n        perfilInvestimento: userData.perfilInvestimento,\r\n        profissao: userData.profissao,\r\n      },\r\n    });\r\n    return outp;\r\n  }\r\n\r\n  updateProfissao = async (fr) => {\r\n    let outp = await fr.updateDoc({\r\n      userData: {\r\n        name: userData.name,\r\n        email: userData.email,\r\n        perfilInvestimento: userData.perfilInvestimento,\r\n        profissao: profissao,\r\n      },\r\n    });\r\n    return outp;\r\n  }\r\n\r\n  updatePerfil = async (fr) => {\r\n    let outp = await fr.updateDoc({\r\n      userData: {\r\n        name: userData.name,\r\n        email: userData.email,\r\n        perfilInvestimento: perfilInv,\r\n        profissao: userData.profissao,\r\n      },\r\n    });\r\n    return outp;\r\n  }\r\n\r\n\r\n\r\n\r\n  return (\r\n    <View>\r\n      <View style={styles.component}>\r\n        <Modal style={styles.modal_modal} isVisible={isModalVisible}>\r\n          <View style={styles.modal_modalView}>\r\n            <View style={styles.modal_container}>\r\n              <View style={styles.modal_titleView}>\r\n                <Text style={styles.modal_title}>Alterando</Text>\r\n              </View>\r\n\r\n              <View style={{ padding: 12 }}>\r\n                <View style={styles.modal_inputGroup}>\r\n                  <Text style={styles.modal_label}>{label}</Text>\r\n                  <TextInput\r\n                    style={styles.modal_input}\r\n                    placeholder={value}\r\n                    onChangeText={(text) => {\r\n                      if (label === 'Nome') {\r\n                        setname(text);\r\n                      }\r\n                      if (label === 'Email') {\r\n                        setemail(text)\r\n                      }\r\n                      if (label === 'Profissão') {\r\n                        setprofissao(text)\r\n                      }\r\n                      if (label === 'Perfil de Investimento') {\r\n                        setperfilInv(text)\r\n                      }\r\n                    }}\r\n                  />\r\n                </View>\r\n              </View>\r\n\r\n              <View style={styles.modal_buttonContainer}>\r\n                <TouchableOpacity\r\n                  style={styles.modal_btn}\r\n                  onPress={toggleModal}>\r\n                  <Ionicons\r\n                    name=\"arrow-back-circle-sharp\"\r\n                    size={55}\r\n                    color={darkBlue}\r\n                  />\r\n                </TouchableOpacity>\r\n\r\n                <TouchableOpacity style={styles.modal_btn} onPress={updateData}>\r\n                  <Ionicons\r\n                    name=\"add-circle-sharp\"\r\n                    size={55}\r\n                    color={darkBlue}\r\n                  />\r\n                </TouchableOpacity>\r\n              </View>\r\n            </View>\r\n          </View>\r\n        </Modal>\r\n\r\n        <View style={{ flexDirection: 'column' }}>\r\n          <Text style={styles.label}>{label}</Text>\r\n          <Text style={styles.value}>{value}</Text>\r\n        </View>\r\n        <TouchableOpacity onPress={toggleModal} style={styles.btn}>\r\n          <Text>Alterar</Text>\r\n        </TouchableOpacity>\r\n      </View>\r\n      <View style={styles.border} />\r\n    </View>\r\n  );\r\n}\r\n\r\nconst styles = StyleSheet.create({\r\n  border: {\r\n    borderBottomColor: darkBlue,\r\n    borderBottomWidth: 1,\r\n    marginLeft: 20,\r\n    marginRight: 20,\r\n    marginBottom: 5,\r\n    marginTop: 5,\r\n  },\r\n  component: {\r\n    marginTop: 10,\r\n    padding: 18,\r\n    flexDirection: 'row',\r\n    justifyContent: 'space-between',\r\n  },\r\n  label: {\r\n    fontSize: 12,\r\n    paddingLeft: 20,\r\n    color: '#c5c5c5',\r\n  },\r\n  value: {\r\n    fontSize: 18,\r\n    paddingLeft: 20,\r\n    paddingRight: 20,\r\n  },\r\n  btn: {\r\n    alignSelf: 'center',\r\n    paddingTop: 8,\r\n    paddingBottom: 8,\r\n    paddingLeft: 12,\r\n    paddingRight: 12,\r\n    borderRadius: 10,\r\n    fontSize: 18,\r\n    backgroundColor: '#e7e7e7',\r\n  },\r\n\r\n  modal_modalView: {\r\n    backgroundColor: 'white',\r\n    borderRadius: 15,\r\n    margin: 10,\r\n  },\r\n  modal_container: {\r\n    borderTopLeftRadius: 20,\r\n  },\r\n  modal_titleView: {\r\n    backgroundColor: darkBlue,\r\n    marginBottom: 5,\r\n  },\r\n  modal_title: {\r\n    fontSize: 20,\r\n    fontWeight: 'bold',\r\n    padding: 20,\r\n    textAlign: 'center',\r\n    color: '#fff',\r\n  },\r\n  modal_inputGroup: {\r\n    marginTop: 10,\r\n    marginBottom: 10,\r\n  },\r\n  modal_label: {\r\n    textAlign: 'left',\r\n    fontSize: 20,\r\n    marginBottom: 8,\r\n  },\r\n  modal_input: {\r\n    borderWidth: 0.8,\r\n    borderColor: darkBlue,\r\n    borderRadius: 5,\r\n    paddingHorizontal: 8,\r\n    paddingVertical: 5,\r\n    marginBottom: 16,\r\n    fontSize: 20,\r\n  },\r\n  modal_buttonContainer: {\r\n    flexDirection: 'row',\r\n    justifyContent: 'space-between',\r\n    padding: 15,\r\n  },\r\n});\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/components/ChangeData.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "darkBlue",
+    "memberof": "src/components/ChangeData.jsx",
+    "static": true,
+    "longname": "src/components/ChangeData.jsx~darkBlue",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/components/ChangeData.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "ChangeData",
+    "memberof": "src/components/ChangeData.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/ChangeData.jsx~ChangeData",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/components/ChangeData.jsx",
+    "importStyle": "ChangeData",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"label\": *, \"value\": *, \"refresh\": *}"
+        ],
+        "defaultRaw": {
+          "label": null,
+          "value": null,
+          "refresh": null
+        },
+        "defaultValue": "{\"label\":null,\"value\":null,\"refresh\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/components/ChangeData.jsx",
+    "static": true,
+    "longname": "src/components/ChangeData.jsx~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/components/ChangeData.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 194,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "src/components/HorizontalMenu.jsx",
+    "content": "import React, { useEffect, useState } from 'react';\r\nimport { SafeAreaView, View, Text, TouchableOpacity, StyleSheet, TextInput, } from 'react-native';\r\nimport DateTimePicker from '@react-native-community/datetimepicker';\r\nimport { AntDesign, Ionicons, Fontisto } from '@expo/vector-icons';\r\nimport Modal from 'react-native-modal';\r\nimport Storage from './../database/firebaseMethods';\r\nimport { useLoading } from './../Context';\r\nimport AsyncStorage from '@react-native-async-storage/async-storage';\r\n\r\n\r\nexport default function HorizontalMenu({ refresh, navigation, dados, allData }) {\r\n  const { showLoading, hideLoading, setShouldRefresh } = useLoading();\r\n\r\n\r\n  const [myDados, setDados] = useState([]);\r\n  useEffect(() => {\r\n    setDados(dados);\r\n  }, [dados]);\r\n\r\n  const [description, setDescription] = useState('');\r\n  const [money, setMoney] = useState(0);\r\n\r\n  //#region DATE\r\n\r\n  const [date, setDate] = useState(new Date());\r\n  const [mode, setMode] = useState('date');\r\n  const [show, setShow] = useState(false);\r\n\r\n  const onChange = (event, selectedDate) => {\r\n    const currentDate = selectedDate;\r\n    setShow(false);\r\n    setDate(currentDate);\r\n  };\r\n\r\n  const showMode = (currentMode) => {\r\n    setShow(true);\r\n    setMode(currentMode);\r\n  };\r\n\r\n  const showDatepicker = () => {\r\n    showMode('date');\r\n  };\r\n\r\n  const formatarData = (data) => {\r\n    const dia = String(data.getDate()).padStart(2, '0');\r\n    const mes = String(data.getMonth() + 1).padStart(2, '0'); // Mês é base 0, então adicione 1\r\n    const ano = data.getFullYear();\r\n\r\n    return `${dia}/${mes}/${ano}`;\r\n  };\r\n\r\n  //#endregion\r\n\r\n  const [isModalVisible, setModalVisible] = useState(false);\r\n  const handleModal = () => {\r\n    if (dados.type === 2) {\r\n      navigation.navigate('Settings');\r\n    } else if (dados.type === 3) {\r\n      navigation.navigate('Graphs', { allData: allData });\r\n    } else if (dados.type === 4) {\r\n      navigation.navigate('Money');\r\n    } else {\r\n      setModalVisible(!isModalVisible);\r\n    }\r\n  };\r\n\r\n  const saveData = async () => {\r\n    try {\r\n      const doc = await AsyncStorage.getItem('userDoc');\r\n      const fr = new Storage(doc);\r\n      setModalVisible(false);\r\n      showLoading();\r\n      if (myDados.type === 0) {\r\n        res = await fr.appendToIncomes({\r\n          description: description,\r\n          value: money,\r\n          date: formatarData(date),\r\n          category: dados.label,\r\n        });\r\n      } else if (myDados.type === 1) {\r\n        res = await fr.appendToExpenses({\r\n          description: description,\r\n          value: money,\r\n          date: formatarData(date),\r\n          category: dados.label,\r\n        });\r\n      }\r\n    } catch (err) {\r\n      console.log(err);\r\n      alert(err);\r\n    } finally {\r\n      setShouldRefresh(true);\r\n      hideLoading();\r\n    }\r\n\r\n    refresh();\r\n  };\r\n\r\n  return (\r\n    <View>\r\n      <Modal style={st.modal} isVisible={isModalVisible}>\r\n        <View style={st.modalView}>\r\n          <View style={st.container}>\r\n            <View style={st.titleView}>\r\n              <Text style={st.title}>\r\n                {dados.actionType} {dados.label}\r\n              </Text>\r\n            </View>\r\n\r\n            <View style={{ padding: 12 }}>\r\n              <View style={st.inputGroup}>\r\n                <Text style={st.label}>{dados.label}</Text>\r\n                <TextInput\r\n                  style={st.input}\r\n                  onChangeText={(text) => setDescription(text)}\r\n                />\r\n              </View>\r\n              <View style={st.inputGroup}>\r\n                <Text style={st.label}>Valor (R$)</Text>\r\n                <TextInput\r\n                  style={st.input}\r\n                  keyboardType=\"numeric\"\r\n                  onChangeText={(text) => {\r\n                    const formattedText = text.replace(/[^0-9.]/g, '');\r\n                    setMoney(formattedText);\r\n                  }}\r\n                />\r\n              </View>\r\n\r\n              <SafeAreaView>\r\n                <Text style={st.label}>Date</Text>\r\n                <TouchableOpacity onPress={showDatepicker}>\r\n                  <Text style={st.input}>{formatarData(date)}</Text>\r\n                </TouchableOpacity>\r\n\r\n                {show && (\r\n                  <DateTimePicker\r\n                    testID=\"dateTimePicker\"\r\n                    value={date}\r\n                    mode={mode}\r\n                    is24Hour={true}\r\n                    onChange={onChange}\r\n                  />\r\n                )}\r\n              </SafeAreaView>\r\n            </View>\r\n\r\n            <View style={st.buttonContainer}>\r\n              <TouchableOpacity style={st.btn} onPress={handleModal}>\r\n                <Ionicons\r\n                  name=\"arrow-back-circle-sharp\"\r\n                  size={55}\r\n                  color=\"darkblue\"\r\n                />\r\n              </TouchableOpacity>\r\n              <TouchableOpacity style={st.btn} onPress={saveData}>\r\n                <Ionicons name=\"add-circle-sharp\" size={55} color=\"darkblue\" />\r\n              </TouchableOpacity>\r\n            </View>\r\n          </View>\r\n        </View>\r\n      </Modal>\r\n\r\n      <TouchableOpacity style={st._actionBtn} onPress={handleModal}>\r\n        <View style={st._areaBtn}>\r\n          {dados.type === 4 ?\r\n            <Fontisto name={dados.icon} size={26} color=\"#000\" /> :\r\n            <AntDesign name={dados.icon} size={26} color=\"#000\" />}\r\n        </View>\r\n        <Text style={st._labelBtn}>{dados.label}</Text>\r\n      </TouchableOpacity>\r\n    </View>\r\n  );\r\n}\r\n\r\nconst st = StyleSheet.create({\r\n  _actionBtn: {\r\n    alignItems: 'center',\r\n    marginRight: 32,\r\n  },\r\n  _areaBtn: {\r\n    backgroundColor: '#ecf0f1',\r\n    borderRadius: 30,\r\n    height: 60,\r\n    width: 60,\r\n    justifyContent: 'center',\r\n    alignItems: 'center',\r\n  },\r\n  _labelBtn: {\r\n    marginTop: 4,\r\n    textAlign: 'center',\r\n    fontWeight: 'bold',\r\n  },\r\n\r\n  modalView: {\r\n    backgroundColor: 'white',\r\n    borderRadius: 15,\r\n    margin: 10,\r\n  },\r\n  container: {\r\n    borderTopLeftRadius: 20,\r\n  },\r\n  titleView: {\r\n    backgroundColor: 'darkblue',\r\n    marginBottom: 5,\r\n  },\r\n  title: {\r\n    fontSize: 20,\r\n    fontWeight: 'bold',\r\n    padding: 20,\r\n    textAlign: 'center',\r\n    color: '#fff',\r\n  },\r\n  inputGroup: {\r\n    marginTop: 10,\r\n    marginBottom: 10,\r\n  },\r\n  label: {\r\n    textAlign: 'left',\r\n    fontSize: 20,\r\n    marginBottom: 8,\r\n  },\r\n  input: {\r\n    borderWidth: 0.8,\r\n    borderColor: 'darkblue',\r\n    borderRadius: 5,\r\n    paddingHorizontal: 8,\r\n    paddingVertical: 5,\r\n    marginBottom: 16,\r\n    fontSize: 20,\r\n  },\r\n  buttonContainer: {\r\n    flexDirection: 'row',\r\n    justifyContent: 'space-between',\r\n    padding: 15,\r\n  },\r\n});\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/components/HorizontalMenu.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "HorizontalMenu",
+    "memberof": "src/components/HorizontalMenu.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/HorizontalMenu.jsx~HorizontalMenu",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/components/HorizontalMenu.jsx",
+    "importStyle": "HorizontalMenu",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"refresh\": *, \"navigation\": *, \"dados\": *, \"allData\": *}"
+        ],
+        "defaultRaw": {
+          "refresh": null,
+          "navigation": null,
+          "dados": null,
+          "allData": null
+        },
+        "defaultValue": "{\"refresh\":null,\"navigation\":null,\"dados\":null,\"allData\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "variable",
+    "name": "st",
+    "memberof": "src/components/HorizontalMenu.jsx",
+    "static": true,
+    "longname": "src/components/HorizontalMenu.jsx~st",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/components/HorizontalMenu.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 176,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "file",
+    "name": "src/components/LogoImage.jsx",
+    "content": "import React, { useEffect, useState } from 'react';\r\nimport { View, Animated, Easing } from 'react-native';\r\n\r\nexport default function LogoImage({ navigation }) {\r\n    const [fadeAnim] = useState(new Animated.Value(0));\r\n    const [rotation] = useState(new Animated.Value(0));\r\n\r\n    useEffect(() => {\r\n        const startAnimation = async () => {\r\n            Animated.timing(fadeAnim, {\r\n                toValue: 1,\r\n                duration: 5000,\r\n                easing: Easing.linear,\r\n                useNativeDriver: true,\r\n            }).start();\r\n\r\n            await new Promise(resolve => setTimeout(resolve, 3500));\r\n\r\n            Animated.timing(rotation, {\r\n                toValue: 1,\r\n                duration: 2000,\r\n                easing: Easing.linear,\r\n                useNativeDriver: true,\r\n            }).start();\r\n\r\n            await new Promise(resolve => setTimeout(resolve, 2000));\r\n        };\r\n\r\n        startAnimation();\r\n    }, []);\r\n\r\n    const animatedStyle = {\r\n        opacity: fadeAnim,\r\n        transform: [\r\n            {\r\n                rotate: rotation.interpolate({\r\n                    inputRange: [0, 1],\r\n                    outputRange: ['0deg', '360deg'],\r\n                }),\r\n            },\r\n        ],\r\n    };\r\n\r\n    return (\r\n        <View style={{ justifyContent: 'center', alignItems: 'center' }}>\r\n            <Animated.Image\r\n                source={require('./../static/imgs/logo.png')}\r\n                style={[{ width: 200, height: 200 }, animatedStyle]}\r\n            />\r\n        </View>\r\n    );\r\n}\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/components/LogoImage.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "LogoImage",
+    "memberof": "src/components/LogoImage.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/LogoImage.jsx~LogoImage",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/components/LogoImage.jsx",
+    "importStyle": "LogoImage",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"navigation\": *}"
+        ],
+        "defaultRaw": {
+          "navigation": null
+        },
+        "defaultValue": "{\"navigation\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "file",
+    "name": "src/components/MoneysGraph.jsx",
+    "content": "import { BarChart } from \"react-native-chart-kit\";\r\nimport { Dimensions, View, StyleSheet, Text } from \"react-native\";\r\n\r\nconst screenWidth = Dimensions.get(\"window\").width;\r\n\r\nexport default function MoneysGraph({ bardata, name, color }) {\r\n\r\n    const chartConfig = {\r\n        backgroundGradientFrom: \"#fff\",\r\n        backgroundGradientFromOpacity: 0,\r\n        backgroundGradientTo: \"#fff\",\r\n        backgroundGradientToOpacity: 0,\r\n        strokeWidth: 1,\r\n        barPercentage: 0.5,\r\n        color: () => { return color }\r\n    };\r\n\r\n\r\n    return (\r\n        <View style={styles.graphGroup}>\r\n            <Text style={styles.txt}>{name.replace(\"/\", \" x \")}</Text>\r\n            <BarChart\r\n                width={screenWidth - 20}\r\n                height={220}\r\n                data={bardata}\r\n                yAxisLabel=\"\"\r\n                chartConfig={chartConfig}\r\n                fromZero={true}\r\n                showValuesOnTopOfBars={true}\r\n            />\r\n        </View>\r\n    )\r\n}\r\n\r\n\r\nconst styles = StyleSheet.create({\r\n    txt: {\r\n        textAlign: 'center',\r\n        fontSize: 20,\r\n        fontWeight: '500'\r\n    },\r\n    graphGroup: {\r\n        borderWidth: 1,\r\n        borderColor: 'rgba(0, 0, 139,.2)',\r\n        margin: 10,\r\n        padding: 5\r\n    }\r\n})",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/components/MoneysGraph.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 60,
+    "kind": "variable",
+    "name": "screenWidth",
+    "memberof": "src/components/MoneysGraph.jsx",
+    "static": true,
+    "longname": "src/components/MoneysGraph.jsx~screenWidth",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/components/MoneysGraph.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "MoneysGraph",
+    "memberof": "src/components/MoneysGraph.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/MoneysGraph.jsx~MoneysGraph",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/components/MoneysGraph.jsx",
+    "importStyle": "MoneysGraph",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"bardata\": *, \"name\": *, \"color\": *}"
+        ],
+        "defaultRaw": {
+          "bardata": null,
+          "name": null,
+          "color": null
+        },
+        "defaultValue": "{\"bardata\":null,\"name\":null,\"color\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/components/MoneysGraph.jsx",
+    "static": true,
+    "longname": "src/components/MoneysGraph.jsx~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/components/MoneysGraph.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 36,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "name": "src/components/Movements.jsx",
+    "content": "import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';\r\nimport { React, useState } from 'react';\r\n\r\nexport default function Movements({ props }) {\r\n  const [showValue, setShowValue] = useState(false);\r\n\r\n\r\n  function formatarData(dataStr) {\r\n    if (dataStr) {\r\n      return dataStr;\r\n    } else {\r\n      return 'sem data';\r\n    }\r\n  }\r\n\r\n  return (\r\n    <TouchableOpacity\r\n      style={st.container}\r\n      onPress={() => setShowValue(!showValue)}>\r\n      <Text style={st.data}>{formatarData(props.date)}</Text>\r\n      <View style={st.content}>\r\n        <Text style={st.label}>{props.description}</Text>\r\n\r\n        {showValue ? (\r\n          <View exitBeforeEnter>\r\n            <Text\r\n              style={props.type === 1 ? st.value : st.expenses}\r\n              from={{ translateX: 100 }}\r\n              animate={{ translateX: 0 }}\r\n              transition={{ type: 'timing', duration: 500 }}>\r\n              {props.type === 1 ? `R$ ${parseFloat(props.value).toFixed(2)}` : `R$ -${parseFloat(props.value).toFixed(2)}`}\r\n            </Text>\r\n          </View>\r\n        ) : (\r\n          <View style={st.skeleton} />\r\n        )}\r\n      </View>\r\n    </TouchableOpacity>\r\n  );\r\n}\r\n\r\nconst st = StyleSheet.create({\r\n  container: {\r\n    flex: 1,\r\n    marginBottom: 24,\r\n    borderBottomWidth: 0.5,\r\n    padding: 5,\r\n    borderBottomColor: '#dadada',\r\n  },\r\n  content: {\r\n    flexDirection: 'row',\r\n    justifyContent: 'space-between',\r\n    marginTop: 2,\r\n    marginBottom: 8,\r\n  },\r\n  data: {\r\n    color: '#dadada',\r\n    fontWeight: 'bold',\r\n  },\r\n  label: {\r\n    fontWeight: 'bold',\r\n    fontSize: 16,\r\n  },\r\n  value: {\r\n    fontSize: 15,\r\n    color: '#2ecc71',\r\n    fontWeight: 'bold',\r\n  },\r\n  expenses: {\r\n    fontSize: 15,\r\n    color: '#e74c3c',\r\n    fontWeight: 'bold',\r\n  },\r\n  skeleton: {\r\n    marginTop: 6,\r\n    width: 80,\r\n    height: 10,\r\n    backgroundColor: '#dadada',\r\n    borderRadius: 8,\r\n  },\r\n});\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/components/Movements.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
+    "kind": "function",
+    "name": "Movements",
+    "memberof": "src/components/Movements.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Movements.jsx~Movements",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/components/Movements.jsx",
+    "importStyle": "Movements",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"props\": *}"
+        ],
+        "defaultRaw": {
+          "props": null
+        },
+        "defaultValue": "{\"props\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "variable",
+    "name": "st",
+    "memberof": "src/components/Movements.jsx",
+    "static": true,
+    "longname": "src/components/Movements.jsx~st",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/components/Movements.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 42,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/Context.jsx",
+    "content": "import React, { useState, createContext, useContext } from 'react';\r\nimport { View, ActivityIndicator, StyleSheet } from 'react-native';\r\n\r\nconst LoadingContext = createContext();\r\n\r\nexport const LoadingProvider = ({ children }) => {\r\n    const [loading, setLoading] = useState(false);\r\n    const [shouldRef, setShouldRef] = useState(true)\r\n\r\n    const showLoading = () => setLoading(true);\r\n    const hideLoading = () => setLoading(false);\r\n\r\n\r\n    const getShouldRefresh = () => shouldRef;\r\n    const setShouldRefresh = (should) => setShouldRef(should);\r\n\r\n    return (\r\n        <LoadingContext.Provider value={{\r\n            showLoading, hideLoading,\r\n            getShouldRefresh, setShouldRefresh\r\n        }}>\r\n            {children}\r\n            {loading && <LoadingIndicator />}\r\n        </LoadingContext.Provider>\r\n    );\r\n};\r\n\r\nexport const useLoading = () => {\r\n    const context = useContext(LoadingContext);\r\n    if (!context) {\r\n        throw new Error('useLoading must be used within a LoadingProvider');\r\n    }\r\n    return context;\r\n};\r\n\r\nconst LoadingIndicator = () => (\r\n    <View style={styles.container}>\r\n        <ActivityIndicator size=\"large\" color=\"#0000ff\" />\r\n    </View>\r\n);\r\n\r\nconst styles = StyleSheet.create({\r\n    container: {\r\n        ...StyleSheet.absoluteFillObject,\r\n        justifyContent: 'center',\r\n        alignItems: 'center',\r\n        backgroundColor: 'rgba(0, 0, 0, 0.5)',\r\n    },\r\n});\r\n\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/Context.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "variable",
+    "name": "LoadingContext",
+    "memberof": "src/Context.jsx",
+    "static": true,
+    "longname": "src/Context.jsx~LoadingContext",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/Context.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "function",
+    "name": "LoadingProvider",
+    "memberof": "src/Context.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Context.jsx~LoadingProvider",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/Context.jsx",
+    "importStyle": "{LoadingProvider}",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"children\": *}"
+        ],
+        "defaultRaw": {
+          "children": null
+        },
+        "defaultValue": "{\"children\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "function",
+    "name": "useLoading",
+    "memberof": "src/Context.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Context.jsx~useLoading",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/Context.jsx",
+    "importStyle": "{useLoading}",
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "function",
+    "name": "LoadingIndicator",
+    "memberof": "src/Context.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Context.jsx~LoadingIndicator",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/Context.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 36,
+    "undocument": true,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/Context.jsx",
+    "static": true,
+    "longname": "src/Context.jsx~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/Context.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 42,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "src/database/firebase.js",
+    "content": "import { initializeApp } from 'firebase/app';\r\nimport { getFirestore } from 'firebase/firestore';\r\n\r\n\r\n/**\r\n * O arquivo fornece a configuracao e a instancia do Firebase para serem utilizadas em um aplicativo React Native \r\n * A configuracao inclui as credenciais da aplicacao Firebase e a inicializacao do aplicativo e do Firestore\r\n */\r\n\r\n\r\n/**\r\n * Um objeto que contem as credenciais e configuracoes do projeto Firebase\r\n */\r\nconst firebaseConfig = {\r\n    //configs\r\n};\r\n\r\n/**\r\n *  A instancia inicializada do aplicativo Firebase\r\n */\r\nconst app = initializeApp(firebaseConfig);\r\n\r\n/**\r\n * A instancia do Firestore associada ao aplicativo Firebase\r\n */\r\nconst db = getFirestore(app);\r\n\r\nexport default db;",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/database/firebase.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "variable",
+    "name": "firebaseConfig",
+    "memberof": "src/database/firebase.js",
+    "static": true,
+    "longname": "src/database/firebase.js~firebaseConfig",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/database/firebase.js",
+    "importStyle": null,
+    "description": "Um objeto que contem as credenciais e configuracoes do projeto Firebase",
+    "lineNumber": 14,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 74,
+    "kind": "variable",
+    "name": "app",
+    "memberof": "src/database/firebase.js",
+    "static": true,
+    "longname": "src/database/firebase.js~app",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/database/firebase.js",
+    "importStyle": null,
+    "description": " A instancia inicializada do aplicativo Firebase",
+    "lineNumber": 21,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "variable",
+    "name": "db",
+    "memberof": "src/database/firebase.js",
+    "static": true,
+    "longname": "src/database/firebase.js~db",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/database/firebase.js",
+    "importStyle": "db",
+    "description": "A instancia do Firestore associada ao aplicativo Firebase",
+    "lineNumber": 26,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/database/firebaseMethods.js",
+    "content": "import { collection, getDocs, doc, getDoc, updateDoc, serverTimestamp, arrayUnion, setDoc } from 'firebase/firestore';\r\nimport db from './firebase';\r\n\r\n\r\n/**\r\n *  A classe Storage e responsavel por gerenciar as operacoes de acesso, atualizacao e manipulacao de dados no \r\n *  banco de dados Firebase Firestore. Ela abstrai a logica de interacao com o Firestore, proporcionando metodos \r\n *  para realizar operacoes como obter todos os usuarios, criar novos usuarios, obter documentos especificos, \r\n *  atualizar documentos, entre outros.\r\n */\r\nexport default class Storage {\r\n    collection = collection(db, 'bankapp');\r\n    allUsersDoc = doc(db, 'bankapp', 'allUsersDoc')\r\n    myDoc;\r\n\r\n    /**\r\n     *  Inicializa instancias dos objetos Firestore necessarios para operacoes subsequentes\r\n        Aceita um parametro opcional docName para especificar o nome do documento a ser manipulado\r\n     * @param {string} docName \r\n     */\r\n    constructor(docName) {\r\n        this.myDoc = doc(db, 'bankapp', docName);\r\n    }\r\n\r\n    /**\r\n     *  Um metodo generico para acessar o banco de dados, utilizado por outros metodos\r\n        Aceita uma funcao func que representa a operacao a ser realizada\r\n        Retorna os dados se isReturn for verdadeiro, caso contrario, retorna true se a operacao for bem-sucedida\r\n     * @param {function} func \r\n     * @param {boolean} isReturn \r\n     * @returns Se a operacao teve sucesso\r\n     */\r\n    accessDatabase = async (func, isReturn = false) => {\r\n        try {\r\n            const docSnapshot = await func();\r\n            if (isReturn) {\r\n                if (docSnapshot.exists()) {\r\n                    const dadosDoDocumento = docSnapshot.data();\r\n                    let jsonD = JSON.stringify(dadosDoDocumento);\r\n                    return JSON.parse(jsonD);\r\n                } else {\r\n                    console.log('Documento nao encontrado!');\r\n                    return 404;\r\n                }\r\n            } else {\r\n                console.log('Operacao efetuada com sucesso!');\r\n                return true;\r\n            }\r\n        } catch (error) {\r\n            console.log('Erro na acao: ', error);\r\n            return false;\r\n        }\r\n    }\r\n\r\n    /**\r\n     *  Obtem todos os usuarios do documento especifico (allUsersDoc)\r\n     * @returns Um objeto contendo os dados dos usuarios da base\r\n     */\r\n    async getAllUsers() {\r\n        return await this.accessDatabase(async () => await getDoc(this.allUsersDoc), true);\r\n    }\r\n\r\n    /**\r\n     * Adiciona um novo usuario ao array de usuarios no documento especifico (allUsersDoc)\r\n     * @param {object} data \r\n     * @returns Se a operacao teve sucesso\r\n     */\r\n    async createNewUser(data) {\r\n        const out = await this.accessDatabase(async () => {\r\n            await updateDoc(this.allUsersDoc, {\r\n                users: arrayUnion(data)\r\n            });\r\n        });\r\n        return out;\r\n    }\r\n\r\n    /**\r\n     * Cria um novo documento com nome especifico baseado no email do usuario.\r\n     * @param {string} email \r\n     * @returns Se a operacao teve sucesso\r\n     */\r\n    async createNewUserDoc(email) {\r\n        let newDoc = {\r\n            userData: {\r\n                email: email\r\n            }\r\n        };\r\n\r\n        try {\r\n            const novoDocRef = doc(db, 'bankapp', email);\r\n            await setDoc(novoDocRef, { ...newDoc, createdAt: serverTimestamp() });\r\n            console.log('Novo documento criado com nome especifico com sucesso!');\r\n            return true;\r\n        } catch (error) {\r\n            console.log('Erro ao criar novo documento com nome especifico:', error);\r\n            return false;\r\n        }\r\n    }\r\n\r\n    /**\r\n     * Obtem todos os documentos na colecao bankapp.\r\n     * @returns Uma lista com os documentos\r\n     */\r\n    async getAllDocs() {\r\n        try {\r\n            const querySnapshot = await getDocs(this.collection);\r\n            const nomesDosDocs = querySnapshot.docs.map((doc) => doc.id);\r\n            return nomesDosDocs;\r\n        } catch (error) {\r\n            console.error('Erro ao obter nomes dos documentos:', error);\r\n            return [];\r\n        }\r\n    }\r\n\r\n    /**\r\n     * Obtem todos os dados do documento especifico (myDoc)\r\n     * @returns Os dados do documento\r\n     */\r\n    async getFullDoc() {\r\n        return await this.accessDatabase(async () => await getDoc(this.myDoc), true);\r\n    }\r\n\r\n    /**\r\n     * Atualiza o documento especifico (myDoc)\r\n     * @param {object} data \r\n     * @returns Se a operacao teve sucesso\r\n     */\r\n    async updateDoc(data) {\r\n        const out = await this.accessDatabase(async () => {\r\n            await updateDoc(this.myDoc, { ...data, updatedAt: serverTimestamp() });\r\n        });\r\n        return out;\r\n    }\r\n\r\n    /**\r\n     * Adiciona um investimento ao valor ja existente no banco\r\n     * @param {object} data \r\n     * @returns Se a operacao teve sucesso\r\n     */\r\n    async appendToInvestments(data) {\r\n        const out = await this.accessDatabase(async () => {\r\n            await updateDoc(this.myDoc, {\r\n                investments: arrayUnion(data)\r\n            });\r\n        });\r\n        return out;\r\n    }\r\n\r\n    /**\r\n     * Adiciona uma receita ao valor ja existente no banco\r\n     * @param {object} data \r\n     * @returns Se a operacao teve sucesso\r\n     */\r\n    async appendToIncomes(data) {\r\n        const out = await this.accessDatabase(async () => {\r\n            await updateDoc(this.myDoc, {\r\n                incomes: arrayUnion(data)\r\n            });\r\n        });\r\n        return out;\r\n    }\r\n\r\n    /**\r\n     * Adiciona um gasto/uma compra ao valor ja existente no banco\r\n     * @param {object} data \r\n     * @returns Se a operacao teve sucesso\r\n     */\r\n    async appendToExpenses(data) {\r\n        const out = await this.accessDatabase(async () => {\r\n            await updateDoc(this.myDoc, {\r\n                expenses: arrayUnion(data)\r\n            });\r\n        });\r\n        return out;\r\n    }\r\n\r\n    /**\r\n     * Deleta um documento especifico da colecao\r\n     * @param {number} index\r\n     * @returns Se a operacao teve sucesso\r\n     */\r\n    async deleteContent(index) {\r\n        try {\r\n            this.collection.doc(index).delete();\r\n            return 'Dados deletados com sucesso!';\r\n        } catch (e) {\r\n            return 'Ocorreu um problema ao deletar os dados da nuvem!\\n' + e;\r\n        }\r\n    }\r\n}\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/database/firebaseMethods.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "class",
+    "name": "Storage",
+    "memberof": "src/database/firebaseMethods.js",
+    "static": true,
+    "longname": "src/database/firebaseMethods.js~Storage",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/database/firebaseMethods.js",
+    "importStyle": "Storage",
+    "description": " A classe Storage e responsavel por gerenciar as operacoes de acesso, atualizacao e manipulacao de dados no \n banco de dados Firebase Firestore. Ela abstrai a logica de interacao com o Firestore, proporcionando metodos \n para realizar operacoes como obter todos os usuarios, criar novos usuarios, obter documentos especificos, \n atualizar documentos, entre outros.",
+    "lineNumber": 11,
+    "interface": false
+  },
+  {
+    "__docId__": 78,
+    "kind": "member",
+    "name": "collection",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#collection",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "member",
+    "name": "allUsersDoc",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#allUsersDoc",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "member",
+    "name": "myDoc",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#myDoc",
+    "access": "public",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#constructor",
+    "access": "public",
+    "description": " Inicializa instancias dos objetos Firestore necessarios para operacoes subsequentes\nAceita um parametro opcional docName para especificar o nome do documento a ser manipulado",
+    "lineNumber": 21,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "docName",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 83,
+    "kind": "member",
+    "name": "accessDatabase",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#accessDatabase",
+    "access": "public",
+    "description": " Um metodo generico para acessar o banco de dados, utilizado por outros metodos\nAceita uma funcao func que representa a operacao a ser realizada\nRetorna os dados se isReturn for verdadeiro, caso contrario, retorna true se a operacao for bem-sucedida",
+    "lineNumber": 33,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Se a operacao teve sucesso"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "func",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "isReturn",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Se a operacao teve sucesso"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "method",
+    "name": "getAllUsers",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#getAllUsers",
+    "access": "public",
+    "description": " Obtem todos os usuarios do documento especifico (allUsersDoc)",
+    "lineNumber": 59,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Um objeto contendo os dados dos usuarios da base"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Um objeto contendo os dados dos usuarios da base"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 85,
+    "kind": "method",
+    "name": "createNewUser",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#createNewUser",
+    "access": "public",
+    "description": "Adiciona um novo usuario ao array de usuarios no documento especifico (allUsersDoc)",
+    "lineNumber": 68,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Se a operacao teve sucesso"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Se a operacao teve sucesso"
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "method",
+    "name": "createNewUserDoc",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#createNewUserDoc",
+    "access": "public",
+    "description": "Cria um novo documento com nome especifico baseado no email do usuario.",
+    "lineNumber": 82,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Se a operacao teve sucesso"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "email",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Se a operacao teve sucesso"
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "method",
+    "name": "getAllDocs",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#getAllDocs",
+    "access": "public",
+    "description": "Obtem todos os documentos na colecao bankapp.",
+    "lineNumber": 104,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Uma lista com os documentos"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Uma lista com os documentos"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 88,
+    "kind": "method",
+    "name": "getFullDoc",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#getFullDoc",
+    "access": "public",
+    "description": "Obtem todos os dados do documento especifico (myDoc)",
+    "lineNumber": 119,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Os dados do documento"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Os dados do documento"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 89,
+    "kind": "method",
+    "name": "updateDoc",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#updateDoc",
+    "access": "public",
+    "description": "Atualiza o documento especifico (myDoc)",
+    "lineNumber": 128,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Se a operacao teve sucesso"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Se a operacao teve sucesso"
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "method",
+    "name": "appendToInvestments",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#appendToInvestments",
+    "access": "public",
+    "description": "Adiciona um investimento ao valor ja existente no banco",
+    "lineNumber": 140,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Se a operacao teve sucesso"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Se a operacao teve sucesso"
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "method",
+    "name": "appendToIncomes",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#appendToIncomes",
+    "access": "public",
+    "description": "Adiciona uma receita ao valor ja existente no banco",
+    "lineNumber": 154,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Se a operacao teve sucesso"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Se a operacao teve sucesso"
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "method",
+    "name": "appendToExpenses",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#appendToExpenses",
+    "access": "public",
+    "description": "Adiciona um gasto/uma compra ao valor ja existente no banco",
+    "lineNumber": 168,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Se a operacao teve sucesso"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Se a operacao teve sucesso"
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "method",
+    "name": "deleteContent",
+    "memberof": "src/database/firebaseMethods.js~Storage",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/database/firebaseMethods.js~Storage#deleteContent",
+    "access": "public",
+    "description": "Deleta um documento especifico da colecao",
+    "lineNumber": 182,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Se a operacao teve sucesso"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "index",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Se a operacao teve sucesso"
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "file",
+    "name": "src/Main.jsx",
+    "content": "import { NavigationContainer } from '@react-navigation/native';\r\nimport { createStackNavigator } from '@react-navigation/stack';\r\nimport { LoadingProvider } from './Context';\r\n\r\n\r\nimport Home from './screens/Home';\r\nimport Profile from './screens/Profile';\r\nimport Settings from './screens/Settings';\r\nimport Investments from './screens/subscreens/Investments'\r\nimport SaveInvestments from './screens/subscreens/SaveInvestment';\r\n\r\nimport AuthScreen from './screens/AuthScreen';\r\nimport Graphs from './screens/Graphs';\r\nimport Money from './screens/Money';\r\nimport SplashScreen from './screens/subscreens/SplashScreen';\r\n\r\nconst Stack = createStackNavigator();\r\n\r\n\r\nexport default function Main() {\r\n\r\n\r\n    let opt = {\r\n        headerStyle: {\r\n            backgroundColor: 'transparent',\r\n        },\r\n        headerTintColor: '#fff',\r\n        headerTitleStyle: {\r\n            color: '#fff',\r\n        },\r\n        headerShown: false\r\n    }\r\n\r\n\r\n    return (\r\n        <NavigationContainer>\r\n            <LoadingProvider>\r\n                <Stack.Navigator initialRouteName=\"Auth\" screenOptions={{\r\n                    headerShown: false\r\n                }}>\r\n                    <Stack.Screen options={opt} name=\"Auth\" component={AuthScreen} />\r\n                    <Stack.Screen options={opt} name=\"Home\" component={Home} />\r\n                    <Stack.Screen options={opt} name=\"Profile\" component={Profile} />\r\n                    <Stack.Screen options={opt} name=\"Settings\" component={Settings} />\r\n                    <Stack.Screen options={opt} name=\"Investments\" component={Investments} />\r\n                    <Stack.Screen options={opt} name=\"SaveInvestments\" component={SaveInvestments} />\r\n                    <Stack.Screen options={opt} name=\"Graphs\" component={Graphs} />\r\n                    <Stack.Screen options={opt} name=\"Money\" component={Money} />\r\n                    <Stack.Screen options={opt} name=\"Splash\" component={SplashScreen} />\r\n                </Stack.Navigator>\r\n            </LoadingProvider>\r\n        </NavigationContainer>\r\n    );\r\n}\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/Main.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 95,
+    "kind": "variable",
+    "name": "Stack",
+    "memberof": "src/Main.jsx",
+    "static": true,
+    "longname": "src/Main.jsx~Stack",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/Main.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 96,
+    "kind": "function",
+    "name": "Main",
+    "memberof": "src/Main.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Main.jsx~Main",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/Main.jsx",
+    "importStyle": "Main",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "file",
+    "name": "src/screens/AuthScreen.jsx",
+    "content": "import React, { useEffect, useState } from 'react';\r\nimport { View, Text, TextInput, StatusBar, StyleSheet, Image, TouchableOpacity, KeyboardAvoidingView, ScrollView, Keyboard } from 'react-native';\r\nimport { useLoading } from '../Context';\r\nimport { Foundation } from '@expo/vector-icons';\r\nimport Storage from '../database/firebaseMethods';\r\nimport { Ionicons } from '@expo/vector-icons';\r\nimport AsyncStorage from '@react-native-async-storage/async-storage';\r\n\r\nconst statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 80 : 200\r\n\r\nexport default function AuthScreen({ navigation }) {\r\n    const { showLoading, hideLoading } = useLoading();\r\n    const fr = new Storage(\"allUsersDoc\");\r\n\r\n    //#region UseState\r\n    const [allUsers, setAllUsers] = useState([]);\r\n\r\n    const [signUpMessage, setSignUpMessage] = useState(\"\");\r\n    const [msgDisp, setMsgDisp] = useState(false)\r\n    const [resetElement, setResetElement] = useState(false)\r\n    const [email, setEmail] = useState('');\r\n    const [password, setPassword] = useState('');\r\n    const [password2, setPassword2] = useState('');\r\n\r\n    const [showPassword, setShowPassword] = useState(false);\r\n    const [showPassword2, setShowPassword2] = useState(false);\r\n    const [icon, setIcon] = useState(\"eye-off\");\r\n    const [icon2, setIcon2] = useState(\"eye-off\");\r\n\r\n    const [isSingUp, setIsSignUp] = useState(false);\r\n\r\n    //#endregion\r\n\r\n    useEffect(() => {\r\n        const getUsers = async () => {\r\n            // await AsyncStorage.removeItem('isAuth');\r\n            // await AsyncStorage.removeItem('fullUserData');\r\n            // await AsyncStorage.removeItem('userDoc');\r\n            const auth = await AsyncStorage.getItem('isAuth');\r\n\r\n            if (auth === \"true\") {\r\n                navigation.navigate(\"Splash\");\r\n            } else {\r\n                try {\r\n                    showLoading();\r\n                    var docs = await fr.getAllUsers();\r\n                    setAllUsers(docs.users);\r\n                    hideLoading();\r\n                } catch (err) { console.log(err) } finally { hideLoading(); }\r\n            }\r\n        };\r\n        getUsers();\r\n    }, [])\r\n\r\n    const clearFields = (clearMsg = true) => {\r\n        setIsSignUp(false);\r\n        if (clearMsg) {\r\n            setMsgDisp(false);\r\n            setSignUpMessage(\"\");\r\n        }\r\n        setEmail(\"\");\r\n        setPassword(\"\");\r\n        setPassword2(\"\");\r\n        setResetElement(false);\r\n        setShowPassword(false);\r\n        setShowPassword2(false);\r\n        setIcon(\"eye-off\");\r\n        setIcon2(\"eye-off\");\r\n    }\r\n\r\n    const handleSignUp = async () => {\r\n        Keyboard.dismiss();\r\n        if (password === \"\" || email === \"\") {\r\n            setSignUpMessage(\"O email/senha não podem estar vazios!\");\r\n            setMsgDisp(true);\r\n        } else {\r\n            setIsSignUp(true);\r\n            if (password === password2) {\r\n                try {\r\n                    showLoading();\r\n                    let shouldRegister = true;\r\n                    if (allUsers != undefined) {\r\n                        allUsers.forEach(element => {\r\n                            if (element.email === email) {\r\n                                shouldRegister = false;\r\n                                setSignUpMessage(\"Email ja cadastrado!\");\r\n                            }\r\n                        });\r\n                    }\r\n\r\n                    if (shouldRegister) {\r\n                        await fr.createNewUser({\r\n                            email: email,\r\n                            pass: password\r\n                        });\r\n\r\n                        await fr.createNewUserDoc(email);\r\n                        await fr.updateDoc({\r\n                            userData: {\r\n                                email: email\r\n                            }\r\n                        })\r\n                        await AsyncStorage.setItem('isAuth', \"true\");\r\n                        await AsyncStorage.setItem('isNew', \"true\");\r\n                        await AsyncStorage.setItem('userDoc', email);\r\n                        clearFields();\r\n                        navigation.navigate('Splash');\r\n                    }\r\n\r\n                } catch (error) {\r\n                    setSignUpMessage(\"Houve um problema no cadastro\");\r\n                    setMsgDisp(true);\r\n                    console.log('Erro no cadastro:', error.message);\r\n                } finally {\r\n                    hideLoading();\r\n                }\r\n            } else {\r\n                setSignUpMessage(\"As senhas são diferentes!\");\r\n                setMsgDisp(true);\r\n            }\r\n        }\r\n    };\r\n\r\n    const handleSignIn = async () => {\r\n        Keyboard.dismiss();\r\n        if (!email || email.trim() === \"\") {\r\n            setSignUpMessage(\"O email nao pode estar vazio!\");\r\n            setMsgDisp(true);\r\n        } else if (!password || password.trim() === \"\") {\r\n            setSignUpMessage(\"A senha nao pode estar vazia!\");\r\n            setMsgDisp(true);\r\n        } else {\r\n            try {\r\n                const userExists = allUsers.find(param => param.email === email);\r\n                if (!userExists) {\r\n                    setSignUpMessage(\"Email nao encontrado\");\r\n                    setMsgDisp(true);\r\n                    clearFields(false);\r\n                } else {\r\n                    if (userExists.pass === password) {\r\n                        await AsyncStorage.setItem('userDoc', email);\r\n                        clearFields();\r\n                        await AsyncStorage.setItem('isAuth', \"true\");\r\n                        navigation.navigate('Splash');\r\n                    } else {\r\n                        setSignUpMessage(\"Senha incorreta\");\r\n                        setResetElement(true);\r\n                    }\r\n                }\r\n\r\n            } catch (error) {\r\n                console.error('Erro no login:', error.message);\r\n            }\r\n        }\r\n\r\n    };\r\n\r\n\r\n    const togglePasswordVisibility = () => {\r\n        setShowPassword(!showPassword);\r\n        if (showPassword) {\r\n            setIcon(\"eye-off\");\r\n        } else {\r\n            setIcon(\"eye\");\r\n        }\r\n    };\r\n\r\n    const togglePasswordVisibility2 = () => {\r\n        setShowPassword2(!showPassword2);\r\n        if (showPassword2) {\r\n            setIcon2(\"eye-off\");\r\n        } else {\r\n            setIcon2(\"eye\");\r\n        }\r\n    };\r\n\r\n\r\n    return (\r\n        <KeyboardAvoidingView\r\n            behavior={Platform.OS === 'ios' ? 'padding' : 'height'}\r\n            style={{ flex: 1 }}\r\n        >\r\n            <ScrollView style={{ marginTop: statusBarHeight }}>\r\n                <View style={{ justifyContent: 'center', flexDirection: 'row', marginTop: 32 }}>\r\n                    <Image style={{ width: 100, height: 100 }} source={require('./../static/imgs/logo.png')} />\r\n                </View>\r\n                <View style={{ marginHorizontal: 10 }}>\r\n                    <View style={{ marginVertical: 10 }}>\r\n                        <Text style={styles.label}>Email:</Text>\r\n                        <TextInput style={styles.input}\r\n                            placeholder=\"Digite seu email\"\r\n                            onChangeText={(text) => setEmail(text)}\r\n                            value={email}\r\n                            autoCapitalize=\"none\"\r\n                            keyboardType=\"email-address\"\r\n                        />\r\n                        <Text style={styles.label}>Senha:</Text>\r\n                        <View>\r\n                            <TouchableOpacity onPress={togglePasswordVisibility} style={styles.eye}>\r\n                                <Ionicons name={icon} size={34} color=\"darkblue\" />\r\n                            </TouchableOpacity>\r\n                            <TextInput style={styles.input}\r\n                                placeholder=\"Digite sua senha\"\r\n                                onChangeText={(text) => setPassword(text)}\r\n                                secureTextEntry={!showPassword}\r\n                                value={password}\r\n                                autoCapitalize=\"none\"\r\n                            />\r\n                        </View>\r\n                        {isSingUp ?\r\n                            <View>\r\n                                <TouchableOpacity onPress={togglePasswordVisibility2} style={styles.eye}>\r\n                                    <Ionicons name={icon2} size={34} color=\"darkblue\" />\r\n                                </TouchableOpacity>\r\n                                <TextInput style={styles.input}\r\n                                    placeholder=\"Confirme sua senha\"\r\n                                    onChangeText={(text) => setPassword2(text)}\r\n                                    secureTextEntry={!showPassword2}\r\n                                    value={password2}\r\n                                />\r\n                            </View> : <Text></Text>\r\n                        }\r\n                    </View>\r\n                    <TouchableOpacity style={styles.btn} onPress={handleSignIn}>\r\n                        <Text style={{ textAlign: 'center' }}>Login</Text>\r\n                    </TouchableOpacity>\r\n                    <TouchableOpacity style={styles.btn} onPress={handleSignUp}>\r\n                        <Text style={{ textAlign: 'center' }}>Cadastrar</Text>\r\n                    </TouchableOpacity>\r\n                </View>\r\n                {(msgDisp ?\r\n                    <View style={styles.msgDispSt}>\r\n                        <Foundation name=\"x-circle\" size={30} color=\"#8a0000\" style={{ marginRight: 5 }} />\r\n                        <Text style={{ color: '#8a0000', fontSize: 20 }}>{signUpMessage}</Text>\r\n                    </View>\r\n\r\n                    : <Text></Text>)}\r\n\r\n                {resetElement ? <TouchableOpacity onPress={() => { alert(\"Que pena :(\") }}>\r\n                    <Text style={{ color: 'darkblue', textDecorationLine: 'underline', marginLeft: 16, fontSize: 18, marginTop: 16 }}>\r\n                        Esqueci minha senha</Text>\r\n                </TouchableOpacity> : <Text></Text>}\r\n            </ScrollView >\r\n        </KeyboardAvoidingView>\r\n    );\r\n};\r\n\r\nconst styles = StyleSheet.create({\r\n    label: {\r\n        fontSize: 24\r\n    },\r\n    input: {\r\n        borderWidth: 1,\r\n        borderColor: 'blue',\r\n        padding: 10,\r\n        fontSize: 18,\r\n        marginBottom: 15\r\n    },\r\n    eye: {\r\n        position: 'absolute',\r\n        bottom: 10,\r\n        right: 12,\r\n        padding: 10,\r\n        zIndex: 99\r\n    },\r\n    btn: {\r\n        width: 200,\r\n        borderWidth: 1,\r\n        borderRadius: 10,\r\n        borderColor: 'darkblue',\r\n        paddingVertical: 12,\r\n        paddingHorizontal: 12,\r\n        justifyContent: 'center',\r\n        alignSelf: 'center',\r\n        marginBottom: 18\r\n    },\r\n    msgDispSt: {\r\n        flexDirection: 'row',\r\n        justifyContent: 'center',\r\n        alignItems: 'center',\r\n        marginTop: 24,\r\n        paddingHorizontal: 5,\r\n        flexWrap: 'wrap'\r\n    }\r\n})",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/screens/AuthScreen.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 98,
+    "kind": "variable",
+    "name": "statusBarHeight",
+    "memberof": "src/screens/AuthScreen.jsx",
+    "static": true,
+    "longname": "src/screens/AuthScreen.jsx~statusBarHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/AuthScreen.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 99,
+    "kind": "function",
+    "name": "AuthScreen",
+    "memberof": "src/screens/AuthScreen.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/AuthScreen.jsx~AuthScreen",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/screens/AuthScreen.jsx",
+    "importStyle": "AuthScreen",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"navigation\": *}"
+        ],
+        "defaultRaw": {
+          "navigation": null
+        },
+        "defaultValue": "{\"navigation\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/AuthScreen.jsx",
+    "static": true,
+    "longname": "src/screens/AuthScreen.jsx~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/AuthScreen.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 248,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 101,
+    "kind": "file",
+    "name": "src/screens/Graphs.jsx",
+    "content": "import React, { useEffect, useState } from \"react\";\r\nimport { Dimensions, View, StyleSheet, Text, ScrollView, TouchableOpacity, StatusBar } from \"react-native\";\r\nimport { PieChart, BarChart, LineChart } from \"react-native-chart-kit\";\r\nimport FlashMessage, { showMessage } from \"react-native-flash-message\";\r\nimport { Ionicons } from '@expo/vector-icons';\r\n\r\nimport { useLoading } from \"../Context\";\r\n\r\n\r\nconst screenWidth = Dimensions.get(\"window\").width;\r\nconst statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64;\r\n\r\n\r\nexport default function Graphs({ route, navigation }) {\r\n\r\n    const { showLoading, hideLoading } = useLoading();\r\n\r\n    const [moneyFlow, setMoneyFlow] = useState([]);\r\n    const [incomeData, setIncomeData] = useState(null);\r\n    const [expensesData, setExpensesData] = useState(null);\r\n\r\n    useEffect(() => {\r\n\r\n        showLoading();\r\n        let dt = route.params.allData;\r\n\r\n        //money flow\r\n        let newFlow = [];\r\n        if (dt.moneyFlow) {\r\n            dt.moneyFlow.forEach(element => {\r\n                newFlow.push({\r\n                    name: element.name === \"expenses\" ? \"Gastos\" : \"Receitas\",\r\n                    value: parseFloat(element.value),\r\n                    color: element.name === \"expenses\" ? '#990000' : \"#008060\"\r\n                })\r\n            });\r\n        }\r\n        setMoneyFlow(newFlow);\r\n\r\n        //income\r\n        let incomes1 = dt.incomes;\r\n        let newIncomes = {\r\n            labels: [],\r\n            datasets: [\r\n                {\r\n                    data: []\r\n                }\r\n            ]\r\n        };\r\n        if (incomes1) {\r\n            incomes1.forEach(element => {\r\n                newIncomes.labels.push(element.description);\r\n                newIncomes.datasets[0].data.push(element.value);\r\n            });\r\n            setIncomeData(newIncomes);\r\n        }\r\n\r\n        //expenses\r\n        let expenses1 = dt.expenses;\r\n        let newExpenses = {\r\n            labels: [],\r\n            datasets: [\r\n                {\r\n                    data: []\r\n                }\r\n            ]\r\n        };\r\n        if (expenses1) {\r\n            expenses1.forEach(element => {\r\n                newExpenses.labels.push(element.description);\r\n                newExpenses.datasets[0].data.push(element.value);\r\n            });\r\n            setExpensesData(newExpenses);\r\n        }\r\n\r\n        hideLoading();\r\n    }, [])\r\n\r\n\r\n    const chartConfig = {\r\n        backgroundGradientFrom: \"#fff\",\r\n        backgroundGradientFromOpacity: 0,\r\n        backgroundGradientTo: \"#fff\",\r\n        backgroundGradientToOpacity: 0,\r\n        strokeWidth: 1,\r\n        barPercentage: 0.5,\r\n    };\r\n\r\n    const lineChartConfig = {\r\n        ...chartConfig,\r\n        color: (opacity = 1) => `rgba(139, 16, 0, ${opacity})`\r\n    }\r\n\r\n    const barChartConfig = {\r\n        ...chartConfig,\r\n        color: (opacity = 1) => `rgba(0, 139, 93, ${opacity})`\r\n    };\r\n\r\n\r\n    return (\r\n        <View style={{ marginTop: statusBarHeight, height: '100%' }}>\r\n            <TouchableOpacity style={styles.back} onPress={() => { navigation.navigate(\"Home\") }}>\r\n                <Ionicons name=\"arrow-back-circle-outline\" size={30} color=\"darkblue\" />\r\n            </TouchableOpacity>\r\n            <Text style={[styles.title, { marginTop: 8, paddingHorizontal: 8 }]}>Minhas Finanças</Text>\r\n\r\n            <ScrollView style={{ marginBottom: statusBarHeight + 20 }}>\r\n\r\n                <View style={styles.graphGroup}>\r\n                    <Text style={styles.graphTitle}>Gastos X Receitas</Text>\r\n                    {moneyFlow ?\r\n                        <PieChart\r\n                            data={moneyFlow}\r\n                            width={screenWidth - 20}\r\n                            height={220}\r\n                            chartConfig={{\r\n                                ...chartConfig,\r\n                                color: () => `rgba(0, 0, 139, 1)`\r\n                            }}\r\n                            accessor={\"value\"}\r\n                            backgroundColor={\"transparent\"}\r\n                        />\r\n                        : <Text style={{ margin: 20 }}>Sem dados</Text>\r\n                    }\r\n                </View>\r\n\r\n                <View style={styles.graphGroup}>\r\n                    <Text style={styles.graphTitle}>Receitas</Text>\r\n                    {incomeData && incomeData.length > 0 ?\r\n                        <BarChart\r\n                            width={screenWidth}\r\n                            height={300}\r\n                            data={incomeData}\r\n                            yAxisLabel=\"R$\"\r\n                            yLabelsOffset={0}\r\n                            chartConfig={barChartConfig}\r\n                            fromZero={true}\r\n                        />\r\n                        : <Text style={{ margin: 20 }}>Sem dados</Text>\r\n                    }\r\n                </View>\r\n\r\n                <View style={styles.graphGroup}>\r\n                    <Text style={styles.graphTitle}>Gastos</Text>\r\n                    <FlashMessage duration={5000} />\r\n                    {expensesData && expensesData.length > 0 ?\r\n                        <LineChart\r\n                            bezier\r\n                            width={screenWidth - 20}\r\n                            height={300}\r\n                            data={expensesData}\r\n                            yAxisLabel=\"R$\"\r\n                            yAxisSuffix=\"\"\r\n                            verticalLabelRotation={20}\r\n                            chartConfig={lineChartConfig}\r\n                            fromZero={true}\r\n                            onDataPointClick={({ value, index, getColor }) => {\r\n                                showMessage({\r\n                                    message: `R$ ${value}`,\r\n                                    description: `${expensesData.labels[index]}`,\r\n                                    backgroundColor: getColor(.5)\r\n                                })\r\n                            }\r\n                            }\r\n                        />\r\n                        : <Text style={{ margin: 20 }}>Sem dados</Text>\r\n                    }\r\n                </View>\r\n            </ScrollView>\r\n        </View>\r\n    )\r\n}\r\n\r\n\r\nconst styles = StyleSheet.create({\r\n    graphTitle: {\r\n        fontSize: 18,\r\n        fontWeight: 'bold',\r\n        marginBottom: 16,\r\n        textAlign: 'center'\r\n    },\r\n    graph: {\r\n        fontSize: 16,\r\n        textAlign: 'center'\r\n    },\r\n    graphGroup: {\r\n        borderWidth: 1,\r\n        borderColor: 'rgba(0, 0, 139,.2)',\r\n        margin: 10,\r\n        padding: 5\r\n    },\r\n    back: {\r\n        marginHorizontal: 10,\r\n        marginVertical: 8,\r\n        position: 'absolute',\r\n        top: 6,\r\n        zIndex: 99\r\n    },\r\n    title: {\r\n        fontSize: 28,\r\n        fontWeight: \"bold\",\r\n        textAlign: \"center\"\r\n    },\r\n})",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/screens/Graphs.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 102,
+    "kind": "variable",
+    "name": "screenWidth",
+    "memberof": "src/screens/Graphs.jsx",
+    "static": true,
+    "longname": "src/screens/Graphs.jsx~screenWidth",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/Graphs.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 103,
+    "kind": "variable",
+    "name": "statusBarHeight",
+    "memberof": "src/screens/Graphs.jsx",
+    "static": true,
+    "longname": "src/screens/Graphs.jsx~statusBarHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/Graphs.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 104,
+    "kind": "function",
+    "name": "Graphs",
+    "memberof": "src/screens/Graphs.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/Graphs.jsx~Graphs",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/screens/Graphs.jsx",
+    "importStyle": "Graphs",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"route\": *, \"navigation\": *}"
+        ],
+        "defaultRaw": {
+          "route": null,
+          "navigation": null
+        },
+        "defaultValue": "{\"route\":null,\"navigation\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 105,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/Graphs.jsx",
+    "static": true,
+    "longname": "src/screens/Graphs.jsx~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/Graphs.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 175,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 106,
+    "kind": "file",
+    "name": "src/screens/Home.jsx",
+    "content": "import React, { useState, useEffect, useRef } from 'react';\r\nimport { StyleSheet, Text, TouchableOpacity, View, Animated, ScrollView, StatusBar, Platform } from 'react-native';\r\nimport * as Animatable from 'react-native-animatable';\r\nimport { Feather } from '@expo/vector-icons';\r\nimport AsyncStorage from '@react-native-async-storage/async-storage';\r\nimport HorizontalMenu from './../components/HorizontalMenu';\r\nimport Movements from '../components/Movements';\r\nimport { useLoading } from '../Context';\r\nimport Storage from './../database/firebaseMethods';\r\nimport Tooltip from 'react-native-walkthrough-tooltip';\r\n\r\n\r\nconst menuOptions = [\r\n  {\r\n    actionType: 'Adicionando',\r\n    label: 'Entrada',\r\n    icon: 'plussquareo',\r\n    type: 0, //entrada\r\n  },\r\n  {\r\n    actionType: 'Adicionando',\r\n    label: 'Compra',\r\n    icon: 'tagso',\r\n    type: 1, //saida\r\n  },\r\n  {\r\n    actionType: 'Adicionando',\r\n    label: 'Gasto',\r\n    icon: 'barcode',\r\n    type: 1, //saida\r\n  },\r\n  {\r\n    actionType: null,\r\n    label: 'Conta',\r\n    icon: 'setting',\r\n    type: 2 //settings\r\n  },\r\n  {\r\n    actionType: null,\r\n    label: 'Gráficos',\r\n    icon: 'areachart',\r\n    type: 3 //graphs\r\n  },\r\n  {\r\n    actionType: null,\r\n    label: 'Moedas',\r\n    icon: 'money-symbol',\r\n    type: 4 //money\r\n  },\r\n];\r\n\r\nconst statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64\r\n\r\nexport default function Home({ navigation }) {\r\n  const { showLoading, hideLoading, getShouldRefresh, setShouldRefresh } = useLoading();\r\n  const [moneyGraph, SetMoneyGraph] = useState([{}]);\r\n\r\n  const refresh = async () => {\r\n    const doc = await AsyncStorage.getItem('userDoc');\r\n    const fr = new Storage(doc);\r\n    let res = await fr.getFullDoc();\r\n    await AsyncStorage.setItem('fullUserData', JSON.stringify(res))\r\n  };\r\n\r\n  const slideDownRef = useRef(null);\r\n  const [userData, setUserData] = useState({});\r\n\r\n  const [money, setMoney] = useState([]);\r\n  const [income, setIncome] = useState(0);\r\n  const [negative, setNegative] = useState(0);\r\n\r\n  const [msg, setMsg] = useState('');\r\n\r\n  //#region Balance animation\r\n  const fadeAnim = useRef(new Animated.Value(1)).current;\r\n\r\n  const fadeIn = () => {\r\n    Animated.timing(fadeAnim, {\r\n      toValue: 1,\r\n      duration: 400,\r\n      useNativeDriver: true,\r\n    }).start();\r\n  };\r\n\r\n  const fadeOut = () => {\r\n    Animated.timing(fadeAnim, {\r\n      toValue: 0,\r\n      duration: 500,\r\n      useNativeDriver: true,\r\n    }).start();\r\n  };\r\n\r\n\r\n  const toggleBalance = () => {\r\n    let state = fadeAnim.addListener((st) => { return st })\r\n    if (state % 2 == 0) {\r\n      fadeOut();\r\n    } else {\r\n      fadeIn();\r\n    }\r\n  };\r\n\r\n  //#endregion\r\n\r\n  const parseDate = (dateString) => {\r\n    if (dateString) {\r\n      const [day, month, year] = dateString.split('/');\r\n      return new Date(`${year}-${month}-${day}`);\r\n    } else {\r\n      return new Date();\r\n    }\r\n  };\r\n\r\n\r\n  const [showBalanceTip, setBalanceTip] = useState(false);\r\n  const [showMenuTip, setShowMenuTip] = useState(false);\r\n  const [showMovementsTip, setShowMovementsTip] = useState(false);\r\n\r\n  useEffect(() => {\r\n    slideDownRef.current.slideInDown(1000);\r\n\r\n    let res;\r\n    const getAllData = async () => {\r\n      let isNew = await AsyncStorage.getItem('isNew');\r\n\r\n      if (isNew === 'true') {\r\n        setBalanceTip(true);\r\n        await AsyncStorage.removeItem('isNew');\r\n      };\r\n\r\n      try {\r\n        showLoading();\r\n        const fullRes = await AsyncStorage.getItem('fullUserData');\r\n        res = JSON.parse(fullRes);\r\n\r\n        if (res) {\r\n          setUserData(res.userData);\r\n\r\n          let allIncomes = [];\r\n          let incomeSum = 0;\r\n          if (res.incomes) {\r\n            res.incomes.forEach(element => {\r\n              allIncomes.push({\r\n                ...element,\r\n                type: 1\r\n              })\r\n              incomeSum += parseFloat(element.value);\r\n            });\r\n          }\r\n          setIncome(incomeSum.toFixed(2));\r\n\r\n          let allExpenses = [];\r\n          let expenseSum = 0;\r\n          if (res.expenses) {\r\n            res.expenses.forEach(element => {\r\n              allExpenses.push({\r\n                ...element,\r\n                type: 0\r\n              })\r\n              expenseSum += parseFloat(element.value);\r\n            });\r\n          }\r\n          setNegative(expenseSum.toFixed(2));\r\n\r\n          let allMoney = [...allIncomes, ...allExpenses];\r\n\r\n          SetMoneyGraph({\r\n            incomes: allIncomes,\r\n            expenses: allExpenses,\r\n            moneyFlow: [\r\n              {\r\n                name: \"incomes\",\r\n                value: incomeSum.toFixed(2)\r\n              },\r\n              {\r\n                name: \"expenses\",\r\n                value: expenseSum.toFixed(2)\r\n              }\r\n            ],\r\n          })\r\n\r\n          const listaOrdenada = allMoney.sort((a, b) => {\r\n            const dataA = parseDate(a.date);\r\n            const dataB = parseDate(b.date);\r\n            return dataB - dataA;\r\n          });\r\n\r\n          setMoney(listaOrdenada);\r\n          setMsg(\"\")\r\n        } else {\r\n          setMsg('Nenhum dado encontrado!');\r\n        }\r\n      } catch (err) {\r\n        console.log(err);\r\n        setMsg('Nenhum dado encontrado!');\r\n      } finally {\r\n        setShouldRefresh(false);\r\n        hideLoading();\r\n      }\r\n    };\r\n\r\n\r\n    getAllData().catch(console.error);\r\n\r\n  }, [getShouldRefresh()]);\r\n\r\n\r\n  return (\r\n    <ScrollView style={{ marginTop: statusBarHeight, flex: 1 }}>\r\n      {/** #region HEADER **/}\r\n      <View style={st.header_container}>\r\n        <View style={st.header_content}>\r\n          <Animatable.View ref={slideDownRef} style={st.header_profile}>\r\n            <Text style={st.header_userName}>{userData.name}</Text>\r\n\r\n            <TouchableOpacity\r\n              activeOpacity={0.9}\r\n              style={st.header_btnUser}\r\n              onPress={() => navigation.navigate('Profile')}>\r\n              <Feather name=\"user\" size={27} color={'darkblue'} />\r\n            </TouchableOpacity>\r\n          </Animatable.View>\r\n        </View>\r\n      </View>\r\n      {/** #endregion HEADER **/}\r\n\r\n      {/** #region BALANCE **/}\r\n      <TouchableOpacity\r\n        style={st.balance_viewContainer}\r\n        onPress={toggleBalance}>\r\n        <Tooltip\r\n          isVisible={showBalanceTip}\r\n          content={\r\n            <View style={{ padding: 5 }}>\r\n              <Text>Você pode esconder ou exibir os valores, apenas clicando nele!</Text>\r\n            </View>\r\n          }\r\n          onClose={() => setBalanceTip(false)}\r\n          placement=\"bottom\"\r\n        >\r\n          <Tooltip\r\n            isVisible={showBalanceTip}\r\n            content={\r\n              <View style={{ padding: 5 }}>\r\n                <Text>Aqui estão os balanços que você registrar no app!</Text>\r\n              </View>\r\n            }\r\n            onClose={() => { setBalanceTip(false); setShowMenuTip(true); }}\r\n            placement=\"top\"\r\n          >\r\n            <View style={st.balance_container} >\r\n              <Animated.View style={[st.balance_data, { opacity: fadeAnim }]}>\r\n                <View style={st.balance_item}>\r\n                  <Text style={st.balance_itemTitle}>Saldo</Text>\r\n                  <View style={st.balance_content}>\r\n                    <Text style={st.balance_currency}>R$</Text>\r\n                    <Text style={st.balance_balance}>{income}</Text>\r\n                  </View>\r\n                </View>\r\n                <View style={st.balance_item}>\r\n                  <Text style={st.balance_itemTitle}>Gastos</Text>\r\n                  <View style={st.balance_content}>\r\n                    <Text style={st.balance_currency}>R$</Text>\r\n                    <Text style={st.balance_expenses}>{negative}</Text>\r\n                  </View>\r\n                </View>\r\n              </Animated.View>\r\n            </View>\r\n          </Tooltip>\r\n        </Tooltip>\r\n      </TouchableOpacity>\r\n      {/** #endregion BALANCE **/}\r\n\r\n      <Tooltip\r\n        isVisible={showMenuTip}\r\n        content={\r\n          <View style={{ padding: 5 }}>\r\n            <Text>Arraste o menu para o lado, para ver todas as suas opções!</Text>\r\n          </View>\r\n        }\r\n        onClose={() => { setShowMovementsTip(true); setShowMenuTip(false); }}\r\n        placement=\"bottom\"\r\n      >\r\n        <ScrollView\r\n          style={[st.scrollContainer, { paddingRight: 10 }]}\r\n          horizontal={true}\r\n          showsHorizontalScrollIndicator={false}>\r\n          {menuOptions.map((item, index) => (\r\n            <View style={{ height: 100, marginRight: 15 }} key={index}>\r\n              <HorizontalMenu\r\n                refresh={refresh}\r\n                navigation={navigation}\r\n                dados={item}\r\n                key={index}\r\n                allData={moneyGraph}\r\n              />\r\n            </View>\r\n          ))}\r\n        </ScrollView>\r\n      </Tooltip>\r\n      {/** #region MOVIMENTACOES **/}\r\n\r\n      <View style={{ padding: 10, marginLeft: 3, marginRight: 3 }}>\r\n\r\n        <Tooltip\r\n          isVisible={showMovementsTip}\r\n          content={\r\n            <View style={{ padding: 5 }}>\r\n              <Text>Aqui ficará toda a movimentação financeira que você registrar!</Text>\r\n            </View>\r\n          }\r\n          onClose={() => { setShowMovementsTip(false); }}\r\n          placement=\"top\"\r\n        >\r\n          <Text style={st.title}>Últimas movimentações</Text>\r\n          <Text>{msg}</Text>\r\n        </Tooltip>\r\n        <ScrollView showsVerticalScrollIndicator={false}>\r\n          {money.map((item, index) => (\r\n            <View key={index}>\r\n              <Movements props={item} key={index} />\r\n            </View>\r\n          ))}\r\n        </ScrollView>\r\n      </View>\r\n\r\n      {/** #endregion MOVIMENTACOES **/}\r\n    </ScrollView>\r\n  );\r\n}\r\n\r\nconst st = StyleSheet.create({\r\n  tooltip: {\r\n    position: 'absolute',\r\n    backgroundColor: 'white',\r\n    padding: 10,\r\n    borderRadius: 5,\r\n    borderWidth: 1,\r\n    borderColor: 'gray',\r\n  },\r\n  header_profile: {\r\n    justifyContent: 'space-between',\r\n    flexDirection: 'row',\r\n    paddingTop: 20,\r\n    paddingBottom: 20,\r\n    paddingRight: 20,\r\n    paddingLeft: 20,\r\n    alignItems: 'center',\r\n  },\r\n  header_container: {\r\n    paddingTop: 20,\r\n    backgroundColor: 'darkblue',\r\n    paddingBottom: 60,\r\n  },\r\n  header_userName: {\r\n    color: '#fff',\r\n    fontWeight: 'bold',\r\n    fontSize: 20,\r\n  },\r\n  header_btnUser: {\r\n    backgroundColor: '#fff',\r\n    padding: 10,\r\n    borderRadius: 100,\r\n    zIndex: 99\r\n  },\r\n\r\n  balance_viewContainer: {\r\n    marginTop: -50,\r\n    zIndex: 99,\r\n    marginLeft: 12,\r\n    marginRight: 12,\r\n  },\r\n  balance_container: {\r\n    height: 130,\r\n    flexDirection: 'row',\r\n    justifyContent: 'space-between',\r\n    alignItems: 'center',\r\n    backgroundColor: '#fff',\r\n    borderColor: 'rgba(0,0,0,0.2)',\r\n    borderWidth: 0.3,\r\n    borderRadius: 4,\r\n    marginStart: 14,\r\n    marginEnd: 14,\r\n  },\r\n  balance_data: {\r\n    flexDirection: 'row',\r\n    justifyContent: 'space-around',\r\n    flex: 1,\r\n  },\r\n  balance_item: {\r\n    borderRadius: 4,\r\n    paddingTop: 22,\r\n    paddingBottom: 22,\r\n    zIndex: 99,\r\n  },\r\n  balance_itemTitle: {\r\n    fontSize: 20,\r\n    color: '#DADADA',\r\n  },\r\n  balance_content: {\r\n    flexDirection: 'row',\r\n    alignItems: 'center',\r\n  },\r\n  balance_currency: {\r\n    color: '#DADADA',\r\n    marginRight: 6,\r\n  },\r\n  balance_balance: {\r\n    fontSize: 22,\r\n    color: '#2ecc71',\r\n  },\r\n  balance_expenses: {\r\n    fontSize: 22,\r\n    color: '#e74c3c',\r\n  },\r\n\r\n  scrollContainer: {\r\n    marginBottom: 20,\r\n    marginTop: 18,\r\n    paddingEnd: 14,\r\n    paddingStart: 14,\r\n  },\r\n  title: {\r\n    fontSize: 18,\r\n    fontWeight: 'bold',\r\n    marginRight: 14,\r\n    marginBottom: 20,\r\n  },\r\n});\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/screens/Home.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 107,
+    "kind": "variable",
+    "name": "menuOptions",
+    "memberof": "src/screens/Home.jsx",
+    "static": true,
+    "longname": "src/screens/Home.jsx~menuOptions",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/Home.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "undefined[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 108,
+    "kind": "variable",
+    "name": "statusBarHeight",
+    "memberof": "src/screens/Home.jsx",
+    "static": true,
+    "longname": "src/screens/Home.jsx~statusBarHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/Home.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 52,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 109,
+    "kind": "function",
+    "name": "Home",
+    "memberof": "src/screens/Home.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/Home.jsx~Home",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/screens/Home.jsx",
+    "importStyle": "Home",
+    "description": null,
+    "lineNumber": 54,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"navigation\": *}"
+        ],
+        "defaultRaw": {
+          "navigation": null
+        },
+        "defaultValue": "{\"navigation\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 110,
+    "kind": "variable",
+    "name": "st",
+    "memberof": "src/screens/Home.jsx",
+    "static": true,
+    "longname": "src/screens/Home.jsx~st",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/Home.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 332,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 111,
+    "kind": "file",
+    "name": "src/screens/Money.jsx",
+    "content": "import { useEffect, useState } from \"react\"\r\nimport { useLoading } from \"../Context\";\r\nimport ApiRequests from \"../server/apidata\";\r\nimport { StyleSheet, Text, ScrollView, TouchableOpacity, View, StatusBar } from \"react-native\";\r\nimport { Ionicons } from '@expo/vector-icons';\r\nimport MoneysGraph from \"../components/MoneysGraph\";\r\n\r\nconst statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64\r\n\r\n\r\nconst api = new ApiRequests();\r\n\r\nexport default function Money({ navigation }) {\r\n\r\n    const { showLoading, hideLoading } = useLoading();\r\n    const [pesoName, setPesoName] = useState(\"\");\r\n    const [dolarName, setDolarName] = useState(\"\");\r\n    const [euroName, setEuroName] = useState(\"\");\r\n\r\n    const moedas = [\"ARS-BRL\", \"EUR-BRL\", \"USD-BRL\"];\r\n    const [dolar, setDolar] = useState(null);\r\n    const [euro, setEuro] = useState(null);\r\n    const [peso, setPeso] = useState(null);\r\n\r\n\r\n    useEffect(() => {\r\n        const getMoney = async () => {\r\n            showLoading();\r\n            try {\r\n                var outp = await api.getMoneyData(moedas);\r\n\r\n                let arg = outp[moedas[0].replace(\"-\", \"\")];\r\n                let eur = outp[moedas[1].replace(\"-\", \"\")];\r\n                let us = outp[moedas[2].replace(\"-\", \"\")];\r\n\r\n                setDolarName(us[\"name\"]);\r\n                setPesoName(arg[\"name\"]);\r\n                setEuroName(eur[\"name\"]);\r\n\r\n                let meuro = {\r\n                    labels: [eur[\"code\"], eur[\"codein\"]],\r\n                    datasets: [\r\n                        {\r\n                            data: [parseFloat(eur[\"ask\"]), parseFloat(1)]\r\n                        }\r\n                    ]\r\n                };\r\n                setEuro(meuro);\r\n\r\n                let mpeso = {\r\n                    labels: [arg[\"code\"], arg[\"codein\"]],\r\n                    datasets: [\r\n                        {\r\n                            data: [parseFloat(arg[\"ask\"]), parseFloat(1)]\r\n                        }\r\n                    ]\r\n                };\r\n                setPeso(mpeso);\r\n\r\n                let mdolar = {\r\n                    labels: [us[\"code\"], us[\"codein\"]],\r\n                    datasets: [\r\n                        {\r\n                            data: [parseFloat(us[\"ask\"]), parseFloat(1)]\r\n                        }\r\n                    ]\r\n                };\r\n                setDolar(mdolar);\r\n\r\n            }\r\n            catch (e) { console.log(e) } finally {\r\n                hideLoading();\r\n            }\r\n        }\r\n\r\n        getMoney();\r\n    }, [])\r\n\r\n\r\n    return (\r\n        <View style={{ marginTop: statusBarHeight }}>\r\n            <TouchableOpacity style={styles.back} onPress={() => { navigation.navigate(\"Home\") }}>\r\n                <Ionicons name=\"arrow-back-circle-outline\" size={30} color=\"darkblue\" />\r\n            </TouchableOpacity>\r\n            <ScrollView style={{ marginTop: 16, paddingHorizontal: 8 }}>\r\n\r\n                <Text style={styles.title}>Cotações</Text>\r\n\r\n                {peso ? <MoneysGraph color={\"rgb(0, 139, 93)\"} bardata={peso} name={pesoName} />\r\n                    : <View style={styles.load}></View>}\r\n\r\n                {dolar ? <MoneysGraph color={\"rgb(163, 39, 23)\"} bardata={dolar} name={dolarName} />\r\n                    : <View style={styles.load}></View>}\r\n\r\n                {euro ? <MoneysGraph color={\"rgb(163, 39, 23)\"} bardata={euro} name={euroName} />\r\n                    : <View style={styles.load}></View>}\r\n\r\n            </ScrollView >\r\n        </View>\r\n    )\r\n}\r\n\r\nconst styles = StyleSheet.create({\r\n    back: {\r\n        marginHorizontal: 16,\r\n        marginVertical: 8,\r\n        position: 'absolute',\r\n        top: 12,\r\n        zIndex: 99\r\n    },\r\n    title: {\r\n        fontSize: 28,\r\n        fontWeight: \"bold\",\r\n        textAlign: \"center\"\r\n    },\r\n    load: {\r\n        padding: 12,\r\n        marginBottom: 24,\r\n        marginLeft: 12\r\n    }\r\n})",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/screens/Money.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 112,
+    "kind": "variable",
+    "name": "statusBarHeight",
+    "memberof": "src/screens/Money.jsx",
+    "static": true,
+    "longname": "src/screens/Money.jsx~statusBarHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/Money.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 113,
+    "kind": "variable",
+    "name": "api",
+    "memberof": "src/screens/Money.jsx",
+    "static": true,
+    "longname": "src/screens/Money.jsx~api",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/Money.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "src/server/apidata.js~ApiRequests"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 114,
+    "kind": "function",
+    "name": "Money",
+    "memberof": "src/screens/Money.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/Money.jsx~Money",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/screens/Money.jsx",
+    "importStyle": "Money",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"navigation\": *}"
+        ],
+        "defaultRaw": {
+          "navigation": null
+        },
+        "defaultValue": "{\"navigation\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 115,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/Money.jsx",
+    "static": true,
+    "longname": "src/screens/Money.jsx~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/Money.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 103,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 116,
+    "kind": "file",
+    "name": "src/screens/Profile.jsx",
+    "content": "import { View, StatusBar, Text, StyleSheet, TouchableOpacity, FlatList } from 'react-native';\r\nimport { Feather, MaterialIcons } from '@expo/vector-icons';\r\nimport React, { useEffect, useState } from 'react';\r\nimport Storage from '../database/firebaseMethods';\r\nimport { useLoading } from '../Context';\r\nimport AsyncStorage from '@react-native-async-storage/async-storage';\r\n\r\nconst statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64;\r\n\r\n\r\nexport default function Perfil({ navigation }) {\r\n  const { showLoading, hideLoading } = useLoading();\r\n  const [dados, setDados] = useState({\r\n    email: \"\",\r\n    name: \"\",\r\n    perfilInvestimento: \"\",\r\n    profissao: \"\"\r\n  });\r\n  const [investimentos, setInvestimentos] = useState([{\r\n    label: \"\",\r\n    status: 1,\r\n    value: \"\"\r\n  }]);\r\n\r\n  useEffect(() => {\r\n    const getAllData = async () => {\r\n      const doc = await AsyncStorage.getItem('userDoc');\r\n      const fr = new Storage(doc)\r\n      try {\r\n        showLoading();\r\n\r\n        let res = await fr.getFullDoc();\r\n        if (res) {\r\n          let uD = res.userData;\r\n          let inv = res.investments;\r\n          let invs = []\r\n          if (inv) {\r\n            inv.forEach(element => {\r\n              invs.push({\r\n                id: element.id,\r\n                label: element.label,\r\n                status: element.status,\r\n                value: parseFloat(element.value).toFixed(2)\r\n              })\r\n            });\r\n          }\r\n          setDados(uD);\r\n          setInvestimentos(invs);\r\n        } else {\r\n          console.log(res)\r\n        }\r\n      } catch (err) { console.log(err) } finally { hideLoading(); }\r\n    };\r\n\r\n    getAllData().catch(console.error);\r\n  }, []);\r\n\r\n  return (\r\n    <View style={{ height: '100%', marginTop: statusBarHeight }}>\r\n      <View style={styles.container}>\r\n        <View style={styles.content}>\r\n          <Text\r\n            style={styles.userName}\r\n            from={{ translateX: -300 }}\r\n            animate={{ translateX: 0 }}\r\n            transition={{ type: 'timing', duration: 1000, delay: 300 }}>\r\n            {dados.name + '\\n'}\r\n            <Text style={styles.label}>{dados.email}</Text>\r\n          </Text>\r\n\r\n          <TouchableOpacity\r\n            activeOpacity={0.9}\r\n            style={styles.btnUser}\r\n            onPress={() => {\r\n              alert('Change photo');\r\n            }}>\r\n            <Feather name=\"user\" size={27} color={'#fff'} />\r\n          </TouchableOpacity>\r\n        </View>\r\n      </View>\r\n\r\n      <View style={styles.data}>\r\n        <Text style={styles.text}>\r\n          Profissão:\r\n          <Text style={styles.insiderText}>{' ' + dados.profissao}</Text>\r\n        </Text>\r\n\r\n        <Text style={styles.text}>\r\n          Perfil de investimento:\r\n          <Text style={styles.insiderText}>\r\n            {' ' + dados.perfilInvestimento}\r\n          </Text>\r\n        </Text>\r\n\r\n        <View style={{ marginTop: 10 }}>\r\n          <Text style={styles.text}>Ações de Interesse </Text>\r\n\r\n          <View>\r\n            <FlatList\r\n              style={styles.list}\r\n              data={investimentos}\r\n              keyExtractor={(item) => String(item.label)}\r\n              showsVerticalScrollIndicator={false}\r\n              renderItem={({ item }) => (\r\n                <View style={styles.inv_container}>\r\n                  <Text style={styles.inv_data}>{/* {props.Id} */}</Text>\r\n                  <View style={styles.inv_content}>\r\n                    <Text style={styles.inv_label}>{item.label}</Text>\r\n\r\n                    <View>\r\n                      <Text\r\n                        style={\r\n                          item.status == 1\r\n                            ? styles.inv_value\r\n                            : styles.inv_expenses\r\n                        }>\r\n                        {item.status == 1\r\n                          ? `${item.value}%`\r\n                          : `-${item.value}%`}\r\n                      </Text>\r\n                    </View>\r\n                  </View>\r\n                </View>\r\n              )}\r\n            />\r\n          </View>\r\n\r\n          <View\r\n            style={{ marginTop: 30, flexDirection: 'row' }}>\r\n            <TouchableOpacity onPress={() => { navigation.navigate(\"Investments\") }}>\r\n              <View style={styles.addView}>\r\n                <Text style={{ paddingRight: 8, paddingTop: 3, fontSize: 12 }}>\r\n                  Alterar\r\n                </Text>\r\n                \r\n                <Feather name=\"refresh-cw\" size={18} color=\"darkblue\" />\r\n              </View>\r\n            </TouchableOpacity>\r\n          </View>\r\n        </View>\r\n      </View>\r\n\r\n      <View style={styles._homeBtnView}>\r\n        <TouchableOpacity\r\n          style={styles._homeBtn}\r\n          onPress={() => {\r\n            navigation.navigate('Home');\r\n          }}>\r\n          <MaterialIcons name=\"home\" size={30} color=\"#fff\" />\r\n        </TouchableOpacity>\r\n      </View>\r\n    </View>\r\n  );\r\n}\r\n\r\nconst styles = StyleSheet.create({\r\n  addView: {\r\n    flexDirection: 'row',\r\n    borderWidth: 1,\r\n    borderColor: 'darkblue',\r\n    borderRadius: 5,\r\n    paddingVertical: 5,\r\n    paddingHorizontal: 12,\r\n    alignContent: 'center',\r\n    alignItems: 'center',\r\n  },\r\n  text: {\r\n    fontWeight: 'bold',\r\n    fontSize: 20,\r\n    paddingTop: 5,\r\n    paddingBottom: 5,\r\n    marginBottom: 10,\r\n    color: 'darkblue',\r\n  },\r\n  insiderText: {\r\n    color: '#000',\r\n    fontWeight: 'normal',\r\n  },\r\n  container: {\r\n    backgroundColor: 'darkblue',\r\n    flexDirection: 'row',\r\n    paddingVertical: 40,\r\n    paddingHorizontal: 24,\r\n  },\r\n  content: {\r\n    flex: 1,\r\n    alignItems: 'center',\r\n    flexDirection: 'row',\r\n    justifyContent: 'space-between',\r\n  },\r\n  userName: {\r\n    fontSize: 18,\r\n    color: '#fff',\r\n    fontWeight: 'bold',\r\n    marginTop: 5,\r\n  },\r\n  btnUser: {\r\n    width: 44,\r\n    height: 44,\r\n    backgroundColor: 'rgba(255,255,255,0.5)',\r\n    justifyContent: 'center',\r\n    alignItems: 'center',\r\n    borderRadius: 44 / 2,\r\n  },\r\n  data: {\r\n    color: '#dadada',\r\n    padding: 15,\r\n  },\r\n  label: {\r\n    fontWeight: 'bold',\r\n    fontSize: 14,\r\n    paddingTop: 5,\r\n    marginTop: 5,\r\n  },\r\n  list: {\r\n    marginStart: 14,\r\n    marginEnd: 14,\r\n  },\r\n\r\n  _homeBtnView: {\r\n    marginHorizontal: 30,\r\n    flexDirection: 'row',\r\n    justifyContent: 'space-between',\r\n    position: 'absolute',\r\n    bottom: 70,\r\n    right: 10,\r\n  },\r\n  _homeBtn: {\r\n    padding: 10,\r\n    borderRadius: 100,\r\n    backgroundColor: 'darkblue',\r\n  },\r\n\r\n  inv_container: {\r\n    flex: 1,\r\n    marginBottom: 12,\r\n    borderBottomWidth: 0.5,\r\n    borderBottomColor: '#dadada',\r\n  },\r\n  inv_content: {\r\n    flexDirection: 'row',\r\n    justifyContent: 'space-between',\r\n    marginTop: 2,\r\n    marginBottom: 8,\r\n  },\r\n  inv_data: {\r\n    color: '#dadada',\r\n    fontWeight: 'bold',\r\n  },\r\n  inv_label: {\r\n    fontWeight: 'bold',\r\n    fontSize: 16,\r\n  },\r\n  inv_value: {\r\n    fontSize: 15,\r\n    color: '#2ecc71',\r\n    fontWeight: 'bold',\r\n  },\r\n  inv_expenses: {\r\n    fontSize: 15,\r\n    color: '#e74c3c',\r\n    fontWeight: 'bold',\r\n  },\r\n});\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/screens/Profile.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 117,
+    "kind": "variable",
+    "name": "statusBarHeight",
+    "memberof": "src/screens/Profile.jsx",
+    "static": true,
+    "longname": "src/screens/Profile.jsx~statusBarHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/Profile.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 118,
+    "kind": "function",
+    "name": "Perfil",
+    "memberof": "src/screens/Profile.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/Profile.jsx~Perfil",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/screens/Profile.jsx",
+    "importStyle": "Perfil",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"navigation\": *}"
+        ],
+        "defaultRaw": {
+          "navigation": null
+        },
+        "defaultValue": "{\"navigation\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 119,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/Profile.jsx",
+    "static": true,
+    "longname": "src/screens/Profile.jsx~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/Profile.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 156,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 120,
+    "kind": "file",
+    "name": "src/screens/Settings.jsx",
+    "content": "import { useEffect, useState } from 'react';\r\nimport ChangeData from '../components/ChangeData';\r\nimport { MaterialIcons } from '@expo/vector-icons';\r\nimport { View, TouchableOpacity, StyleSheet, Text, StatusBar } from 'react-native';\r\nimport Storage from '../database/firebaseMethods';\r\nimport { useLoading } from '../Context';\r\nimport AsyncStorage from '@react-native-async-storage/async-storage';\r\n\r\n\r\nconst statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64\r\n\r\n\r\nexport default function Settings({ navigation }) {\r\n  const { showLoading, hideLoading, setShouldRefresh } = useLoading();\r\n\r\n\r\n  const [dados, setUserData] = useState({});\r\n  const [shouldRefresh, setShouldRefreshSettings] = useState(true);\r\n\r\n  useEffect(() => {\r\n    const getAllData = async () => {\r\n\r\n      const doc = await AsyncStorage.getItem('userDoc');\r\n      const fr = new Storage(doc);\r\n      try {\r\n        showLoading();\r\n        let res = await fr.getFullDoc();\r\n        let uD = res.userData;\r\n        setUserData(uD);\r\n      } catch (err) {\r\n        console.log(err);\r\n      } finally {\r\n        hideLoading();\r\n      }\r\n\r\n    };\r\n\r\n    getAllData();\r\n  }, [shouldRefresh]);\r\n\r\n  const refresh = async () => {\r\n    setShouldRefreshSettings(!shouldRefresh);\r\n  }\r\n\r\n  const handleSair = async () => {\r\n    await AsyncStorage.removeItem('isAuth');\r\n    await AsyncStorage.removeItem('fullUserData');\r\n    await AsyncStorage.removeItem('userDoc');\r\n    navigation.navigate(\"Auth\");\r\n  }\r\n\r\n  return (\r\n    <View style={{ marginTop: statusBarHeight, height: '100%' }}>\r\n      <View>\r\n        <ChangeData\r\n          label=\"Nome\"\r\n          value={dados.name}\r\n          refresh={refresh}\r\n        />\r\n        <ChangeData\r\n          label=\"Email\"\r\n          value={dados.email}\r\n          refresh={refresh}\r\n        />\r\n        <ChangeData\r\n          label=\"Profissão\"\r\n          value={dados.profissao}\r\n          refresh={refresh}\r\n        />\r\n        <ChangeData\r\n          label=\"Perfil de Investimento\"\r\n          value={dados.perfilInvestimento}\r\n          refresh={refresh}\r\n        />\r\n      </View>\r\n\r\n      <View style={styles.homeBtnView}>\r\n        <TouchableOpacity\r\n          style={styles.homeBtn}\r\n          onPress={() => {\r\n            setShouldRefresh(true);\r\n            navigation.navigate('Home');\r\n          }}>\r\n          <MaterialIcons name=\"home\" size={30} color=\"#fff\" />\r\n        </TouchableOpacity>\r\n      </View>\r\n\r\n      <TouchableOpacity style={styles.sair} onPress={handleSair}>\r\n        <Text style={{ fontSize: 20 }}>Sair</Text></TouchableOpacity>\r\n    </View>\r\n  );\r\n}\r\n\r\nconst styles = StyleSheet.create({\r\n  homeBtnView: {\r\n    marginHorizontal: 30,\r\n    flexDirection: 'row',\r\n    justifyContent: 'space-between',\r\n    position: 'absolute',\r\n    bottom: 80,\r\n    right: 10,\r\n  },\r\n  homeBtn: {\r\n    padding: 10,\r\n    borderRadius: 100,\r\n    backgroundColor: 'darkblue',\r\n  },\r\n  sair: {\r\n    position: 'absolute',\r\n    bottom: 80,\r\n    left: 20,\r\n    borderWidth: 1,\r\n    borderColor: 'darkblue',\r\n    borderRadius: 12,\r\n    paddingVertical: 8,\r\n    paddingHorizontal: 16\r\n  }\r\n\r\n});\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/screens/Settings.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 121,
+    "kind": "variable",
+    "name": "statusBarHeight",
+    "memberof": "src/screens/Settings.jsx",
+    "static": true,
+    "longname": "src/screens/Settings.jsx~statusBarHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/Settings.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 122,
+    "kind": "function",
+    "name": "Settings",
+    "memberof": "src/screens/Settings.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/Settings.jsx~Settings",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/screens/Settings.jsx",
+    "importStyle": "Settings",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"navigation\": *}"
+        ],
+        "defaultRaw": {
+          "navigation": null
+        },
+        "defaultValue": "{\"navigation\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 123,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/Settings.jsx",
+    "static": true,
+    "longname": "src/screens/Settings.jsx~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/Settings.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 94,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 124,
+    "kind": "file",
+    "name": "src/screens/subscreens/Investments.jsx",
+    "content": "import React, { useState, useEffect } from 'react';\r\nimport {\r\n  View,\r\n  Text,\r\n  TouchableOpacity,\r\n  StyleSheet,\r\n  FlatList, StatusBar,\r\n} from 'react-native';\r\nimport Storage from '../../database/firebaseMethods';\r\nimport { ScrollView } from 'react-native-gesture-handler';\r\nimport AsyncStorage from '@react-native-async-storage/async-storage';\r\nimport { useLoading } from '../../Context';\r\nimport Checkbox from 'expo-checkbox';\r\nimport ArrowBack from '../../components/ArrowBack';\r\n\r\nconst statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64;\r\n\r\nexport default function Investments({ navigation }) {\r\n  const { showLoading, hideLoading, getShouldRefresh, setShouldRefresh } = useLoading();\r\n\r\n  const [opts, setOpts] = useState([]);\r\n  const [selectedOptions, setSelectedOptions] = useState([]);\r\n\r\n  useEffect(() => {\r\n    const getAllData = async () => {\r\n      try {\r\n        showLoading();\r\n        const doc = await AsyncStorage.getItem('userDoc');\r\n        const fr = new Storage(doc);\r\n        let res = await fr.getFullDoc();\r\n        let opt = res.investments;\r\n        opt = opt.map((option) => ({ ...option, selected: false }));\r\n        setOpts(opt);\r\n        setSelectedOptions(opt);\r\n      } catch (err) {\r\n        console.log(err);\r\n      } finally {\r\n        hideLoading();\r\n        setShouldRefresh(false);\r\n      }\r\n    };\r\n\r\n    getAllData().catch(console.error);\r\n  }, [getShouldRefresh()]);\r\n\r\n  const toggleOption = (option) => {\r\n    setSelectedOptions((prevSelectedOptions) => {\r\n      return prevSelectedOptions.map((prevOption) => {\r\n        if (prevOption.id === option.id) {\r\n          // Inverte o estado da opção selecionada\r\n          return { ...prevOption, selected: !prevOption.selected };\r\n        } else {\r\n          return prevOption;\r\n        }\r\n      });\r\n    });\r\n  };\r\n\r\n  const renderItem = ({ item }) => (\r\n    <View>\r\n      <View style={styles.optionContainer}>\r\n        <Checkbox\r\n          value={selectedOptions.some((selectedOption) => selectedOption.id === item.id)}\r\n          onValueChange={() => toggleOption(item)}\r\n        />\r\n        <Text style={{ marginLeft: 8, fontSize: 18 }}>{item.label}</Text>\r\n      </View>\r\n    </View>\r\n  );\r\n\r\n  const saveData = async () => {\r\n    try {\r\n      showLoading();\r\n      const doc = await AsyncStorage.getItem('userDoc');\r\n      const fr = new Storage(doc);\r\n      var res = await fr.updateDoc({\r\n        investments: selectedOptions,\r\n      });\r\n      if (res === 1) {\r\n        alert('Salvo com sucesso');\r\n      }\r\n    } catch (err) {\r\n      console.log(err);\r\n    } finally {\r\n      hideLoading();\r\n    }\r\n  };\r\n\r\n  return (\r\n    <View style={{ marginTop: statusBarHeight, paddingHorizontal: 15, height: '100%' }}>\r\n      <ArrowBack navigation={navigation} navigate=\"Profile\" style={{ marginTop: 10 }} />\r\n      <View style={styles.container}>\r\n        <Text style={styles.header}>Selecione as ações de interesse:</Text>\r\n        <FlatList\r\n          data={opts}\r\n          renderItem={renderItem}\r\n          keyExtractor={(item) => item.label.toString()}\r\n        />\r\n      </View>\r\n\r\n      <View style={styles.btn_container}>\r\n        <View style={styles.btn_buttonContainer}>\r\n          <TouchableOpacity style={styles.btn_button} onPress={saveData}>\r\n            <Text style={styles.btn_buttonText}>Salvar</Text>\r\n          </TouchableOpacity>\r\n          <TouchableOpacity\r\n            style={styles.btn_button}\r\n            onPress={() => {\r\n              navigation.navigate('SaveInvestments');\r\n            }}>\r\n            <Text style={styles.btn_buttonText}>Novo</Text>\r\n          </TouchableOpacity>\r\n        </View>\r\n      </View>\r\n    </View>\r\n  );\r\n}\r\n\r\nconst styles = StyleSheet.create({\r\n  container: {\r\n    padding: 16,\r\n    justifyContent: 'center',\r\n    marginTop: statusBarHeight,\r\n  },\r\n  header: {\r\n    fontSize: 18,\r\n    fontWeight: 'bold',\r\n    marginBottom: 16,\r\n  },\r\n  optionContainer: {\r\n    flexDirection: 'row',\r\n    alignItems: 'center',\r\n    marginBottom: 8,\r\n  },\r\n\r\n  btn_container: {\r\n    flex: 1,\r\n    marginTop: 30,\r\n  },\r\n  btn_buttonContainer: {\r\n    flexDirection: 'row',\r\n\r\n    paddingHorizontal: 16,\r\n  },\r\n  btn_button: {\r\n    backgroundColor: 'darkblue',\r\n    padding: 10,\r\n    borderRadius: 5,\r\n    flex: 1,\r\n    marginHorizontal: 8,\r\n  },\r\n  btn_buttonText: {\r\n    color: '#fff',\r\n    textAlign: 'center',\r\n  },\r\n});\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/screens/subscreens/Investments.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 125,
+    "kind": "variable",
+    "name": "statusBarHeight",
+    "memberof": "src/screens/subscreens/Investments.jsx",
+    "static": true,
+    "longname": "src/screens/subscreens/Investments.jsx~statusBarHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/subscreens/Investments.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 126,
+    "kind": "function",
+    "name": "Investments",
+    "memberof": "src/screens/subscreens/Investments.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/subscreens/Investments.jsx~Investments",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/screens/subscreens/Investments.jsx",
+    "importStyle": "Investments",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"navigation\": *}"
+        ],
+        "defaultRaw": {
+          "navigation": null
+        },
+        "defaultValue": "{\"navigation\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 127,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/subscreens/Investments.jsx",
+    "static": true,
+    "longname": "src/screens/subscreens/Investments.jsx~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/subscreens/Investments.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 119,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 128,
+    "kind": "file",
+    "name": "src/screens/subscreens/SaveInvestment.jsx",
+    "content": "import {\r\n  View,\r\n  Text,\r\n  TextInput,\r\n  Button,\r\n  StyleSheet,\r\n  TouchableOpacity, StatusBar\r\n} from 'react-native';\r\nimport React, { useState } from 'react';\r\nimport Storage from '../../database/firebaseMethods';\r\nimport { AntDesign, Ionicons } from '@expo/vector-icons';\r\nimport { useLoading } from './../../Context';\r\nimport ArrowBack from '../../components/ArrowBack';\r\nimport AsyncStorage from '@react-native-async-storage/async-storage';\r\n\r\nconst statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64;\r\n\r\n\r\nexport default function SaveInvestments({ navigation }) {\r\n  const { showLoading, hideLoading, setShouldRefresh } = useLoading();\r\n\r\n  const [description, setDescription] = useState('');\r\n  const [value, setValue] = useState('');\r\n  const [opcao, setOpcao] = useState(null);\r\n\r\n  const handleCheck1 = () => {\r\n    setOpcao(0);\r\n  };\r\n\r\n  const handleCheck2 = () => {\r\n    setOpcao(1);\r\n  };\r\n\r\n  const handleSubmit = async () => {\r\n    try {\r\n      showLoading();\r\n      const doc = await AsyncStorage.getItem('userDoc');\r\n      const fr = new Storage(doc)\r\n      await fr.appendToInvestments({\r\n        label: description,\r\n        value: value,\r\n        status: opcao,\r\n      });\r\n    } catch (err) { console.log(err); } finally { hideLoading(); }\r\n    setShouldRefresh(true);\r\n    alert(\"salvo com sucesso!\")\r\n    navigation.navigate(\"Investments\");\r\n  };\r\n\r\n\r\n  return (\r\n    <View style={{ marginTop: statusBarHeight + 15, paddingHorizontal: 15, height: '100%' }}>\r\n      <ArrowBack navigation={navigation} navigate={\"Investments\"} />\r\n      <Text style={{ fontWeight: 'bold', fontSize: 20, marginTop: 50 }}>\r\n        Cadastrando nova Ação de Interesse\r\n      </Text>\r\n      <View style={styles.container}>\r\n        <Text style={styles.label}>Descrição:</Text>\r\n        <TextInput\r\n          style={styles.input}\r\n          onChangeText={(text) => {\r\n            setDescription(text);\r\n          }}\r\n          value={description}\r\n          placeholder=\"Título da ação\"\r\n        />\r\n\r\n        <Text style={styles.label}>Valor:</Text>\r\n        <TextInput\r\n          style={styles.input}\r\n          onChangeText={(text) => {\r\n            setValue(text);\r\n          }}\r\n          value={value}\r\n          placeholder=\"Quanto a ação está valendo hoje?\"\r\n          keyboardType=\"numeric\"\r\n        />\r\n\r\n        <Text style={styles.label}>Qual o status desta ação hoje?:</Text>\r\n        <View style={styles.radioContainer}>\r\n          <TouchableOpacity style={styles.radioButton} onPress={handleCheck1}>\r\n            <Text>\r\n              <AntDesign\r\n                name={opcao === 0 ? 'checkcircle' : 'checkcircleo'}\r\n                size={18}\r\n                color=\"darkblue\"\r\n              />\r\n              &nbsp;Crescimento\r\n            </Text>\r\n          </TouchableOpacity>\r\n\r\n          <TouchableOpacity style={styles.radioButton} onPress={handleCheck2}>\r\n            <Text style={{ alignItems: 'center' }}>\r\n              <AntDesign\r\n                name={opcao === 1 ? 'checkcircle' : 'checkcircleo'}\r\n                size={18}\r\n                color=\"darkblue\"\r\n              />\r\n              &nbsp;Queda\r\n            </Text>\r\n          </TouchableOpacity>\r\n        </View>\r\n\r\n        <Button title=\"Enviar\" onPress={handleSubmit} color=\"darkblue\" />\r\n      </View>\r\n\r\n      <View style={{ position: 'absolute', bottom: 0, right: 20 }}>\r\n        <TouchableOpacity onPress={() => { navigation.navigate(\"Investments\") }}>\r\n          <Ionicons name=\"arrow-back-circle-sharp\" size={40} color=\"darkblue\" />\r\n        </TouchableOpacity>\r\n      </View>\r\n    </View>\r\n  );\r\n}\r\n\r\nconst styles = StyleSheet.create({\r\n  container: {\r\n    flex: 1,\r\n    padding: 16,\r\n  },\r\n  label: {\r\n    fontSize: 16,\r\n    color: 'darkblue',\r\n    marginBottom: 8,\r\n    marginTop: 3,\r\n  },\r\n  input: {\r\n    height: 40,\r\n    borderColor: 'gray',\r\n    borderWidth: 1,\r\n    marginBottom: 16,\r\n    paddingHorizontal: 8,\r\n  },\r\n  radioContainer: {\r\n    flexDirection: 'row',\r\n    marginBottom: 16,\r\n    alignContent: 'center',\r\n    marginTop: 5,\r\n  },\r\n  radioButton: {\r\n    flexDirection: 'row',\r\n    alignItems: 'center',\r\n    marginRight: 16,\r\n  },\r\n  back: {\r\n    marginHorizontal: 10,\r\n    position: 'absolute',\r\n    zIndex: 99\r\n  },\r\n});\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/screens/subscreens/SaveInvestment.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 129,
+    "kind": "variable",
+    "name": "statusBarHeight",
+    "memberof": "src/screens/subscreens/SaveInvestment.jsx",
+    "static": true,
+    "longname": "src/screens/subscreens/SaveInvestment.jsx~statusBarHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/subscreens/SaveInvestment.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 130,
+    "kind": "function",
+    "name": "SaveInvestments",
+    "memberof": "src/screens/subscreens/SaveInvestment.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/subscreens/SaveInvestment.jsx~SaveInvestments",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/screens/subscreens/SaveInvestment.jsx",
+    "importStyle": "SaveInvestments",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"navigation\": *}"
+        ],
+        "defaultRaw": {
+          "navigation": null
+        },
+        "defaultValue": "{\"navigation\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 131,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/subscreens/SaveInvestment.jsx",
+    "static": true,
+    "longname": "src/screens/subscreens/SaveInvestment.jsx~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "banco/src/screens/subscreens/SaveInvestment.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 116,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 132,
+    "kind": "file",
+    "name": "src/screens/subscreens/SplashScreen.jsx",
+    "content": "import React, { useEffect } from 'react';\r\nimport { View } from 'react-native';\r\nimport { useNavigation } from '@react-navigation/native';\r\nimport Storage from '../../database/firebaseMethods';\r\nimport LogoImage from '../../components/LogoImage';\r\nimport AsyncStorage from '@react-native-async-storage/async-storage';\r\n\r\n\r\nexport default function SplashScreen() {\r\n    const navigation = useNavigation();\r\n\r\n    useEffect(() => {\r\n\r\n        const fetchData = async () => {\r\n            const doc = await AsyncStorage.getItem('userDoc');\r\n            if(!doc){\r\n                await AsyncStorage.removeItem('isAuth');\r\n                await AsyncStorage.removeItem('fullUserData');\r\n                navigation.navigate(\"Auth\");\r\n            }\r\n            const fr = new Storage(doc);\r\n            let dadosDoBanco = {};\r\n            try {\r\n                let isauth = await AsyncStorage.getItem('fullUserData')\r\n                if (isauth) {\r\n                    navigation.navigate('Home');\r\n                } else {\r\n                    dadosDoBanco = await fr.getFullDoc();\r\n                    await AsyncStorage.setItem('fullUserData', JSON.stringify(dadosDoBanco));\r\n                    await new Promise(resolve => setTimeout(resolve, 5400));\r\n                }\r\n            } catch (error) {\r\n                console.error('Erro ao buscar dados do banco:', error);\r\n            } finally {\r\n                navigation.navigate('Home');\r\n            }\r\n        };\r\n\r\n        fetchData();\r\n    }, []);\r\n\r\n\r\n    return (\r\n        <View style={{ justifyContent: 'center', alignContent: 'center', height: '100%' }}>\r\n            <LogoImage />\r\n        </View>\r\n    );\r\n};\r\n\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/screens/subscreens/SplashScreen.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 133,
+    "kind": "function",
+    "name": "SplashScreen",
+    "memberof": "src/screens/subscreens/SplashScreen.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/subscreens/SplashScreen.jsx~SplashScreen",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/screens/subscreens/SplashScreen.jsx",
+    "importStyle": "SplashScreen",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 134,
+    "kind": "file",
+    "name": "src/server/apidata.js",
+    "content": "/**\r\n * A classe ApiRequests e responsavel por realizar requisicoes a uma API de dados financeiros e \r\n * fornecer metodos para obter informacoes sobre cotacoes de moedas.\r\n */\r\nexport default class ApiRequests {\r\n\r\n    /**\r\n     *  A URL base da API de onde as requisicoes serao feitas\r\n     */\r\n    baseUrl = \"https://economia.awesomeapi.com.br/last/\";\r\n\r\n    /**\r\n     * Obtem os dados mais recentes sobre cotacoes de moedas em relacao ao real\r\n     * @param {vector} moedas Uma lista de códigos de moedas no formato \"X-Y\", onde X e a moeda de origem e Y e a moeda de destino. O padrao e [\"USD-BRL\"]\r\n     * @returns Um objeto contendo as informacoes mais recentes das cotacoes das moedas solicitadas\r\n     * Em caso de erro durante a requisicao, a funcao imprime o erro no console para facilitar a depuracao\r\n     */\r\n    getMoneyData = async (moedas = [\"USD-BRL\"]) => {\r\n        let mList = \"\";\r\n        if (moedas.length > 0) {\r\n            mList = moedas.join(\",\");\r\n        }\r\n        try {\r\n            const response = await fetch(this.baseUrl + mList)\r\n            const json = await response.json()\r\n            return json;\r\n        } catch (error) {\r\n            console.log(error);\r\n        }\r\n    }\r\n\r\n}\r\n",
+    "static": true,
+    "longname": "E:/finalproj-devmovel/src/server/apidata.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 135,
+    "kind": "class",
+    "name": "ApiRequests",
+    "memberof": "src/server/apidata.js",
+    "static": true,
+    "longname": "src/server/apidata.js~ApiRequests",
+    "access": "public",
+    "export": true,
+    "importPath": "banco/src/server/apidata.js",
+    "importStyle": "ApiRequests",
+    "description": "A classe ApiRequests e responsavel por realizar requisicoes a uma API de dados financeiros e \nfornecer metodos para obter informacoes sobre cotacoes de moedas.",
+    "lineNumber": 5,
+    "interface": false
+  },
+  {
+    "__docId__": 136,
+    "kind": "member",
+    "name": "baseUrl",
+    "memberof": "src/server/apidata.js~ApiRequests",
+    "static": false,
+    "longname": "src/server/apidata.js~ApiRequests#baseUrl",
+    "access": "public",
+    "description": " A URL base da API de onde as requisicoes serao feitas",
+    "lineNumber": 10,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 137,
+    "kind": "member",
+    "name": "getMoneyData",
+    "memberof": "src/server/apidata.js~ApiRequests",
+    "static": false,
+    "longname": "src/server/apidata.js~ApiRequests#getMoneyData",
+    "access": "public",
+    "description": "Obtem os dados mais recentes sobre cotacoes de moedas em relacao ao real",
+    "lineNumber": 18,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "Um objeto contendo as informacoes mais recentes das cotacoes das moedas solicitadas\nEm caso de erro durante a requisicao, a funcao imprime o erro no console para facilitar a depuracao"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "vector"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "moedas",
+        "description": "Uma lista de códigos de moedas no formato \"X-Y\", onde X e a moeda de origem e Y e a moeda de destino. O padrao e [\"USD-BRL\"]"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "Um objeto contendo as informacoes mais recentes das cotacoes das moedas solicitadas\nEm caso de erro durante a requisicao, a funcao imprime o erro no console para facilitar a depuracao"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# App para controle financeiro\r\n\r\n**Telas:**\r\n\r\n- Login / Cadastro\r\n- Home\r\n- Perfil\r\n- Configurações\r\n- Gráficos\r\n- Lista de Investimentos\r\n- Alteração dos investimentos\r\n\r\n## Home\r\n\r\n- Dados do usuário (nome e foto)  \r\n  - Obtidos do banco\r\n  - Animações de entrada\r\n\r\n- Saldo da conta  \r\n  - Obtido do banco e calculado\r\n  - Animação de entrada\r\n  - Pode ser \"escondido\" com um toque\r\n\r\n- Menu de ações\r\n  - Novos cadastros e navegação\r\n  - Scroll horizontal\r\n\r\n- Transações passadas\r\n  - Lista com as transações cadastradas pelo usuário\r\n  - Valores \"escondidos\", aparecem com o toque na região cinza\r\n\r\n### Ações possíveis\r\n\r\n- Cadastrar:\r\n  - Nova receita (entrada)\r\n  - Nova compra\r\n  - Novo gasto\r\n\r\n- Ir para [Perfil](#Perfil)\r\n- Ir para [Configurações](##Configurações)\r\n- Ir para [Gráficos](##Gráficos)\r\n\r\n## Perfil \r\n\r\n- Dados do usuário\r\n- Lista de ações de interesse\r\n- Permite marcar ou desmarcar ações existentes\r\n- Permite adicionar uma nova ação de interesse\r\n\r\n## Configurações\r\n\r\n- Todos os dados do usuário (Nome, Email, Profissão, Perfil de Investimento)\r\n- Permite alterar os dados\r\n\r\n## Gráficos\r\n\r\n- Gráficos relacionados ao financeiro da aplicação:\r\n  - Gráfico de Pizza: Gastos X Receitas\r\n  - Gráfico de Barras: Receitas\r\n  - Gráfico de Linha: Gastos\r\n\r\n## Projeto\r\n\r\nBibliotecas chave para o **funcionamento da aplicação**:\r\n\r\n- Animation\r\n- AsyncStorage\r\n- Chart Kit\r\n- Checkbox\r\n- DatePicker\r\n- Expo\r\n- Firebase\r\n- Flash Message\r\n- Modal\r\n- React Navigation\r\n- Select-dropdown\r\n- Styled Components\r\n\r\nGerar documentação:  \r\n``` ./node_modules/.bin/esdoc ```",
+    "longname": "E:\\finalproj-devmovel\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\r\n  \"name\": \"banco\",\r\n  \"version\": \"1.0.0\",\r\n  \"main\": \"node_modules/expo/AppEntry.js\",\r\n  \"scripts\": {\r\n    \"start\": \"expo start\",\r\n    \"android\": \"expo start --android\",\r\n    \"ios\": \"expo start --ios\",\r\n    \"web\": \"expo start --web\"\r\n  },\r\n  \"dependencies\": {\r\n    \"@react-native-async-storage/async-storage\": \"^1.18.2\",\r\n    \"@react-native-community/checkbox\": \"^0.5.16\",\r\n    \"@react-native-community/datetimepicker\": \"7.2.0\",\r\n    \"@react-native-firebase/app\": \"^18.6.1\",\r\n    \"@react-native-firebase/auth\": \"^18.6.1\",\r\n    \"@react-native-firebase/database\": \"^18.6.1\",\r\n    \"@react-navigation/native\": \"^6.1.8\",\r\n    \"@react-navigation/stack\": \"^6.3.19\",\r\n    \"esdoc\": \"^1.1.0\",\r\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\r\n    \"esdoc-jsx-plugin\": \"^1.0.0\",\r\n    \"esdoc-standard-plugin\": \"^1.0.0\",\r\n    \"expo\": \"~49.0.13\",\r\n    \"expo-checkbox\": \"~2.4.0\",\r\n    \"expo-status-bar\": \"~1.6.0\",\r\n    \"firebase\": \"^10.6.0\",\r\n    \"react\": \"18.2.0\",\r\n    \"react-native\": \"0.72.6\",\r\n    \"react-native-chart-kit\": \"^6.12.0\",\r\n    \"react-native-flash-message\": \"^0.4.2\",\r\n    \"react-native-gesture-handler\": \"~2.12.0\",\r\n    \"react-native-modal\": \"^13.0.1\",\r\n    \"react-native-paper\": \"^5.10.6\",\r\n    \"react-native-reanimated\": \"~3.3.0\",\r\n    \"react-native-safe-area-context\": \"4.6.3\",\r\n    \"react-native-select-dropdown\": \"^3.4.0\",\r\n    \"react-native-walkthrough-tooltip\": \"^1.5.0\",\r\n    \"styled-components\": \"^6.0.8\"\r\n  },\r\n  \"devDependencies\": {\r\n    \"@babel/core\": \"^7.20.0\"\r\n  },\r\n  \"private\": true\r\n}\r\n",
+    "longname": "E:\\finalproj-devmovel\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": true,
+    "content": "# App para controle financeiro\r\n\r\n**Telas:**\r\n\r\n- Login / Cadastro\r\n- Home\r\n- Perfil\r\n- Configurações\r\n- Gráficos\r\n- Lista de Investimentos\r\n- Alteração dos investimentos\r\n\r\n## Home\r\n\r\n- Dados do usuário (nome e foto)  \r\n  - Obtidos do banco\r\n  - Animações de entrada\r\n\r\n- Saldo da conta  \r\n  - Obtido do banco e calculado\r\n  - Animação de entrada\r\n  - Pode ser \"escondido\" com um toque\r\n\r\n- Menu de ações\r\n  - Novos cadastros e navegação\r\n  - Scroll horizontal\r\n\r\n- Transações passadas\r\n  - Lista com as transações cadastradas pelo usuário\r\n  - Valores \"escondidos\", aparecem com o toque na região cinza\r\n\r\n### Ações possíveis\r\n\r\n- Cadastrar:\r\n  - Nova receita (entrada)\r\n  - Nova compra\r\n  - Novo gasto\r\n\r\n- Ir para [Perfil](#Perfil)\r\n- Ir para [Configurações](##Configurações)\r\n- Ir para [Gráficos](##Gráficos)\r\n\r\n## Perfil \r\n\r\n- Dados do usuário\r\n- Lista de ações de interesse\r\n- Permite marcar ou desmarcar ações existentes\r\n- Permite adicionar uma nova ação de interesse\r\n\r\n## Configurações\r\n\r\n- Todos os dados do usuário (Nome, Email, Profissão, Perfil de Investimento)\r\n- Permite alterar os dados\r\n\r\n## Gráficos\r\n\r\n- Gráficos relacionados ao financeiro da aplicação:\r\n  - Gráfico de Pizza: Gastos X Receitas\r\n  - Gráfico de Barras: Receitas\r\n  - Gráfico de Linha: Gastos\r\n\r\n## Projeto\r\n\r\nBibliotecas chave para o **funcionamento da aplicação**:\r\n\r\n- Animation\r\n- AsyncStorage\r\n- Chart Kit\r\n- Checkbox\r\n- DatePicker\r\n- Expo\r\n- Firebase\r\n- Flash Message\r\n- Modal\r\n- React Navigation\r\n- Select-dropdown\r\n- Styled Components\r\n\r\nGerar documentação:  \r\n``` ./node_modules/.bin/esdoc ```",
+    "longname": "E:\\finalproj-devmovel\\readme.md",
+    "name": "readme.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualAsset",
+    "longname": "E:\\finalproj-devmovel\\manual\\asset",
+    "name": "./manual/asset",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "E:\\finalproj-devmovel\\manual\\UserGuide.md",
+    "name": "./manual/UserGuide.md",
+    "content": "# Guia do Usuário\r\n\r\n## Aplicativo de Finanças Pessoais\r\n\r\nBem-vindo ao nosso aplicativo de finanças pessoais! Este guia tem como objetivo fornecer instruções simples sobre como utilizar as principais funcionalidades do aplicativo.\r\n\r\n### 1. **Página Inicial:**\r\n\r\n   - Ao abrir o aplicativo, você será direcionado à página inicial, onde poderá visualizar um resumo do seu dinheiro em diferentes categorias, como receitas, despesas, investimentos, entre outros.\r\n\r\n### 2. **Perfil:**\r\n\r\n   - Acesse a página de perfil clicando no ícone de perfil no canto superior direito. Aqui, você pode visualizar e editar informações pessoais, como nome, email, profissão e perfil de investimento.\r\n\r\n### 3. **Movimentações:**\r\n\r\n   - Na página de movimentações, você pode ver uma lista de todas as suas transações, incluindo receitas e despesas. Toque em cada transação para visualizar detalhes adicionais.\r\n\r\n### 4. **Investimentos:**\r\n\r\n   - Acesse a seção de investimentos para adicionar ou visualizar investimentos. Você pode adicionar novos investimentos e acompanhar o desempenho dos investimentos existentes.\r\n\r\n### 5. **Análise Gráfica:**\r\n\r\n   - Explore as análises gráficas para ter uma visão mais clara das suas finanças. Os gráficos mostram informações sobre gastos, receitas e investimentos.\r\n\r\n### 6. **Câmbio:**\r\n\r\n   - Verifique as cotações de moedas estrangeiras na seção de câmbio. As cotações são atualizadas regularmente.\r\n\r\n### 7. **Configurações:**\r\n\r\n   - Personalize o aplicativo conforme suas preferências na seção de configurações. Você pode alterar informações pessoais, como nome, email, profissão e perfil de investimento.\r\n\r\n### 8. **Sair:**\r\n\r\n   - Para encerrar a sessão, toque em \"Sair\" na seção de configurações. Isso garantirá a segurança dos seus dados.\r\n\r\n### Nota Importante:\r\n\r\n   - Certifique-se de manter seu perfil e movimentações atualizados para obter uma análise precisa das suas finanças.\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "E:\\finalproj-devmovel\\manual\\AuthScreen.md",
+    "name": "./manual/AuthScreen.md",
+    "content": "# AuthScreen\r\n\r\nEste componente React-Native, chamado de `AuthScreen`, representa a tela de autenticação do aplicativo.  \r\nOferece funcionalidades de login e cadastro, interagindo com um banco de dados Firebase para gerenciar usuários.\r\n\r\n## Funcionalidades Principais\r\n\r\n1. **Autenticação e Navegação:**\r\n   - Utiliza o contexto `useLoading` para exibir indicadores de carregamento durante operações assíncronas.\r\n   - Utiliza o `AsyncStorage` para persistir a informação de autenticação (`isAuth`).\r\n\r\n2. **Gerenciamento de Usuários:**\r\n   - Utiliza a classe `Storage` para interagir com o Firebase e obter informações sobre usuários.\r\n   - Ao montar o componente, verifica se o usuário já está autenticado, redirecionando-o para a tela inicial (`Splash`) se necessário.\r\n\r\n3. **Estados e Campos de Entrada:**\r\n   - Utiliza estados para controlar diferentes aspectos do componente, incluindo informações de usuários, mensagens de erro, visibilidade de senha, entre outros.\r\n   - Campos de entrada controlados por estados para email e senhas.\r\n\r\n4. **Manipulação de Senhas:**\r\n   - Oferece funcionalidade para alternar a visibilidade da senha durante a entrada de texto, utilizando ícones visuais (`eye`).\r\n\r\n5. **Login e Cadastro:**\r\n   - Função `handleSignUp` para cadastrar novos usuários no Firebase, verificando se o email já existe.\r\n   - Função `handleSignIn` para autenticar usuários, exibindo mensagens de erro caso o email ou senha não sejam válidos.\r\n\r\n6. **Limpeza de Campos:**\r\n   - Função `clearFields` para limpar os campos do formulário, utilizada após operações de login ou cadastro.\r\n\r\n7. **Feedback ao Usuário:**\r\n   - Exibe mensagens de erro em caso de problemas durante o login ou cadastro.\r\n   - Oferece link para recuperação de senha em caso de erro no login.\r\n\r\n8. **Estilo e Layout:**\r\n   - Utiliza estilos específicos para proporcionar uma experiência visual agradável ao usuário.\r\n\r\n## Componentes Utilizados\r\n\r\n- `React`, `useState`, `useEffect` para gerenciar o estado e o ciclo de vida.\r\n- Componentes de interface como `View`, `Text`, `TextInput`, `Button`, `TouchableOpacity`, `Image`.\r\n- Ícones fornecidos pelos pacotes `@expo/vector-icons` (Foundation, Ionicons).\r\n\r\n## Observações\r\n\r\n- O componente pode ser integrado a um fluxo de autenticação mais amplo em um aplicativo, proporcionando funcionalidades essenciais de login e cadastro.\r\n\r\nLembre-se de ajustar qualquer configuração específica do seu projeto, como a configuração do Firebase, para que o componente funcione corretamente no contexto do seu aplicativo.\r\n\r\n![Auth screen](asset/auth.png)",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "E:\\finalproj-devmovel\\manual\\SplashScreen.md",
+    "name": "./manual/SplashScreen.md",
+    "content": "# SplashScreen\r\n\r\nEste componente React-Native, denominado `SplashScreen`, representa a tela inicial do aplicativo exibida durante a inicialização.  \r\nA função principal é realizar operações assíncronas, como a obtenção de dados do banco de dados Firebase, enquanto exibe o logotipo do aplicativo.  \r\nApós a conclusão das operações, redireciona para a tela principal (`Home`).\r\n\r\n## Funcionalidades Principais\r\n\r\n1. **Obtenção de Dados do Banco de Dados:**\r\n   - Utiliza o contexto `useLoading` para obter a string de autenticação e criar uma instância de `Storage` para interagir com o Firebase.\r\n   - Utiliza a função `getFullDoc` de `Storage` para obter dados completos do usuário no Firebase.\r\n   - Armazena os dados obtidos localmente utilizando o `AsyncStorage` para posterior referência no aplicativo.\r\n\r\n2. **Temporização de Exibição:**\r\n   - Utiliza `setTimeout` para simular uma breve pausa (5.5 segundos) antes de prosseguir para a próxima tela. Isso é comum em telas de introdução ou splash para exibir o logotipo por um curto período.\r\n\r\n3. **Navegação para a Próxima Tela:**\r\n   - Utiliza `useNavigation` para obter o objeto de navegação.\r\n   - Após a conclusão das operações, navega para a tela principal (`Home`).\r\n\r\n4. **Componente de Logotipo:**\r\n   - Inclui o componente `LogoImage` para exibir o logotipo do aplicativo, centralizado na tela.\r\n\r\n5. **Armazenamento Local de Dados:**\r\n   - Utiliza o `AsyncStorage` para armazenar dados obtidos do banco de dados de forma local, permitindo o acesso rápido e offline.\r\n\r\n6. **Tratamento de Erros:**\r\n   - Registra e trata erros que possam ocorrer durante a obtenção de dados do banco de dados Firebase.\r\n\r\n7. **Estilo e Layout:**\r\n   - Utiliza estilos simples para centralizar o logotipo na tela durante a exibição da SplashScreen.\r\n\r\n## Componentes Utilizados\r\n\r\n- `React`, `useEffect` para gerenciar o ciclo de vida.\r\n- `View` do React-Native para estrutura de layout.\r\n- `useNavigation` do `@react-navigation/native` para navegação.\r\n- `useLoading` e `Storage` para interação com Firebase.\r\n- `AsyncStorage` para armazenamento local de dados.\r\n- Componente `LogoImage` para exibição do logotipo.\r\n\r\n## Observações\r\n\r\n- Este componente é crucial para proporcionar uma experiência inicial ao usuário, exibindo o logotipo e realizando operações iniciais necessárias antes de redirecionar para a tela principal.\r\n\r\n![SplashScreen](asset/splash.png)\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "E:\\finalproj-devmovel\\manual\\Home.md",
+    "name": "./manual/Home.md",
+    "content": "# Home\r\n\r\nEste componente React-Native, chamado de `Home`, é uma representação da tela principal de um aplicativo financeiro.  \r\nInclui funcionalidades como exibição do saldo, últimas movimentações, opções de menu horizontal, e interações animadas.\r\n\r\n## Funcionalidades Principais\r\n\r\n1. **Atualização de Dados:**\r\n   - O componente possui um estado `isRefresh` que controla a atualização dos dados ao ser acionado. A função `refresh` é responsável por obter os dados do usuário autenticado e atualizar o estado.\r\n\r\n2. **Animação de Saldo:**\r\n   - O componente utiliza a biblioteca `Animated` do React-Native para criar uma animação de fade in/fade out no bloco de informações de saldo. A animação é acionada pelo toque do usuário.\r\n\r\n3. **Obtenção de Dados do Usuário:**\r\n   - Utiliza o contexto `useLoading` para exibir e ocultar indicadores de carregamento.\r\n   - Utiliza a AsyncStorage para armazenar e recuperar os dados do usuário, como nome, receitas, despesas, etc.\r\n\r\n4. **Ordenação de Movimentações:**\r\n   - As últimas movimentações do usuário são ordenadas por data antes de serem exibidas, utilizando a função `parseDate`.\r\n\r\n5. **Integração com Firebase:**\r\n   - Utiliza o módulo `Storage` para interagir com o Firebase e obter dados do usuário.\r\n\r\n6. **Componentes Filhos:**\r\n   - O componente inclui outros componentes como `HorizontalMenu` para exibir um menu horizontal com opções específicas e `Movements` para mostrar as últimas movimentações financeiras.\r\n\r\n7. **Interação com Navegação:**\r\n   - Navegação entre telas é possível através da navegação passada como propriedade (`{ navigation }`).\r\n\r\n8. **Estilo e Layout:**\r\n   - O componente utiliza um layout flexível, animações visuais e estilos específicos para cada parte da tela, proporcionando uma experiência visual agradável.\r\n\r\n## Componentes Utilizados\r\n\r\n- `React`, `useState`, `useEffect`, `useRef` para gerenciar o estado e ciclo de vida.\r\n- `AsyncStorage` para armazenamento local de dados.\r\n- `Animatable` para animações.\r\n- `Feather` para ícones.\r\n- Componentes customizados como `HorizontalMenu` e `Movements`.\r\n\r\n**Pré-requisitos:**\r\n- Necessita de um contexto de carregamento (`useLoading`) para gerenciar o estado de carregamento.\r\n\r\n## Observações\r\n\r\n- Este componente pode ser integrado a um aplicativo financeiro para oferecer funcionalidades essenciais de visualização de saldo, últimas movimentações e navegação entre diferentes seções.\r\n\r\n![Home screen](asset/home.png)",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "E:\\finalproj-devmovel\\manual\\Profile.md",
+    "name": "./manual/Profile.md",
+    "content": "# Perfil\r\n\r\nO componente React-Native denominado `Perfil` é projetado para exibir informações do usuário, incluindo detalhes pessoais, dados financeiros e lista de investimentos.  Fornece uma interface de usuário limpa e interativa para visualizar e interagir com informações relevantes.\r\n\r\n## Principais Características\r\n\r\n1. **Barra Superior:**\r\n   - A barra superior possui uma cor de fundo escura (`darkBlue`) e exibe o nome do usuário e o ícone de perfil.\r\n\r\n2. **Informações do Usuário:**\r\n   - Exibe o nome e e-mail do usuário, proporcionando uma experiência personalizada.\r\n   - Permite a interação para a alteração da foto de perfil.\r\n\r\n3. **Detalhes Financeiros:**\r\n   - Apresenta a profissão e o perfil de investimento do usuário.\r\n   - Lista os investimentos atuais do usuário com detalhes sobre as ações de interesse.\r\n\r\n4. **Lista de Investimentos:**\r\n   - Utiliza o componente `FlatList` para renderizar a lista de investimentos.\r\n   - Exibe o rótulo do investimento, status (ativo ou inativo) e a porcentagem associada.\r\n\r\n5. **Adicionar Investimento:**\r\n   - Oferece um botão para adicionar novos investimentos, redirecionando para a página \"Investments\".\r\n\r\n6. **Botão de Navegação para a Página Inicial:**\r\n   - Inclui um botão de navegação que direciona o usuário de volta à página inicial.\r\n\r\n## Parâmetros\r\n- Este componente não aceita parâmetros externos. Ele obtém as informações do usuário e investimentos diretamente do banco de dados Firebase.\r\n\r\n**Estilo Padrão:**\r\n- Utiliza estilos específicos para garantir uma aparência coesa e agradável ao usuário.\r\n- Adapta-se a diferentes tamanhos de tela.\r\n\r\n## Observações\r\n\r\n- Este componente faz uso da Context API para exibição de loading durante a recuperação de dados do banco de dados Firebase.\r\n- O botão de adição de investimento possui uma animação de entrada.\r\n\r\n## Exemplo de Uso\r\n\r\n```jsx\r\n<Perfil navigation={navigation} />\r\n```\r\n\r\n**Referências de Ícones:**\r\n- `Feather`: Ícone de usuário para a alteração de foto de perfil.\r\n- `MaterialIcons`: Ícone de casa para o botão de navegação de volta à página inicial.\r\n- `AntDesign`: Ícone de adição para adicionar novos investimentos.\r\n\r\n\r\n![Profile Screen](asset/perfil.png)\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "E:\\finalproj-devmovel\\manual\\Money.md",
+    "name": "./manual/Money.md",
+    "content": "# Money\r\n\r\nA tela `Money` exibe informações sobre as cotações de moedas em relação ao Real (BRL).  \r\nUtiliza a classe `ApiRequests` para fazer requisições à API e obter dados atualizados sobre as cotações.  \r\nAs cotações de três moedas (Dólar, Euro e Peso Argentino) são exibidas em gráficos usando o componente `MoneysGraph`.\r\n\r\n## Principais Características\r\n\r\n1. **Cotações de Moedas:**\r\n   - Utiliza a classe `ApiRequests` para obter dados das cotações de moedas.\r\n   - As moedas exibidas são Dólar (USD), Euro (EUR) e Peso Argentino (ARS).\r\n\r\n2. **Gráficos de Cotação:**\r\n   - Para cada moeda, exibe um gráfico utilizando o componente `MoneysGraph`.\r\n   - Os gráficos apresentam a relação da moeda com o Real (BRL).\r\n   - Os dados incluem a taxa de câmbio de compra (`ask`) e uma constante para referência.\r\n\r\n3. **Componente MoneysGraph:**\r\n   - O componente `MoneysGraph` é utilizado para exibir os gráficos de barras das cotações de moedas.\r\n   - Os dados do gráfico são passados como propriedades (`bardata` e `name`).\r\n\r\n4. **Botão de Retorno à Tela Inicial:**\r\n   - Inclui um botão de retorno à tela inicial (Home) para facilitar a navegação.\r\n   - O botão utiliza o ícone de seta para trás da biblioteca `Ionicons`.\r\n\r\n5. **Estilo Responsivo:**\r\n   - Utiliza estilos que proporcionam uma boa aparência e organização na tela.\r\n   - Adota margens e espaçamentos para melhorar a legibilidade e usabilidade.\r\n\r\n## Exemplo de Uso\r\n\r\n```jsx\r\n<Money />\r\n```\r\n\r\n## Observações\r\n\r\n- A tela utiliza o contexto de carregamento (`useLoading`) para exibir e ocultar indicadores de carregamento durante a obtenção dos dados.\r\n- Os gráficos de cotação são exibidos usando o componente `MoneysGraph`, que provavelmente é importado de um arquivo separado.\r\n- A tela inclui uma rolagem (`ScrollView`) para acomodar os gráficos, permitindo a visualização de todas as informações em uma única página.\r\n- As cotações de moedas são obtidas no momento da renderização da tela, garantindo informações atualizadas.\r\n\r\n![Money screen](asset/graficos.png)\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "E:\\finalproj-devmovel\\manual\\Graphs.md",
+    "name": "./manual/Graphs.md",
+    "content": "# Graphs\r\n\r\nO componente React-Native denominado `Graphs` é responsável por exibir gráficos relacionados às finanças do usuário, incluindo um gráfico de receitas e gastos, um gráfico de barras para receitas e um gráfico de linha para gastos.\r\n\r\n## Principais Características\r\n\r\n1. **Gastos X Receitas:**\r\n   - Utiliza um gráfico de pizza (`PieChart`) para visualizar a relação entre gastos e receitas.\r\n   - Cada categoria é representada por uma fatia no gráfico.\r\n   - Cores diferenciadas para representar gastos e receitas.\r\n\r\n2. **Gráfico de Receitas:**\r\n   - Apresenta um gráfico de barras (`BarChart`) para visualizar as receitas.\r\n   - As barras representam diferentes fontes de receita.\r\n   - Eixo Y rotulado em Reais (R$).\r\n\r\n3. **Gráfico de Gastos:**\r\n   - Mostra um gráfico de linha (`LineChart`) para visualizar os gastos ao longo do tempo.\r\n   - Cada ponto no gráfico representa um tipo de despesa.\r\n   - Toque em um ponto para exibir um alerta com detalhes sobre a despesa.\r\n\r\n4. **Integração com FlashMessage:**\r\n   - Utiliza o componente `FlashMessage` para exibir mensagens temporárias ao clicar em um ponto no gráfico de gastos.\r\n\r\n5. **Navegação de Volta:**\r\n   - Inclui um botão de navegação que permite voltar à página inicial.\r\n\r\n## Parâmetros\r\n\r\n- O componente não aceita parâmetros externos. Ele extrai dados diretamente da rota (`route.params.allData`).\r\n\r\n**Configurações de Gráficos:**\r\n- Configurações específicas para cada tipo de gráfico, como cores e estilos, são definidas para proporcionar uma experiência visual agradável.\r\n\r\n**Estilos Padrão:**\r\n- Os estilos são definidos para garantir a coesão visual dos gráficos e a legibilidade das informações.\r\n\r\n## Observações\r\n\r\n- O componente faz uso da Context API para exibição de loading durante a recuperação de dados.\r\n- As bibliotecas externas `react-native-chart-kit` e `react-native-flash-message` são utilizadas para renderizar os gráficos e exibir mensagens temporárias, respectivamente.\r\n\r\n\r\n**Referências de Ícones:**\r\n- `Ionicons`: Ícone de seta para voltar à página inicial.\r\n\r\n<br/>\r\n![Graphs screen](asset/finan.png)\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "E:\\finalproj-devmovel\\manual\\Settings.md",
+    "name": "./manual/Settings.md",
+    "content": "# Settings\r\n\r\nA tela `Settings` é responsável por exibir e permitir a edição de informações do usuário, como nome, email, profissão e perfil de investimento.  \r\nAlém disso, fornece um botão para retornar à tela inicial (`Home`) e outro para realizar o logout (`Sair`).\r\n\r\n## Principais Características\r\n\r\n1. **Exibição e Edição de Dados:**\r\n   - Utiliza o componente `ChangeData` para exibir e permitir a edição de diferentes campos de dados do usuário, como nome, email, profissão e perfil de investimento.\r\n   - Ao editar um campo, aciona uma função `refresh` para atualizar as informações na tela.\r\n\r\n2. **Botão de Retorno à Tela Inicial:**\r\n   - Inclui um botão de retorno à tela inicial (Home) para facilitar a navegação.\r\n   - O botão utiliza o ícone de casa da biblioteca `MaterialIcons`.\r\n\r\n3. **Botão de Logout (`Sair`):**\r\n   - Inclui um botão para realizar o logout do usuário.\r\n   - Ao clicar no botão, aciona a função `handleSair` que remove a autenticação e navega para a tela de autenticação (`Auth`).\r\n\r\n4. **Atualização Dinâmica dos Dados:**\r\n   - Utiliza o estado `smth` para acionar uma atualização dinâmica dos dados quando necessário.\r\n\r\n5. **Estilo Responsivo:**\r\n   - Utiliza estilos que proporcionam uma boa aparência e organização na tela.\r\n   - Adota margens, espaçamentos e posicionamento absoluto para melhorar a legibilidade e usabilidade.\r\n\r\n## Exemplo de Uso\r\n\r\n```jsx\r\n<Settings />\r\n```\r\n\r\n## Observações\r\n\r\n- A tela utiliza o contexto de carregamento (`useLoading`) para exibir e ocultar indicadores de carregamento durante a obtenção dos dados.\r\n- As informações do usuário são obtidas do Firebase (`fr.getFullDoc()`).\r\n- A função `refresh` é utilizada para acionar a atualização dos dados após uma edição.\r\n- O botão \"Sair\" (`handleSair`) realiza o logout do usuário e navega para a tela de autenticação (`Auth`).\r\n- A tela inclui um botão de retorno à tela inicial (`Home`) para facilitar a navegação.\r\n\r\n![Settings Screen](asset/settings.png)\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "E:\\finalproj-devmovel\\manual\\components\\ChangeData.md",
+    "name": "./manual/components/ChangeData.md",
+    "content": "# ChangeData\r\n\r\nEste componente React-Native, denominado `ChangeData`, oferece a funcionalidade de modificar dados específicos do usuário, como nome, email, profissão ou perfil de investimento.  \r\nInclui um modal interativo para a entrada de novos dados e interage com o Firebase para atualizar as informações.\r\n\r\n## Funcionalidades Principais\r\n\r\n1. **Modal de Alteração de Dados:**\r\n   - Utiliza o pacote `react-native-modal` para criar um modal de alteração de dados.\r\n   - Exibe um modal com entrada de texto para modificar o valor associado ao rótulo fornecido (`label`).\r\n   - O modal possui botões de confirmação e cancelamento para realizar ou descartar as alterações.\r\n\r\n2. **Interação com o Firebase:**\r\n   - Utiliza o contexto `useLoading` para obter a string de autenticação e criar uma instância de `Storage` para interagir com o Firebase.\r\n   - Na montagem do componente, carrega os dados do usuário do Firebase utilizando `getFullDoc` e armazena em `userData`.\r\n\r\n3. **Atualização de Dados:**\r\n   - Ao confirmar as alterações no modal, utiliza a função `updateData` para atualizar os dados no Firebase.\r\n   - A função decide qual campo de dados deve ser atualizado com base no rótulo fornecido (`label`).\r\n\r\n4. **Estilo e Layout Responsivos:**\r\n   - Utiliza estilos específicos para proporcionar uma experiência visual agradável e responsiva.\r\n   - Apresenta um estilo de borda que separa visualmente instâncias consecutivas do componente.\r\n\r\n## Componentes Utilizados\r\n\r\n- `TouchableOpacity` e `View` do React-Native para interação e estrutura de layout.\r\n- `Modal` do pacote `react-native-modal` para a criação de um modal.\r\n- `Ionicons` do `@expo/vector-icons` para ícones.\r\n- `Storage` para interação com o Firebase.\r\n- Componentes `Text` e `TextInput` para exibição e entrada de texto.\r\n\r\n## Observações\r\n\r\n- Este componente é destinado a ser utilizado em configurações ou telas de perfil, permitindo ao usuário editar informações pessoais de maneira simples.\r\n\r\n![ChangeData Screen](asset/changeData.png)\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "E:\\finalproj-devmovel\\manual\\components\\HorizontalMenu.md",
+    "name": "./manual/components/HorizontalMenu.md",
+    "content": "# HorizontalMenu\r\n\r\nEste componente React-Native, denominado `HorizontalMenu`, oferece uma barra horizontal de ações para realizar operações específicas.  \r\nExibe ícones representativos para cada ação, permitindo ao usuário navegar para diferentes seções do aplicativo.  \r\nAlém disso, o componente inclui a capacidade de adicionar dados relacionados a finanças, como despesas e receitas, por meio de um modal interativo.\r\n\r\n## Funcionalidades Principais\r\n\r\n1. **Barra de Ações Horizontais:**\r\n   - Exibe uma barra de ações horizontais com ícones representativos.\r\n   - Cada ação possui um rótulo associado, indicando sua finalidade.\r\n   - Toque em uma ação para executar a operação correspondente.\r\n\r\n2. **Modal de Adição de Dados Financeiros:**\r\n   - Permite adicionar dados financeiros (despesas ou receitas) por meio de um modal.\r\n   - O modal exibe campos para descrição, valor e data da transação.\r\n   - Utiliza o componente `DateTimePicker` para selecionar a data da transação.\r\n   - A função `saveData` é acionada para salvar os dados no Firebase e atualizar a interface.\r\n\r\n3. **Interação com o Firebase:**\r\n   - Utiliza o contexto `useLoading` para obter a string de autenticação e criar uma instância de `Storage` para interagir com o Firebase.\r\n   - As funções `appendToIncomes` e `appendToExpenses` são chamadas para adicionar dados financeiros ao Firebase.\r\n\r\n4. **Navegação para Outras Telas:**\r\n   - Navega para diferentes telas do aplicativo com base na ação selecionada.\r\n   - Navega para 'Settings', 'Graphs' e 'Money' dependendo do tipo de ação.\r\n\r\n5. **Estilo e Layout Responsivos:**\r\n   - Utiliza estilos específicos para proporcionar uma experiência visual agradável e responsiva.\r\n   - Adota ícones específicos (`AntDesign` e `Fontisto`) para representar visualmente cada ação.\r\n\r\n## Componentes Utilizados\r\n\r\n- `TouchableOpacity`, `View`, `Text`, e `TextInput` do React-Native para interação e estrutura de layout.\r\n- `DateTimePicker` do `@react-native-community/datetimepicker` para seleção de data.\r\n- `Modal` do pacote `react-native-modal` para a criação de um modal.\r\n- Ícones `AntDesign`, `Ionicons`, e `Fontisto` do `@expo/vector-icons` para representação visual.\r\n\r\n## Observações\r\n\r\n- Este componente é destinado a fornecer uma barra de navegação rápida e acessível para ações comuns no aplicativo.\r\n- A inclusão de funcionalidades financeiras permite ao usuário adicionar transações diretamente da barra de ações, facilitando o registro de despesas e receitas.\r\n\r\n![Menu](asset/menu.png)\r\n\r\n![Input screen](asset/entrada.png)\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "E:\\finalproj-devmovel\\manual\\components\\LogoImage.md",
+    "name": "./manual/components/LogoImage.md",
+    "content": "# LogoImage\r\n\r\nO componente React-Native chamado `LogoImage` é responsável por exibir uma animação com a logomarca da aplicação.  \r\nA animação inclui um efeito de fade-in (opacidade aumentando de 0 para 1) e uma rotação contínua de 360 graus.\r\n\r\n## Principais Características\r\n\r\n1. **Fade-in:**\r\n   - Utiliza a propriedade `opacity` da animação para criar um efeito de fade-in.\r\n   - O componente começa com uma opacidade de 0 e aumenta para 1 ao longo de 5000 milissegundos.\r\n\r\n2. **Rotação Contínua:**\r\n   - Utiliza a propriedade `rotate` da animação para criar uma rotação contínua.\r\n   - A rotação varia de 0 a 360 graus ao longo de 2000 milissegundos.\r\n\r\n3. **Promise Delays:**\r\n   - Usa `await new Promise(resolve => setTimeout(resolve, tempo))` para introduzir atrasos entre diferentes etapas da animação.\r\n\r\n4. **Estilo Dinâmico:**\r\n   - Aplica estilos dinâmicos para a imagem, incluindo a opacidade e a transformação de rotação.\r\n\r\n## Parâmetros\r\n- Não aceita parâmetros externos.\r\n\r\n**Configurações de Animação:**\r\n- Configurações específicas para cada animação, como duração e interpolação, são ajustadas para alcançar o efeito desejado.\r\n\r\n**Estilos Padrão:**\r\n- Usa estilos padrão para centralizar e alinhar a imagem no centro da tela.\r\n\r\n## Observações\r\n\r\n- O componente faz uso das bibliotecas `react` e `react-native` para criar a animação.\r\n- É um componente reutilizável que pode ser incluído em uma tela de carregamento ou em outras partes da interface do usuário para uma experiência visual mais dinâmica.\r\n\r\n## Exemplo de Uso\r\n\r\n```jsx\r\n<LogoImage />\r\n```\r\n\r\n**Imagem:**\r\n- A imagem da logomarca é referenciada pelo caminho `./../static/imgs/logo.png`. \r\n\r\n![Logo component](asset/logo.png)\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "E:\\finalproj-devmovel\\manual\\components\\MoneysGraph.md",
+    "name": "./manual/components/MoneysGraph.md",
+    "content": "# MoneysGraph\r\n\r\nO componente React-Native denominado `MoneysGraph` é responsável por exibir gráficos de barras relacionados a transações financeiras.  \r\nUtiliza a biblioteca `react-native-chart-kit` para criar gráficos de barras interativos e visualmente atrativos.  \r\nEste componente é ideal para representar dados financeiros de maneira clara e compreensível.\r\n\r\n## Principais Características\r\n\r\n1. **Gráfico de Barras:**\r\n   - Utiliza o componente `BarChart` da biblioteca `react-native-chart-kit`.\r\n   - Representa graficamente os dados financeiros em um gráfico de barras.\r\n   - A largura e altura do gráfico são configuráveis para se adaptarem a diferentes tamanhos de tela.\r\n\r\n2. **Configuração do Gráfico:**\r\n   - `chartConfig` define a configuração do gráfico, como as cores, opacidade e largura da linha.\r\n   - A cor das barras é definida dinamicamente com base na opacidade e em uma escala de verde.\r\n\r\n3. **Texto Descritivo:**\r\n   - Exibe um texto descritivo acima do gráfico, indicando o nome da categoria ou período representado no gráfico.\r\n   - O texto é centralizado e estilizado para melhor legibilidade.\r\n\r\n4. **Personalização de Estilos:**\r\n   - Utiliza estilos específicos para aprimorar a apresentação visual.\r\n   - Define margens, bordas e espaçamentos para melhor organização e apelo visual.\r\n\r\n## Parâmetros\r\n\r\n- `bardata`: Dados do gráfico de barras. Deve ser um array contendo objetos com propriedades `data` (valores das barras) e `color` (cor das barras).\r\n- `name`: Nome da categoria ou período representado no gráfico.\r\n\r\n## Observações\r\n\r\n- Este componente é projetado para ser reutilizado em diferentes partes do aplicativo onde gráficos de barras relacionados a finanças sejam necessários.\r\n- A biblioteca `react-native-chart-kit` oferece opções adicionais de personalização que podem ser exploradas conforme necessário para atender aos requisitos específicos de design.\r\n\r\n![MoneyGraph Screen](asset/moneyGraph.png)\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "E:\\finalproj-devmovel\\manual\\components\\Movements.md",
+    "name": "./manual/components/Movements.md",
+    "content": "# Movements\r\n\r\nO componente React-Native denominado `Movements` é responsável por exibir informações sobre transações financeiras, como descrição, data e valor.  \r\nEste componente é projetado para ser utilizado em uma lista de movimentos financeiros, proporcionando uma representação visual clara e interativa.\r\n\r\n## Principais Características\r\n\r\n1. **Toque Interativo:**\r\n   - O componente é envolto por um `TouchableOpacity`, permitindo interação com o usuário ao ser pressionado.\r\n\r\n2. **Exibição Condicional de Valor:**\r\n   - O valor da transação é inicialmente oculto e é exibido quando o componente é pressionado (`showValue` é alternado).\r\n\r\n3. **Formatação de Data:**\r\n   - Utiliza a função `formatarData` para formatar a data da transação. Caso não haja data disponível, exibe \"sem data\".\r\n\r\n4. **Estilo Responsivo:**\r\n   - Utiliza estilos flexíveis para se adaptar a diferentes tamanhos de tela.\r\n\r\n5. **Estilos Personalizáveis:**\r\n   - Define estilos específicos para a data, rótulo, valor (receita) e despesas. Os estilos são configurados para melhor legibilidade e apelo visual.\r\n\r\n6. **Indicação Visual de Despesas:**\r\n   - O valor é exibido em vermelho (`#e74c3c`) quando se trata de uma despesa, proporcionando uma indicação visual clara do tipo de transação.\r\n\r\n## Parâmetros\r\n\r\n- `props`: Objeto contendo as propriedades da transação, incluindo `date` (data), `description` (descrição), `value` (valor) e `type` (tipo de transação - 1 para receita, 0 para despesa).\r\n\r\n## Observações\r\n\r\n- Este componente é flexível e pode ser incorporado em listas ou páginas de movimentações financeiras.\r\n- A formatação do valor considera o tipo de transação para exibição apropriada (receita ou despesa).\r\n\r\n![Movements component](asset/mov.png)",
+    "static": true,
+    "access": "public"
+  }
+]
