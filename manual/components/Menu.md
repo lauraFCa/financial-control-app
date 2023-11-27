@@ -1,4 +1,4 @@
-# Documentação do Componente Menu
+# Menu
 
 ## Descrição
 
@@ -68,3 +68,6 @@ O componente `Menu` deve ser integrado em uma tela maior, geralmente como parte 
 
 3. **Configurações de Menu:**
    - O componente `HorizontalMenuOption` é utilizado para representar cada opção no menu, facilitando a extensão ou personalização futura.
+
+![menu](asset/menu.png)
+

@@ -50,3 +50,6 @@ O componente possui estilos definidos para cada elemento, como data, descrição
 
 4. **Responsividade:**
    - Projetado para se adaptar a diferentes tamanhos de tela e proporcionar uma experiência de usuário consistente.
+
+
+![mov regis](asset/entrada.png)

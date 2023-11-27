@@ -45,3 +45,7 @@ Para integrar o `Header` corretamente, certifique-se de que as dependências, co
 
 5. **Personalização de Estilo:**
    - O componente fornece uma estrutura flexível para personalização adicional de estilo, se necessário.
+
+
+![Header](asset/header.png)
+

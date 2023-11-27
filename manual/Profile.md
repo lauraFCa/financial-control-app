@@ -1,4 +1,4 @@
-# Página Perfil
+# Profile
 
 ## Funcionalidades Principais
 
