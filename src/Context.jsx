@@ -5,7 +5,7 @@ const LoadingContext = createContext();
 
 export const LoadingProvider = ({ children }) => {
     const [loading, setLoading] = useState(false);
-    const [shouldRef, setShouldRef] = useState(true)
+    const [shouldRef, setShouldRef] = useState(false)
 
     const showLoading = () => setLoading(true);
     const hideLoading = () => setLoading(false);

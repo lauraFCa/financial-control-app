@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Animated, Easing } from 'react-native';
 
-export default function LogoImage({ navigation }) {
+export default function LogoImage() {
     const [fadeAnim] = useState(new Animated.Value(0));
     const [rotation] = useState(new Animated.Value(0));
 

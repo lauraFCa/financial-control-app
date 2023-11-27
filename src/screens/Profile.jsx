@@ -1,4 +1,4 @@
-import { View, StatusBar, Text, StyleSheet, TouchableOpacity, FlatList } from 'react-native';
+import { View, StatusBar, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
 import { Feather, MaterialIcons } from '@expo/vector-icons';
 import React, { useEffect, useState } from 'react';
 import Storage from '../database/firebaseMethods';
@@ -9,7 +9,7 @@ const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 
 
 
 export default function Perfil({ navigation }) {
-  const { showLoading, hideLoading } = useLoading();
+  const { showLoading, hideLoading, setShouldRefresh } = useLoading();
   const [dados, setDados] = useState({
     email: "",
     name: "",
@@ -18,9 +18,12 @@ export default function Perfil({ navigation }) {
   });
   const [investimentos, setInvestimentos] = useState([{
     label: "",
-    status: 1,
-    value: ""
+    status: 0,
+    value: "",
+    interest: true
   }]);
+
+  const [refreshProf, setRefreshProf] = useState(false);
 
   useEffect(() => {
     const getAllData = async () => {
@@ -28,7 +31,6 @@ export default function Perfil({ navigation }) {
       const fr = new Storage(doc)
       try {
         showLoading();
-
         let res = await fr.getFullDoc();
         if (res) {
           let uD = res.userData;
@@ -37,9 +39,9 @@ export default function Perfil({ navigation }) {
           if (inv) {
             inv.forEach(element => {
               invs.push({
-                id: element.id,
+                interest: element.interest,
                 label: element.label,
-                status: element.status,
+                status: element.status, // 1=queda, 0=crescimento
                 value: parseFloat(element.value).toFixed(2)
               })
             });
@@ -49,11 +51,12 @@ export default function Perfil({ navigation }) {
         } else {
           console.log(res)
         }
+        setShouldRefresh(false);
       } catch (err) { console.log(err) } finally { hideLoading(); }
     };
 
     getAllData().catch(console.error);
-  }, []);
+  }, [refreshProf]);
 
   return (
     <View style={{ height: '100%', marginTop: statusBarHeight }}>
@@ -95,44 +98,39 @@ export default function Perfil({ navigation }) {
         <View style={{ marginTop: 10 }}>
           <Text style={styles.text}>Ações de Interesse </Text>
 
-          <View>
-            <FlatList
-              style={styles.list}
-              data={investimentos}
-              keyExtractor={(item) => String(item.label)}
-              showsVerticalScrollIndicator={false}
-              renderItem={({ item }) => (
-                <View style={styles.inv_container}>
-                  <Text style={styles.inv_data}>{/* {props.Id} */}</Text>
+          <ScrollView>
+            {investimentos.map((item, index) => (
+              item.interest ?
+                <View style={styles.inv_container} key={index}>
                   <View style={styles.inv_content}>
                     <Text style={styles.inv_label}>{item.label}</Text>
-
                     <View>
                       <Text
                         style={
-                          item.status == 1
+                          item.status == 0
                             ? styles.inv_value
                             : styles.inv_expenses
                         }>
-                        {item.status == 1
+                        {item.status == 0
                           ? `${item.value}%`
                           : `-${item.value}%`}
                       </Text>
                     </View>
                   </View>
-                </View>
-              )}
-            />
-          </View>
+                </View> : <View></View>
+            ))}
+          </ScrollView>
+
+
 
           <View
             style={{ marginTop: 30, flexDirection: 'row' }}>
-            <TouchableOpacity onPress={() => { navigation.navigate("Investments") }}>
+            <TouchableOpacity onPress={() => { navigation.navigate("checkbox", { invs: investimentos, refreshProfile: ()=>{setRefreshProf(!refreshProf);} }) }}>
               <View style={styles.addView}>
                 <Text style={{ paddingRight: 8, paddingTop: 3, fontSize: 12 }}>
                   Alterar
                 </Text>
-                
+
                 <Feather name="refresh-cw" size={18} color="darkblue" />
               </View>
             </TouchableOpacity>

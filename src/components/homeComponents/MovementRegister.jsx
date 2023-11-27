@@ -1,23 +1,16 @@
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { React, useState } from 'react';
 
-export default function Movements({ props }) {
+
+export default function MovementRegister({ props }) {
   const [showValue, setShowValue] = useState(false);
 
-
-  function formatarData(dataStr) {
-    if (dataStr) {
-      return dataStr;
-    } else {
-      return 'sem data';
-    }
-  }
 
   return (
     <TouchableOpacity
       style={st.container}
       onPress={() => setShowValue(!showValue)}>
-      <Text style={st.data}>{formatarData(props.date)}</Text>
+      <Text style={st.data}>{props.date}</Text>
       <View style={st.content}>
         <Text style={st.label}>{props.description}</Text>
 
@@ -28,7 +21,8 @@ export default function Movements({ props }) {
               from={{ translateX: 100 }}
               animate={{ translateX: 0 }}
               transition={{ type: 'timing', duration: 500 }}>
-              {props.type === 1 ? `R$ ${parseFloat(props.value).toFixed(2)}` : `R$ -${parseFloat(props.value).toFixed(2)}`}
+              {props.type === 1 ? `R$ ${parseFloat(props.value).toFixed(2)}` :
+                `R$ -${parseFloat(props.value).toFixed(2)}`}
             </Text>
           </View>
         ) : (

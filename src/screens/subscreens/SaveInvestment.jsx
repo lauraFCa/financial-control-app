@@ -1,11 +1,4 @@
-import {
-  View,
-  Text,
-  TextInput,
-  Button,
-  StyleSheet,
-  TouchableOpacity, StatusBar
-} from 'react-native';
+import { View, Text, TextInput, Button, StyleSheet, TouchableOpacity, StatusBar } from 'react-native';
 import React, { useState } from 'react';
 import Storage from '../../database/firebaseMethods';
 import { AntDesign, Ionicons } from '@expo/vector-icons';
@@ -16,12 +9,13 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64;
 
 
-export default function SaveInvestments({ navigation }) {
+export default function SaveInvestments({ navigation, route }) {
   const { showLoading, hideLoading, setShouldRefresh } = useLoading();
 
   const [description, setDescription] = useState('');
   const [value, setValue] = useState('');
   const [opcao, setOpcao] = useState(null);
+  const [msg, setMsg] = useState('');
 
   const handleCheck1 = () => {
     setOpcao(0);
@@ -34,23 +28,49 @@ export default function SaveInvestments({ navigation }) {
   const handleSubmit = async () => {
     try {
       showLoading();
-      const doc = await AsyncStorage.getItem('userDoc');
-      const fr = new Storage(doc)
-      await fr.appendToInvestments({
-        label: description,
-        value: value,
-        status: opcao,
-      });
-    } catch (err) { console.log(err); } finally { hideLoading(); }
-    setShouldRefresh(true);
-    alert("salvo com sucesso!")
-    navigation.navigate("Investments");
+      if (description && value && (opcao == 1 || opcao == 0)) {
+        setMsg('');
+
+        const doc = await AsyncStorage.getItem('userDoc');
+        const fr = new Storage(doc)
+        let exists = await fr.getFullDoc();
+        let alreadInv = exists.investments;
+        let shouldSave = true;
+        if (alreadInv) {
+          alreadInv.map((item, index) => {
+            if (description === item.label) {
+              shouldSave = false;
+            }
+          })
+        }
+        if (!shouldSave) {
+          setMsg("A ação já existe!");
+        } else {
+          await fr.appendToInvestments({
+            label: description,
+            value: value,
+            status: opcao,
+            interest: true
+          });
+          setMsg('');
+          setShouldRefresh(true);
+
+          if(route.params){
+            route.params.isRefresh();
+          }
+          navigation.navigate("checkbox");
+        }
+      } else {
+        setMsg("Todos os campos devem ser preenchidos!");
+      }
+    }
+    catch (err) { console.log(err); } finally { hideLoading(); }
   };
 
 
   return (
     <View style={{ marginTop: statusBarHeight + 15, paddingHorizontal: 15, height: '100%' }}>
-      <ArrowBack navigation={navigation} navigate={"Investments"} />
+      <ArrowBack navigation={navigation} navigate={"checkbox"} />
       <Text style={{ fontWeight: 'bold', fontSize: 20, marginTop: 50 }}>
         Cadastrando nova Ação de Interesse
       </Text>
@@ -102,10 +122,12 @@ export default function SaveInvestments({ navigation }) {
         </View>
 
         <Button title="Enviar" onPress={handleSubmit} color="darkblue" />
+
+        <Text style={styles.msg}>{msg}</Text>
       </View>
 
       <View style={{ position: 'absolute', bottom: 0, right: 20 }}>
-        <TouchableOpacity onPress={() => { navigation.navigate("Investments") }}>
+        <TouchableOpacity onPress={() => { navigation.navigate("checkbox") }}>
           <Ionicons name="arrow-back-circle-sharp" size={40} color="darkblue" />
         </TouchableOpacity>
       </View>
@@ -114,6 +136,12 @@ export default function SaveInvestments({ navigation }) {
 }
 
 const styles = StyleSheet.create({
+  msg: {
+    color: '#7a0101',
+    marginVertical: 24,
+    fontSize: 18,
+    textAlign: 'center'
+  },
   container: {
     flex: 1,
     padding: 16,

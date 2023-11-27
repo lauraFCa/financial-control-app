@@ -33,9 +33,6 @@ export default function AuthScreen({ navigation }) {
 
     useEffect(() => {
         const getUsers = async () => {
-            // await AsyncStorage.removeItem('isAuth');
-            // await AsyncStorage.removeItem('fullUserData');
-            // await AsyncStorage.removeItem('userDoc');
             const auth = await AsyncStorage.getItem('isAuth');
 
             if (auth === "true") {
@@ -95,9 +92,11 @@ export default function AuthScreen({ navigation }) {
                         });
 
                         await fr.createNewUserDoc(email);
-                        await fr.updateDoc({
+                        const fr2 = new Storage(email);
+                        await fr2.updateDoc({
                             userData: {
-                                email: email
+                                email: email,
+                                name: email
                             }
                         })
                         await AsyncStorage.setItem('isAuth', "true");

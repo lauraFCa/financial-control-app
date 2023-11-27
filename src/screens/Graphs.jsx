@@ -50,7 +50,7 @@ export default function Graphs({ route, navigation }) {
         if (incomes1) {
             incomes1.forEach(element => {
                 newIncomes.labels.push(element.description);
-                newIncomes.datasets[0].data.push(element.value);
+                newIncomes.datasets[0].data.push(parseFloat(element.value));
             });
             setIncomeData(newIncomes);
         }
@@ -68,7 +68,7 @@ export default function Graphs({ route, navigation }) {
         if (expenses1) {
             expenses1.forEach(element => {
                 newExpenses.labels.push(element.description);
-                newExpenses.datasets[0].data.push(element.value);
+                newExpenses.datasets[0].data.push(parseFloat(element.value));
             });
             setExpensesData(newExpenses);
         }
@@ -126,7 +126,7 @@ export default function Graphs({ route, navigation }) {
 
                 <View style={styles.graphGroup}>
                     <Text style={styles.graphTitle}>Receitas</Text>
-                    {incomeData && incomeData.length > 0 ?
+                    {incomeData ?
                         <BarChart
                             width={screenWidth}
                             height={300}
@@ -143,7 +143,7 @@ export default function Graphs({ route, navigation }) {
                 <View style={styles.graphGroup}>
                     <Text style={styles.graphTitle}>Gastos</Text>
                     <FlashMessage duration={5000} />
-                    {expensesData && expensesData.length > 0 ?
+                    {expensesData ?
                         <LineChart
                             bezier
                             width={screenWidth - 20}

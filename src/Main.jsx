@@ -3,16 +3,15 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { LoadingProvider } from './Context';
 
 
+import AuthScreen from './screens/AuthScreen';
+import SplashScreen from './screens/subscreens/SplashScreen';
 import Home from './screens/Home';
 import Profile from './screens/Profile';
 import Settings from './screens/Settings';
-import Investments from './screens/subscreens/Investments'
 import SaveInvestments from './screens/subscreens/SaveInvestment';
-
-import AuthScreen from './screens/AuthScreen';
-import Graphs from './screens/Graphs';
 import Money from './screens/Money';
-import SplashScreen from './screens/subscreens/SplashScreen';
+import Graphs from './screens/Graphs';
+import InvestmentsCheckbox from './screens/subscreens/InvestmentsCheckbox';
 
 const Stack = createStackNavigator();
 
@@ -21,13 +20,6 @@ export default function Main() {
 
 
     let opt = {
-        headerStyle: {
-            backgroundColor: 'transparent',
-        },
-        headerTintColor: '#fff',
-        headerTitleStyle: {
-            color: '#fff',
-        },
         headerShown: false
     }
 
@@ -35,18 +27,16 @@ export default function Main() {
     return (
         <NavigationContainer>
             <LoadingProvider>
-                <Stack.Navigator initialRouteName="Auth" screenOptions={{
-                    headerShown: false
-                }}>
+                <Stack.Navigator initialRouteName="Auth" screenOptions={{ headerShown: false }}>
                     <Stack.Screen options={opt} name="Auth" component={AuthScreen} />
                     <Stack.Screen options={opt} name="Home" component={Home} />
                     <Stack.Screen options={opt} name="Profile" component={Profile} />
                     <Stack.Screen options={opt} name="Settings" component={Settings} />
-                    <Stack.Screen options={opt} name="Investments" component={Investments} />
                     <Stack.Screen options={opt} name="SaveInvestments" component={SaveInvestments} />
                     <Stack.Screen options={opt} name="Graphs" component={Graphs} />
                     <Stack.Screen options={opt} name="Money" component={Money} />
                     <Stack.Screen options={opt} name="Splash" component={SplashScreen} />
+                    <Stack.Screen options={opt} name="checkbox" component={InvestmentsCheckbox} />
                 </Stack.Navigator>
             </LoadingProvider>
         </NavigationContainer>

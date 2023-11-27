@@ -8,8 +8,6 @@ import { useLoading } from './../Context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
-const darkBlue = '#00008b';
-
 
 export default function ChangeData({ label, value, refresh }) {
 
@@ -71,35 +69,55 @@ export default function ChangeData({ label, value, refresh }) {
 
 
   updateName = async (fr) => {
+    let perf = "";
+    if (userData.perfilInvestimento && userData.perfilInvestimento != '') {
+      perf = userData.perfilInvestimento;
+    }
+    let prof = "";
+    if (userData.profissao && userData.profissao != '') {
+      prof = userData.profissao;
+    }
     let outp = await fr.updateDoc({
       userData: {
         name: name,
         email: userData.email,
-        perfilInvestimento: userData.perfilInvestimento,
-        profissao: userData.profissao,
+        perfilInvestimento: perf,
+        profissao: prof
       },
     });
     return outp;
   }
 
   updateEmail = async (fr) => {
+    let perf = "";
+    if (userData.perfilInvestimento && userData.perfilInvestimento != '') {
+      perf = userData.perfilInvestimento;
+    }
+    let prof = "";
+    if (userData.profissao && userData.profissao != '') {
+      prof = userData.profissao;
+    }
     let outp = await fr.updateDoc({
       userData: {
         name: userData.name,
         email: email,
-        perfilInvestimento: userData.perfilInvestimento,
-        profissao: userData.profissao,
+        perfilInvestimento: perf,
+        profissao: prof
       },
     });
     return outp;
   }
 
   updateProfissao = async (fr) => {
+    let perf = "";
+    if (userData.perfilInvestimento && userData.perfilInvestimento != '') {
+      perf = userData.perfilInvestimento;
+    }
     let outp = await fr.updateDoc({
       userData: {
         name: userData.name,
         email: userData.email,
-        perfilInvestimento: userData.perfilInvestimento,
+        perfilInvestimento: perf,
         profissao: profissao,
       },
     });
@@ -107,12 +125,16 @@ export default function ChangeData({ label, value, refresh }) {
   }
 
   updatePerfil = async (fr) => {
+    let prof = "";
+    if (userData.profissao && userData.profissao != '') {
+      prof = userData.profissao;
+    }
     let outp = await fr.updateDoc({
       userData: {
         name: userData.name,
         email: userData.email,
         perfilInvestimento: perfilInv,
-        profissao: userData.profissao,
+        profissao: prof
       },
     });
     return outp;
@@ -162,7 +184,7 @@ export default function ChangeData({ label, value, refresh }) {
                   <Ionicons
                     name="arrow-back-circle-sharp"
                     size={55}
-                    color={darkBlue}
+                    color={"darkblue"}
                   />
                 </TouchableOpacity>
 
@@ -170,7 +192,7 @@ export default function ChangeData({ label, value, refresh }) {
                   <Ionicons
                     name="add-circle-sharp"
                     size={55}
-                    color={darkBlue}
+                    color={"darkblue"}
                   />
                 </TouchableOpacity>
               </View>
@@ -193,7 +215,7 @@ export default function ChangeData({ label, value, refresh }) {
 
 const styles = StyleSheet.create({
   border: {
-    borderBottomColor: darkBlue,
+    borderBottomColor: "darkblue",
     borderBottomWidth: 1,
     marginLeft: 20,
     marginRight: 20,
@@ -236,7 +258,7 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 20,
   },
   modal_titleView: {
-    backgroundColor: darkBlue,
+    backgroundColor: "darkblue",
     marginBottom: 5,
   },
   modal_title: {
@@ -257,7 +279,7 @@ const styles = StyleSheet.create({
   },
   modal_input: {
     borderWidth: 0.8,
-    borderColor: darkBlue,
+    borderColor: "darkblue",
     borderRadius: 5,
     paddingHorizontal: 8,
     paddingVertical: 5,
