@@ -1,4 +1,4 @@
-# Perfil
+# Profile
 
 O componente React-Native denominado `Perfil` é projetado para exibir informações do usuário, incluindo detalhes pessoais, dados financeiros e lista de investimentos.  Fornece uma interface de usuário limpa e interativa para visualizar e interagir com informações relevantes.
 
