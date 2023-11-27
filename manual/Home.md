@@ -1,48 +1,55 @@
 # Home
 
-Este componente React-Native, chamado de `Home`, é uma representação da tela principal de um aplicativo financeiro.  
-Inclui funcionalidades como exibição do saldo, últimas movimentações, opções de menu horizontal, e interações animadas.
-
 ## Funcionalidades Principais
 
-1. **Atualização de Dados:**
-   - O componente possui um estado `isRefresh` que controla a atualização dos dados ao ser acionado. A função `refresh` é responsável por obter os dados do usuário autenticado e atualizar o estado.
+A página Home é responsável por exibir informações financeiras essenciais para o usuário, oferecendo uma visão geral de seu saldo, movimentações financeiras recentes e acesso rápido a funcionalidades adicionais.
 
-2. **Animação de Saldo:**
-   - O componente utiliza a biblioteca `Animated` do React-Native para criar uma animação de fade in/fade out no bloco de informações de saldo. A animação é acionada pelo toque do usuário.
+### Principais Funcionalidades:
 
-3. **Obtenção de Dados do Usuário:**
-   - Utiliza o contexto `useLoading` para exibir e ocultar indicadores de carregamento.
-   - Utiliza a AsyncStorage para armazenar e recuperar os dados do usuário, como nome, receitas, despesas, etc.
+1. **Exibição de Saldo:**
+   - Apresenta o saldo atual do usuário.
+   - Oferece uma dica para explicar a seção de saldo.
 
-4. **Ordenação de Movimentações:**
-   - As últimas movimentações do usuário são ordenadas por data antes de serem exibidas, utilizando a função `parseDate`.
+2. **Movimentações Financeiras Recentes:**
+   - Mostra as últimas transações financeiras do usuário.
+   - Permite visualizar detalhes de receitas e despesas.
 
-5. **Integração com Firebase:**
-   - Utiliza o módulo `Storage` para interagir com o Firebase e obter dados do usuário.
+3. **Menu de Navegação:**
+   - Facilita o acesso a diferentes seções do aplicativo.
+   - Fornece uma dica para orientação sobre o menu.
 
-6. **Componentes Filhos:**
-   - O componente inclui outros componentes como `HorizontalMenu` para exibir um menu horizontal com opções específicas e `Movements` para mostrar as últimas movimentações financeiras.
-
-7. **Interação com Navegação:**
-   - Navegação entre telas é possível através da navegação passada como propriedade (`{ navigation }`).
-
-8. **Estilo e Layout:**
-   - O componente utiliza um layout flexível, animações visuais e estilos específicos para cada parte da tela, proporcionando uma experiência visual agradável.
+4. **Atualização Automática:**
+   - Atualiza automaticamente os dados quando necessário.
 
 ## Componentes Utilizados
 
-- `React`, `useState`, `useEffect`, `useRef` para gerenciar o estado e ciclo de vida.
-- `AsyncStorage` para armazenamento local de dados.
-- `Animatable` para animações.
-- `Feather` para ícones.
-- Componentes customizados como `HorizontalMenu` e `Movements`.
+A página Home utiliza vários componentes personalizados para organizar e exibir informações de forma clara e amigável. Os componentes principais incluem:
 
-**Pré-requisitos:**
-- Necessita de um contexto de carregamento (`useLoading`) para gerenciar o estado de carregamento.
+1. **Balance:**
+   - Responsável por exibir o saldo do usuário.
+   - Apresenta uma dica interativa.
+
+2. **Header:**
+   - Renderiza a seção de cabeçalho com detalhes do usuário.
+
+3. **Menu:**
+   - Exibe opções de navegação para diferentes seções do aplicativo.
+   - Inclui uma dica para orientar o usuário.
+
+4. **Movements:**
+   - Renderiza as movimentações financeiras recentes.
+   - Oferece detalhes sobre receitas e despesas.
+
+## Pré-requisito
+
+Para usar a página Home, é necessário garantir que o aplicativo tenha acesso à API do Firebase Firestore para recuperar dados do usuário. Além disso, o aplicativo deve ter o AsyncStorage configurado para armazenar informações localmente.
 
 ## Observações
 
-- Este componente pode ser integrado a um aplicativo financeiro para oferecer funcionalidades essenciais de visualização de saldo, últimas movimentações e navegação entre diferentes seções.
+1. A página Home utiliza o conceito de Hooks do React para gerenciar estados e efeitos colaterais.
+2. A atualização automática dos dados é acionada quando necessário, garantindo informações precisas.
+3. As dicas interativas são fornecidas para orientar os usuários nas seções de saldo e menu de navegação.
+4. O código está organizado de forma modular, facilitando a manutenção e escalabilidade.
+
 
 ![Home screen](asset/home.png)

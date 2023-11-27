@@ -1,7 +1,7 @@
 {
-  "coverage": "27.53%",
-  "expectCount": 69,
-  "actualCount": 19,
+  "coverage": "21.33%",
+  "expectCount": 75,
+  "actualCount": 16,
   "files": {
     "src/components/ArrowBack.jsx": {
       "expectCount": 1,
@@ -11,20 +11,68 @@
       ]
     },
     "src/components/ChangeData.jsx": {
-      "expectCount": 3,
+      "expectCount": 2,
       "actualCount": 0,
       "undocumentLines": [
-        11,
-        14,
-        194
+        12,
+        216
       ]
     },
-    "src/components/HorizontalMenu.jsx": {
+    "src/components/homeComponents/Balance.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        77
+      ]
+    },
+    "src/components/homeComponents/Header.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        31
+      ]
+    },
+    "src/components/homeComponents/HomeModal.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        100
+      ]
+    },
+    "src/components/homeComponents/HorizontalMenuOption.jsx": {
       "expectCount": 2,
       "actualCount": 0,
       "undocumentLines": [
         11,
-        176
+        104
+      ]
+    },
+    "src/components/homeComponents/Menu.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        47,
+        80
+      ]
+    },
+    "src/components/homeComponents/MovementRegister.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        36
+      ]
+    },
+    "src/components/homeComponents/Movements.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        28
       ]
     },
     "src/components/LogoImage.jsx": {
@@ -43,12 +91,11 @@
         36
       ]
     },
-    "src/components/Movements.jsx": {
-      "expectCount": 2,
+    "src/components/TooltipComp.jsx": {
+      "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        4,
-        42
+        5
       ]
     },
     "src/Context.jsx": {
@@ -61,11 +108,6 @@
         36,
         42
       ]
-    },
-    "src/database/firebase.js": {
-      "expectCount": 3,
-      "actualCount": 3,
-      "undocumentLines": []
     },
     "src/database/firebaseMethods.js": {
       "expectCount": 16,
@@ -80,8 +122,8 @@
       "expectCount": 2,
       "actualCount": 0,
       "undocumentLines": [
-        17,
-        20
+        16,
+        19
       ]
     },
     "src/screens/AuthScreen.jsx": {
@@ -90,7 +132,7 @@
       "undocumentLines": [
         9,
         11,
-        248
+        247
       ]
     },
     "src/screens/Graphs.jsx": {
@@ -104,13 +146,11 @@
       ]
     },
     "src/screens/Home.jsx": {
-      "expectCount": 4,
+      "expectCount": 2,
       "actualCount": 0,
       "undocumentLines": [
-        13,
-        52,
-        54,
-        332
+        12,
+        14
       ]
     },
     "src/screens/Money.jsx": {
@@ -129,7 +169,7 @@
       "undocumentLines": [
         8,
         11,
-        156
+        154
       ]
     },
     "src/screens/Settings.jsx": {
@@ -141,22 +181,22 @@
         94
       ]
     },
-    "src/screens/subscreens/Investments.jsx": {
+    "src/screens/subscreens/InvestmentsCheckbox.jsx": {
       "expectCount": 3,
       "actualCount": 0,
       "undocumentLines": [
-        16,
-        18,
-        119
+        9,
+        11,
+        109
       ]
     },
     "src/screens/subscreens/SaveInvestment.jsx": {
       "expectCount": 3,
       "actualCount": 0,
       "undocumentLines": [
-        16,
-        19,
-        116
+        9,
+        12,
+        138
       ]
     },
     "src/screens/subscreens/SplashScreen.jsx": {

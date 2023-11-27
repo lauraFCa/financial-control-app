@@ -18,6 +18,12 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "banco/src/components/homecomponents/balance.jsx~balance",
+    "function/index.html#static-function-Balance",
+    "<span>Balance</span> <span class=\"search-result-import-path\">banco/src/components/homeComponents/Balance.jsx</span>",
+    "function"
+  ],
+  [
     "banco/src/components/changedata.jsx~changedata",
     "function/index.html#static-function-ChangeData",
     "<span>ChangeData</span> <span class=\"search-result-import-path\">banco/src/components/ChangeData.jsx</span>",
@@ -30,21 +36,33 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "banco/src/components/homecomponents/header.jsx~header",
+    "function/index.html#static-function-Header",
+    "<span>Header</span> <span class=\"search-result-import-path\">banco/src/components/homeComponents/Header.jsx</span>",
+    "function"
+  ],
+  [
     "banco/src/screens/home.jsx~home",
     "function/index.html#static-function-Home",
     "<span>Home</span> <span class=\"search-result-import-path\">banco/src/screens/Home.jsx</span>",
     "function"
   ],
   [
-    "banco/src/components/horizontalmenu.jsx~horizontalmenu",
-    "function/index.html#static-function-HorizontalMenu",
-    "<span>HorizontalMenu</span> <span class=\"search-result-import-path\">banco/src/components/HorizontalMenu.jsx</span>",
+    "banco/src/components/homecomponents/homemodal.jsx~homemodal",
+    "function/index.html#static-function-HomeModal",
+    "<span>HomeModal</span> <span class=\"search-result-import-path\">banco/src/components/homeComponents/HomeModal.jsx</span>",
     "function"
   ],
   [
-    "banco/src/screens/subscreens/investments.jsx~investments",
-    "function/index.html#static-function-Investments",
-    "<span>Investments</span> <span class=\"search-result-import-path\">banco/src/screens/subscreens/Investments.jsx</span>",
+    "banco/src/components/homecomponents/horizontalmenuoption.jsx~horizontalmenuoption",
+    "function/index.html#static-function-HorizontalMenuOption",
+    "<span>HorizontalMenuOption</span> <span class=\"search-result-import-path\">banco/src/components/homeComponents/HorizontalMenuOption.jsx</span>",
+    "function"
+  ],
+  [
+    "banco/src/screens/subscreens/investmentscheckbox.jsx~investmentscheckbox",
+    "function/index.html#static-function-InvestmentsCheckbox",
+    "<span>InvestmentsCheckbox</span> <span class=\"search-result-import-path\">banco/src/screens/subscreens/InvestmentsCheckbox.jsx</span>",
     "function"
   ],
   [
@@ -66,6 +84,12 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "banco/src/components/homecomponents/menu.jsx~menu",
+    "function/index.html#static-function-Menu",
+    "<span>Menu</span> <span class=\"search-result-import-path\">banco/src/components/homeComponents/Menu.jsx</span>",
+    "function"
+  ],
+  [
     "banco/src/screens/money.jsx~money",
     "function/index.html#static-function-Money",
     "<span>Money</span> <span class=\"search-result-import-path\">banco/src/screens/Money.jsx</span>",
@@ -78,9 +102,15 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
-    "banco/src/components/movements.jsx~movements",
+    "banco/src/components/homecomponents/movementregister.jsx~movementregister",
+    "function/index.html#static-function-MovementRegister",
+    "<span>MovementRegister</span> <span class=\"search-result-import-path\">banco/src/components/homeComponents/MovementRegister.jsx</span>",
+    "function"
+  ],
+  [
+    "banco/src/components/homecomponents/movements.jsx~movements",
     "function/index.html#static-function-Movements",
-    "<span>Movements</span> <span class=\"search-result-import-path\">banco/src/components/Movements.jsx</span>",
+    "<span>Movements</span> <span class=\"search-result-import-path\">banco/src/components/homeComponents/Movements.jsx</span>",
     "function"
   ],
   [
@@ -114,10 +144,10 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "banco/src/database/firebase.js~db",
-    "variable/index.html#static-variable-db",
-    "<span>db</span> <span class=\"search-result-import-path\">banco/src/database/firebase.js</span>",
-    "variable"
+    "banco/src/components/tooltipcomp.jsx~tooltipcomp",
+    "function/index.html#static-function-TooltipComp",
+    "<span>TooltipComp</span> <span class=\"search-result-import-path\">banco/src/components/TooltipComp.jsx</span>",
+    "function"
   ],
   [
     "banco/src/context.jsx~useloading",
@@ -432,12 +462,6 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "src/components/horizontalmenu.jsx",
-    "file/src/components/HorizontalMenu.jsx.html",
-    "src/components/HorizontalMenu.jsx",
-    "file"
-  ],
-  [
     "src/components/logoimage.jsx",
     "file/src/components/LogoImage.jsx.html",
     "src/components/LogoImage.jsx",
@@ -450,15 +474,51 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "src/components/movements.jsx",
-    "file/src/components/Movements.jsx.html",
-    "src/components/Movements.jsx",
+    "src/components/tooltipcomp.jsx",
+    "file/src/components/TooltipComp.jsx.html",
+    "src/components/TooltipComp.jsx",
     "file"
   ],
   [
-    "src/database/firebase.js",
-    "file/src/database/firebase.js.html",
-    "src/database/firebase.js",
+    "src/components/homecomponents/balance.jsx",
+    "file/src/components/homeComponents/Balance.jsx.html",
+    "src/components/homeComponents/Balance.jsx",
+    "file"
+  ],
+  [
+    "src/components/homecomponents/header.jsx",
+    "file/src/components/homeComponents/Header.jsx.html",
+    "src/components/homeComponents/Header.jsx",
+    "file"
+  ],
+  [
+    "src/components/homecomponents/homemodal.jsx",
+    "file/src/components/homeComponents/HomeModal.jsx.html",
+    "src/components/homeComponents/HomeModal.jsx",
+    "file"
+  ],
+  [
+    "src/components/homecomponents/horizontalmenuoption.jsx",
+    "file/src/components/homeComponents/HorizontalMenuOption.jsx.html",
+    "src/components/homeComponents/HorizontalMenuOption.jsx",
+    "file"
+  ],
+  [
+    "src/components/homecomponents/menu.jsx",
+    "file/src/components/homeComponents/Menu.jsx.html",
+    "src/components/homeComponents/Menu.jsx",
+    "file"
+  ],
+  [
+    "src/components/homecomponents/movementregister.jsx",
+    "file/src/components/homeComponents/MovementRegister.jsx.html",
+    "src/components/homeComponents/MovementRegister.jsx",
+    "file"
+  ],
+  [
+    "src/components/homecomponents/movements.jsx",
+    "file/src/components/homeComponents/Movements.jsx.html",
+    "src/components/homeComponents/Movements.jsx",
     "file"
   ],
   [
@@ -594,9 +654,9 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "src/screens/subscreens/investments.jsx",
-    "file/src/screens/subscreens/Investments.jsx.html",
-    "src/screens/subscreens/Investments.jsx",
+    "src/screens/subscreens/investmentscheckbox.jsx",
+    "file/src/screens/subscreens/InvestmentsCheckbox.jsx.html",
+    "src/screens/subscreens/InvestmentsCheckbox.jsx",
     "file"
   ],
   [

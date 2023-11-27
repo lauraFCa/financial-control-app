@@ -6,7 +6,6 @@
       "name": "esdoc-standard-plugin",
       "option": {
         "manual": {
-          "index": "readme.md",
           "globalIndex": true,
           "asset": "./manual/asset",
           "files": [
@@ -18,11 +17,19 @@
             "./manual/Money.md",
             "./manual/Graphs.md",
             "./manual/Settings.md",
+            "./manual/InvestmentsCheckbox.md",
+            "./manual/SaveInvestment.md",
+            "./manual/Context.md",
+            "./manual/components/Header.md",
+            "./manual/components/Balance.md",
+            "./manual/components/Menu.md",
+            "./manual/components/HorizontalMenuOption.md",
+            "./manual/components/HomeModal.md",
+            "./manual/components/Movements.md",
+            "./manual/components/MovementRegister.md",
             "./manual/components/ChangeData.md",
-            "./manual/components/HorizontalMenu.md",
-            "./manual/components/LogoImage.md",
             "./manual/components/MoneysGraph.md",
-            "./manual/components/Movements.md"
+            "./manual/components/LogoImage.md"
           ]
         }
       }
