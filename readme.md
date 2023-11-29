@@ -12,6 +12,7 @@
 - Perfil
 - Configurações
 - Gráficos
+- Cotações (moedas)
 - Lista de Investimentos
 - Alteração dos investimentos
 
@@ -41,9 +42,10 @@
   - Nova compra
   - Novo gasto
 
-- Ir para [Perfil](#Perfil)
-- Ir para [Configurações](##Configurações)
-- Ir para [Gráficos](##Gráficos)
+- Ir para Perfil
+- Ir para Configurações
+- Ir para Gráficos
+- Ir para Cotaçõess
 
 ## Perfil 
 
@@ -64,6 +66,12 @@
   - Gráfico de Barras: Receitas
   - Gráfico de Linha: Gastos
 
+## Cotações
+
+Gráficos de Barras com a comparação de valores das moedas: Peso argentino, Dolar USA e Euro, em relação ao Real (BR)
+
+Realiza uma requisição de API para obter essas cotações.
+
 ## Projeto
 
 Bibliotecas chave para o **funcionamento da aplicação**:
@@ -81,5 +89,16 @@ Bibliotecas chave para o **funcionamento da aplicação**:
 - Select-dropdown
 - Styled Components
 
-Gerar documentação:  
+**Gerar documentação:**  
 ``` ./node_modules/.bin/esdoc ```
+
+**Gerar APK**
+
+<!-- ``` npm install -g expo-cli ```  
+(instalar expo globalmente, caso não esteja) -->
+
+``` npm install -g eas-cli ```  
+(instalar eas-cli globalmente, caso não esteja)
+
+``` eas build -p android ```  
+OBS: Expo account is required
