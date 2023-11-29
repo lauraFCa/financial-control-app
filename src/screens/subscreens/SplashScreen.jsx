@@ -12,7 +12,6 @@ export default function SplashScreen() {
     useEffect(() => {
         
         const fetchData = async () => {
-            await AsyncStorage.setItem("isNew", "true")
             const doc = await AsyncStorage.getItem('userDoc');
             if (!doc) {
                 await AsyncStorage.removeItem('isAuth');

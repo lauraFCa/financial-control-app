@@ -44,7 +44,7 @@ const menuOptions = [
 ];
 
 
-export default function Menu({ isRefresh, refresh, navigation, moneyGraph, showMenuTip, setTip, showSettingsTip, setShowSettingsTip }) {
+export default function Menu({ isRefresh, isRef, refresh, navigation, moneyGraph, showMenuTip, setTip, showSettingsTip, setShowSettingsTip }) {
 
 
     return (
@@ -59,6 +59,7 @@ export default function Menu({ isRefresh, refresh, navigation, moneyGraph, showM
                         <HorizontalMenuOption
                             refresh={refresh}
                             isRefresh={isRefresh}
+                            isRef={isRef}
                             navigation={navigation}
                             dados={item}
                             key={index}

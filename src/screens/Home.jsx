@@ -153,7 +153,7 @@ export default function Home({ navigation }) {
       <Balance showBalanceTip={showBalanceTip} setBalanceTip={setBalanceTip}
         setShowMenuTip={setShowMenuTip} income={income} negative={negative} />
 
-      <Menu refresh={refresh} isRefresh={setIsRefresh} navigation={navigation} moneyGraph={moneyGraph}
+      <Menu refresh={refresh} isRefresh={setIsRefresh} isRef={isRefresh} navigation={navigation} moneyGraph={moneyGraph}
         showMenuTip={showMenuTip} setTip={() => { setShowMovementsTip(true); setShowMenuTip(false); }}
         showSettingsTip={showSettingsTip} setShowSettingsTip={setShowSettingsTip} />
 

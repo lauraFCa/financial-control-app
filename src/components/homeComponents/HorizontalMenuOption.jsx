@@ -8,7 +8,7 @@ import HomeModal from './HomeModal';
 import TooltipComp from '../TooltipComp';
 
 
-export default function HorizontalMenuOption({ isRefresh, refresh, navigation, dados, allData, showSettingsTip, setShowSettingsTip }) {
+export default function HorizontalMenuOption({ isRef, isRefresh, refresh, navigation, dados, allData, showSettingsTip, setShowSettingsTip }) {
 
   const { showLoading, hideLoading, setShouldRefresh } = useLoading();
   const [myDados, setDados] = useState([]);
@@ -61,7 +61,7 @@ export default function HorizontalMenuOption({ isRefresh, refresh, navigation, d
     } finally {
       setShouldRefresh(true);
       refresh();
-      isRefresh();
+      isRefresh(!isRef);
       hideLoading();
     }
 
