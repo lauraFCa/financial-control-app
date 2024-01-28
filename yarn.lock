@@ -2958,7 +2958,7 @@ cheerio@0.20.0:
     htmlparser2 "~3.8.1"
     lodash "^4.1.0"
   optionalDependencies:
-    jsdom "^7.0.2"
+    jsdom "16.5.0"
 
 cheerio@0.22.0:
   version "0.22.0"
@@ -4771,9 +4771,9 @@ jscodeshift@^0.14.0:
     temp "^0.8.4"
     write-file-atomic "^2.3.0"
 
-jsdom@^7.0.2:
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-7.2.2.tgz#40b402770c2bda23469096bee91ab675e3b1fc6e"
+jsdom@16.5.0:
+  version "16.5.0"
+  resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-16.5.0.tgz#40b402770c2bda23469096bee91ab675e3b1fc6e"
   dependencies:
     abab "^1.0.0"
     acorn "^2.4.0"
