@@ -3642,7 +3642,7 @@ esdoc-publish-html-plugin@^1.0.0:
     escape-html "1.0.3"
     fs-extra "1.0.0"
     ice-cap "0.0.4"
-    marked "0.3.19"
+    marked "4.0.10"
     taffydb "2.7.2"
 
 esdoc-standard-plugin@^1.0.0:
@@ -3685,7 +3685,7 @@ esdoc@^1.1.0:
     escape-html "1.0.3"
     fs-extra "5.0.0"
     ice-cap "0.0.4"
-    marked "0.3.19"
+    marked "4.0.10"
     minimist "^1.2.6"
     taffydb "2.7.3"
 
