@@ -12,6 +12,7 @@ import SaveInvestments from './screens/subscreens/SaveInvestment';
 import Money from './screens/Money';
 import Graphs from './screens/Graphs';
 import InvestmentsCheckbox from './screens/subscreens/InvestmentsCheckbox';
+import EventsMap from './screens/EventsMap';
 
 const Stack = createStackNavigator();
 
@@ -22,7 +23,6 @@ export default function Main() {
     let opt = {
         headerShown: false
     }
-
 
     return (
         <NavigationContainer>
@@ -37,6 +37,7 @@ export default function Main() {
                     <Stack.Screen options={opt} name="Money" component={Money} />
                     <Stack.Screen options={opt} name="Splash" component={SplashScreen} />
                     <Stack.Screen options={opt} name="checkbox" component={InvestmentsCheckbox} />
+                    <Stack.Screen options={opt} name="map" component={EventsMap} />
                 </Stack.Navigator>
             </LoadingProvider>
         </NavigationContainer>

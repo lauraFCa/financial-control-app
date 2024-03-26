@@ -41,6 +41,12 @@ const menuOptions = [
         icon: 'money-symbol',
         type: 4 //money
     },
+    {
+        actionType: null,
+        label: 'Eventos',
+        icon: 'calendar',
+        type: 5 //events
+    }
 ];
 
 
