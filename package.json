@@ -24,6 +24,7 @@
     "esdoc-standard-plugin": "^1.0.0",
     "expo": "~49.0.13",
     "expo-checkbox": "~2.4.0",
+    "expo-location": "^16.5.5",
     "expo-status-bar": "~1.6.0",
     "firebase": "^10.6.0",
     "react": "18.2.0",

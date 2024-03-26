@@ -29,6 +29,8 @@ export default function HorizontalMenuOption({ isRef, isRefresh, refresh, naviga
       navigation.navigate('Graphs', { allData: allData });
     } else if (dados.type === 4) {
       navigation.navigate('Money');
+    }else if (dados.type === 5) {
+      navigation.navigate('map');
     } else {
       setModalVisible(!isModalVisible);
     }

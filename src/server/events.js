@@ -1,59 +1,61 @@
-import cheerio from "cheerio";
+//import data from "./events.json" assert { type: 'json' };
 
-export default class EventsApi {
+const data = require('./events.json');
 
-    /**
-     * Cria um json com as informações dos eventos
-     * @param {string} event - html da página
-     * @returns json com os eventos
-     */
-    createEventsJson = async (event) => {
-        const $ = cheerio.load(event);
-        const eventos = [];
+class FindEvents {
 
-        $('[class*=\"CardLink\"]').each((index, element) => {
-            const link = $(element).attr("href").toString();
-            const loc = $(element).children().find("[class*=\"EventLocation\"]").text();
-            const title = $(element).children().find("[class*=\"EventTitle\"]").text();
-            const dates = $(element).children().find("[class*=\"EventDate\"]").text();
+    initialCoord = {
+        lat: null,
+        lon: null
+    }
 
-            eventos.push({ "Nome": title, "Local": loc, "Date": dates, "Link": link });
+    constructor(lat, long) {
+        this.initialCoord.lat = lat;
+        this.initialCoord.lon = long;
+    }
+
+    findClosestEvents = () => {
+        data.forEach(evento => {
+            const latEvento = evento.Local.latitude;
+            const lonEvento = evento.Local.longitude;
+            const distancia = this.calcularDistancia(this.initialCoord.lat, this.initialCoord.lon, latEvento, lonEvento);
+            
+            evento['Distancia em km'] = distancia;
         });
-        return eventos;
+        const closest = data.sort((a, b) => a['Distancia em km'] - b['Distancia em km']);
+
+        return closest.slice(0,5);
     }
 
-    /**
-     * Faz o request e pega as informações dos eventos
-     * @param {string} local - Formato: cidade-sem-espaco-siglaDoEstado (ex: juiz-de-fora-mg)
-     * @returns json com os eventos
-     */
-    getEventsData = async (local) => {
-        try {
-            const response = await fetch(`https://www.sympla.com.br/eventos/${local}?s=financeiro`)
-            const json = this.createEventsJson(response.text());
-            return json;
-        } catch (error) {
-            console.log(error);
-        }
+    calcularDistancia(lat1, lon1, lat2, lon2) {
+        const raioTerra = 6371; 
+
+        const lat1Rad = this.toRadians(lat1);
+        const lon1Rad = this.toRadians(lon1);
+        const lat2Rad = this.toRadians(lat2);
+        const lon2Rad = this.toRadians(lon2);
+    
+
+        const dLon = lon2Rad - lon1Rad;
+        const dLat = lat2Rad - lat1Rad;
+    
+        const a = Math.sin(dLat / 2) ** 2 + Math.cos(lat1Rad) * Math.cos(lat2Rad) * Math.sin(dLon / 2) ** 2;
+        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    
+        const distancia = raioTerra * c; //km
+    
+        return distancia;
     }
-
-    getEventsDetails = async (eventJson) => {
-        const eventsDetails = [];
-        eventJson.forEach(async event => {
-            const response = await fetch(event["Link"]);
-            const $ = cheerio.load(response.text());
-            let loc_details = $('body section:nth-of-type(3) #event-location + *:not(button) :not(button):not(svg):not(path)').text();
-            loc_details.replace("<h4>", "");
-            loc_details.replace("</h4>", "");
-            loc_details.replace("<p>", "");
-            loc_details.replace("</p>", "");
-            eventsDetails.push({
-                ...event,
-                "Local_Details": loc_details
-            });
-        });
-
-        return eventsDetails;
+    
+    toRadians(degrees) {
+        return degrees * (Math.PI / 180);
     }
-
 }
+
+const x = new FindEvents(-21.7642, -43.3496).findClosestEvents();
+x.forEach(element => {
+    console.log(element.Local);
+});
+
+
+module.exports = FindEvents;
