@@ -1,0 +1,296 @@
+[
+    {
+        "Nome do evento": "Seminário de Investimentos",
+        "Local do evento": "São Paulo, SP",
+        "Local": {
+            "latitude": -20.9961,
+            "longitude": -46.9972
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-04-10",
+            "Data final do evento": "2024-04-12",
+            "Hora de inicio do evento": "09:00",
+            "Hora final do evento": "17:00"
+        }
+    },
+    {
+        "Nome do evento": "Workshop de Planejamento Financeiro",
+        "Local do evento": "Rio de Janeiro, RJ",
+        "Local": {
+            "latitude": -20.9783,
+            "longitude": -46.9891
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-05-05",
+            "Data final do evento": "2024-05-06",
+            "Hora de inicio do evento": "10:00",
+            "Hora final do evento": "16:00"
+        }
+    },
+    {
+        "Nome do evento": "Palestra sobre Criptomoedas",
+        "Local do evento": "Belo Horizonte, MG",
+        "Local": {
+            "latitude": -20.0069,
+            "longitude": -46.0006
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-06-20",
+            "Data final do evento": "2024-06-20",
+            "Hora de inicio do evento": "19:30",
+            "Hora final do evento": "21:00"
+        }
+    },
+    {
+        "Nome do evento": "Feira de Investimentos",
+        "Local do evento": "Curitiba, PR",
+        "Local": {
+            "latitude": -25.4284,
+            "longitude": -49.2733
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-07-15",
+            "Data final do evento": "2024-07-17",
+            "Hora de inicio do evento": "08:00",
+            "Hora final do evento": "18:00"
+        }
+    },
+    {
+        "Nome do evento": "Curso de Educação Financeira",
+        "Local do evento": "Salvador, BA",
+        "Local": {
+            "latitude": -12.9714,
+            "longitude": -38.5014
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-08-10",
+            "Data final do evento": "2024-08-11",
+            "Hora de inicio do evento": "09:30",
+            "Hora final do evento": "16:30"
+        }
+    },
+    {
+        "Nome do evento": "Encontro de Traders",
+        "Local do evento": "Fortaleza, CE",
+        "Local": {
+            "latitude": -3.7172,
+            "longitude": -38.5433
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-09-05",
+            "Data final do evento": "2024-09-06",
+            "Hora de inicio do evento": "08:00",
+            "Hora final do evento": "17:00"
+        }
+    },
+    {
+        "Nome do evento": "Congresso Nacional de Economia",
+        "Local do evento": "Brasília, DF",
+        "Local": {
+            "latitude": -15.8267,
+            "longitude": -47.9218
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-10-20",
+            "Data final do evento": "2024-10-22",
+            "Hora de inicio do evento": "08:30",
+            "Hora final do evento": "18:30"
+        }
+    },
+    {
+        "Nome do evento": "Fórum de Finanças Pessoais",
+        "Local do evento": "Porto Alegre, RS",
+        "Local": {
+            "latitude": -30.033,
+            "longitude": -51.23
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-11-15",
+            "Data final do evento": "2024-11-16",
+            "Hora de inicio do evento": "09:00",
+            "Hora final do evento": "17:00"
+        }
+    },
+    {
+        "Nome do evento": "Feira de Tecnologia Financeira",
+        "Local do evento": "Recife, PE",
+        "Local": {
+            "latitude": -8.0476,
+            "longitude": -34.877
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-12-10",
+            "Data final do evento": "2024-12-12",
+            "Hora de inicio do evento": "10:00",
+            "Hora final do evento": "18:00"
+        }
+    },
+    {
+        "Nome do evento": "Workshop de Investimentos",
+        "Local do evento": "São Paulo - SP",
+        "Local": {
+            "latitude": -23.55052,
+            "longitude": -46.6333
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-04-15",
+            "Data final do evento": "2024-04-17",
+            "Hora de inicio do evento": "09:00",
+            "Hora final do evento": "17:00"
+        }
+    },
+    {
+        "Nome do evento": "Palestra sobre Educação Financeira",
+        "Local do evento": "São Paulo - SP",
+        "Local": {
+            "latitude": -23.55052,
+            "longitude": -46.6333
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-04-20",
+            "Data final do evento": "2024-04-20",
+            "Hora de inicio do evento": "14:00",
+            "Hora final do evento": "16:00"
+        }
+    },
+    {
+        "Nome do evento": "Curso de Planejamento Financeiro",
+        "Local do evento": "Brasília - DF",
+        "Local": {
+            "latitude": -15.8267,
+            "longitude": -47.9218
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-05-05",
+            "Data final do evento": "2024-05-07",
+            "Hora de inicio do evento": "10:00",
+            "Hora final do evento": "18:00"
+        }
+    },
+    {
+        "Nome do evento": "Feira de Investimentos",
+        "Local do evento": "Salvador - BA",
+        "Local": {
+            "latitude": -12.9714,
+            "longitude": -38.5014
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-05-10",
+            "Data final do evento": "2024-05-12",
+            "Hora de inicio do evento": "11:00",
+            "Hora final do evento": "20:00"
+        }
+    },
+    {
+        "Nome do evento": "Palestra sobre Aposentadoria",
+        "Local do evento": "Porto Alegre - RS",
+        "Local": {
+            "latitude": -30.0346,
+            "longitude": -51.2177
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-05-15",
+            "Data final do evento": "2024-05-15",
+            "Hora de inicio do evento": "18:30",
+            "Hora final do evento": "20:30"
+        }
+    },
+    {
+        "Nome do evento": "Workshop de Finanças Pessoais",
+        "Local do evento": "Curitiba - PR",
+        "Local": {
+            "latitude": -25.4296,
+            "longitude": -49.2713
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-05-20",
+            "Data final do evento": "2024-05-21",
+            "Hora de inicio do evento": "09:30",
+            "Hora final do evento": "17:30"
+        }
+    },
+    {
+        "Nome do evento": "Seminário sobre Investimentos",
+        "Local do evento": "Fortaleza - CE",
+        "Local": {
+            "latitude": -3.7172,
+            "longitude": -38.5433
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-06-01",
+            "Data final do evento": "2024-06-03",
+            "Hora de inicio do evento": "10:00",
+            "Hora final do evento": "18:00"
+        }
+    },
+    {
+        "Nome do evento": "Curso de Gestão Financeira",
+        "Local do evento": "Manaus - AM",
+        "Local": {
+            "latitude": -3.119,
+            "longitude": -60.0215
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-06-10",
+            "Data final do evento": "2024-06-12",
+            "Hora de inicio do evento": "08:30",
+            "Hora final do evento": "16:30"
+        }
+    },
+    {
+        "Nome do evento": "Feira de Startups Financeiras",
+        "Local do evento": "Florianópolis - SC",
+        "Local": {
+            "latitude": -27.5954,
+            "longitude": -48.548
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-06-15",
+            "Data final do evento": "2024-06-17",
+            "Hora de inicio do evento": "11:00",
+            "Hora final do evento": "19:00"
+        }
+    },
+    {
+        "Nome do evento": "Palestra sobre Tesouro Direto",
+        "Local do evento": "Belo Horizonte - MG",
+        "Local": {
+            "latitude": -19.9167,
+            "longitude": -43.9345
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-06-20",
+            "Data final do evento": "2024-06-20",
+            "Hora de inicio do evento": "15:00",
+            "Hora final do evento": "17:00"
+        }
+    },
+    {
+        "Nome do evento": "Curso de Investimentos Imobiliários",
+        "Local do evento": "Belo Horizonte - MG",
+        "Local": {
+            "latitude": -19.9167,
+            "longitude": -43.9345
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-07-05",
+            "Data final do evento": "2024-07-07",
+            "Hora de inicio do evento": "09:30",
+            "Hora final do evento": "18:30"
+        }
+    },
+    {
+        "Nome do evento": "Simpósio de Economia",
+        "Local do evento": "Goiânia - GO",
+        "Local": {
+            "latitude": -16.6799,
+            "longitude": -49.255
+        },
+        "Datas": {
+            "Data de inicio do evento": "2024-07-15",
+            "Data final do evento": "2024-07-15",
+            "Hora de inicio do evento": "14:00",
+            "Hora final do evento": "18:00"
+        }
+    }
+]
