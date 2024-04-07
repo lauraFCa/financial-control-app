@@ -27,7 +27,7 @@ export default function Main() {
     return (
         <NavigationContainer>
             <LoadingProvider>
-                <Stack.Navigator initialRouteName="Auth" screenOptions={{ headerShown: false }}>
+                <Stack.Navigator initialRouteName="Home" screenOptions={{ headerShown: false }}>
                     <Stack.Screen options={opt} name="Auth" component={AuthScreen} />
                     <Stack.Screen options={opt} name="Home" component={Home} />
                     <Stack.Screen options={opt} name="Profile" component={Profile} />
