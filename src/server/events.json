@@ -1,115 +1,123 @@
 [
     {
         "Nome do evento": "Seminário de Investimentos",
-        "Local do evento": "São Paulo, SP",
+        "Local do evento": "Espaço Orizzonte - Juiz de Fora, MG",
         "Local": {
-            "latitude": -20.9961,
-            "longitude": -46.9972
+            "latitude": -21.7549,
+            "longitude": -43.3487
         },
         "Datas": {
             "Data de inicio do evento": "2024-04-10",
             "Data final do evento": "2024-04-12",
             "Hora de inicio do evento": "09:00",
             "Hora final do evento": "17:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Workshop de Planejamento Financeiro",
-        "Local do evento": "Rio de Janeiro, RJ",
+        "Local do evento": "Trade Hotel JF - Juiz de Fora, MG",
         "Local": {
-            "latitude": -20.9783,
-            "longitude": -46.9891
+            "latitude": -21.7810,
+            "longitude": -43.3612
         },
         "Datas": {
             "Data de inicio do evento": "2024-05-05",
             "Data final do evento": "2024-05-06",
             "Hora de inicio do evento": "10:00",
             "Hora final do evento": "16:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Palestra sobre Criptomoedas",
-        "Local do evento": "Belo Horizonte, MG",
+        "Local do evento": "Victory Business Hotel - Juiz de Fora, MG",
         "Local": {
-            "latitude": -20.0069,
-            "longitude": -46.0006
+            "latitude": -21.7692,
+            "longitude": -43.3502
         },
         "Datas": {
             "Data de inicio do evento": "2024-06-20",
             "Data final do evento": "2024-06-20",
             "Hora de inicio do evento": "19:30",
             "Hora final do evento": "21:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Feira de Investimentos",
-        "Local do evento": "Curitiba, PR",
+        "Local do evento": "Hotel Samba - Três Rios, RJ",
         "Local": {
-            "latitude": -25.4284,
-            "longitude": -49.2733
+            "latitude": -22.1167,
+            "longitude": -43.20876
         },
         "Datas": {
             "Data de inicio do evento": "2024-07-15",
             "Data final do evento": "2024-07-17",
             "Hora de inicio do evento": "08:00",
             "Hora final do evento": "18:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Curso de Educação Financeira",
-        "Local do evento": "Salvador, BA",
+        "Local do evento": "Centro Empresarial Barra Shopping, Rio de Janeiro - RJ",
         "Local": {
-            "latitude": -12.9714,
-            "longitude": -38.5014
+            "latitude": -22.9992,
+            "longitude": -48.3530
         },
         "Datas": {
             "Data de inicio do evento": "2024-08-10",
-            "Data final do evento": "2024-08-11",
+            "Data final do evento": "2024-08-10",
             "Hora de inicio do evento": "09:30",
-            "Hora final do evento": "16:30"
-        }
+            "Hora final do evento": "18:30"
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Encontro de Traders",
-        "Local do evento": "Fortaleza, CE",
+        "Local do evento": "Matias Barbosa, MG",
         "Local": {
-            "latitude": -3.7172,
-            "longitude": -38.5433
+            "latitude": -21.8674,
+            "longitude": -43.3140
         },
         "Datas": {
             "Data de inicio do evento": "2024-09-05",
             "Data final do evento": "2024-09-06",
             "Hora de inicio do evento": "08:00",
             "Hora final do evento": "17:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Congresso Nacional de Economia",
-        "Local do evento": "Brasília, DF",
+        "Local do evento": "Parque Olímpico - Rio de Janeiro, RJ",
         "Local": {
-            "latitude": -15.8267,
-            "longitude": -47.9218
+            "latitude": -22.9771,
+            "longitude": -43.39361
         },
         "Datas": {
             "Data de inicio do evento": "2024-10-20",
             "Data final do evento": "2024-10-22",
             "Hora de inicio do evento": "08:30",
             "Hora final do evento": "18:30"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Fórum de Finanças Pessoais",
-        "Local do evento": "Porto Alegre, RS",
+        "Local do evento": "Petrópolis, RJ",
         "Local": {
-            "latitude": -30.033,
-            "longitude": -51.23
+            "latitude": -22.5083,
+            "longitude": -43.1622
         },
         "Datas": {
             "Data de inicio do evento": "2024-11-15",
             "Data final do evento": "2024-11-16",
             "Hora de inicio do evento": "09:00",
             "Hora final do evento": "17:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Feira de Tecnologia Financeira",
@@ -123,133 +131,143 @@
             "Data final do evento": "2024-12-12",
             "Hora de inicio do evento": "10:00",
             "Hora final do evento": "18:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Workshop de Investimentos",
-        "Local do evento": "São Paulo - SP",
+        "Local do evento": "Divinópolis, MG",
         "Local": {
-            "latitude": -23.55052,
-            "longitude": -46.6333
+            "latitude": -20.1118,
+            "longitude": -44.8032
         },
         "Datas": {
             "Data de inicio do evento": "2024-04-15",
             "Data final do evento": "2024-04-17",
             "Hora de inicio do evento": "09:00",
             "Hora final do evento": "17:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Palestra sobre Educação Financeira",
-        "Local do evento": "São Paulo - SP",
+        "Local do evento": "Contagem, MG",
         "Local": {
-            "latitude": -23.55052,
-            "longitude": -46.6333
+            "latitude": -19.98505,
+            "longitude": -43.99063
         },
         "Datas": {
             "Data de inicio do evento": "2024-04-20",
             "Data final do evento": "2024-04-20",
             "Hora de inicio do evento": "14:00",
             "Hora final do evento": "16:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Curso de Planejamento Financeiro",
-        "Local do evento": "Brasília - DF",
+        "Local do evento": "Contagem, MG",
         "Local": {
-            "latitude": -15.8267,
-            "longitude": -47.9218
+            "latitude": -19.8267,
+            "longitude": -44.9218
         },
         "Datas": {
             "Data de inicio do evento": "2024-05-05",
             "Data final do evento": "2024-05-07",
             "Hora de inicio do evento": "10:00",
             "Hora final do evento": "18:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Feira de Investimentos",
-        "Local do evento": "Salvador - BA",
+        "Local do evento": "Rio de Janeio, RJ",
         "Local": {
-            "latitude": -12.9714,
-            "longitude": -38.5014
+            "latitude": -22.80612,
+            "longitude": -43.05057
         },
         "Datas": {
             "Data de inicio do evento": "2024-05-10",
             "Data final do evento": "2024-05-12",
             "Hora de inicio do evento": "11:00",
             "Hora final do evento": "20:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Palestra sobre Aposentadoria",
-        "Local do evento": "Porto Alegre - RS",
+        "Local do evento": "Rio de Janeio, RJ",
         "Local": {
-            "latitude": -30.0346,
-            "longitude": -51.2177
+            "latitude": -23.00000,
+            "longitude": -42.99551
         },
         "Datas": {
             "Data de inicio do evento": "2024-05-15",
             "Data final do evento": "2024-05-15",
             "Hora de inicio do evento": "18:30",
             "Hora final do evento": "20:30"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Workshop de Finanças Pessoais",
-        "Local do evento": "Curitiba - PR",
+        "Local do evento": "Rio de Janeio, RJ",
         "Local": {
-            "latitude": -25.4296,
-            "longitude": -49.2713
+            "latitude": -21.90612,
+            "longitude": -42.05057
         },
         "Datas": {
             "Data de inicio do evento": "2024-05-20",
             "Data final do evento": "2024-05-21",
             "Hora de inicio do evento": "09:30",
             "Hora final do evento": "17:30"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Seminário sobre Investimentos",
-        "Local do evento": "Fortaleza - CE",
+        "Local do evento": "Rio de Janeio, RJ",
         "Local": {
-            "latitude": -3.7172,
-            "longitude": -38.5433
+            "latitude": -24.00612,
+            "longitude": -43.05057
         },
         "Datas": {
             "Data de inicio do evento": "2024-06-01",
             "Data final do evento": "2024-06-03",
             "Hora de inicio do evento": "10:00",
             "Hora final do evento": "18:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Curso de Gestão Financeira",
-        "Local do evento": "Manaus - AM",
+        "Local do evento": "Campinas (SP)",
         "Local": {
-            "latitude": -3.119,
-            "longitude": -60.0215
+            "latitude": -22.73093334265768, 
+            "longitude": -46.94414116202558
         },
         "Datas": {
             "Data de inicio do evento": "2024-06-10",
             "Data final do evento": "2024-06-12",
             "Hora de inicio do evento": "08:30",
             "Hora final do evento": "16:30"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Feira de Startups Financeiras",
-        "Local do evento": "Florianópolis - SC",
+        "Local do evento": "Ribeirão Preto (SP)",
         "Local": {
-            "latitude": -27.5954,
-            "longitude": -48.548
+            "latitude": -21.02726244008054, 
+            "longitude": -47.61625358803558
         },
         "Datas": {
             "Data de inicio do evento": "2024-06-15",
             "Data final do evento": "2024-06-17",
             "Hora de inicio do evento": "11:00",
             "Hora final do evento": "19:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Palestra sobre Tesouro Direto",
@@ -263,34 +281,37 @@
             "Data final do evento": "2024-06-20",
             "Hora de inicio do evento": "15:00",
             "Hora final do evento": "17:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Curso de Investimentos Imobiliários",
-        "Local do evento": "Belo Horizonte - MG",
+        "Local do evento": "São José dos Campos",
         "Local": {
-            "latitude": -19.9167,
-            "longitude": -43.9345
+            "latitude": -23.022576880804458, 
+            "longitude": -45.73162746132422
         },
         "Datas": {
             "Data de inicio do evento": "2024-07-05",
             "Data final do evento": "2024-07-07",
             "Hora de inicio do evento": "09:30",
             "Hora final do evento": "18:30"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     },
     {
         "Nome do evento": "Simpósio de Economia",
-        "Local do evento": "Goiânia - GO",
+        "Local do evento": "Arena Independência - Belo Horizonte (MG)",
         "Local": {
-            "latitude": -16.6799,
-            "longitude": -49.255
+            "latitude": -19.902697333567506, 
+            "longitude": -43.95203735150447
         },
         "Datas": {
             "Data de inicio do evento": "2024-07-15",
             "Data final do evento": "2024-07-15",
             "Hora de inicio do evento": "14:00",
             "Hora final do evento": "18:00"
-        }
+        },
+        "Link": "https://www.sympla.com.br/evento/tardezinha-do-empreendedorismo-palestras-e-plantoes/2394078"
     }
 ]
