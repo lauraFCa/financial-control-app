@@ -1,6 +1,5 @@
-//import data from "./events.json" assert { type: 'json' };
-
 const data = require('./events.json');
+
 
 class FindEvents {
 

@@ -1,122 +1,116 @@
-import React, { useEffect, useState } from 'react';
-import { StyleSheet, View, StatusBar, TouchableOpacity } from 'react-native';
+import React, { useEffect, useState, useCallback, useMemo, useRef } from 'react';
+import { StyleSheet, View, StatusBar, TouchableOpacity, Text } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
-import * as Location from 'expo-location';
 import { MaterialIcons } from '@expo/vector-icons';
-import FindEvents from '../server/events.js';
+import BottomSheet, { BottomSheetBackdrop } from '@gorhom/bottom-sheet';
 
 
 const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64
 
-export default function EventsMap({ navigation }) {
+export default function EventsMap({ route, navigation }) {
+    const snapPoints = useMemo(() => ['25%', '50%', '70%'], []);
 
-    const [locations, setLocations] = useState([
-        { id: 1, title: 'Local 1', latitude: -21.7642, longitude: -43.3496 },//jf
-        { id: 2, title: 'Local 2', latitude: 37.771707, longitude: -122.405376 },
-        { id: 3, title: 'Local 3', latitude: 37.7749, longitude: -122.4194 },
-    ]);
+    const bottomSheetRef = useRef(null);
+
+    const handleClosePress = () => bottomSheetRef.current?.close();
+    const snapeToIndex = (index) => bottomSheetRef.current?.snapToIndex(index);
+    const renderBackdrop = useCallback(
+        (props) => <BottomSheetBackdrop appearsOnIndex={0} disappearsOnIndex={-1} {...props} />,
+        []
+    );
+
+
+    const [eventsList, setEventsList] = useState([]);
 
     const [currentLocation, setCurrentLocation] = useState();
 
+    const [eventData, setEventData] = useState({
+        dates: "",
+        place: "",
+        link: ""
+    });
 
-    async function setLocation() {
-        let location = await Location.getCurrentPositionAsync();
-        console.log(location)
-        if(location){
-            setCurrentLocation({
-                latitude: location.coords.latitude,
-                longitude: location.coords.longitude,
-                latitudeDelta: 0.0922,
-                longitudeDelta: 0.0421,
-            });
-        }
-    }
+
 
     useEffect(() => {
-        console.log("########useeffect##############\n")
-
-        makeAyncCalls = async () => {
+        makeAsyncCalls = async () => {
             console.log("make async calls")
-
-            let { status } = await Location.requestForegroundPermissionsAsync();
-            if (status !== 'granted') {
-                console.error('Permissão de localização não concedida');
-                return;
+            
+            if (route.params) {
+                setEventsList(route.params.eventsListWithLocation);
+                setCurrentLocation(route.params.currentLocation);
             }
-
-            await setLocation();
-            console.log("current location")
-            console.log(currentLocation)
-            if (!currentLocation) {
-                console.log("in if")
-                await setLocation();
-            }
-            console.log(currentLocation)
-
-
-            let newPoints = []
-            const events = new FindEvents(currentLocation.latitude, currentLocation.longitude);
-            const closestEvents = events.findClosestEvents();
-            closestEvents.forEach((element, indx) => {
-                console.log(element);
-                console.log(element.Local);
-                
-                newPoints.push({
-                    id: indx,
-                    title: element["Nome do evento"],
-                    latitude: element.Local.latitude,
-                    longitude: element.Local.longitude
-                });
-            });
-            newPoints.push({
-                id: newPoints.length + 1,
-                title: "Inital Loc",
-                latitude: currentLocation.latitude,
-                longitude: currentLocation.longitude,
-            })
-            console.log(newPoints);
-            setLocations(newPoints);
+            
+            console.log("finish");
         }
 
-        makeAyncCalls();
-
-
+        makeAsyncCalls();
+        
     }, []);
 
 
+
     return (
-        <View style={{ marginTop: statusBarHeight, height: '100%' }}>
-            <View style={styles.container}>
-                <MapView
-                    style={styles.map}
-                    initialRegion={{
-                        latitude: -21.7642,
-                        longitude: -43.3496,
-                        latitudeDelta: 0.0922,
-                        longitudeDelta: 0.0421,
-                    }}
-                >
-                    {locations.map(location => (
-                        <Marker
-                            key={location.id}
-                            coordinate={{ latitude: location.latitude, longitude: location.longitude }}
-                            title={location.title}
-                        />
-                    ))}
-                </MapView>
+        <View>
+            <View style={{ marginTop: statusBarHeight, height: '100%' }}>
+                <View style={styles.container}>
+                    <MapView
+                        style={styles.map}
+                        initialRegion={currentLocation}>
+                        {eventsList.map(location => (
+                            <Marker
+                                key={location.id}
+                                coordinate={{ latitude: location.Local.latitude, longitude: location.Local.longitude }}
+                                title={location["Nome do evento"]}
+                                onPress={() => { setEventData({
+                                    dates: location.Datas["Data de inicio do evento"] + "\n" + location.Datas["Data final do evento"],
+                                    place: location["Local do evento"],
+                                    link: location.Link
+                                }); 
+                                snapeToIndex(0); 
+                                }}
+                            >
+                            </Marker>
+                        ))}
+                    </MapView>
+                </View>
+
+                <View style={styles.homeBtnView}>
+                    <TouchableOpacity
+                        style={styles.homeBtn}
+                        onPress={() => {
+                            navigation.navigate('Home');
+                        }}>
+                        <MaterialIcons name="home" size={30} color="#fff" />
+                    </TouchableOpacity>
+                </View>
             </View>
-            <View style={styles.homeBtnView}>
-                <TouchableOpacity
-                    style={styles.homeBtn}
-                    onPress={() => {
-                        navigation.navigate('Home');
-                    }}>
-                    <MaterialIcons name="home" size={30} color="#fff" />
-                </TouchableOpacity>
-            </View>
+
+            <BottomSheet
+                ref={bottomSheetRef}
+                index={-1}
+                snapPoints={snapPoints}
+                enablePanDownToClose={true}
+                handleIndicatorStyle={{ backgroundColor: '#353535' }}
+                backgroundStyle={{ backgroundColor: '#c5c5c5' }}
+                backdropComponent={renderBackdrop}>
+                <View style={styles.contentContainer}>
+                    <Text style={styles.containerHeadline}>{eventData.place}</Text>
+                    <Text style={styles.containerHeadline}>{eventData.dates}</Text>
+                    <TouchableOpacity 
+                        onPress={() => navigation.navigate('WebViewScreen', eventData.link)}>
+                        <Text>Mais informações</Text>
+                    </TouchableOpacity>
+                    <Text style={styles.containerHeadline}>{eventData.link}</Text>
+                    <TouchableOpacity onPress={handleClosePress}>
+                        <Text style={styles.txt}>Close</Text>
+                    </TouchableOpacity>
+                </View>
+            </BottomSheet>
         </View>
     );
 }
+
 
 const styles = StyleSheet.create({
     homeBtnView: {
@@ -151,4 +145,20 @@ const styles = StyleSheet.create({
     map: {
         flex: 1,
     },
+    contentContainer: {
+        flex: 1,
+        alignItems: 'center',
+        paddingVertical: 10,
+        paddingHorizontal: 20
+    },
+    containerHeadline: {
+        fontSize: 20,
+    },
+    txt: {
+        marginTop: 15,
+        padding: 8,
+        borderWidth: 1,
+        borderColor: 'darkgrey',
+        textAlign: 'center'
+    }
 });

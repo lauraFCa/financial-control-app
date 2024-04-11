@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
-const fs = require('fs');
+import firebaseConfigFile from './firebaseConfig.json';
 
 
 /**
@@ -9,17 +9,11 @@ const fs = require('fs');
 */
 
 
-/**
- * Um objeto que contem as credenciais e configuracoes do projeto Firebase
-*/
-const firebaseConfigFile = fs.readFileSync("./firebaseConfig.json", 'utf8');
-const firebaseConfig = JSON.parse(firebaseConfigFile);
-
 
 /**
  *  A instancia inicializada do aplicativo Firebase
  */
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfigFile);
 
 /**
  * A instancia do Firestore associada ao aplicativo Firebase

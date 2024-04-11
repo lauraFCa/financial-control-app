@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ScrollView, StatusBar } from 'react-native';
+import { ScrollView, StatusBar, Text, Button } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useLoading } from '../Context';
 import Storage from './../database/firebaseMethods';
@@ -18,6 +18,7 @@ export default function Home({ navigation }) {
   const [isRefresh, setIsRefresh] = useState(false);
 
   const refresh = async () => {
+    await AsyncStorage.setItem('userDoc', 'user_0');
     const doc = await AsyncStorage.getItem('userDoc');
     const fr = new Storage(doc);
     let res = await fr.getFullDoc();
@@ -156,7 +157,7 @@ export default function Home({ navigation }) {
       <Menu refresh={refresh} isRefresh={setIsRefresh} isRef={isRefresh} navigation={navigation} moneyGraph={moneyGraph}
         showMenuTip={showMenuTip} setTip={() => { setShowMovementsTip(true); setShowMenuTip(false); }}
         showSettingsTip={showSettingsTip} setShowSettingsTip={setShowSettingsTip} />
-
+      
       <Movements money={money} showMovementsTip={showMovementsTip} msg={msg}
         setShowMovementsTip={() => { setShowMovementsTip(false); setShowSettingsTip(true); }} />
 

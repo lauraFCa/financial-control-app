@@ -8,7 +8,12 @@ export default class EventsApi {
     bingmaps = "http://dev.virtualearth.net/REST/v1/Locations";
     bingKey = "";
 
-    getCityFromCurrent = async (currentLocation) => {
+    /**
+     * Bing method to get the city from the current location
+     * @param {object} currentLocation - Current location coordinates (latitude and longitude)
+     * @returns String with the city name and state abbreviation (or false if no location is provided)
+     */
+    getCityFromCoordinates = async (currentLocation) => {
         if (currentLocation && currentLocation.latitude && currentLocation.longitude) {
             const locUrl = `${this.bingmaps}/${currentLocation.latitude, currentLocation.longitude}?&key=${this.bingKey}`;
             const response = await fetch(locUrl);
@@ -59,12 +64,27 @@ export default class EventsApi {
      * @returns json com os eventos
      */
     getEventsData = async (local) => {
-        local = "juiz-de-fora-mg";
+        if(!local){
+            local = "juiz-de-fora-mg";
+        }
+
+        const url = `https://www.sympla.com.br/eventos/${local}?s=financeiro`;
         try {
-            const response = await fetch(`https://www.sympla.com.br/eventos/${local}?s=financeiro`, {
+            const response = await fetch(``, {
                 method: 'GET',
                 headers: {
-                    'Accept': 'text/html'
+                    "Host": "www.sympla.com.br",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0",
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+                    "Accept-Language": "pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Referer": url,
+                    "Upgrade-Insecure-Requests": "1",
+                    "Sec-Fetch-Dest": "document",
+                    "Sec-Fetch-Mode": "navigate",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-User": "?1",
+                    "Connection": "keep-alive"
                 }
             })
             const html = await response.text();
@@ -144,8 +164,72 @@ export default class EventsApi {
         return eventsDetails;
     }
 
-    getEventCoordinates = async (eventsJson) => {
+    /**
+     * Get the coordinates from the event place
+     * @param {string} eventPlace - Place of the event that
+     * @returns Coordinates of the event
+     */
+    getEventCoordinates = async (eventPlace) => {
+        const locUrl = `${this.bingmaps}?countryRegion=BR&adminDistrict=MG&locality=Juiz de Fora&addressLine=olegário maciel&key=${this.bingKey}`;
+        const response = await fetch(locUrl);
+        const json = await response.json();
+        const coordinates = json["resourceSets"][0]["resources"][0]["point"]["coordinates"];
+        return { latitude: coordinates[0], longitude: coordinates[1] };
+    }
 
+    /**
+     * Finds the closest events from the current location
+     * @param {object} data - JSON representation of all the events
+     * @returns List with 5 closest events
+     */
+    findClosestEvents = (data) => {
+        data.forEach(evento => {
+            const latEvento = evento.Local.latitude;
+            const lonEvento = evento.Local.longitude;
+            const distancia = this.calculateDistance(this.initialCoord.lat, this.initialCoord.lon, latEvento, lonEvento);
+            
+            evento['Distancia em km'] = distancia;
+        });
+        const closest = data.sort((a, b) => a['Distancia em km'] - b['Distancia em km']);
+
+        return closest.slice(0,5);
+    }
+
+    /**
+     * Calculates the distance between two events
+     * @param {number} lat1 - First event latitude
+     * @param {number} lon1 - First event longitude
+     * @param {number} lat2 - Second event latitude
+     * @param {number} lon2 - Second event longitude
+     * @returns distance between events
+     */
+    calculateDistance(lat1, lon1, lat2, lon2) {
+        const raioTerra = 6371; 
+
+        const lat1Rad = this.toRadians(lat1);
+        const lon1Rad = this.toRadians(lon1);
+        const lat2Rad = this.toRadians(lat2);
+        const lon2Rad = this.toRadians(lon2);
+    
+
+        const dLon = lon2Rad - lon1Rad;
+        const dLat = lat2Rad - lat1Rad;
+    
+        const a = Math.sin(dLat / 2) ** 2 + Math.cos(lat1Rad) * Math.cos(lat2Rad) * Math.sin(dLon / 2) ** 2;
+        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    
+        const distancia = raioTerra * c; //km
+    
+        return distancia;
+    }
+    
+    /**
+     * Convert degrees to radians
+     * @param {number} degrees 
+     * @returns Number in radians
+     */
+    toRadians(degrees) {
+        return degrees * (Math.PI / 180);
     }
 
 }

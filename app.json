@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "banco",
-    "slug": "banco",
+    "name": "newbank",
+    "slug": "newbank",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/bank-icon.png",
-    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
