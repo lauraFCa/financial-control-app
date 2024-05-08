@@ -13,6 +13,8 @@ import Money from './screens/Money';
 import Graphs from './screens/Graphs';
 import InvestmentsCheckbox from './screens/subscreens/InvestmentsCheckbox';
 import EventsMap from './screens/EventsMap';
+import Resources from './screens/subscreens/Resources';
+import GoToNearest from './screens/subscreens/resources/GoToNearest';
 
 const Stack = createStackNavigator();
 
@@ -38,6 +40,8 @@ export default function Main() {
                     <Stack.Screen options={opt} name="Splash" component={SplashScreen} />
                     <Stack.Screen options={opt} name="checkbox" component={InvestmentsCheckbox} />
                     <Stack.Screen options={opt} name="map" component={EventsMap} />
+                    <Stack.Screen options={opt} name="resources" component={Resources} />
+                    <Stack.Screen options={opt} name="GoToNearest" component={GoToNearest} />
                 </Stack.Navigator>
             </LoadingProvider>
         </NavigationContainer>
