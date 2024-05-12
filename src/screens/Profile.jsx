@@ -1,7 +1,7 @@
 import { View, StatusBar, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
 import { Feather, MaterialIcons } from '@expo/vector-icons';
 import React, { useEffect, useState } from 'react';
-import Storage from '../database/firebaseMethods';
+import Storage from '../database/firebaseDBMethods';
 import { useLoading } from '../Context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -28,7 +28,7 @@ export default function Perfil({ navigation }) {
   useEffect(() => {
     const getAllData = async () => {
       const doc = await AsyncStorage.getItem('userDoc');
-      const fr = new Storage(doc)
+      const fr = new DBStorage(doc)
       try {
         showLoading();
         let res = await fr.getFullDoc();

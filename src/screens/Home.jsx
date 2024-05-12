@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ScrollView, StatusBar, Text, Button } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useLoading } from '../Context';
-import Storage from './../database/firebaseMethods';
+import Storage from './../database/firebaseDBMethods';
 import Balance from '../components/homeComponents/Balance';
 import Header from '../components/homeComponents/Header';
 import Menu from '../components/homeComponents/Menu';
@@ -20,7 +20,7 @@ export default function Home({ navigation }) {
   const refresh = async () => {
     await AsyncStorage.setItem('userDoc', 'user_0');
     const doc = await AsyncStorage.getItem('userDoc');
-    const fr = new Storage(doc);
+    const fr = new DBStorage(doc);
     let res = await fr.getFullDoc();
     await AsyncStorage.setItem('fullUserData', JSON.stringify(res))
   };
@@ -63,7 +63,7 @@ export default function Home({ navigation }) {
         showLoading();
         if (getShouldRefresh()) {
           const doc = await AsyncStorage.getItem('userDoc');
-          const fr = new Storage(doc);
+          const fr = new DBStorage(doc);
           const dadosDoBanco = await fr.getFullDoc(doc);
           await AsyncStorage.setItem('fullUserData', JSON.stringify(dadosDoBanco));
           setShouldRefresh(false);

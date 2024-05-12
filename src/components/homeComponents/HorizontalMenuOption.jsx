@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { AntDesign, Fontisto } from '@expo/vector-icons';
-import Storage from '../../database/firebaseMethods';
+import Storage from '../../database/firebaseDBMethods';
 import { useLoading } from '../../Context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import HomeModal from './HomeModal';
@@ -40,7 +40,7 @@ export default function HorizontalMenuOption({ isRef, isRefresh, refresh, naviga
     try {
       setModalVisible(false);
       const doc = await AsyncStorage.getItem('userDoc');
-      const fr = new Storage(doc);
+      const fr = new DBStorage(doc);
       showLoading();
       if (myDados.type === 0) {
         res = await fr.appendToIncomes({

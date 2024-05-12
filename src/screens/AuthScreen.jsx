@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, TextInput, StatusBar, StyleSheet, Image, TouchableOpacity, KeyboardAvoidingView, ScrollView, Keyboard } from 'react-native';
 import { useLoading } from '../Context';
 import { Foundation } from '@expo/vector-icons';
-import Storage from '../database/firebaseMethods';
+import Storage from '../database/firebaseDBMethods';
 import { Ionicons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -10,7 +10,7 @@ const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 80 :
 
 export default function AuthScreen({ navigation }) {
     const { showLoading, hideLoading } = useLoading();
-    const fr = new Storage("allUsersDoc");
+    const fr = new DBStorage("allUsersDoc");
 
     //#region UseState
     const [allUsers, setAllUsers] = useState([]);
@@ -92,7 +92,7 @@ export default function AuthScreen({ navigation }) {
                         });
 
                         await fr.createNewUserDoc(email);
-                        const fr2 = new Storage(email);
+                        const fr2 = new DBStorage(email);
                         await fr2.updateDoc({
                             userData: {
                                 email: email,

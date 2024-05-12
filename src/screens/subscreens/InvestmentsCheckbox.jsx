@@ -3,7 +3,7 @@ import { View, Text, FlatList, TouchableOpacity, StyleSheet, StatusBar } from 'r
 import ArrowBack from '../../components/ArrowBack';
 import { useLoading } from '../../Context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import Storage from '../../database/firebaseMethods';
+import Storage from '../../database/firebaseDBMethods';
 import { Feather } from '@expo/vector-icons';
 
 const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64;
@@ -21,7 +21,7 @@ export default function InvestmentsCheckbox({ route, navigation }) {
         const update = async () => {
             try {
                 const doc = await AsyncStorage.getItem('userDoc');
-                const fr = new Storage(doc)
+                const fr = new DBStorage(doc)
                 let exists = await fr.getFullDoc();
                 let alreadInv = exists.investments;
                 setItems(alreadInv);
@@ -43,7 +43,7 @@ export default function InvestmentsCheckbox({ route, navigation }) {
             showLoading();
 
             const doc = await AsyncStorage.getItem('userDoc');
-            const fr = new Storage(doc);
+            const fr = new DBStorage(doc);
             var res = await fr.updateDoc({
                 investments: items
             });

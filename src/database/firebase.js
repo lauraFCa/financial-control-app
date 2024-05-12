@@ -1,5 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
+import { getStorage } from 'firebase/storage';
 import firebaseConfigFile from './firebaseConfig.json';
 
 
@@ -20,4 +21,9 @@ const app = initializeApp(firebaseConfigFile);
  */
 const db = getFirestore(app);
 
-export default db;
+/**
+ * A instancia do Storage associada ao aplicativo Firebase
+ */
+const storage = getStorage(app, "gs://devmovem-final.appspot.com");
+
+export { db, storage };

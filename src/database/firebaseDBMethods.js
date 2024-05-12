@@ -1,5 +1,5 @@
 import { collection, getDocs, doc, getDoc, updateDoc, serverTimestamp, arrayUnion, setDoc } from 'firebase/firestore';
-import db from './firebase';
+import { db } from './firebase';
 
 
 /**
@@ -8,7 +8,7 @@ import db from './firebase';
  *  para realizar operacoes como obter todos os usuarios, criar novos usuarios, obter documentos especificos, 
  *  atualizar documentos, entre outros.
  */
-export default class Storage {
+export default class DBStorage {
     collection = collection(db, 'bankapp');
     allUsersDoc = doc(db, 'bankapp', 'allUsersDoc')
     myDoc;

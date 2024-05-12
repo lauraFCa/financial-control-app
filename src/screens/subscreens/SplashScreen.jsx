@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { View } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import Storage from '../../database/firebaseMethods';
+import Storage from '../../database/firebaseDBMethods';
 import LogoImage from '../../components/LogoImage';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -18,7 +18,7 @@ export default function SplashScreen() {
                 await AsyncStorage.removeItem('fullUserData');
                 navigation.navigate("Auth");
             } else {
-                const fr = new Storage(doc);
+                const fr = new DBStorage(doc);
                 let dadosDoBanco = {};
                 try {
                     let isauth = await AsyncStorage.getItem('fullUserData')

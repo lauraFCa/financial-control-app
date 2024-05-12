@@ -1,6 +1,6 @@
 import { View, Text, TextInput, Button, StyleSheet, TouchableOpacity, StatusBar } from 'react-native';
 import React, { useState } from 'react';
-import Storage from '../../database/firebaseMethods';
+import Storage from '../../database/firebaseDBMethods';
 import { AntDesign, Ionicons } from '@expo/vector-icons';
 import { useLoading } from './../../Context';
 import ArrowBack from '../../components/ArrowBack';
@@ -32,7 +32,7 @@ export default function SaveInvestments({ navigation, route }) {
         setMsg('');
 
         const doc = await AsyncStorage.getItem('userDoc');
-        const fr = new Storage(doc)
+        const fr = new DBStorage(doc)
         let exists = await fr.getFullDoc();
         let alreadInv = exists.investments;
         let shouldSave = true;

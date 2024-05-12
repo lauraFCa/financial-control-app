@@ -3,7 +3,7 @@ import { View, Text, TextInput, StyleSheet } from 'react-native';
 import Modal from 'react-native-modal';
 import { useState, useEffect } from 'react';
 import { Ionicons } from '@expo/vector-icons';
-import Storage from './../database/firebaseMethods';
+import Storage from './../database/firebaseDBMethods';
 import { useLoading } from './../Context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -28,7 +28,7 @@ export default function ChangeData({ label, value, refresh }) {
   useEffect(() => {
     const getAllData = async () => {
       const doc = await AsyncStorage.getItem('userDoc');
-      const fr = new Storage(doc);
+      const fr = new DBStorage(doc);
       try {
         showLoading();
         let res = await fr.getFullDoc();
@@ -42,7 +42,7 @@ export default function ChangeData({ label, value, refresh }) {
 
   updateData = async () => {
     const doc = await AsyncStorage.getItem('userDoc');
-    const fr = new Storage(doc);
+    const fr = new DBStorage(doc);
 
     if (label === 'Nome') {
       let out = await updateName(fr);
