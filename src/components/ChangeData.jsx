@@ -3,7 +3,7 @@ import { View, Text, TextInput, StyleSheet } from 'react-native';
 import Modal from 'react-native-modal';
 import { useState, useEffect } from 'react';
 import { Ionicons } from '@expo/vector-icons';
-import Storage from './../database/firebaseDBMethods';
+import DBStorage from './../database/firebaseDBMethods';
 import { useLoading } from './../Context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 

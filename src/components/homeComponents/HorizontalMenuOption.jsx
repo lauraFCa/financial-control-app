@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { AntDesign, Fontisto } from '@expo/vector-icons';
-import Storage from '../../database/firebaseDBMethods';
+import DBStorage from '../../database/firebaseDBMethods';
 import { useLoading } from '../../Context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import HomeModal from './HomeModal';

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { View } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import Storage from '../../database/firebaseDBMethods';
+import DBStorage from '../../database/firebaseDBMethods';
 import LogoImage from '../../components/LogoImage';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 

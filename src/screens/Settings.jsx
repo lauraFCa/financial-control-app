@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import ChangeData from '../components/ChangeData';
 import { MaterialIcons } from '@expo/vector-icons';
 import { View, TouchableOpacity, StyleSheet, Text, StatusBar } from 'react-native';
-import Storage from '../database/firebaseDBMethods';
+import DBStorage from '../database/firebaseDBMethods';
 import { useLoading } from '../Context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 

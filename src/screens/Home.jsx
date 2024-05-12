@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ScrollView, StatusBar, Text, Button } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useLoading } from '../Context';
-import Storage from './../database/firebaseDBMethods';
+import DBStorage from './../database/firebaseDBMethods';
 import Balance from '../components/homeComponents/Balance';
 import Header from '../components/homeComponents/Header';
 import Menu from '../components/homeComponents/Menu';

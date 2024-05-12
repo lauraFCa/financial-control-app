@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, TextInput, StatusBar, StyleSheet, Image, TouchableOpacity, KeyboardAvoidingView, ScrollView, Keyboard } from 'react-native';
 import { useLoading } from '../Context';
 import { Foundation } from '@expo/vector-icons';
-import Storage from '../database/firebaseDBMethods';
+import DBStorage from '../database/firebaseDBMethods';
 import { Ionicons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 

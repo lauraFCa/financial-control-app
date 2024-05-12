@@ -1,7 +1,7 @@
 import { View, StatusBar, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
 import { Feather, MaterialIcons } from '@expo/vector-icons';
 import React, { useEffect, useState } from 'react';
-import Storage from '../database/firebaseDBMethods';
+import DBStorage from '../database/firebaseDBMethods';
 import { useLoading } from '../Context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 

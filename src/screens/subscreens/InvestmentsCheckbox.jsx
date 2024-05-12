@@ -3,7 +3,7 @@ import { View, Text, FlatList, TouchableOpacity, StyleSheet, StatusBar } from 'r
 import ArrowBack from '../../components/ArrowBack';
 import { useLoading } from '../../Context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import Storage from '../../database/firebaseDBMethods';
+import DBStorage from '../../database/firebaseDBMethods';
 import { Feather } from '@expo/vector-icons';
 
 const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64;

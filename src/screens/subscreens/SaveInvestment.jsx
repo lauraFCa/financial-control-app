@@ -1,6 +1,6 @@
 import { View, Text, TextInput, Button, StyleSheet, TouchableOpacity, StatusBar } from 'react-native';
 import React, { useState } from 'react';
-import Storage from '../../database/firebaseDBMethods';
+import DBStorage from '../../database/firebaseDBMethods';
 import { AntDesign, Ionicons } from '@expo/vector-icons';
 import { useLoading } from './../../Context';
 import ArrowBack from '../../components/ArrowBack';
