@@ -21,6 +21,7 @@
 - Dados do usuário (nome e foto)  
   - Obtidos do banco
   - Animações de entrada
+  - Foto do usuário
 
 - Saldo da conta  
   - Obtido do banco e calculado
@@ -37,6 +38,7 @@
 
 ### Ações possíveis
 
+- Acessar perfil 
 - Cadastrar:
   - Nova receita (entrada)
   - Nova compra
@@ -50,6 +52,8 @@
 ## Perfil 
 
 - Dados do usuário
+- Ver foto de usuário
+- ALterar foto de usuário
 - Lista de ações de interesse
 - Permite marcar ou desmarcar ações existentes
 - Permite adicionar uma nova ação de interesse
@@ -88,6 +92,9 @@ Bibliotecas chave para o **funcionamento da aplicação**:
 - React Navigation
 - Select-dropdown
 - Styled Components
+- Expo-camera
+- React-Native Progress
+- React-Native Toast Message
 
 **Gerar documentação:**  
 ``` ./node_modules/.bin/esdoc ```
