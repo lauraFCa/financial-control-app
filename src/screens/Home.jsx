@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ScrollView, StatusBar, Text, Button } from 'react-native';
+import { ScrollView, StatusBar, Text, RefreshControl } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useLoading } from '../Context';
 import DBStorage from './../database/firebaseDBMethods';
@@ -12,6 +12,8 @@ import Movements from '../components/homeComponents/Movements';
 const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64
 
 export default function Home({ navigation }) {
+  const [refreshing, setRefreshing] = useState(false);
+
   const { showLoading, hideLoading, getShouldRefresh, setShouldRefresh } = useLoading();
   const [moneyGraph, SetMoneyGraph] = useState([{}]);
 
@@ -50,8 +52,16 @@ export default function Home({ navigation }) {
   const [showSettingsTip, setShowSettingsTip] = useState(false);
 
   useEffect(() => {
+    setRefreshing(true);
     let res;
     const getAllData = async () => {
+      //remove bellow this line
+      await AsyncStorage.setItem('userDoc', 'user_0');
+      const doc = await AsyncStorage.getItem('userDoc');
+      const fr = new DBStorage(doc);
+      const dadosDoBanco = await fr.getFullDoc(doc);
+      await AsyncStorage.setItem('fullUserData', JSON.stringify(dadosDoBanco));
+      //remove above this line
       let isNew = await AsyncStorage.getItem('isNew');
 
       if (isNew === 'true') {
@@ -136,6 +146,7 @@ export default function Home({ navigation }) {
       } finally {
         setShouldRefresh(false);
         hideLoading();
+        setRefreshing(false);
       }
 
     };
@@ -146,9 +157,17 @@ export default function Home({ navigation }) {
   }, [isRefresh]);
 
 
-  return (
-    <ScrollView style={{ marginTop: statusBarHeight, flex: 1 }}>
+  const onRefresh = async () => {
+    setIsRefresh(true);
+  };
 
+  return (
+    <ScrollView style={{ marginTop: statusBarHeight, flex: 1 }} refreshControl={
+      <RefreshControl
+        refreshing={refreshing}
+        onRefresh={onRefresh}
+        colors={['#0000ff']}
+        tintColor="#0000ff" />}>
       <Header userData={userData} navigation={navigation} />
 
       <Balance showBalanceTip={showBalanceTip} setBalanceTip={setBalanceTip}
@@ -157,7 +176,7 @@ export default function Home({ navigation }) {
       <Menu refresh={refresh} isRefresh={setIsRefresh} isRef={isRefresh} navigation={navigation} moneyGraph={moneyGraph}
         showMenuTip={showMenuTip} setTip={() => { setShowMovementsTip(true); setShowMenuTip(false); }}
         showSettingsTip={showSettingsTip} setShowSettingsTip={setShowSettingsTip} />
-      
+
       <Movements money={money} showMovementsTip={showMovementsTip} msg={msg}
         setShowMovementsTip={() => { setShowMovementsTip(false); setShowSettingsTip(true); }} />
 

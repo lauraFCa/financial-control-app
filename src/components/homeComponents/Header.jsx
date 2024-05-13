@@ -1,12 +1,25 @@
-import React, { useEffect, useRef } from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import React, { useEffect, useRef, useState } from 'react';
+import { StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import { Feather } from '@expo/vector-icons';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 export default function Header({ userData, navigation }) {
 
+    const [profilePic, setProfilePic] = useState(null);
+    const [showProfilePic, setShowProfilePic] = useState(false);
+
     const slideDownRef = useRef(null);
     useEffect(() => {
+        const getProfilePic = async () => {
+            const profPic = await AsyncStorage.getItem('profilePic');
+            if (profPic) {
+                setProfilePic(profPic);
+                setShowProfilePic(true);
+            }
+        }
+        getProfilePic();
         slideDownRef.current.slideInDown(1000);
     }, []);
 
@@ -19,7 +32,10 @@ export default function Header({ userData, navigation }) {
                         activeOpacity={0.9}
                         style={st.header_btnUser}
                         onPress={() => navigation.navigate('Profile')}>
-                        <Feather name="user" size={27} color={'darkblue'} />
+
+                        {showProfilePic ?
+                            <Image source={{ uri: profilePic }} style={st.header_profilePic} /> :
+                            <Feather name="user" size={27} color={'darkblue'} />}
                     </TouchableOpacity>
                 </Animatable.View>
             </View>
@@ -50,8 +66,15 @@ const st = StyleSheet.create({
     },
     header_btnUser: {
         backgroundColor: '#fff',
-        padding: 10,
+        padding: 1,
         borderRadius: 100,
+        borderWidth: 0.5,
         zIndex: 99
     },
+    header_profilePic: {
+        width: 60,
+        height: 60,
+        borderRadius: 100,
+        borderWidth: 1,
+    }
 });

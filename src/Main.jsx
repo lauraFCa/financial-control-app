@@ -15,6 +15,9 @@ import InvestmentsCheckbox from './screens/subscreens/InvestmentsCheckbox';
 import EventsMap from './screens/EventsMap';
 import Resources from './screens/subscreens/Resources';
 import GoToNearest from './screens/subscreens/resources/GoToNearest';
+import UploadPic from './screens/subscreens/UploadPic';
+import ChangeProfilePic from './screens/subscreens/ChangeProfilePic';
+import SeePicture from './screens/subscreens/SeePicture';
 
 const Stack = createStackNavigator();
 
@@ -42,6 +45,9 @@ export default function Main() {
                     <Stack.Screen options={opt} name="map" component={EventsMap} />
                     <Stack.Screen options={opt} name="resources" component={Resources} />
                     <Stack.Screen options={opt} name="GoToNearest" component={GoToNearest} />
+                    <Stack.Screen options={opt} name="UploadPic" component={UploadPic} />
+                    <Stack.Screen options={opt} name="ChangeProfilePic" component={ChangeProfilePic} />
+                    <Stack.Screen options={opt} name="SeePicture" component={SeePicture} />
                 </Stack.Navigator>
             </LoadingProvider>
         </NavigationContainer>
