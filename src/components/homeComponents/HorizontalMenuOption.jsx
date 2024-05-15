@@ -1,9 +1,9 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { useEffect, useState } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native';
 import { AntDesign, Fontisto } from '@expo/vector-icons';
 import DBStorage from '../../database/firebaseDBMethods';
 import { useLoading } from '../../Context';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import HomeModal from './HomeModal';
 import TooltipComp from '../TooltipComp';
 
@@ -25,12 +25,8 @@ export default function HorizontalMenuOption({ isRef, isRefresh, refresh, naviga
   const handleModal = () => {
     if (dados.type === 2) {
       navigation.navigate('Settings');
-    } else if (dados.type === 3) {
-      navigation.navigate('Graphs', { allData: allData });
-    } else if (dados.type === 4) {
-      navigation.navigate('Money');
-    }else if (dados.type === 5) {
-      navigation.navigate('map');
+    } else if (dados.type === 99) {
+      navigation.navigate('MoreOptions', { dados: allData });
     } else {
       setModalVisible(!isModalVisible);
     }
@@ -77,17 +73,18 @@ export default function HorizontalMenuOption({ isRef, isRefresh, refresh, naviga
 
       {myDados.type == 2 ?
         <TooltipComp tipText="Para começar, insira/atualize seus dados!" showTip={showSettingsTip} setTip={setShowSettingsTip} placement="left">
-          
+
           <TouchableOpacity style={st._actionBtn} onPress={handleModal}>
             <View style={st._areaBtn}>
               {dados.type === 4 ?
                 <Fontisto name={dados.icon} size={26} color="#000" /> :
-                <AntDesign name={dados.icon} size={26} color="#000" />}
+                <AntDesign name={dados.icon} size={26} color="#000" />
+              }
             </View>
             <Text style={st._labelBtn}>{dados.label}</Text>
           </TouchableOpacity>
-        </TooltipComp> 
-        
+        </TooltipComp>
+
         :
 
         <TouchableOpacity style={st._actionBtn} onPress={handleModal}>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ScrollView, StatusBar, Text, RefreshControl } from 'react-native';
+import { ScrollView, StatusBar, RefreshControl } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useLoading } from '../Context';
 import DBStorage from './../database/firebaseDBMethods';
@@ -150,7 +150,6 @@ export default function Home({ navigation }) {
       }
 
     };
-
 
     getAllData().catch(console.error);
 

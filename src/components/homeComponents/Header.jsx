@@ -14,6 +14,7 @@ export default function Header({ userData, navigation }) {
     useEffect(() => {
         const getProfilePic = async () => {
             const profPic = await AsyncStorage.getItem('profilePic');
+            console.log(profPic)
             if (profPic) {
                 setProfilePic(profPic);
                 setShowProfilePic(true);

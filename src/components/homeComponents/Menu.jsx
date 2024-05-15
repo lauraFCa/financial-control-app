@@ -31,22 +31,10 @@ const menuOptions = [
     },
     {
         actionType: null,
-        label: 'Gráficos',
-        icon: 'areachart',
-        type: 3 //graphs
+        label: 'Mais',
+        icon: 'gift',
+        type: 99 //more options
     },
-    {
-        actionType: null,
-        label: 'Moedas',
-        icon: 'money-symbol',
-        type: 4 //money
-    },
-    {
-        actionType: null,
-        label: 'Eventos',
-        icon: 'calendar',
-        type: 5 //events
-    }
 ];
 
 

@@ -80,7 +80,7 @@ export default function Money({ navigation }) {
     return (
         <View style={{ marginTop: statusBarHeight }}>
             <TouchableOpacity style={styles.back} onPress={() => { navigation.navigate("Home") }}>
-                <Ionicons name="arrow-back-circle-outline" size={30} color="darkblue" />
+                <Ionicons name="home" size={18} color="darkblue" />
             </TouchableOpacity>
             <ScrollView style={{ marginTop: 16, paddingHorizontal: 8 }}>
 
@@ -102,11 +102,15 @@ export default function Money({ navigation }) {
 
 const styles = StyleSheet.create({
     back: {
-        marginHorizontal: 16,
+        marginHorizontal: 10,
         marginVertical: 8,
         position: 'absolute',
-        top: 12,
-        zIndex: 99
+        top: 6,
+        zIndex: 99,
+        borderRadius: 100,
+        borderWidth: 2,
+        padding: 5,
+        borderColor: 'darkblue'
     },
     title: {
         fontSize: 28,

@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import * as Location from 'expo-location';
-import EventsApi from '../../server/events_api';
+import EventsApi from '../../../server/events_api.js';
 
 
 
