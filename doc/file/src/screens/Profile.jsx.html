@@ -32,6 +32,7 @@
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingProvider">LoadingProvider</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-useLoading">useLoading</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Main">Main</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-LoadingContext">LoadingContext</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArrowBack">ArrowBack</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeData">ChangeData</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogoImage">LogoImage</a></span></span></li>
@@ -69,18 +70,29 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/screens/Profile.jsx</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { View, StatusBar, Text, StyleSheet, TouchableOpacity, ScrollView, Image, Modal, RefreshControl } from &apos;react-native&apos;;
-import { Feather, MaterialIcons } from &apos;@expo/vector-icons&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">
+/**
+ * @file Profile.jsx
+ * @desc This file contains the Profile screen component.
+ * The Profile screen displays user information such as name, email, profession, investment profile, and a list of investments.
+ * Users can also view and change their profile picture.
+ */
+
 import React, { useEffect, useState } from &apos;react&apos;;
+import { View, StatusBar, Text, StyleSheet, TouchableOpacity, ScrollView, Image, Modal, RefreshControl } from &apos;react-native&apos;;
+import { Feather, MaterialIcons } from &apos;@expo/vector-icons&apos;;
 import DBStorage from &apos;../database/firebaseDBMethods&apos;;
 import { useLoading } from &apos;../Context&apos;;
 import AsyncStorage from &apos;@react-native-async-storage/async-storage&apos;;
 import { FontAwesome } from &apos;@expo/vector-icons&apos;;
 import Toast from &apos;react-native-toast-message&apos;;
 
-
-const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight : 64;
-
+/**
+ * @function Perfil
+ * @desc Profile screen component
+ * @param {object} navigation - Navigation object for navigating between screens
+ * @returns {JSX.Element} Profile screen component
+ */
 export default function Perfil({ navigation }) {
   const [refreshing, setRefreshing] = useState(false);
 
@@ -105,6 +117,10 @@ export default function Perfil({ navigation }) {
 
   const [refreshProf, setRefreshProf] = useState(false);
 
+  /**
+   * @function getAllData
+   * @desc Fetches user data and investments from AsyncStorage and Firestore
+   */
   useEffect(() =&gt; {
     const getAllData = async () =&gt; {
       reloadPic();

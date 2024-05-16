@@ -498,6 +498,12 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/context.jsx~loadingcontext",
+    "typedef/index.html#static-typedef-LoadingContext",
+    "src/Context.jsx~LoadingContext",
+    "typedef"
+  ],
+  [
     "src/main.jsx",
     "file/src/Main.jsx.html",
     "src/Main.jsx",

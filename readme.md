@@ -53,7 +53,7 @@
 
 - Dados do usuário
 - Ver foto de usuário
-- ALterar foto de usuário
+- Alterar foto de usuário
 - Lista de ações de interesse
 - Permite marcar ou desmarcar ações existentes
 - Permite adicionar uma nova ação de interesse

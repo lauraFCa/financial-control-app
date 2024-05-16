@@ -32,6 +32,7 @@
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingProvider">LoadingProvider</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-useLoading">useLoading</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Main">Main</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-LoadingContext">LoadingContext</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArrowBack">ArrowBack</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeData">ChangeData</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogoImage">LogoImage</a></span></span></li>
@@ -69,7 +70,14 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/screens/AuthScreen.jsx</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React, { useEffect, useState } from &apos;react&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">
+/**
+ * AuthScreen component for user authentication.
+ * @module AuthScreen
+ * @param {object} navigation - The navigation object from React Navigation.
+ * @returns {JSX.Element} AuthScreen component.
+ */
+import React, { useEffect, useState } from &apos;react&apos;;
 import { View, Text, TextInput, StatusBar, StyleSheet, Image, TouchableOpacity, KeyboardAvoidingView, ScrollView, Keyboard } from &apos;react-native&apos;;
 import { useLoading } from &apos;../Context&apos;;
 import { Foundation } from &apos;@expo/vector-icons&apos;;

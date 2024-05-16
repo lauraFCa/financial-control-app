@@ -32,6 +32,7 @@
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingProvider">LoadingProvider</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-useLoading">useLoading</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Main">Main</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-LoadingContext">LoadingContext</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArrowBack">ArrowBack</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeData">ChangeData</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogoImage">LogoImage</a></span></span></li>
@@ -69,20 +70,51 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/Context.jsx</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React, { useState, createContext, useContext } from &apos;react&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">
+import React, { useState, createContext, useContext } from &apos;react&apos;;
 import { View, ActivityIndicator, StyleSheet } from &apos;react-native&apos;;
+
+/**
+ * Context for managing loading state and refreshing state.
+ * @typedef {Object} LoadingContext
+ * @property {Function} showLoading - Function to show the loading indicator.
+ * @property {Function} hideLoading - Function to hide the loading indicator.
+ * @property {Function} getShouldRefresh - Function to get the current refresh state.
+ * @property {Function} setShouldRefresh - Function to set the refresh state.
+ */
 
 const LoadingContext = createContext();
 
+/**
+ * Provider component for the LoadingContext.
+ * @param {Object} props - The component props.
+ * @param {React.ReactNode} props.children - The child components.
+ * @returns {React.ReactNode} The rendered component.
+ */
 export const LoadingProvider = ({ children }) =&gt; {
     const [loading, setLoading] = useState(false);
-    const [shouldRef, setShouldRef] = useState(false)
+    const [shouldRef, setShouldRef] = useState(false);
 
+    /**
+     * Function to show the loading indicator.
+     */
     const showLoading = () =&gt; setLoading(true);
+
+    /**
+     * Function to hide the loading indicator.
+     */
     const hideLoading = () =&gt; setLoading(false);
 
-
+    /**
+     * Function to get the current refresh state.
+     * @returns {boolean} The current refresh state.
+     */
     const getShouldRefresh = () =&gt; shouldRef;
+
+    /**
+     * Function to set the refresh state.
+     * @param {boolean} should - The new refresh state.
+     */
     const setShouldRefresh = (should) =&gt; setShouldRef(should);
 
     return (
@@ -96,6 +128,11 @@ export const LoadingProvider = ({ children }) =&gt; {
     );
 };
 
+/**
+ * Hook for accessing the LoadingContext.
+ * @returns {LoadingContext} The LoadingContext.
+ * @throws {Error} Throws an error if used outside of a LoadingProvider.
+ */
 export const useLoading = () =&gt; {
     const context = useContext(LoadingContext);
     if (!context) {
@@ -104,6 +141,10 @@ export const useLoading = () =&gt; {
     return context;
 };
 
+/**
+ * Component for rendering the loading indicator.
+ * @returns {React.ReactNode} The rendered component.
+ */
 const LoadingIndicator = () =&gt; (
     &lt;View style={styles.container}&gt;
         &lt;ActivityIndicator size=&quot;large&quot; color=&quot;#0000ff&quot; /&gt;

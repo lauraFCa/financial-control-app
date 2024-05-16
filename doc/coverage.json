@@ -1,7 +1,7 @@
 {
-  "coverage": "20.51%",
-  "expectCount": 117,
-  "actualCount": 24,
+  "coverage": "24.34%",
+  "expectCount": 115,
+  "actualCount": 28,
   "files": {
     "src/components/ArrowBack.jsx": {
       "expectCount": 1,
@@ -108,14 +108,10 @@
       ]
     },
     "src/Context.jsx": {
-      "expectCount": 5,
-      "actualCount": 0,
+      "expectCount": 4,
+      "actualCount": 3,
       "undocumentLines": [
-        4,
-        6,
-        28,
-        36,
-        42
+        82
       ]
     },
     "src/database/firebaseDBMethods.js": {
@@ -143,17 +139,17 @@
       "expectCount": 2,
       "actualCount": 0,
       "undocumentLines": [
-        23,
-        26
+        33,
+        36
       ]
     },
     "src/screens/AuthScreen.jsx": {
       "expectCount": 3,
       "actualCount": 0,
       "undocumentLines": [
-        9,
-        11,
-        247
+        16,
+        18,
+        254
       ]
     },
     "src/screens/Home.jsx": {
@@ -165,21 +161,19 @@
       ]
     },
     "src/screens/Profile.jsx": {
-      "expectCount": 3,
-      "actualCount": 0,
+      "expectCount": 2,
+      "actualCount": 1,
       "undocumentLines": [
-        11,
-        13,
-        218
+        233
       ]
     },
     "src/screens/Settings.jsx": {
       "expectCount": 3,
       "actualCount": 0,
       "undocumentLines": [
-        10,
-        13,
-        94
+        16,
+        19,
+        100
       ]
     },
     "src/screens/subscreens/ChangeProfilePic.jsx": {

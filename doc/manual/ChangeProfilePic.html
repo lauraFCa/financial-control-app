@@ -370,43 +370,45 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="moneysgraph">MoneysGraph</h1><p>O componente React-Native denominado <code>MoneysGraph</code> &#xE9; respons&#xE1;vel por exibir gr&#xE1;ficos de barras relacionados a transa&#xE7;&#xF5;es financeiras.<br>Utiliza a biblioteca <code>react-native-chart-kit</code> para criar gr&#xE1;ficos de barras interativos e visualmente atrativos.<br>Este componente &#xE9; ideal para representar dados financeiros de maneira clara e compreens&#xED;vel.</p>
-<h2 id="principais-caracter&#xED;sticas">Principais Caracter&#xED;sticas</h2><ol>
-<li><p><strong>Gr&#xE1;fico de Barras:</strong></p>
+<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="changeprofilepic">ChangeProfilePic</h1><h2 id="principais-funcionalidades">Principais Funcionalidades</h2><p>A tela de Altera&#xE7;&#xE3;o de Foto de Perfil permite ao usu&#xE1;rio alterar sua foto de perfil usando a c&#xE2;mera do dispositivo. As principais funcionalidades incluem:</p>
+<h3 id="principais-funcionalidades-">Principais Funcionalidades:</h3><ol>
+<li><p><strong>Altera&#xE7;&#xE3;o de Foto de Perfil:</strong></p>
 <ul>
-<li>Utiliza o componente <code>BarChart</code> da biblioteca <code>react-native-chart-kit</code>.</li>
-<li>Representa graficamente os dados financeiros em um gr&#xE1;fico de barras.</li>
-<li>A largura e altura do gr&#xE1;fico s&#xE3;o configur&#xE1;veis para se adaptarem a diferentes tamanhos de tela.</li>
+<li>Permite ao usu&#xE1;rio tirar uma nova foto com a c&#xE2;mera do dispositivo para usar como foto de perfil.</li>
 </ul>
 </li>
-<li><p><strong>Configura&#xE7;&#xE3;o do Gr&#xE1;fico:</strong></p>
+<li><p><strong>Verifica&#xE7;&#xE3;o de Permiss&#xE3;o:</strong></p>
 <ul>
-<li><code>chartConfig</code> define a configura&#xE7;&#xE3;o do gr&#xE1;fico, como as cores, opacidade e largura da linha.</li>
-<li>A cor das barras &#xE9; definida dinamicamente com base na opacidade e em uma escala de verde.</li>
-</ul>
-</li>
-<li><p><strong>Texto Descritivo:</strong></p>
-<ul>
-<li>Exibe um texto descritivo acima do gr&#xE1;fico, indicando o nome da categoria ou per&#xED;odo representado no gr&#xE1;fico.</li>
-<li>O texto &#xE9; centralizado e estilizado para melhor legibilidade.</li>
-</ul>
-</li>
-<li><p><strong>Personaliza&#xE7;&#xE3;o de Estilos:</strong></p>
-<ul>
-<li>Utiliza estilos espec&#xED;ficos para aprimorar a apresenta&#xE7;&#xE3;o visual.</li>
-<li>Define margens, bordas e espa&#xE7;amentos para melhor organiza&#xE7;&#xE3;o e apelo visual.</li>
+<li>Verifica se a permiss&#xE3;o para usar a c&#xE2;mera foi concedida.</li>
 </ul>
 </li>
 </ol>
-<h2 id="par&#xE2;metros">Par&#xE2;metros</h2><ul>
-<li><code>bardata</code>: Dados do gr&#xE1;fico de barras. Deve ser um array contendo objetos com propriedades <code>data</code> (valores das barras) e <code>color</code> (cor das barras).</li>
-<li><code>name</code>: Nome da categoria ou per&#xED;odo representado no gr&#xE1;fico.</li>
+<h2 id="componentes-utilizados">Componentes Utilizados</h2><p>A tela utiliza diversos componentes do React Native para criar uma interface intuitiva. Alguns dos principais componentes incluem:</p>
+<ol>
+<li><p><strong>Camera:</strong></p>
+<ul>
+<li>Componente para acessar a c&#xE2;mera do dispositivo.</li>
 </ul>
-<h2 id="observa&#xE7;&#xF5;es">Observa&#xE7;&#xF5;es</h2><ul>
-<li>Este componente &#xE9; projetado para ser reutilizado em diferentes partes do aplicativo onde gr&#xE1;ficos de barras relacionados a finan&#xE7;as sejam necess&#xE1;rios.</li>
-<li>A biblioteca <code>react-native-chart-kit</code> oferece op&#xE7;&#xF5;es adicionais de personaliza&#xE7;&#xE3;o que podem ser exploradas conforme necess&#xE1;rio para atender aos requisitos espec&#xED;ficos de design.</li>
+</li>
+<li><p><strong>View e Text:</strong></p>
+<ul>
+<li>Componentes para exibir uma mensagem caso a permiss&#xE3;o para usar a c&#xE2;mera n&#xE3;o tenha sido concedida.</li>
 </ul>
-<p><img src="./manual/asset/moneyGraph.png" alt="MoneyGraph Screen"></p>
+</li>
+</ol>
+<h2 id="pr&#xE9;-requisitos">Pr&#xE9;-requisitos</h2><p>Para utilizar a tela de Altera&#xE7;&#xE3;o de Foto de Perfil, &#xE9; necess&#xE1;rio garantir que o aplicativo tenha permiss&#xE3;o para acessar a c&#xE2;mera do dispositivo.</p>
+<h2 id="observa&#xE7;&#xF5;es">Observa&#xE7;&#xF5;es</h2><ol>
+<li><p><strong>Verifica&#xE7;&#xE3;o de Permiss&#xE3;o:</strong></p>
+<ul>
+<li>A tela verifica se a permiss&#xE3;o para usar a c&#xE2;mera foi concedida. Se n&#xE3;o, exibe uma mensagem informando ao usu&#xE1;rio que a permiss&#xE3;o n&#xE3;o foi concedida.</li>
+</ul>
+</li>
+<li><p><strong>Intera&#xE7;&#xE3;o com o Usu&#xE1;rio:</strong></p>
+<ul>
+<li>Oferece uma interface simples e interativa para facilitar a altera&#xE7;&#xE3;o da foto de perfil.</li>
+</ul>
+</li>
+</ol>
 </div>
 </div>
 
