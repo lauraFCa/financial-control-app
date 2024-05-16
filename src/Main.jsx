@@ -1,3 +1,13 @@
+
+/**
+ * Main component for the application.
+ * Renders the navigation stack and provides loading context.
+ *
+ * @component
+ * return (
+ *   <Main />
+ * )
+ */
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { LoadingProvider } from './Context';

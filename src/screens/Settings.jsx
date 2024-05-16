@@ -1,3 +1,9 @@
+/**
+ * Settings screen component.
+ * 
+ * @param {object} navigation - The navigation object used for navigating between screens.
+ * @returns {JSX.Element} The rendered Settings screen.
+ */
 import { useEffect, useState } from 'react';
 import ChangeData from '../components/ChangeData';
 import { MaterialIcons } from '@expo/vector-icons';

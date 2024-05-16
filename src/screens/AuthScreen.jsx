@@ -1,3 +1,10 @@
+
+/**
+ * AuthScreen component for user authentication.
+ * @module AuthScreen
+ * @param {object} navigation - The navigation object from React Navigation.
+ * @returns {JSX.Element} AuthScreen component.
+ */
 import React, { useEffect, useState } from 'react';
 import { View, Text, TextInput, StatusBar, StyleSheet, Image, TouchableOpacity, KeyboardAvoidingView, ScrollView, Keyboard } from 'react-native';
 import { useLoading } from '../Context';

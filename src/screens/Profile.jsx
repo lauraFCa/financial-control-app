@@ -1,15 +1,26 @@
+
+/**
+ * @file Profile.jsx
+ * @desc This file contains the Profile screen component.
+ * The Profile screen displays user information such as name, email, profession, investment profile, and a list of investments.
+ * Users can also view and change their profile picture.
+ */
+
+import React, { useEffect, useState } from 'react';
 import { View, StatusBar, Text, StyleSheet, TouchableOpacity, ScrollView, Image, Modal, RefreshControl } from 'react-native';
 import { Feather, MaterialIcons } from '@expo/vector-icons';
-import React, { useEffect, useState } from 'react';
 import DBStorage from '../database/firebaseDBMethods';
 import { useLoading } from '../Context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { FontAwesome } from '@expo/vector-icons';
 import Toast from 'react-native-toast-message';
 
-
-const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight : 64;
-
+/**
+ * @function Perfil
+ * @desc Profile screen component
+ * @param {object} navigation - Navigation object for navigating between screens
+ * @returns {JSX.Element} Profile screen component
+ */
 export default function Perfil({ navigation }) {
   const [refreshing, setRefreshing] = useState(false);
 
@@ -34,6 +45,10 @@ export default function Perfil({ navigation }) {
 
   const [refreshProf, setRefreshProf] = useState(false);
 
+  /**
+   * @function getAllData
+   * @desc Fetches user data and investments from AsyncStorage and Firestore
+   */
   useEffect(() => {
     const getAllData = async () => {
       reloadPic();
