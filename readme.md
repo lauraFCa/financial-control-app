@@ -100,10 +100,7 @@ Bibliotecas chave para o **funcionamento da aplicação**:
 ``` ./node_modules/.bin/esdoc ```
 
 **Gerar APK**
-
-<!-- ``` npm install -g expo-cli ```  
-(instalar expo globalmente, caso não esteja) -->
-
+s
 ``` npm install -g eas-cli ```  
 (instalar eas-cli globalmente, caso não esteja)
 

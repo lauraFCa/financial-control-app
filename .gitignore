@@ -35,3 +35,6 @@ yarn-error.*
 *.tsbuildinfo
 
 firebaseConfig.json
+apiKey.json
+
+doc1
