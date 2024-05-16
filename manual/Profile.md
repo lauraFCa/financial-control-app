@@ -21,6 +21,9 @@ A página Perfil apresenta informações detalhadas sobre o usuário, incluindo 
 4. **Navegação Rápida:**
    - Inclui um botão para retornar à página inicial (Home) do aplicativo.
 
+5. **Alterar foto de perfil**
+   - Ao clicar na foto de perfil o usuário é levado a outra tela onde poderá atualizar sua foto de perfil do aplicativo
+
 ## Componentes Utilizados
 
 A página Perfil utiliza componentes do React Native para criar uma interface amigável e interativa. Alguns dos principais componentes incluem:
