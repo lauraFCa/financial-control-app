@@ -1,7 +1,7 @@
 {
-  "coverage": "21.33%",
-  "expectCount": 75,
-  "actualCount": 16,
+  "coverage": "20.51%",
+  "expectCount": 117,
+  "actualCount": 24,
   "files": {
     "src/components/ArrowBack.jsx": {
       "expectCount": 1,
@@ -30,8 +30,8 @@
       "expectCount": 2,
       "actualCount": 0,
       "undocumentLines": [
-        6,
-        31
+        9,
+        70
       ]
     },
     "src/components/homeComponents/HomeModal.jsx": {
@@ -47,7 +47,7 @@
       "actualCount": 0,
       "undocumentLines": [
         11,
-        104
+        103
       ]
     },
     "src/components/homeComponents/Menu.jsx": {
@@ -55,8 +55,17 @@
       "actualCount": 0,
       "undocumentLines": [
         7,
-        47,
-        80
+        41,
+        75
+      ]
+    },
+    "src/components/homeComponents/MoreOptions.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        8,
+        75
       ]
     },
     "src/components/homeComponents/MovementRegister.jsx": {
@@ -109,7 +118,7 @@
         42
       ]
     },
-    "src/database/firebaseMethods.js": {
+    "src/database/firebaseDBMethods.js": {
       "expectCount": 16,
       "actualCount": 13,
       "undocumentLines": [
@@ -118,12 +127,24 @@
         14
       ]
     },
+    "src/database/firebaseStorageMethods.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        8,
+        10,
+        14,
+        19,
+        24
+      ]
+    },
     "src/Main.jsx": {
       "expectCount": 2,
       "actualCount": 0,
       "undocumentLines": [
-        16,
-        19
+        23,
+        26
       ]
     },
     "src/screens/AuthScreen.jsx": {
@@ -135,41 +156,21 @@
         247
       ]
     },
-    "src/screens/Graphs.jsx": {
-      "expectCount": 4,
-      "actualCount": 0,
-      "undocumentLines": [
-        10,
-        11,
-        14,
-        175
-      ]
-    },
     "src/screens/Home.jsx": {
       "expectCount": 2,
       "actualCount": 0,
       "undocumentLines": [
-        12,
-        14
-      ]
-    },
-    "src/screens/Money.jsx": {
-      "expectCount": 4,
-      "actualCount": 0,
-      "undocumentLines": [
-        8,
-        11,
-        13,
-        103
+        14,
+        16
       ]
     },
     "src/screens/Profile.jsx": {
       "expectCount": 3,
       "actualCount": 0,
       "undocumentLines": [
-        8,
         11,
-        154
+        13,
+        218
       ]
     },
     "src/screens/Settings.jsx": {
@@ -181,6 +182,15 @@
         94
       ]
     },
+    "src/screens/subscreens/ChangeProfilePic.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        9,
+        101
+      ]
+    },
     "src/screens/subscreens/InvestmentsCheckbox.jsx": {
       "expectCount": 3,
       "actualCount": 0,
@@ -188,6 +198,43 @@
         9,
         11,
         109
+      ]
+    },
+    "src/screens/subscreens/resources/Graphs.jsx": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        11,
+        14,
+        175
+      ]
+    },
+    "src/screens/subscreens/resources/MapLoadingScreen.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        10
+      ]
+    },
+    "src/screens/subscreens/resources/Money.jsx": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        11,
+        13,
+        103
+      ]
+    },
+    "src/screens/subscreens/resources/SeePicture.jsx": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        7,
+        9,
+        62
       ]
     },
     "src/screens/subscreens/SaveInvestment.jsx": {
@@ -206,10 +253,57 @@
         9
       ]
     },
+    "src/screens/subscreens/TypeOfPic.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        11,
+        121
+      ]
+    },
+    "src/screens/subscreens/UploadPic.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        78
+      ]
+    },
+    "src/screens/subscreens/WebViewScreen.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
     "src/server/apidata.js": {
       "expectCount": 3,
       "actualCount": 3,
       "undocumentLines": []
+    },
+    "src/server/events.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        4,
+        6,
+        11,
+        16,
+        29,
+        49,
+        54
+      ]
+    },
+    "src/server/events_api.js": {
+      "expectCount": 11,
+      "actualCount": 8,
+      "undocumentLines": [
+        7,
+        9,
+        10
+      ]
     }
   }
 }

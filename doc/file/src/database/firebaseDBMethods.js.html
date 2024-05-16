@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/database/firebaseDBMethods.js | newbank</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingProvider">LoadingProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-useLoading">useLoading</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Main">Main</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArrowBack">ArrowBack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeData">ChangeData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogoImage">LogoImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MoneysGraph">MoneysGraph</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TooltipComp">TooltipComp</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-homecomponents">components/homeComponents</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Balance">Balance</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Header">Header</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomeModal">HomeModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HorizontalMenuOption">HorizontalMenuOption</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Menu">Menu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MoreOptions">MoreOptions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MovementRegister">MovementRegister</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Movements">Movements</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#database">database</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/database/firebaseDBMethods.js~DBStorage.html">DBStorage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/database/firebaseStorageMethods.js~Storage.html">Storage</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens">screens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AuthScreen">AuthScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Home">Home</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Perfil">Perfil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Settings">Settings</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-subscreens">screens/subscreens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeProfilePic">ChangeProfilePic</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-InvestmentsCheckbox">InvestmentsCheckbox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveInvestments">SaveInvestments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SplashScreen">SplashScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TypeOfPic">TypeOfPic</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UploadPic">UploadPic</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-WebViewScreen">WebViewScreen</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-subscreens-resources">screens/subscreens/resources</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Graphs">Graphs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MapLoadingScreen">MapLoadingScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Money">Money</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SeePicture">SeePicture</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#server">server</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/server/apidata.js~ApiRequests.html">ApiRequests</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/server/events_api.js~EventsApi.html">EventsApi</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/database/firebaseDBMethods.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { collection, getDocs, doc, getDoc, updateDoc, serverTimestamp, arrayUnion, setDoc } from &apos;firebase/firestore&apos;;
+import { db } from &apos;./firebase&apos;;
+
+
+/**
+ *  A classe Storage e responsavel por gerenciar as operacoes de acesso, atualizacao e manipulacao de dados no 
+ *  banco de dados Firebase Firestore. Ela abstrai a logica de interacao com o Firestore, proporcionando metodos 
+ *  para realizar operacoes como obter todos os usuarios, criar novos usuarios, obter documentos especificos, 
+ *  atualizar documentos, entre outros.
+ */
+export default class DBStorage {
+    collection = collection(db, &apos;bankapp&apos;);
+    allUsersDoc = doc(db, &apos;bankapp&apos;, &apos;allUsersDoc&apos;)
+    myDoc;
+
+    /**
+     *  Inicializa instancias dos objetos Firestore necessarios para operacoes subsequentes
+        Aceita um parametro opcional docName para especificar o nome do documento a ser manipulado
+     * @param {string} docName 
+     */
+    constructor(docName) {
+        this.myDoc = doc(db, &apos;bankapp&apos;, docName);
+    }
+
+    /**
+     *  Um metodo generico para acessar o banco de dados, utilizado por outros metodos
+        Aceita uma funcao func que representa a operacao a ser realizada
+        Retorna os dados se isReturn for verdadeiro, caso contrario, retorna true se a operacao for bem-sucedida
+     * @param {function} func 
+     * @param {boolean} isReturn 
+     * @returns Se a operacao teve sucesso
+     */
+    accessDatabase = async (func, isReturn = false) =&gt; {
+        try {
+            const docSnapshot = await func();
+            if (isReturn) {
+                if (docSnapshot.exists()) {
+                    const dadosDoDocumento = docSnapshot.data();
+                    let jsonD = JSON.stringify(dadosDoDocumento);
+                    return JSON.parse(jsonD);
+                } else {
+                    console.log(&apos;Documento nao encontrado!&apos;);
+                    return 404;
+                }
+            } else {
+                console.log(&apos;Operacao efetuada com sucesso!&apos;);
+                return true;
+            }
+        } catch (error) {
+            console.log(&apos;Erro na acao: &apos;, error);
+            return false;
+        }
+    }
+
+    /**
+     *  Obtem todos os usuarios do documento especifico (allUsersDoc)
+     * @returns Um objeto contendo os dados dos usuarios da base
+     */
+    async getAllUsers() {
+        return await this.accessDatabase(async () =&gt; await getDoc(this.allUsersDoc), true);
+    }
+
+    /**
+     * Adiciona um novo usuario ao array de usuarios no documento especifico (allUsersDoc)
+     * @param {object} data 
+     * @returns Se a operacao teve sucesso
+     */
+    async createNewUser(data) {
+        const out = await this.accessDatabase(async () =&gt; {
+            await updateDoc(this.allUsersDoc, {
+                users: arrayUnion(data)
+            });
+        });
+        return out;
+    }
+
+    /**
+     * Cria um novo documento com nome especifico baseado no email do usuario.
+     * @param {string} email 
+     * @returns Se a operacao teve sucesso
+     */
+    async createNewUserDoc(email) {
+        let newDoc = {
+            userData: {
+                email: email
+            }
+        };
+
+        try {
+            const novoDocRef = doc(db, &apos;bankapp&apos;, email);
+            await setDoc(novoDocRef, { ...newDoc, createdAt: serverTimestamp() });
+            console.log(&apos;Novo documento criado com nome especifico com sucesso!&apos;);
+            return true;
+        } catch (error) {
+            console.log(&apos;Erro ao criar novo documento com nome especifico:&apos;, error);
+            return false;
+        }
+    }
+
+    /**
+     * Obtem todos os documentos na colecao bankapp.
+     * @returns Uma lista com os documentos
+     */
+    async getAllDocs() {
+        try {
+            const querySnapshot = await getDocs(this.collection);
+            const nomesDosDocs = querySnapshot.docs.map((doc) =&gt; doc.id);
+            return nomesDosDocs;
+        } catch (error) {
+            console.error(&apos;Erro ao obter nomes dos documentos:&apos;, error);
+            return [];
+        }
+    }
+
+    /**
+     * Obtem todos os dados do documento especifico (myDoc)
+     * @returns Os dados do documento
+     */
+    async getFullDoc() {
+        return await this.accessDatabase(async () =&gt; await getDoc(this.myDoc), true);
+    }
+
+    /**
+     * Atualiza o documento especifico (myDoc)
+     * @param {object} data 
+     * @returns Se a operacao teve sucesso
+     */
+    async updateDoc(data) {
+        const out = await this.accessDatabase(async () =&gt; {
+            await updateDoc(this.myDoc, { ...data, updatedAt: serverTimestamp() });
+        });
+        return out;
+    }
+
+    /**
+     * Adiciona um investimento ao valor ja existente no banco
+     * @param {object} data 
+     * @returns Se a operacao teve sucesso
+     */
+    async appendToInvestments(data) {
+        const out = await this.accessDatabase(async () =&gt; {
+            await updateDoc(this.myDoc, {
+                investments: arrayUnion(data)
+            });
+        });
+        return out;
+    }
+
+    /**
+     * Adiciona uma receita ao valor ja existente no banco
+     * @param {object} data 
+     * @returns Se a operacao teve sucesso
+     */
+    async appendToIncomes(data) {
+        const out = await this.accessDatabase(async () =&gt; {
+            await updateDoc(this.myDoc, {
+                incomes: arrayUnion(data)
+            });
+        });
+        return out;
+    }
+
+    /**
+     * Adiciona um gasto/uma compra ao valor ja existente no banco
+     * @param {object} data 
+     * @returns Se a operacao teve sucesso
+     */
+    async appendToExpenses(data) {
+        const out = await this.accessDatabase(async () =&gt; {
+            await updateDoc(this.myDoc, {
+                expenses: arrayUnion(data)
+            });
+        });
+        return out;
+    }
+
+    /**
+     * Deleta um documento especifico da colecao
+     * @param {number} index
+     * @returns Se a operacao teve sucesso
+     */
+    async deleteContent(index) {
+        try {
+            this.collection.doc(index).delete();
+            return &apos;Dados deletados com sucesso!&apos;;
+        } catch (e) {
+            return &apos;Ocorreu um problema ao deletar os dados da nuvem!\n&apos; + e;
+        }
+    }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/server/events_api.js | newbank</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingProvider">LoadingProvider</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-useLoading">useLoading</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Main">Main</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArrowBack">ArrowBack</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeData">ChangeData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogoImage">LogoImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MoneysGraph">MoneysGraph</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TooltipComp">TooltipComp</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-homecomponents">components/homeComponents</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Balance">Balance</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Header">Header</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomeModal">HomeModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HorizontalMenuOption">HorizontalMenuOption</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Menu">Menu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MoreOptions">MoreOptions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MovementRegister">MovementRegister</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Movements">Movements</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#database">database</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/database/firebaseDBMethods.js~DBStorage.html">DBStorage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/database/firebaseStorageMethods.js~Storage.html">Storage</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens">screens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AuthScreen">AuthScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Home">Home</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Perfil">Perfil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Settings">Settings</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-subscreens">screens/subscreens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChangeProfilePic">ChangeProfilePic</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-InvestmentsCheckbox">InvestmentsCheckbox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveInvestments">SaveInvestments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SplashScreen">SplashScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TypeOfPic">TypeOfPic</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UploadPic">UploadPic</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-WebViewScreen">WebViewScreen</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens-subscreens-resources">screens/subscreens/resources</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Graphs">Graphs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MapLoadingScreen">MapLoadingScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Money">Money</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SeePicture">SeePicture</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#server">server</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/server/apidata.js~ApiRequests.html">ApiRequests</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/server/events_api.js~EventsApi.html">EventsApi</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/server/events_api.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import cheerio from &quot;cheerio&quot;;
+import fetch from &quot;node-fetch&quot;;
+import apiKey from &apos;./apiKey.json&apos;;
+
+
+
+export default class EventsApi {
+
+    bingmaps = &quot;http://dev.virtualearth.net/REST/v1/Locations&quot;;
+    bingKey = apiKey[&quot;key&quot;];
+
+    /**
+     * Bing method to get the city from the current location
+     * @param {object} currentLocation - Current location coordinates (latitude and longitude)
+     * @returns String with the city name and state abbreviation (or false if no location is provided)
+     */
+    getCityFromCoordinates = async (currentLocation) =&gt; {
+        if (currentLocation &amp;&amp; currentLocation.latitude &amp;&amp; currentLocation.longitude) {
+            const locUrl = `${this.bingmaps}/${currentLocation.latitude, currentLocation.longitude}?&amp;key=${this.bingKey}`;
+            const response = await fetch(locUrl);
+            const json = await response.json();
+            const dataAddress = json[&quot;resourceSets&quot;][0][&quot;resources&quot;][0][&quot;address&quot;];
+            const uf = dataAddress[&quot;adminDistrict&quot;];
+            const city = dataAddress[&quot;locality&quot;];
+            const adminDistrict2 = dataAddress[&quot;adminDistrict2&quot;];
+            const theplace = city ? city : adminDistrict2;
+            return `${theplace.replace(&quot; &quot;, &quot;-&quot;)}-${uf}`;
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * Cria um json com as informa&#xE7;&#xF5;es dos eventos
+     * @param {string} event - html da p&#xE1;gina
+     * @returns json com os eventos
+     */
+    createEventsJson = (event) =&gt; {
+        const $ = cheerio.load(event);
+        const eventos = [];
+
+        $(&apos;[class*=\&quot;CardLink\&quot;]&apos;).each((index, element) =&gt; {
+            const link = $(element).attr(&quot;href&quot;).toString();
+            const loc = $(element).children().find(&quot;[class*=\&quot;EventLocation\&quot;]&quot;).text();
+            const title = $(element).children().find(&quot;[class*=\&quot;EventTitle\&quot;]&quot;).text();
+            const dates = $(element).children().find(&quot;[class*=\&quot;EventDate\&quot;] div div&quot;);
+            let finalDates;
+            const numberOfElements = dates.length;
+            if (numberOfElements &gt; 1) {
+                const start = $(dates[0]).text();
+                const end = $(dates[1]).text();
+                finalDates = start + &quot; - &quot; + end;
+            } else {
+                finalDates = $(dates[0]).text();
+            }
+
+            eventos.push({ &quot;Nome&quot;: title, &quot;Local&quot;: loc, &quot;Date&quot;: finalDates, &quot;Link&quot;: link });
+        });
+        return eventos;
+    }
+
+    /**
+     * Faz o request e pega as informa&#xE7;&#xF5;es dos eventos
+     * @param {string} local - Formato: cidade-sem-espaco-siglaDoEstado (ex: juiz-de-fora-mg)
+     * @returns json com os eventos
+     */
+    getEventsData = async (local) =&gt; {
+        if(!local){
+            local = &quot;juiz-de-fora-mg&quot;;
+        }
+
+        const url = `https://www.sympla.com.br/eventos/${local}?s=financeiro`;
+        try {
+            const response = await fetch(``, {
+                method: &apos;GET&apos;,
+                headers: {
+                    &quot;Host&quot;: &quot;www.sympla.com.br&quot;,
+                    &quot;User-Agent&quot;: &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0&quot;,
+                    &quot;Accept&quot;: &quot;text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8&quot;,
+                    &quot;Accept-Language&quot;: &quot;pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3&quot;,
+                    &quot;Accept-Encoding&quot;: &quot;gzip, deflate, br&quot;,
+                    &quot;Referer&quot;: url,
+                    &quot;Upgrade-Insecure-Requests&quot;: &quot;1&quot;,
+                    &quot;Sec-Fetch-Dest&quot;: &quot;document&quot;,
+                    &quot;Sec-Fetch-Mode&quot;: &quot;navigate&quot;,
+                    &quot;Sec-Fetch-Site&quot;: &quot;same-origin&quot;,
+                    &quot;Sec-Fetch-User&quot;: &quot;?1&quot;,
+                    &quot;Connection&quot;: &quot;keep-alive&quot;
+                }
+            })
+            const html = await response.text();
+            const json = this.createEventsJson(html);
+            return json;
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
+    /**
+     * Makes a request to get the events details
+     * @param {object} eventJson - JSON representation of the events
+     * @returns event object with more details
+     */
+    getEventsDetails = async (eventJson) =&gt; {
+        console.log(eventJson);
+        const response = await fetch(eventJson[index][&quot;Link&quot;], {
+            method: &apos;GET&apos;,
+            headers: {
+                &apos;Accept&apos;: &apos;text/html&apos;
+            }
+        });
+        const respTxt = await response.text();
+        //console.log(respTxt);
+        console.log(eventJson[index][&quot;Link&quot;]);
+        const $ = cheerio.load(respTxt);
+        
+        let loc_details_els = $.find(&apos;body section:nth-of-type(3) #event-location + *:not(button) :not(button):not(svg):not(path)&apos;);
+        final = &quot;&quot;;
+        loc_details_els.forEach(element =&gt; {
+            final += element.text() + &quot; - &quot;;
+        });
+        console.log(final);
+        console.log(loc_details_els);
+
+
+
+        // const eventsDetails = [];
+        // console.log(eventJson.length);
+        // for (let index = 0; index &lt; eventJson.length; index++) {
+        //     if (index == 0) {
+        //         const response = await fetch(eventJson[index][&quot;Link&quot;], {
+        //             method: &apos;GET&apos;,
+        //             headers: {
+        //                 &apos;Accept&apos;: &apos;text/html&apos;
+        //             }
+        //         });
+        //         const respTxt = await response.text();
+        //         //console.log(respTxt);
+        //         console.log(eventJson[index][&quot;Link&quot;]);
+
+        //         const $ = cheerio.load(respTxt);
+                // let loc_details_els = $(&apos;body section:nth-of-type(3) #event-location + *:not(button) :not(button):not(svg):not(path)&apos;).find();
+                // final = &quot;&quot;;
+                // loc_details_els.forEach(element =&gt; {
+                //     final += element.text() + &quot; - &quot;;
+                // });
+                // console.log(final);
+                // console.log(loc_details_els);
+            //}
+        //}
+        // eventJson.forEach(async event =&gt; {
+        //     const response = await fetch(event[&quot;Link&quot;]);
+        //     console.log(await response.text());
+        //     const $ = cheerio.load(await response.text());
+        //     let loc_details = $(&apos;body section:nth-of-type(3) #event-location + *:not(button) :not(button):not(svg):not(path)&apos;).text();
+        //     loc_details.replace(&quot;&lt;h4&gt;&quot;, &quot;&quot;);
+        //     loc_details.replace(&quot;&lt;/h4&gt;&quot;, &quot;&quot;);
+        //     loc_details.replace(&quot;&lt;p&gt;&quot;, &quot;&quot;);
+        //     loc_details.replace(&quot;&lt;/p&gt;&quot;, &quot;&quot;);
+        //     eventsDetails.push({
+        //         ...event,
+        //         &quot;Local_Details&quot;: loc_details
+        //     });
+        // });
+        return eventsDetails;
+    }
+
+    /**
+     * Get the coordinates from the event place
+     * @param {string} eventPlace - Place of the event that
+     * @returns Coordinates of the event
+     */
+    getEventCoordinates = async (eventPlace) =&gt; {
+        const locUrl = `${this.bingmaps}?countryRegion=BR&amp;adminDistrict=MG&amp;locality=Juiz de Fora&amp;addressLine=oleg&#xE1;rio maciel&amp;key=${this.bingKey}`;
+        const response = await fetch(locUrl);
+        const json = await response.json();
+        const coordinates = json[&quot;resourceSets&quot;][0][&quot;resources&quot;][0][&quot;point&quot;][&quot;coordinates&quot;];
+        return { latitude: coordinates[0], longitude: coordinates[1] };
+    }
+
+    /**
+     * Finds the closest events from the current location
+     * @param {object} data - JSON representation of all the events
+     * @returns List with 5 closest events
+     */
+    findClosestEvents = (data) =&gt; {
+        data.forEach(evento =&gt; {
+            const latEvento = evento.Local.latitude;
+            const lonEvento = evento.Local.longitude;
+            const distancia = this.calculateDistance(this.initialCoord.lat, this.initialCoord.lon, latEvento, lonEvento);
+            
+            evento[&apos;Distancia em km&apos;] = distancia;
+        });
+        const closest = data.sort((a, b) =&gt; a[&apos;Distancia em km&apos;] - b[&apos;Distancia em km&apos;]);
+
+        return closest.slice(0,5);
+    }
+
+    /**
+     * Calculates the distance between two events
+     * @param {number} lat1 - First event latitude
+     * @param {number} lon1 - First event longitude
+     * @param {number} lat2 - Second event latitude
+     * @param {number} lon2 - Second event longitude
+     * @returns distance between events
+     */
+    calculateDistance(lat1, lon1, lat2, lon2) {
+        const raioTerra = 6371; 
+
+        const lat1Rad = this.toRadians(lat1);
+        const lon1Rad = this.toRadians(lon1);
+        const lat2Rad = this.toRadians(lat2);
+        const lon2Rad = this.toRadians(lon2);
+    
+
+        const dLon = lon2Rad - lon1Rad;
+        const dLat = lat2Rad - lat1Rad;
+    
+        const a = Math.sin(dLat / 2) ** 2 + Math.cos(lat1Rad) * Math.cos(lat2Rad) * Math.sin(dLon / 2) ** 2;
+        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    
+        const distancia = raioTerra * c; //km
+    
+        return distancia;
+    }
+    
+    /**
+     * Convert degrees to radians
+     * @param {number} degrees 
+     * @returns Number in radians
+     */
+    toRadians(degrees) {
+        return degrees * (Math.PI / 180);
+    }
+
+}</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
