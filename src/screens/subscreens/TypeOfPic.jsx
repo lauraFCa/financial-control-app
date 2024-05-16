@@ -72,7 +72,7 @@ export default function TypeOfPic({ navigation }) {
 
 
     return (
-        <View style={{ marginTop: statusBarHeight }}>
+        <View style={{ marginTop: statusBarHeight, flex:1 }}>
             <View style={{ height: 20, backgroundColor: 'darkblue', paddingVertical: 10 }}></View>
             <Text style={st.title}>Selecione como quer inserir uma nova foto:</Text>
             <View style={st.btnsView}>
@@ -110,6 +110,10 @@ export default function TypeOfPic({ navigation }) {
                 <Text style={[st.msg, { display: displayMsg ? "flex" : "none" }]}>{errorMsg}</Text>
             </View>
             {displayProgress ? <Text style={{ justifyContent: 'center', fontSize: 20 }}>Enviando...</Text> : null}
+            <TouchableOpacity onPress={() => navigation.navigate("Profile")} 
+                style={{ flex:1,position: 'absolute', bottom: 30, right: 20 }}>
+                <Text style={{fontSize: 18, color: 'darkblue'}}>Voltar</Text>
+            </TouchableOpacity>
         </View>
     )
 }

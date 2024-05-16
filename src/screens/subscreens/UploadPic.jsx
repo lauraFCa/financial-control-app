@@ -18,7 +18,7 @@ export default function UploadPic({ navigation, route }) {
             const userId = await AsyncStorage.getItem('userDoc');
             const extension = (uri.split('.'))[(uri.split('.')).length - 1];
             const photoDt = {
-                name: userId + '.' + extension,
+                name: userId + '.' + 'png',
                 contentType: 'image/' + extension,
                 contentLanguage: 'pt-Br',
                 type: "Image",

@@ -33,9 +33,10 @@ export default function Header({ isRef, isRefresh, refresh, userData, navigation
                 try {
                     const userdoc = await AsyncStorage.getItem('userDoc');
                     const fr = new Storage("profile");
-                    const picUrl = await fr.downloadFileUrl(userdoc);
+                    const picUrl = await fr.downloadFileUrl(userdoc+'.png');
                     setProfilePic(picUrl);
                     setShowProfilePic(true);
+                    await AsyncStorage.setItem('profilePic', picUrl);
                 } catch (e) {
                     console.log(e);
                 }
