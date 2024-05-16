@@ -69,9 +69,10 @@ export default function ChangeProfilePic({ navigation }) {
 
     return (
         <View style={{ flex: 1, marginTop: statusBarHeight }}>
-            <Camera style={{ flex: 1 }} type={type} ref={camera}>
+            <View style={{ width: '100%', height: '5%', backgroundColor: 'darkblue'}}></View>
+            <Camera style={{ width: '100%', height: '90%'}} type={type} ref={camera} focusable={true} >
                 <View style={[st.return, { display: display ? "none" : "flex" }]}>
-                    <TouchableOpacity onPress={() => { navigation.navigate("Profile"); }}>
+                    <TouchableOpacity onPress={() => { navigation.navigate("TypeOfPic"); }}>
                         <Ionicons name="arrow-back" size={30} color="#969696" />
                     </TouchableOpacity>
                 </View>
@@ -90,6 +91,7 @@ export default function ChangeProfilePic({ navigation }) {
                     </TouchableOpacity>
                 </View>
             </Camera>
+            <View style={{ width: '100%', height: '5%', backgroundColor: 'darkblue'}}></View>
         </View>
     );
 

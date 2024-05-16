@@ -8,7 +8,7 @@ import { FontAwesome } from '@expo/vector-icons';
 import Toast from 'react-native-toast-message';
 
 
-const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64;
+const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight : 64;
 
 export default function Perfil({ navigation }) {
   const [refreshing, setRefreshing] = useState(false);
@@ -116,21 +116,22 @@ export default function Perfil({ navigation }) {
                   <Image source={{ uri: profilePic }} style={styles.header_profilePic} /> :
                   <Feather name="user" size={27} color={'#fff'} />}
 
-                <Modal animationType="slide" transparent={true} visible={modalVisible} style={styles.modal}
-                  onRequestClose={() => {
-                    setModalVisible(!modalVisible);
-                  }}>
+                <Modal animationType="slide-up" transparent={true} visible={modalVisible} 
+                  style={styles.modal} onRequestClose={() => { setModalVisible(!modalVisible); }}>
                   <TouchableOpacity style={styles.modalBackground} activeOpacity={1} onPressOut={() => setModalVisible(!modalVisible)} >
                     <View style={styles.modalContent}>
+                      
                       <TouchableOpacity style={styles.modalOpt} onPress={() => {
                         setModalVisible(false);
                         navigation.navigate("SeePicture", { photoUrl: profilePic })
                       }}>
                         <Text style={styles.modalOptTxt}>Ver foto</Text>
                       </TouchableOpacity>
-                      <TouchableOpacity style={styles.modalOpt} onPress={() => { setModalVisible(false); navigation.navigate("ChangeProfilePic") }}>
+                      
+                      <TouchableOpacity style={styles.modalOpt} onPress={() => { setModalVisible(false); navigation.navigate("TypeOfPic") }}>
                         <Text style={styles.modalOptTxt}>Alterar foto</Text>
                       </TouchableOpacity>
+                      
                       <TouchableOpacity onPress={() => setModalVisible(!modalVisible)} style={styles.close}>
                         <FontAwesome style={styles.closeButtonText} name="close" size={28} color="darkblue" />
                       </TouchableOpacity>

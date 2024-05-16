@@ -4,7 +4,7 @@ import { PieChart, BarChart, LineChart } from "react-native-chart-kit";
 import FlashMessage, { showMessage } from "react-native-flash-message";
 import { Ionicons } from '@expo/vector-icons';
 
-import { useLoading } from "../Context";
+import { useLoading } from "../../../Context";
 
 
 const screenWidth = Dimensions.get("window").width;

@@ -9,7 +9,7 @@ import Menu from '../components/homeComponents/Menu';
 import Movements from '../components/homeComponents/Movements';
 
 
-const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64
+const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight : 64
 
 export default function Home({ navigation }) {
   const [refreshing, setRefreshing] = useState(false);
@@ -52,7 +52,7 @@ export default function Home({ navigation }) {
   const [showSettingsTip, setShowSettingsTip] = useState(false);
 
   useEffect(() => {
-    setRefreshing(true);
+    setIsRefresh(true);
     let res;
     const getAllData = async () => {
       //remove bellow this line
@@ -148,16 +148,17 @@ export default function Home({ navigation }) {
         hideLoading();
         setRefreshing(false);
       }
-
+      setIsRefresh(false);
     };
 
     getAllData().catch(console.error);
 
-  }, [isRefresh]);
+  }, [refreshing]);
 
 
   const onRefresh = async () => {
     setIsRefresh(true);
+    setRefreshing(true);
   };
 
   return (
@@ -167,7 +168,7 @@ export default function Home({ navigation }) {
         onRefresh={onRefresh}
         colors={['#0000ff']}
         tintColor="#0000ff" />}>
-      <Header userData={userData} navigation={navigation} />
+      <Header refresh={refresh} isRefresh={setIsRefresh} isRef={isRefresh} userData={userData} navigation={navigation} />
 
       <Balance showBalanceTip={showBalanceTip} setBalanceTip={setBalanceTip}
         setShowMenuTip={setShowMenuTip} income={income} negative={negative} />

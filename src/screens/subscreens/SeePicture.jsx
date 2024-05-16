@@ -7,6 +7,8 @@ const screenWidth = Dimensions.get('window').width;
 const screenHeight = Dimensions.get('window').height;
 
 export default function SeePicture({ navigation, route }) {
+    const [tempoNula, setTempoNula] = useState(0);
+    const [msg, setMsg] = useState('Carregando...');
 
     const [photo, setPhoto] = useState(null);
     useEffect(() => {
@@ -19,6 +21,26 @@ export default function SeePicture({ navigation, route }) {
         loadPic();
     }, []);
 
+    useEffect(() => {
+        let timer;
+        if (!photo) {
+            timer = setTimeout(() => {
+                setTempoNula(tempoNula + 1);
+            }, 1000); 
+        } else {
+            setTempoNula(0); 
+        }
+
+        return () => clearTimeout(timer);
+    }, [photo, tempoNula]);
+
+    useEffect(() => {
+        if (tempoNula >= 8) {
+            setMsg("A imagem não foi encontrada!");
+            setTempoNula(0);
+        }
+    }, [tempoNula]);
+
 
     return (
         <View style={styles.image}>
@@ -30,7 +52,7 @@ export default function SeePicture({ navigation, route }) {
             <View>
                 {photo ?
                     <Image source={{ uri: photo }} style={{ width: 0.95 * screenWidth, height: 0.95 * screenHeight }} /> :
-                    <Text>Carregando...</Text>}
+                    <Text>{msg}</Text>}
             </View>
         </View>
     );

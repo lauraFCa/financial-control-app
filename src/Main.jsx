@@ -9,18 +9,17 @@ import Home from './screens/Home';
 import Profile from './screens/Profile';
 import Settings from './screens/Settings';
 import SaveInvestments from './screens/subscreens/SaveInvestment';
-import Money from './screens/Money';
-import Graphs from './screens/Graphs';
+import Money from './screens/subscreens/resources/Money';
+import Graphs from './screens/subscreens/resources/Graphs';
 import InvestmentsCheckbox from './screens/subscreens/InvestmentsCheckbox';
 import EventsMap from './screens/subscreens/resources/EventsMap';
-import Resources from './screens/subscreens/Resources';
 import UploadPic from './screens/subscreens/UploadPic';
 import ChangeProfilePic from './screens/subscreens/ChangeProfilePic';
 import SeePicture from './screens/subscreens/SeePicture';
 import MoreOptions from './components/homeComponents/MoreOptions';
 import MapLoadingScreen from './screens/subscreens/resources/MapLoadingScreen';
-import GoToNearest from './screens/subscreens/resources/GoToNearest';
 import GyroscopeUse from './screens/subscreens/resources/GyroscopeUse';
+import TypeOfPic from './screens/subscreens/TypeOfPic';
 
 const Stack = createStackNavigator();
 
@@ -47,13 +46,12 @@ export default function Main() {
                     <Stack.Screen options={opt} name="checkbox" component={InvestmentsCheckbox} />
                     <Stack.Screen options={opt} name="map" component={EventsMap} />
                     <Stack.Screen options={opt} name="MapLoadingScreen" component={MapLoadingScreen} />
-                    <Stack.Screen options={opt} name="resources" component={Resources} />
-                    <Stack.Screen options={opt} name="GoToNearest" component={GoToNearest} />
                     <Stack.Screen options={opt} name="UploadPic" component={UploadPic} />
                     <Stack.Screen options={opt} name="ChangeProfilePic" component={ChangeProfilePic} />
                     <Stack.Screen options={opt} name="SeePicture" component={SeePicture} />
                     <Stack.Screen options={opt} name="MoreOptions" component={MoreOptions} />
                     <Stack.Screen options={opt} name="GyroscopeUse" component={GyroscopeUse} />
+                    <Stack.Screen options={opt} name="TypeOfPic" component={TypeOfPic} />
                 </Stack.Navigator>
             </LoadingProvider>
         </NavigationContainer>

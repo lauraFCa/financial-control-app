@@ -9,7 +9,7 @@ export default function UploadPic({ navigation, route }) {
     const [displayProgress, setDisplayProgress] = useState(false);
     const [displayMsg, setDisplayMsg] = useState(false);
     const [errorMsg, setErrorMsg] = useState("É necessário anexar uma foto para salvar!");
-    const [toastResp, setToastResp] = useState(null);
+    const [blockBtns, setBlockBtns] = useState(false);
 
     uploadProfilePic = async () => {
         if (route && route.params.photoData) {
@@ -30,6 +30,7 @@ export default function UploadPic({ navigation, route }) {
                 }
             };
             try {
+                setBlockBtns(true);
                 const storage = new Storage("profile");
                 const uploadResp = await storage.uploadFile(uri, photoDt.name, photoDt);
                 const downloadUrl = await storage.downloadFileUrl(photoDt.name);
@@ -41,6 +42,7 @@ export default function UploadPic({ navigation, route }) {
                 setDisplayMsg(true);
             } finally {
                 setDisplayProgress(false);
+                setBlockBtns(false);
                 navigation.navigate("Profile");
             }
         }
@@ -54,10 +56,10 @@ export default function UploadPic({ navigation, route }) {
                 <Text style={{ justifyContent: 'center', fontSize: 20 }}>Enviando...</Text>
             </View>
             <View style={{ flexDirection: 'row', justifyContent: 'space-evenly' }}>
-                <TouchableOpacity style={st.btn} onPress={uploadProfilePic}>
+                <TouchableOpacity disabled={blockBtns} style={[st.btn, blockBtns && st.disabledButton]} onPress={uploadProfilePic}>
                     <Text style={st.btnTxt}>Usar essa foto</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={st.btn} onPress={() => navigation.navigate("ChangeProfilePic")}>
+                <TouchableOpacity disabled={blockBtns} style={[st.btn, blockBtns && st.disabledButton]} onPress={() => navigation.navigate("ChangeProfilePic")}>
                     <Text style={st.btnTxt}>Tentar novamente</Text>
                 </TouchableOpacity>
             </View>
@@ -79,6 +81,22 @@ const st = StyleSheet.create({
         padding: 10,
         borderRadius: 5,
         width: 135,
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 2,
+            height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
+    },
+    disabledButton: {
+        backgroundColor: '#69699b',
+        padding: 10,
+        borderRadius: 5,
+        width: 135,
+        shadowColor: '#000',
+        elevation: 5,
     },
     btnTxt: {
         textAlign: 'center',

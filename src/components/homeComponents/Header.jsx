@@ -3,26 +3,47 @@ import { StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import { Feather } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import Storage from '../../database/firebaseStorageMethods';
 
 
-export default function Header({ userData, navigation }) {
+export default function Header({ isRef, isRefresh, refresh, userData, navigation }) {
 
     const [profilePic, setProfilePic] = useState(null);
+    const [IsRef, setIsRef] = useState(false);
     const [showProfilePic, setShowProfilePic] = useState(false);
-
     const slideDownRef = useRef(null);
+
     useEffect(() => {
         const getProfilePic = async () => {
-            const profPic = await AsyncStorage.getItem('profilePic');
-            console.log(profPic)
-            if (profPic) {
-                setProfilePic(profPic);
-                setShowProfilePic(true);
-            }
-        }
+            await updateProfilePic();
+        };
         getProfilePic();
         slideDownRef.current.slideInDown(1000);
-    }, []);
+    }, [isRef]);
+
+
+    const updateProfilePic = async () => {
+        if (isRef) {
+            setIsRef(true);
+            const pic = await AsyncStorage.getItem('profilePic');
+            if (pic) {
+                setProfilePic(pic);
+                setShowProfilePic(true);
+            } else {
+                try {
+                    const userdoc = await AsyncStorage.getItem('userDoc');
+                    const fr = new Storage("profile");
+                    const picUrl = await fr.downloadFileUrl(userdoc);
+                    setProfilePic(picUrl);
+                    setShowProfilePic(true);
+                } catch (e) {
+                    console.log(e);
+                }
+            }
+            isRefresh(!isRef);
+            setIsRef(false);
+        }
+    }
 
     return (
         <View style={st.header_container}>

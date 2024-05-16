@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
-import { useLoading } from "../Context";
-import ApiRequests from "../server/apidata";
+import { useLoading } from "../../../Context";
+import ApiRequests from "../../../server/apidata";
 import { StyleSheet, Text, ScrollView, TouchableOpacity, View, StatusBar } from "react-native";
 import { Ionicons } from '@expo/vector-icons';
-import MoneysGraph from "../components/MoneysGraph";
+import MoneysGraph from "../../../components/MoneysGraph";
 
 const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 5 : 64
 
