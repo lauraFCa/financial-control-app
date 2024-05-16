@@ -15,10 +15,9 @@ import InvestmentsCheckbox from './screens/subscreens/InvestmentsCheckbox';
 import EventsMap from './screens/subscreens/resources/EventsMap';
 import UploadPic from './screens/subscreens/UploadPic';
 import ChangeProfilePic from './screens/subscreens/ChangeProfilePic';
-import SeePicture from './screens/subscreens/SeePicture';
+import SeePicture from './screens/subscreens/resources/SeePicture';
 import MoreOptions from './components/homeComponents/MoreOptions';
 import MapLoadingScreen from './screens/subscreens/resources/MapLoadingScreen';
-import GyroscopeUse from './screens/subscreens/resources/GyroscopeUse';
 import TypeOfPic from './screens/subscreens/TypeOfPic';
 
 const Stack = createStackNavigator();
@@ -50,7 +49,6 @@ export default function Main() {
                     <Stack.Screen options={opt} name="ChangeProfilePic" component={ChangeProfilePic} />
                     <Stack.Screen options={opt} name="SeePicture" component={SeePicture} />
                     <Stack.Screen options={opt} name="MoreOptions" component={MoreOptions} />
-                    <Stack.Screen options={opt} name="GyroscopeUse" component={GyroscopeUse} />
                     <Stack.Screen options={opt} name="TypeOfPic" component={TypeOfPic} />
                 </Stack.Navigator>
             </LoadingProvider>

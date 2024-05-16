@@ -35,13 +35,6 @@ export default function MoreOptions({ navigation, route }) {
             icon: 'calendar',
             type: 3 //events
         },
-        {
-            actionType: null,
-            label: 'Simular',
-            page: 'GyroscopeUse',
-            icon: 'picture',
-            type: 4 //resources
-        }
     ]
     return (
         <View style={{ marginTop: statusBarHeight, flex: 1, flexDirection: 'colunm' }}>

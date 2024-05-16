@@ -7,6 +7,8 @@ import Balance from '../components/homeComponents/Balance';
 import Header from '../components/homeComponents/Header';
 import Menu from '../components/homeComponents/Menu';
 import Movements from '../components/homeComponents/Movements';
+import { Accelerometer, Gyroscope } from 'expo-sensors';
+import Toast from 'react-native-toast-message';
 
 
 const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight : 64
@@ -156,6 +158,37 @@ export default function Home({ navigation }) {
   }, [refreshing]);
 
 
+
+  const [acceleration, setAcceleration] = useState({ x: 0, y: 0, z: 0 });
+  const [{ x, y, z }, setGyroscope] = useState({ x: 0, y: 0, z: 0 });
+  const [{ rx, ry, rz }, setRound] = useState({ rx: 0, ry: 0, rz: 0, });
+
+  Accelerometer.setUpdateInterval(800);
+  Gyroscope.setUpdateInterval(800);
+
+  useEffect(() => {
+    Accelerometer.addListener(setAcceleration);
+    Gyroscope.addListener(setGyroscope);
+  }, []);
+
+  useEffect(() => {
+
+    const beforeX = x;
+    const beforeY = y;
+    const beforeZ = z;
+    const rx = Number((x).toFixed(2)) * 100;
+    const ry = Number((y).toFixed(2)) * 100;
+    const rz = Number((z).toFixed(2)) * 100;
+    setRound({ rx, ry, rz });
+    console.log(rx, ry, rz);
+    console.log(ry-y)
+    if (Math.abs(ry - beforeY) > 100) {
+      console.log('Girou para a direita');
+      Toast.show({ type: 'warning', text2: 'Esse aplicativo não permite a rotação de tela' });
+    }
+  }, [x]);
+
+
   const onRefresh = async () => {
     setIsRefresh(true);
     setRefreshing(true);
@@ -179,7 +212,7 @@ export default function Home({ navigation }) {
 
       <Movements money={money} showMovementsTip={showMovementsTip} msg={msg}
         setShowMovementsTip={() => { setShowMovementsTip(false); setShowSettingsTip(true); }} />
-
+      <Toast />
     </ScrollView>
   );
 }
