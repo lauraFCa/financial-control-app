@@ -1,0 +1,309 @@
+{
+  "coverage": "20.51%",
+  "expectCount": 117,
+  "actualCount": 24,
+  "files": {
+    "src/components/ArrowBack.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "src/components/ChangeData.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        12,
+        216
+      ]
+    },
+    "src/components/homeComponents/Balance.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        77
+      ]
+    },
+    "src/components/homeComponents/Header.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        70
+      ]
+    },
+    "src/components/homeComponents/HomeModal.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        100
+      ]
+    },
+    "src/components/homeComponents/HorizontalMenuOption.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        11,
+        103
+      ]
+    },
+    "src/components/homeComponents/Menu.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        41,
+        75
+      ]
+    },
+    "src/components/homeComponents/MoreOptions.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        8,
+        75
+      ]
+    },
+    "src/components/homeComponents/MovementRegister.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        36
+      ]
+    },
+    "src/components/homeComponents/Movements.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        28
+      ]
+    },
+    "src/components/LogoImage.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/components/MoneysGraph.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        6,
+        36
+      ]
+    },
+    "src/components/TooltipComp.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        5
+      ]
+    },
+    "src/Context.jsx": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        4,
+        6,
+        28,
+        36,
+        42
+      ]
+    },
+    "src/database/firebaseDBMethods.js": {
+      "expectCount": 16,
+      "actualCount": 13,
+      "undocumentLines": [
+        12,
+        13,
+        14
+      ]
+    },
+    "src/database/firebaseStorageMethods.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        8,
+        10,
+        14,
+        19,
+        24
+      ]
+    },
+    "src/Main.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        23,
+        26
+      ]
+    },
+    "src/screens/AuthScreen.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        11,
+        247
+      ]
+    },
+    "src/screens/Home.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        14,
+        16
+      ]
+    },
+    "src/screens/Profile.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        11,
+        13,
+        218
+      ]
+    },
+    "src/screens/Settings.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        13,
+        94
+      ]
+    },
+    "src/screens/subscreens/ChangeProfilePic.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        9,
+        101
+      ]
+    },
+    "src/screens/subscreens/InvestmentsCheckbox.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        11,
+        109
+      ]
+    },
+    "src/screens/subscreens/resources/Graphs.jsx": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        10,
+        11,
+        14,
+        175
+      ]
+    },
+    "src/screens/subscreens/resources/MapLoadingScreen.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        10
+      ]
+    },
+    "src/screens/subscreens/resources/Money.jsx": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        11,
+        13,
+        103
+      ]
+    },
+    "src/screens/subscreens/resources/SeePicture.jsx": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        7,
+        9,
+        62
+      ]
+    },
+    "src/screens/subscreens/SaveInvestment.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        12,
+        138
+      ]
+    },
+    "src/screens/subscreens/SplashScreen.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        9
+      ]
+    },
+    "src/screens/subscreens/TypeOfPic.jsx": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        11,
+        121
+      ]
+    },
+    "src/screens/subscreens/UploadPic.jsx": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        78
+      ]
+    },
+    "src/screens/subscreens/WebViewScreen.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/server/apidata.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "src/server/events.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        4,
+        6,
+        11,
+        16,
+        29,
+        49,
+        54
+      ]
+    },
+    "src/server/events_api.js": {
+      "expectCount": 11,
+      "actualCount": 8,
+      "undocumentLines": [
+        7,
+        9,
+        10
+      ]
+    }
+  }
+}

@@ -48,7 +48,3 @@ Certifique-se de que o componente `TooltipComp` esteja devidamente configurado n
 
 7. **Liberdade de Interação:**
    - O usuário tem a liberdade de explorar as funcionalidades do componente de acordo com as instruções fornecidas pelos tooltips.
-
-
-![balance](asset/balance.png)
-

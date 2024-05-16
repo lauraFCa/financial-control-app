@@ -52,6 +52,3 @@ Para utilizar a tela de Seleção de Ações de Interesse, é necessário garant
 
 5. **Estilo Visual:**
    - Utiliza estilos visuais para proporcionar uma experiência agradável e coerente com o restante do aplicativo.
-
-
-![Investments checkbox screen](asset/invest.png)

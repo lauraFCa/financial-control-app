@@ -1,41 +1,55 @@
-# Profile
+# Página Perfil
 
-O componente React-Native denominado `Perfil` é projetado para exibir informações do usuário, incluindo detalhes pessoais, dados financeiros e lista de investimentos.  Fornece uma interface de usuário limpa e interativa para visualizar e interagir com informações relevantes.
+## Funcionalidades Principais
 
-## Principais Características
+A página Perfil apresenta informações detalhadas sobre o usuário, incluindo dados pessoais, preferências de investimento e ações de interesse. Possui funcionalidades para modificar a foto do usuário, visualizar e alterar informações pessoais e de investimentos.
 
-1. **Barra Superior:**
-   - A barra superior possui uma cor de fundo escura (`darkBlue`) e exibe o nome do usuário e o ícone de perfil.
+### Principais Funcionalidades:
 
-2. **Informações do Usuário:**
-   - Exibe o nome e e-mail do usuário, proporcionando uma experiência personalizada.
-   - Permite a interação para a alteração da foto de perfil.
+1. **Visualização de Dados Pessoais:**
+   - Exibe o nome, e-mail, profissão e perfil de investimento do usuário.
+   - Permite a modificação da foto do perfil (ainda não implementada).
 
-3. **Detalhes Financeiros:**
-   - Apresenta a profissão e o perfil de investimento do usuário.
-   - Lista os investimentos atuais do usuário com detalhes sobre as ações de interesse.
+2. **Ações de Interesse:**
+   - Mostra as ações marcadas como interesse pelo usuário.
+   - Possibilita a alteração dessas ações.
 
-4. **Lista de Investimentos:**
-   - Utiliza o componente `FlatList` para renderizar a lista de investimentos.
-   - Exibe o rótulo do investimento, status (ativo ou inativo) e a porcentagem associada.
+3. **Alteração de Ações de Interesse:**
+   - Permite ao usuário modificar suas escolhas de ações de interesse.
+   - Ao clicar em "Alterar", redireciona para a página de seleção de ações.
 
-5. **Adicionar Investimento:**
-   - Oferece um botão para adicionar novos investimentos, redirecionando para a página "Investments".
+4. **Navegação Rápida:**
+   - Inclui um botão para retornar à página inicial (Home) do aplicativo.
 
-6. **Botão de Navegação para a Página Inicial:**
-   - Inclui um botão de navegação que direciona o usuário de volta à página inicial.
+## Componentes Utilizados
 
-## Parâmetros
-- Este componente não aceita parâmetros externos. Ele obtém as informações do usuário e investimentos diretamente do banco de dados Firebase.
+A página Perfil utiliza componentes do React Native para criar uma interface amigável e interativa. Alguns dos principais componentes incluem:
 
-**Estilo Padrão:**
-- Utiliza estilos específicos para garantir uma aparência coesa e agradável ao usuário.
-- Adapta-se a diferentes tamanhos de tela.
+1. **Feather e MaterialIcons:**
+   - Ícones utilizados para representar ações e navegação.
+  
+2. **TouchableOpacity:**
+   - Componente que possibilita a criação de botões clicáveis.
+
+3. **ScrollView:**
+   - Utilizado para criar uma área rolável para a lista de ações de interesse.
 
 ## Observações
 
-- Este componente faz uso da Context API para exibição de loading durante a recuperação de dados do banco de dados Firebase.
-- O botão de adição de investimento possui uma animação de entrada.
+1. **Modificação de Foto do Perfil:**
+   - A funcionalidade para modificar a foto do perfil ainda não foi implementada.
+
+2. **Atualização Automática:**
+   - A página realiza atualizações automáticas conforme necessário para garantir dados precisos.
+
+3. **Interatividade:**
+   - Oferece uma experiência interativa ao clicar em botões e modificar a lista de ações de interesse.
+
+4. **Estilo Visual:**
+   - Utiliza estilos visuais para proporcionar uma aparência atraente e coesa ao usuário.
+
+5. **Código Organizado:**
+   - O código fonte está organizado de forma a facilitar a manutenção e extensão do aplicativo.
 
 ## Exemplo de Uso
 
