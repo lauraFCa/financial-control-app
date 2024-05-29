@@ -184,7 +184,7 @@ export default function Home({ navigation }) {
     console.log(ry-y)
     if (Math.abs(ry - beforeY) > 100) {
       console.log('Girou para a direita');
-      Toast.show({ type: 'warning', text2: 'Esse aplicativo não permite a rotação de tela' });
+      Toast.show({ type: 'success', text2: 'Esse aplicativo não permite a rotação de tela' });
     }
   }, [x]);
 

@@ -15,6 +15,9 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { FontAwesome } from '@expo/vector-icons';
 import Toast from 'react-native-toast-message';
 
+const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight : 64
+
+
 /**
  * @function Perfil
  * @desc Profile screen component
