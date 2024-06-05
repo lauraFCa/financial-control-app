@@ -99,8 +99,8 @@ export default function Graphs({ route, navigation }) {
 
     return (
         <View style={{ marginTop: statusBarHeight, height: '100%' }}>
-            <TouchableOpacity style={styles.back} onPress={() => { navigation.navigate("Home") }}>
-                <Ionicons name="home" size={18} color="darkblue" />
+            <TouchableOpacity style={styles.back} onPress={() => { navigation.navigate("MoreOptions") }}>
+                <Ionicons name="arrow-back" size={18} color="darkblue" />
             </TouchableOpacity>
             <Text style={[styles.title, { marginTop: 8, paddingHorizontal: 8 }]}>Minhas Finanças</Text>
 

@@ -79,9 +79,9 @@ export default function EventsMap({ route, navigation }) {
                     <TouchableOpacity
                         style={styles.homeBtn}
                         onPress={() => {
-                            navigation.navigate('Home');
+                            navigation.navigate('MoreOptions');
                         }}>
-                        <MaterialIcons name="home" size={30} color="#fff" />
+                        <MaterialIcons name="arrow-back" size={30} color="#fff" />
                     </TouchableOpacity>
                 </View>
             </View>

@@ -26,7 +26,7 @@ import EventsMap from './screens/subscreens/resources/EventsMap';
 import UploadPic from './screens/subscreens/UploadPic';
 import ChangeProfilePic from './screens/subscreens/ChangeProfilePic';
 import SeePicture from './screens/subscreens/resources/SeePicture';
-import MoreOptions from './components/homeComponents/MoreOptions';
+import MoreOptions from './screens/MoreOptions';
 import MapLoadingScreen from './screens/subscreens/resources/MapLoadingScreen';
 import TypeOfPic from './screens/subscreens/TypeOfPic';
 

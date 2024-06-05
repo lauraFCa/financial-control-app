@@ -79,8 +79,8 @@ export default function Money({ navigation }) {
 
     return (
         <View style={{ marginTop: statusBarHeight }}>
-            <TouchableOpacity style={styles.back} onPress={() => { navigation.navigate("Home") }}>
-                <Ionicons name="home" size={18} color="darkblue" />
+            <TouchableOpacity style={styles.back} onPress={() => { navigation.navigate("MoreOptions") }}>
+                <Ionicons name="arrow-back" size={18} color="darkblue" />
             </TouchableOpacity>
             <ScrollView style={{ marginTop: 16, paddingHorizontal: 8 }}>
 

@@ -180,11 +180,11 @@ export default function Home({ navigation }) {
     const ry = Number((y).toFixed(2)) * 100;
     const rz = Number((z).toFixed(2)) * 100;
     setRound({ rx, ry, rz });
-    console.log(rx, ry, rz);
-    console.log(ry-y)
+    // console.log(rx, ry, rz);
+    // console.log(ry-y)
     if (Math.abs(ry - beforeY) > 100) {
       console.log('Girou para a direita');
-      Toast.show({ type: 'success', text2: 'Esse aplicativo não permite a rotação de tela' });
+      //Toast.show({ type: 'success', text2: 'Esse aplicativo não permite a rotação de tela' });
     }
   }, [x]);
 
