@@ -28,7 +28,7 @@
     "expo-status-bar": "~1.11.1",
     "firebase": "^11.7.3",
     "i": "^0.3.7",
-    "npm": "^11.10.0",
+    "npm": "^11.12.0",
     "react": "18.2.0",
     "react-native": "0.84.1",
     "react-native-camera": "^4.2.1",
